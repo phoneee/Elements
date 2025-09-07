@@ -1,0 +1,214 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% THE THIRTEEN BOOKS OF EUCLID'S ELEMENTS OF GEOMETRY
+%
+% The Greek text of Heiberg plus a modern English translation by
+% Prof. Richard Fitzpatrick, The University of Texas at Austin.
+%
+% Modernized for XeLaTeX with Unicode Greek support
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[10pt,a4paper]{book}
+
+%%%%%%%%
+% Modern XeLaTeX packages
+%%%%%%%%
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{polyglossia}
+
+% Language setup
+\setmainlanguage{english}
+\setotherlanguage[variant=polytonic]{greek}
+
+%%%%%%%%
+% Font Configuration
+%%%%%%%%
+% Main text font
+\setmainfont{TeX Gyre Termes}[
+  Ligatures=TeX,
+  Numbers=OldStyle
+]
+
+% Sans serif font
+\setsansfont{TeX Gyre Heros}[
+  Scale=0.95,
+  Ligatures=TeX
+]
+
+% Monospace font
+\setmonofont{TeX Gyre Cursor}[
+  Scale=0.9
+]
+
+% Greek font with polytonic support
+\newfontfamily\greekfont{GFS Didot}[
+  Script=Greek,
+  Scale=1.0,
+  Ligatures=TeX
+]
+
+% Alternative Greek fonts (uncomment if GFS Didot unavailable)
+% \newfontfamily\greekfont{Linux Libertine O}[Script=Greek]
+% \newfontfamily\greekfont{Gentium Plus}[Script=Greek]
+
+%%%%%%%%
+% Modern packages
+%%%%%%%%
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{parallel}
+\usepackage{graphicx}
+\usepackage{microtype} % Better typography
+\usepackage[svgnames]{xcolor}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+%%%%%%%%
+% Page geometry
+%%%%%%%%
+\geometry{
+  papersize={210mm,297mm}, % A4
+  top=25mm,
+  bottom=25mm,
+  left=25mm,
+  right=25mm,
+  headheight=15pt,
+  headsep=10mm,
+  footskip=10mm
+}
+
+%%%%%%%%
+% Hyperref - load last
+%%%%%%%%
+\usepackage[
+  bookmarks=true,
+  colorlinks=true,
+  linkcolor=DarkBlue,
+  citecolor=DarkGreen,
+  urlcolor=DarkRed,
+  pdftitle={Euclid's Elements of Geometry},
+  pdfauthor={Richard Fitzpatrick},
+  pdfsubject={Greek text of Euclid's Elements plus English translation},
+  pdfkeywords={Ancient Greek, Geometry, Mathematics, Euclid},
+  unicode=true
+]{hyperref}
+
+%%%%%%%%
+% Custom commands
+%%%%%%%%
+% Greek text command
+\newcommand\gr[1]{{\greekfont #1}}
+
+% Greek numerals
+\newcommand\gn[1]{{\greekfont #1}}
+\newcommand\ggn[1]{{\greekfont #1}}
+
+% Overline for Greek
+\newcommand\ov[1]{$\overline{\text{\gr{#1}}}$}
+
+% Spacing commands
+\newcommand\nline{\\[1ex]}
+\newcommand\spa{\hspace{1em}}
+
+% Custom footnote
+\long\def\symbolfootnote[#1]#2{\begingroup
+\def\thefootnote{\fnsymbol{footnote}}\footnote[#1]{#2}\endgroup}
+
+%%%%%%%%
+% Headers and footers
+%%%%%%%%
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Plain style for chapter pages
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+%%%%%%%%
+% Chapter and section formatting
+%%%%%%%%
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}
+  {\chaptertitlename\ \thechapter}
+  {20pt}
+  {\Huge}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries}
+  {\thesection}
+  {1em}
+  {}
+
+%%%%%%%%
+% Theorem environments
+%%%%%%%%
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{postulate}{Postulate}[chapter]
+\newtheorem{commonnotion}{Common Notion}[chapter]
+
+\theoremstyle{plain}
+\newtheorem{proposition}{Proposition}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+\newtheorem{corollary}{Corollary}[chapter]
+
+%%%%%%%%
+% Custom counters
+%%%%%%%%
+\newcounter{verso}
+\newcounter{subverso}
+
+%%%%%%%%
+% Document settings
+%%%%%%%%
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1.5ex plus 0.5ex minus 0.5ex}
+\frenchspacing % Single space after periods
+
+%%%%%%%%
+% Begin document
+%%%%%%%%
+\begin{document}
+
+% Front matter
+\frontmatter
+\pagestyle{empty}
+
+% Title page
+\include{Book00/Introduction}
+
+% Main matter
+\mainmatter
+\pagestyle{fancy}
+
+% Books
+\include{Book01/Book1}
+\include{Book02/Book2}
+\include{Book03/Book3}
+\include{Book04/Book4}
+\include{Book05/Book5}
+\include{Book06/Book6}
+\include{Book07/Book7}
+\include{Book08/Book8}
+\include{Book09/Book9}
+\include{Book10/Book10}
+\include{Book11/Book11}
+\include{Book12/Book12}
+\include{Book13/Book13}
+
+% Back matter
+\backmatter
+\include{Book99/Lexicon}
+
+\end{document}
