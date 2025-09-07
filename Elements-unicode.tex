@@ -1,0 +1,131 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% THE THIRTEEN BOOKS OF EUCLID'S ELEMENTS OF GEOMETRY
+%
+% The Greek text of Heiberg plus a modern English translation by
+% Prof. Richard Fitzpatrick, The University of Texas at Austin.
+%
+% Unicode version for XeLaTeX compilation
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[10pt]{article}
+
+%%%%%%%%
+% XeLaTeX Unicode Support
+%%%%%%%%
+\usepackage{fontspec}
+\usepackage{polyglossia}
+
+% Language setup
+\setmainlanguage{english}
+\setotherlanguage[variant=polytonic]{greek}
+
+% Use system fonts that support Greek
+\setmainfont{Times New Roman}
+\newfontfamily\greekfont{Times New Roman}
+
+%%%%%%%%
+% Essential packages
+%%%%%%%%
+\usepackage{amsmath,amssymb}
+\usepackage{parallel}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+
+%%%%%%%%
+% Page geometry
+%%%%%%%%
+\geometry{
+  a4paper,
+  top=20mm,
+  bottom=20mm,
+  left=20mm,
+  right=20mm,
+  headheight=15pt,
+  headsep=10mm
+}
+
+%%%%%%%%
+% Hyperref - load last
+%%%%%%%%
+\usepackage[
+  bookmarks=true,
+  colorlinks=false,
+  pdftitle={Euclid's Elements of Geometry},
+  pdfauthor={Richard Fitzpatrick},
+  pdfsubject={Greek text of Euclid's Elements plus English translation},
+  pdfkeywords={Ancient Greek, Geometry, Mathematics, Euclid}
+]{hyperref}
+
+%%%%%%%%
+% Custom commands
+%%%%%%%%
+% Greek text
+\newcommand\gr[1]{{\greekfont #1}}
+
+% Greek numerals
+\newcommand\gn[1]{{\greekfont #1}}
+\newcommand\ggn[1]{{\greekfont #1}}
+
+% Overline for Greek
+\newcommand\ov[1]{$\overline{\mbox{\gr{#1}}}$}
+
+% Spacing
+\newcommand\nline{\\[1ex]}
+\newcommand\spa{\hspace{1em}}
+
+% Custom footnote
+\long\def\symbolfootnote[#1]#2{\begingroup
+\def\thefootnote{\fnsymbol{footnote}}\footnote[#1]{#2}\endgroup}
+
+%%%%%%%%
+% Headers and footers
+%%%%%%%%
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+%%%%%%%%
+% Counters
+%%%%%%%%
+\newcounter{verso}
+\newcounter{subverso}
+
+%%%%%%%%
+% Document settings
+%%%%%%%%
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1.5ex}
+
+%%%%%%%%
+% Begin document
+%%%%%%%%
+\begin{document}
+
+% Roman page numbers for introduction
+\pagenumbering{roman}
+\setcounter{page}{-1}
+
+\include{Book00/Introduction}
+
+% Arabic page numbers for main content
+\pagenumbering{arabic}
+
+\include{Book01/Book1}
+\include{Book02/Book2}
+\include{Book03/Book3}
+\include{Book04/Book4}
+\include{Book05/Book5}
+\include{Book06/Book6}
+\include{Book07/Book7}
+\include{Book08/Book8}
+\include{Book09/Book9}
+\include{Book10/Book10}
+\include{Book11/Book11}
+\include{Book12/Book12}
+\include{Book13/Book13}
+
+\include{Book99/Lexicon}
+
+\end{document}
