@@ -4,64 +4,115 @@
 % The Greek text of Heiberg plus a modern English translation by
 % Prof. Richard Fitzpatrick, The University of Texas at Austin.
 % E-mail: rfitzp@utexas.edu
+%
+% Unicode Greek version for XeLaTeX/LuaLaTeX
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}
 \documentclass[10pt]{article}
 
-% XeLaTeX/LuaLaTeX Unicode support
+%%%%%%%%
+% Engine detection and font setup
+%%%%%%%%
 \usepackage{ifxetex}
 \usepackage{ifluatex}
+
 \ifxetex
+  %%%%%%%% XeLaTeX Configuration %%%%%%%%
   \usepackage{fontspec}
   \usepackage{polyglossia}
   \setdefaultlanguage{english}
   \setotherlanguage[variant=ancient]{greek}
-  \newfontfamily\greekfont{GFS Didot}[Script=Greek] % or another Greek font
-\else\ifluatex
-  \usepackage{fontspec}
-  \usepackage{polyglossia}
-  \setdefaultlanguage{english}
-  \setotherlanguage[variant=ancient]{greek}
+  
+  % Greek font selection (choose one)
+  % Option 1: GFS Didot (classical style)
   \newfontfamily\greekfont{GFS Didot}[Script=Greek]
+  
+  % Option 2: GFS Neohellenic (modern style)
+  % \newfontfamily\greekfont{GFS Neohellenic}[Script=Greek]
+  
+  % Option 3: Linux Libertine (if available)
+  % \newfontfamily\greekfont{Linux Libertine O}[Script=Greek]
+  
+  % Option 4: System font
+  % \newfontfamily\greekfont{Times New Roman}[Script=Greek]
+  
+  % Main document font
+  \setmainfont{TeX Gyre Termes} % Times-like font
+  
+\else\ifluatex
+  %%%%%%%% LuaLaTeX Configuration %%%%%%%%
+  \usepackage{fontspec}
+  \usepackage{polyglossia}
+  \setdefaultlanguage{english}
+  \setotherlanguage[variant=ancient]{greek}
+  
+  % Greek font
+  \newfontfamily\greekfont{GFS Didot}[Script=Greek]
+  
+  % Main document font
+  \setmainfont{TeX Gyre Termes}
+  
 \else
-  % pdfLaTeX fallback
+  %%%%%%%% pdfLaTeX Fallback %%%%%%%%
   \usepackage[LGR,T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage[polutonikogreek,english]{babel}
+  \languageattribute{greek}{polutoniko}
+  \usepackage[boldLipsian]{teubner}
 \fi\fi
 
-
 %%%%%%%%
-% Tex Packages
+% Common Packages
 %%%%%%%%
 \usepackage{amssymb,amsmath}
 \usepackage{parallel}
 \usepackage{fancyhdr}
-\usepackage{epsf}
-\usepackage[ps2pdf,bookmarks=true]{hyperref}
-\usepackage[greek,english]{babel}
-\languageattribute{greek}{polutoniko}
-\usepackage[boldLipsian]{teubner}
-\usepackage[varg]{txfonts}
+\usepackage{graphicx} % Modern replacement for epsf
 
-%%%%%%
-% PDF info
-%%%%%%
-\hypersetup{
-pdfauthor      = {Richard Fitzpatrick, University of Texas at Austin},
-pdftitle          = {Euclid's Elements of Geometry},
-pdfsubject     = {Greek text of Euclid's Elements plus English translation},
-pdfkeywords = {Ancient Greek, Geometry},
-pdfcreator     = {LaTeX with hyperref package},
-pdfproducer  = {dvips + ps2pdf}}
+% Hyperref should be loaded last
+\usepackage[bookmarks=true,
+            pdfauthor={Richard Fitzpatrick, University of Texas at Austin},
+            pdftitle={Euclid's Elements of Geometry},
+            pdfsubject={Greek text of Euclid's Elements plus English translation},
+            pdfkeywords={Ancient Greek, Geometry},
+            pdfcreator={XeLaTeX with hyperref package},
+            pdfproducer={XeLaTeX}]{hyperref}
+
+% Math fonts
+\ifxetex
+  \usepackage{unicode-math}
+  \setmathfont{TeX Gyre Termes Math}
+\else\ifluatex
+  \usepackage{unicode-math}
+  \setmathfont{TeX Gyre Termes Math}
+\else
+  \usepackage[varg]{txfonts}
+\fi\fi
 
 %%%%%%%%%%
-% New Commands
+% Greek Text Commands
 %%%%%%%%%%
-\newcommand\gr[1]{\begin{Lipsiakostext}#1\end{Lipsiakostext}}
-\newcommand\gn[1]{\greeknumeral*{#1}}
-\newcommand\ggn[1]{\gr{\kern -.7pt {#1}}}
+\ifxetex
+  % For XeLaTeX - direct Unicode Greek
+  \newcommand\gr[1]{{\greekfont #1}}
+  \newcommand\gn[1]{#1} % Greek numerals need special handling
+  \newcommand\ggn[1]{#1}
+\else\ifluatex
+  % For LuaLaTeX - direct Unicode Greek
+  \newcommand\gr[1]{{\greekfont #1}}
+  \newcommand\gn[1]{#1}
+  \newcommand\ggn[1]{#1}
+\else
+  % For pdfLaTeX - use teubner
+  \newcommand\gr[1]{\begin{Lipsiakostext}#1\end{Lipsiakostext}}
+  \newcommand\gn[1]{\greeknumeral*{#1}}
+  \newcommand\ggn[1]{\gr{{#1}}}
+\fi\fi
+
+%%%%%%%%%%
+% Other Commands
+%%%%%%%%%%
 \newcommand\ov[1]{$\overline{\mbox{\gr #1}}$}
 \newcommand\nline{\\\mbox{}\\ }
 \newcommand\spa{\mbox{}\\ }
@@ -69,22 +120,23 @@ pdfproducer  = {dvips + ps2pdf}}
 \def\thefootnote{\fnsymbol{footnote}}\footnote[#1]{#2}\endgroup}
 
 %%%%%
-% Spacing
+% Page Layout
 %%%%%
-\parskip     		     = 10pt plus 1pt minus 1pt
-\hfuzz        		     = 5pt
-\textwidth  	     = 7truein
-\topmargin 	     = 0.0 in
-\headsep    		     = 20pt
-\textheight 	     = 8.5truein
-\oddsidemargin  -15pt
-\evensidemargin -10pt
+\parskip        = 10pt plus 1pt minus 1pt
+\hfuzz          = 5pt
+\textwidth      = 7truein
+\topmargin      = 0.0in
+\headsep        = 20pt
+\textheight     = 8.5truein
+\oddsidemargin  = -15pt
+\evensidemargin = -10pt
 
 %%%%%
-%Content
+% Content
 %%%%%
 \begin{document}
 
+% Include all books
 \include{Book00/Introduction}
 \include{Book01/Book1}
 \include{Book02/Book2}
