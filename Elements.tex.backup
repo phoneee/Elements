@@ -9,29 +9,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \documentclass[10pt]{article}
 
-% XeLaTeX/LuaLaTeX Unicode support
-\usepackage{ifxetex}
-\usepackage{ifluatex}
-\ifxetex
-  \usepackage{fontspec}
-  \usepackage{polyglossia}
-  \setdefaultlanguage{english}
-  \setotherlanguage[variant=ancient]{greek}
-  \newfontfamily\greekfont{GFS Didot}[Script=Greek] % or another Greek font
-\else\ifluatex
-  \usepackage{fontspec}
-  \usepackage{polyglossia}
-  \setdefaultlanguage{english}
-  \setotherlanguage[variant=ancient]{greek}
-  \newfontfamily\greekfont{GFS Didot}[Script=Greek]
-\else
-  % pdfLaTeX fallback
-  \usepackage[LGR,T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-  \usepackage[polutonikogreek,english]{babel}
-\fi\fi
-
-
 %%%%%%%%
 % Tex Packages
 %%%%%%%%

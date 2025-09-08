@@ -1,0 +1,3360 @@
+% !TEX root = ../Elements.tex
+% Greek and English text last checked 13/03/2013
+%%%%%%
+% BOOK 1
+%%%%%%
+\pdfbookmark[0]{Book 1}{book1}
+\pagestyle{empty}
+\begin{center}
+{\Huge ELEMENTS BOOK 1}\\
+\spa\spa\spa
+{\huge\it Fundamentals of Plane Geometry Involving}\\[0.5ex] {\huge\it 
+Straight-Lines}
+\end{center}
+%\vspace{2cm}
+%% Removed epsf size command
+%\centerline{\includegraphics{Book01/front.pdf}}
+\newpage
+
+%%%%%%%
+% Definitions
+%%%%%%%
+\pdfbookmark[1]{Definitions}{def1}
+\pagestyle{fancy}
+\cfoot{\gr{\kern -.7pt }}
+\lhead{\large\gr{ΣΤΟΙΘΕΙΩΝ \kern -.7pt {1}.}}
+\rhead{\large ELEMENTS BOOK 1}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+\large{\gr{<'Οροι}.}
+\end{center}
+\vspace*{-7pt}
+
+\ggn{1}.~\gr{Σημεῖόν ἐστιν, ο<ῦ μέροξ οὐθέν.}
+
+\ggn{2}.~\gr{Γραμμ\kern -.7pt  ὴ δὲ μ\kern -.7pt  ῆκοξ ἀπλατέξ.}
+
+\ggn{3}.~\gr{Γραμμ\kern -.7pt  ῆξ δὲ πέρατα σημεῖα.}
+
+\ggn{4}.~\gr{Εὐθεῖα γραμμ\kern -.7pt  ή ἐστιν, <ήτιξ ἐχ >ίσου τοῖξ ἐφ>
+ἑαυτῆξ σημείοιξ κεῖται.}
+
+\ggn{5}.~\gr{Ἐπιφάνεια δέ ἐστιν, <ὸ μ\kern -.7pt  ῆκοξ καὶ πλάτοξ μόνον >έθει.}
+
+\ggn{6}.~\gr{Ἐπιφανείαξ δὲ πέρατα  γραμμαί.}
+
+\ggn{7}.~\gr{Ἐπίπεδοξ ἐπιφάνειά ἐστιν, <ήτιξ ἐχ >ίσου
+ταῖξ ἐφ> ἑαυτῆξ εὐθείαιξ κεῖται.}
+
+\ggn{8}.~\gr{Ἐπίπεδοξ δὲ γωνία ἐστὶν ἡ ἐν ἐπιπέδῳ δύο γραμμῶν
+ἁπτομένων ἀλλήλων καὶ μ\kern -.7pt  ὴ ἐπ> εὐθείαξ κειμένων πρὸξ
+ἀλλήλαξ τῶν γραμμῶν κλίσιξ.}
+
+\ggn{9}.~\gr{<'Οταν δὲ αἱ περιέθουσαι τὴν γωνίαν γραμμαὶ εὐθεῖαι
+>ῶσιν, εὐθύγραμμοξ καλεῖται ἡ γωνία.}
+
+\ggn{10}.~\gr{<'Οταν δὲ εὐθεῖα ἐπ> εὐθεῖαν σταθεῖσα τὰξ ἐφεχῆξ γωνίαξ >ίσαξ ἀλλήλαιξ ποιῆ|, ὀρθὴ ἑκατέρα τῶν >ίσων γωνιῶν
+ἐστι, καὶ ἡ ἐφεστηκυῖα εὐθεῖα κάθετοξ καλεῖται, ἐφ> <ὴν ἐφέστηκεν.}
+
+\ggn{11}.~\gr{Ἀμβλεῖα γωνία ἐστὶν ἡ μείζων ὀρθῆξ.}
+
+\ggn{12}.~\gr{Ὀχεῖα δὲ ἡ ἐλάσσων ὀρθῆξ.}
+
+\ggn{13}.~\gr{<'Οροξ ἐστίν, <ό τινόξ ἐστι πέραξ.}
+
+\ggn{14}.~\gr{Σθῆμά ἐστι τὸ ὑπό τινοξ >ή τινων <όρων περιεχόμενον.}
+
+\ggn{15}.~\gr{Κύκλοξ ἐστὶ σθῆμα ἐπίπεδον ὑπὸ μιᾶξ γραμμ\kern -.7pt  ῆξ περιεχόμενον [<ὴ καλεῖται περιφέρεια], πρὸξ <ὴν ἀφ> ἑνὸξ σημείου
+τῶν ἐντὸξ τοῦ σθήματοξ κειμένων πᾶσαι αἱ προσπίπ\-τουσαι εὐθεῖαι
+[πρὸξ τὴν τοῦ κύκλου περιφέρειαν] >ίσαι ἀλλήλαιξ εἰσίν.}
+
+\ggn{16}.~\gr{Κέντρον δὲ τοῦ κύκλου τὸ σημεῖον καλεῖται.}
+
+\ggn{17}.~\gr{Διάμετροξ δὲ τοῦ κύκλου ἐστὶν εὐθεῖά τιξ διὰ τοῦ κέντρου
+ἠγμένη καὶ περατουμένη ἐφ> ἑκάτερα τὰ μέρη ὑπὸ τῆξ τοῦ κύκλου περιφερείαξ, <ήτιξ καὶ δίθα τέμνει τὸν κύκλον.}
+
+\ggn{18}.~\gr{Ἡμικύκλιον δέ ἐστι τὸ περιεχόμενον σθῆμα ὑπό τε τῆξ διαμέτρου καὶ τῆξ ἀπολαμβανομένηξ ὑπ> α\kern -.7pt  ὐτῆξ περιφερείαξ. κέντρον δὲ τοῦ ἡμικυκλίου τὸ α\kern -.7pt  ὐτό, <ὸ καὶ τοῦ κύκλου ἐστίν.}
+
+\ggn{19}.~\gr{Σθήματα εὐθύγραμμά ἐστι τὰ ὑπὸ εὐθειῶν περιεθόμενα,
+τρίπλευρα μὲν τὰ ὑπὸ τριῶν, τετράπλευρα
+δὲ τὰ ὑπὸ τεσν\-σάρων, πολύπλευρα δὲ τὰ ὑπὸ πλειόνων >ὴ τεσσάρων
+εὐθειῶν περιεθόμενα.}
+
+\ggn{20}.~\gr{Τῶν δὲ τριπλεύρων σθημάτων ἰσόπλευρον μὲν τρίγωνόν ἐστι τὸ
+τὰξ τρεῖξ >ίσαξ >έθον πλευράξ, ἰσοσκελὲξ δὲ τὸ τὰξ δύο μόναξ >ίσαξ
+>έθον πλευράξ, σκαληνὸν δὲ τὸ τὰξ τρεῖξ ἀνίσουξ >έθον πλευράξ.}
+
+\ggn{21}~\gr{>'Ετι δὲ τῶν τριπλεύρων σθημάτων ὀρθογώνιον μὲν τρίγωνόν ἐστι τὸ >έθον ὀρθὴν γωνίαν,  ἀμβλυγώνιον δὲ τὸ >έθον ἀμβλεῖαν
+γωνίαν, ὀχυγώνιον δὲ τὸ τὰξ τρεῖξ ὀχείαξ >έθον γωνίαξ.}
+
+\ggn{22}.~\gr{Τὼν δὲ τετραπλεύρων σθημάτων τετράγωνον μέν ἐστιν, <ὸ 
+ἰσόπλευρόν τέ ἐστι καὶ ὀρθογώνιον, ἑτερόμ\kern -.7pt  ηκεξ δέ, <ὸ
+ὀρθογώνιον μέν, οὐκ ἰσόπλευρον δέ, <ρόμβοξ δέ, <ὸ ἰσόπλευρον
+μέν, οὐκ
+ὀρθογώνιον δέ, <ρομβοειδὲξ δὲ τὸ τὰξ ἀπεναντίον πλευράξ τε καὶ γωνίαξ >ίσαξ ἀλλήλαιξ >έθον, <ὸ ο>ύτε
+ἰσόπλευρόν ἐστιν ο>ύτε ὀρθογώνιον; τὰ δὲ παρὰ τα\kern -.7pt  ῦτα τετράπλευρα
+τραπέζια καλείσθω.}
+
+\ggn{23}.~\gr{Παράλληλοί εἰσιν εὐθεῖαι, α<ίτινεξ ἐν τῶ| α\kern -.7pt  ὐτῶ| ἐπιπέδῳ
+ο>ῦσαι καὶ ἐκβαλλόμεναι εἰξ >άπειρον ἐφ> ἑκάτερα τὰ μέρη
+ἐπὶ μ\kern -.7pt  ηδέτερα  συμπίπτουσιν ἀλλήλαιξ.}}
+
+\ParallelRText{
+\begin{center}
+{\large Definitions}
+\end{center}
+
+1.~A point is that of which there is no part.
+
+2.~And a line is a length without breadth.
+
+3.~And the extremities of a line are points.
+
+4.~A straight-line is (any) one which lies  evenly with points on itself.
+
+5.~And a surface is that which has length and breadth only.
+
+6.~And the extremities of a surface are lines.
+
+7.~A plane surface is (any) one which lies evenly with the straight-lines on itself.
+
+8.~And a plane angle is the inclination of the lines to one another, when two lines in a plane 
+meet one another, and are not lying in a straight-line.
+
+9.~And when the lines containing the angle are straight then the angle is called rectilinear.
+
+10.~And when a straight-line stood upon (another) straight-line makes adjacent angles (which are) equal to one another, each of the equal angles is a
+right-angle, and the former straight-line  is called a perpendicular to that upon which it stands.
+
+11.~An obtuse angle is one greater than a right-angle.
+
+12.~And an acute angle (is) one less than a right-angle.
+
+13.~A boundary is that which is the extremity of something.
+
+14.~A figure is that which is contained by some boundary or boundaries.
+
+15.~A circle is a plane figure  contained by a single line [which is called a circumference], (such that) all of the straight-lines  radiating towards
+ [the circumference] from one
+point amongst those lying inside the figure  are equal to one another.
+
+16.~And the point is called the center of the circle.
+
+17.~And a diameter of the circle is any straight-line, being drawn through the
+center, and terminated in each direction by the circumference of the circle. (And) any such (straight-line) also cuts the circle in half.$^\dag$
+
+18.~And a semi-circle is the figure contained by the diameter  and
+the circumference  cut off by it. And the center of the semi-circle is the same (point)
+as (the center of) the circle.
+
+19.~Rectilinear figures are those (figures) contained by straight-lines: trilateral
+figures being those contained by three straight-lines,  quadrilateral   by four,
+and multilateral by more than four.
+
+20.~And of the trilateral figures: an equilateral triangle is that having
+three equal sides, an isosceles (triangle) that having only two equal sides,
+and a scalene (triangle) that having three unequal sides.
+
+21.~And further of the trilateral figures: a right-angled triangle is that having
+a right-angle, an obtuse-angled  (triangle) that having an obtuse
+angle, and an acute-angled (triangle) that having three acute angles.
+
+22.~And of the quadrilateral figures: a square is that which is right-angled
+and equilateral, a rectangle that which is right-angled but not equilateral,
+a rhombus that which is equilateral but not right-angled, and a rhomboid that
+having opposite sides and angles equal to one another which is neither
+right-angled nor equilateral. And let quadrilateral figures besides these be called
+trapezia.
+
+23.~Parallel lines are straight-lines which, being in the same plane, and
+being produced to infinity in each direction, meet with one another in
+neither (of these directions).}
+\end{Parallel}
+{\footnotesize 
+\noindent $^\dag$ This should really be counted as a postulate, rather than as part of a definition.}
+
+%%%%%%
+% Postulates
+%%%%%%
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \gr{Αἰτήματα.}}
+\end{center}\vspace*{-7pt}
+
+\ggn{1}.~\gr{Ἠιτήσθω ἀπὸ παντὸξ σημείου ἐπὶ πᾶν σημεῖον εὐθεῖαν
+γραμμ\kern -.7pt  ὴν ἀγαγεῖν.}
+
+\ggn{2}.~\gr{Καὶ πεπερασμένην εὐθεῖαν κατὰ τὸ συνεθὲξ ἐπ> εὐθείαξ ἐκβαλεῖν.}
+
+\ggn{3}.~\gr{Καὶ παντὶ κέντρῳ καὶ διαστήματι κύκλον γράφεσθαι.}
+
+\ggn{4}.~\gr{Καὶ πάσαξ τὰξ ὀρθὰξ γωνίαξ >ίσαξ ἀλλήλαιξ ε>ῖναι.}
+
+\ggn{5}.~\gr{Καὶ ἒαν εἰξ δύο εὐθείαξ εὐθεῖα ἐμπίπτουσα τὰξ ἐντὸξ
+καὶ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη γωνίαξ δύο ὀρθῶν ἐλάσσοναξ ποιῆ|,
+ἐκβαλλομέναξ τὰξ δύο εὐθείαξ ἐπ> >άπειρον συμπίπτειν, ἐφ> <ὰ
+μέρη εἰσὶν αἱ τῶν δύο ὀρθῶν ἐλάσσονεξ.}}
+
+\ParallelRText{
+\begin{center}
+{\large Postulates}
+\end{center}
+
+1.~Let it be postulated$^\dag$ (that it is possible) to draw a straight-line from any point to any point;
+
+2.~And to produce a finite straight-line continuously in a straight-line;
+
+3.~And to draw a circle with any center and radius.
+
+4.~And that all right-angles are equal to one another.
+
+5.~And that if a straight-line falling across two (other) straight-lines makes 
+internal angles on the same side (of itself whose sum is) less than two right-angles, (then) the two (other) straight-lines, being produced to infinity, meet on that side (of the original straight-line) that the (sum of the internal angles) is less
+than two right-angles (and do not meet on the other side).$^\ddag$}
+\end{Parallel}
+{\footnotesize
+\noindent $^\dag$ Literally, "let it have been postulated". 
+The Greek present perfect tense indicates a past action with present
+significance. Hence, the 3rd-person present perfect imperative \gr{ἠιτήσθω} means  ``let it be postulated" in the sense ``let it stand as postulated", but not  ``let the
+postulate be now brought forward". This peculiar Greek idiom is used throughout the Elements.\\
+\noindent $^\ddag$ This postulate effectively specifies that we are dealing with the geometry of
+flat, rather than  curved, space.}
+
+%%%%%%%%%%
+% Common Notions
+%%%%%%%%%%
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \gr{Κοιναὶ >έννοιαι.}}
+\end{center}\vspace*{-7pt}
+
+\ggn{1}.~\gr{Τὰ τῶ| α\kern -.7pt  ὐτῶ| >ίσα καὶ ἀλλήλοιξ ἐστὶν >ίσα.}
+
+\ggn{2}.~\gr{Καὶ ἒαν >ίσοιξ >ίσα προστεθῆ|, τὰ <όλα ἐστὶν >ίσα.}
+
+\ggn{3}.~\gr{Καὶ ἒαν ἀπὸ >ίσων >ίσα ἀφαιρεθῆ|, τὰ καταλειπόμενά ἐστιν
+>ίσα.}
+
+\ggn{4}.~\gr{Καὶ τὰ ἐφαρμόζοντα ἐπ> ἀλλήλα >ίσα ἀλλήλοιξ ἐστίν.}
+
+\ggn{5}.~\gr{Καὶ τὸ <όλον τοῦ μέρουξ μεῖζόν [ἐστιν].}}
+
+\ParallelRText{
+\begin{center}
+{\large Common Notions}
+\end{center}
+
+1.~Things equal to the same thing are also equal to one another.
+
+2.~And  if equal things are added to equal things (then) the wholes are equal.
+
+3.~And if equal things are subtracted from equal things (then) the remainders are
+equal.$^\dag$
+
+4.~And things coinciding with one another are equal to one another.
+
+5.~And the whole [is] greater than the part.}
+\end{Parallel}
+{\footnotesize
+\noindent $^\dag$ As an obvious extension of C.N.s~2 \& 3---if equal things
+are added or subtracted from the two sides of an inequality then  the inequality
+remains an inequality of the same type.}\\~\\
+
+%%%%%%
+% Prop 1.1
+%%%%%%
+\pdfbookmark[1]{Proposition 1.1}{prop1.1}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{1}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐπὶ τῆξ δοθείσηξ εὐθείαξ πεπερασμένηξ τρίγωνον ἰσόπλευ\-ρον συστήσασθαι.}
+
+\gr{>'Εστω ἡ δοθεῖσα εὐθεῖα πεπερασμένη ἡ ΑΒ.}
+
+\gr{Δεῖ δὴ ἐπὶ τῆξ ΑΒ εὐθείαξ τρίγωνον ἰσόπλευρον συστήσν\-ασθαι.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig01g.pdf}}
+
+\gr{Κέντρῳ μὲν τῶ| Α διαστήματι δὲ τῶ| ΑΒ κύκλοξ γεγράφθω ὁ ΒΓΔ,
+καὶ πάλιν κέντρῳ μὲν τῶ| Β διαστήματι δὲ τῶ| ΒΑ κύκλοξ γεγράφθω
+ὁ ΑΓΕ, καὶ ἀπὸ τοῦ Γ σημείου, καθ> <ὸ τέμνουσιν ἀλλήλουξ οἱ
+κύκλοι, ἐπί τὰ Α, Β σημεῖα ἐπεζεύθθωσαν εὐθεῖαι αἱ ΓΑ, ΓΒ.}
+
+\gr{Καὶ ἐπεὶ τὸ Α σημεῖον κέντρον ἐστὶ τοῦ ΓΔΒ κύκλου, >ίση ἐστὶν
+ἡ ΑΓ τῆ| ΑΒ; πάλιν, ἐπεὶ τὸ Β σημεῖον κέντρον ἐστὶ τοῦ ΓΑΕ
+κύκλου, >ίση ἐστὶν ἡ ΒΓ τῆ| ΒΑ. ἐδείθθη δὲ καὶ ἡ ΓΑ τῆ|  ΑΒ >ίση;
+ἑκατέρα >άρα τῶν ΓΑ, ΓΒ τῆ| ΑΒ ἐστιν >ίση. τὰ δὲ τῶ| α\kern -.7pt  ὐτῶ|
+>ίσα καὶ ἀλλήλοιξ ἐστὶν >ίσα;  καὶ ἡ ΓΑ >άρα τῆ| ΓΒ ἐστιν >ίση;
+αἱ τρεῖξ >άρα αἱ ΓΑ, ΑΒ, ΒΓ >ίσαι ἀλλήλαιξ εἰσίν.}
+
+\gr{Ἰσόπλευρον >άρα ἐστὶ τὸ ΑΒΓ τρίγωνον. καὶ συνέσταται ἐπὶ
+τῆξ δοθείσηξ εὐθείαξ πεπερασμένηξ τῆξ ΑΒ. <όπερ >έδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 1}
+\end{center}
+To construct an equilateral triangle on a given finite straight-line.
+
+Let $AB$ be the given finite straight-line.
+
+So it is required to construct an equilateral triangle on the straight-line $AB$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig01e.pdf}}
+
+Let the circle $BCD$ with center $A$ and radius $AB$ be drawn$^\dag$ [Post.~3], and again
+let the circle $ACE$ with center $B$ and radius $BA$ be drawn [Post.~3].
+And let the straight-lines $CA$ and $CB$ be joined from the point $C$, where the circles cut one another,$^\ddag$ to the points $A$ and $B$ (respectively) [Post.~1].
+
+And since the point $A$ is the center of the circle $CDB$, $AC$ is equal to $AB$ [Def.~1.15]. Again,
+since the point $B$ is the center of the circle $CAE$, $BC$ is equal to $BA$ [Def.~1.15]. But $CA$ 
+was also shown (to be) equal to $AB$. Thus, $CA$ and $CB$ are each equal to $AB$. But things equal to the same thing are also equal to one another [C.N.~1]. Thus, $CA$ is also equal to $CB$. Thus, the three (straight-lines) $CA$, $AB$, and $BC$ are equal to one another.
+
+Thus, the triangle $ABC$ is equilateral, and has been constructed on the
+given finite straight-line $AB$. (Which is) the very thing it was required to do.}
+\end{Parallel}
+{\footnotesize
+\noindent $^\dag$ Literally, "have been drawn". The use of this peculiar Greek idiom will pass
+without further comment.\\
+\noindent $^\ddag$ The assumption that the circles do indeed cut one another should be counted as an additional 
+postulate. There is also an implicit assumption that two straight-lines cannot share a common segment.}
+
+%%%%%%
+% Prop 1.2
+%%%%%%
+\pdfbookmark[1]{Proposition 1.2}{pdf1.2}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{2}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Πρὸξ τῶ| δοθέντι σημείῳ τῆ| δοθείσῃ εὐθείᾳ >ίσην εὐθεῖαν θέσθαι.}
+
+\gr{>'Εστω τὸ μὲν δοθὲν σημεῖον τὸ Α, ἡ δὲ δοθεῖσα εὐθεῖα ἡ ΒΓ;
+δεῖ δὴ πρὸξ τῶ| Α σημείῳ τῆ| δοθείσῃ εὐθείᾳ τῆ| ΒΓ >ίσην εὐθεῖαν θέσθαι.}
+
+\gr{Ἐπεζεύθθω γὰρ ἀπὸ τοῦ Α σημείου ἐπί τὸ Β σημεῖον εὐθεῖα
+ἡ ΑΒ, καὶ συνεστάτω ἐπ> α\kern -.7pt  ὐτῆξ τρίγωνον ἰσόπλευρον τὸ ΔΑΒ, καὶ
+ἐκβεβλήσθωσαν ἐπ> εὐθείαξ ταῖξ  ΔΑ, ΔΒ εὐθεῖαι αἱ ΑΕ, ΒΖ, καὶ
+κέντρῳ μὲν τῶ| Β διαστήματι δὲ τῶ| ΒΓ κύκλοξ γεγράφθω ὁ
+ΓΗΘ, καὶ πάλιν κέντρῳ τῶ| Δ καὶ διαστήματι τῶ| ΔΗ κύκλοξ γεγράφθω ὁ
+ΗΚΛ.}\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig02g.pdf}}
+
+\gr{Ἐπεὶ ο>ῦν τὸ Β σημεῖον κέντρον ἐστὶ τοῦ ΓΗΘ, >ίση ἐστὶν
+ἡ ΒΓ τῆ| ΒΗ. πάλιν, ἐπεὶ τὸ Δ σημεῖον κέντρον ἐστὶ τοῦ
+ΗΚΛ κύκλου, >ίση ἐστὶν ἡ ΔΛ τῆ| ΔΗ, <ῶν ἡ ΔΑ τῆ| ΔΒ >ίση ἐστίν.
+λοιπὴ >άρα ἡ ΑΛ λοιπῆ| τῆ| ΒΗ ἐστιν >ίση. 
+ἐδείθθη δὲ καὶ ἡ ΒΓ τῆ| ΒΗ >ίση;
+ἑκατέρα >άρα τῶν ΑΛ, ΒΓ
+τῆ| ΒΗ ἐστιν >ίση. τὰ δὲ τῶ| α\kern -.7pt  ὐτῶ| >ίσα καὶ ἀλλήλοιξ ἐστὶν
+>ίσα; καὶ ἡ ΑΛ >άρα τῆ| ΒΓ ἐστιν >ίση.}
+
+\gr{Πρὸξ >άρα τῶ| δοθέντι σημείῳ τῶ| Α τῆ| δοθείσῃ εὐθείᾳ τῆ| ΒΓ
+>ίση εὐθεῖα κεῖται ἡ ΑΛ; <όπερ >έδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 2$^\dag$}
+\end{center}
+
+To place a straight-line equal to a given straight-line at a given point (as an extremity).
+
+Let $A$ be the given point, and $BC$ the given straight-line. So  it is required to
+place a straight-line at point $A$ equal to the given straight-line $BC$.
+
+For  let the straight-line $AB$ be joined from point $A$ to point $B$ [Post.~1], and let the
+equilateral triangle $DAB$ be  constructed upon it [Prop.~1.1].  And let the
+straight-lines $AE$ and $BF$ be produced in a straight-line with $DA$ and $DB$  (respectively) [Post.~2].
+And let the circle $CGH$ with center $B$ and radius $BC$ be drawn
+[Post.~3], and again let the circle $GKL$ with center $D$ and radius $DG$ be drawn [Post.~3].
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig02e.pdf}}
+
+Therefore, since the point $B$ is the center of (the circle) $CGH$, $BC$ is equal to 
+$BG$ [Def.~1.15]. Again, since the point $D$ is the center of the circle $GKL$, $DL$ is equal to $DG$ [Def.~1.15]. And within these,  $DA$ is equal to $DB$. Thus, the remainder $AL$ is equal to the remainder $BG$ [C.N.~3]. But $BC$ was also shown (to be)  equal to $BG$. Thus,  $AL$
+and $BC$ are each equal to $BG$. But things equal to the same thing are also equal to one another [C.N.~1]. Thus, $AL$ is also equal to $BC$.
+
+Thus, the straight-line $AL$, equal to the given straight-line $BC$,
+has been placed at the given point $A$. (Which is) the very thing it was required to do.}
+\end{Parallel}
+{\footnotesize
+\noindent $^\dag$ This proposition admits of a number
+of different cases, depending on the relative positions of the point $A$
+and the line $BC$. In such situations, Euclid invariably only considers one
+particular case---usually, the most difficult---and leaves the remaining cases as
+exercises for the reader.}
+
+%%%%%%
+% Prop 1.3
+%%%%%%
+\pdfbookmark[1]{Proposition 1.3}{pdf1.3}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{3}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Δύο δοθεισῶν εὐθειῶν ἀνίσων ἀπὸ τῆξ μείζονοξ τῆ| ἐλάσσονι >ίσην εὐθεῖαν ἀφελεῖν.}
+
+\gr{>'Εστωσαν αἱ δοθεῖσαι δύο εὐθεῖαι >άνισοι αἱ ΑΒ, Γ, <ῶν μείζων >έστω ἡ ΑΒ; δεῖ δὴ ἀπὸ τῆξ μείζονοξ τῆξ ΑΒ τῆ| ἐλάσσονι τῆ| Γ >ίσην εὐθεῖαν ἀφελεῖν.}
+
+\gr{Κείσθω πρὸξ τῶ| Α σημείῳ τῆ| Γ εὐθείᾳ >ίση ἡ ΑΔ; καὶ κέντρῳ μὲν τῶ| Α διαστήματι δὲ τῶ| ΑΔ κύκλοξ γεγράφθω ὁ ΔΕΖ.}
+
+\gr{Καὶ ἐπεὶ τὸ Α σημεῖον κέντρον ἐστὶ τοῦ ΔΕΖ κύκλου, >ίση ἐστὶν ἡ ΑΕ τῆ| ΑΔ; ἀλλὰ καὶ ἡ Γ τῆ| ΑΔ ἐστιν >ίση. ἑκατέρα >άρα τῶν ΑΕ, Γ τῆ| ΑΔ ἐστιν >ίση; <ώστε καὶ ἡ ΑΕ τῆ| Γ ἐστιν >ίση.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig03g.pdf}}
+
+\gr{Δύο >άρα δοθεισῶν εὐθειῶν ἀνίσων τῶν ΑΒ, Γ ἀπὸ τῆξ μείζονοξ τῆξ ΑΒ τῆ| ἐλάσσονι τῆ| Γ >ίση ἀφή|ρηται ἡ ΑΕ; <όπερ >έδει
+ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 3}
+\end{center}
+
+For two given unequal straight-lines, to cut off from the greater a straight-line
+equal to the lesser.
+
+Let $AB$ and $C$ be the two given unequal straight-lines, of which let the greater be $AB$. So it is required to cut off a straight-line equal to the lesser $C$ from the greater $AB$.
+
+Let the line $AD$, equal to the straight-line $C$, be placed at  point $A$ [Prop.~1.2]. And let
+the circle $DEF$ be drawn with center $A$ and radius $AD$ [Post.~3].
+
+And since  point $A$ is the center of  circle $DEF$, $AE$ is equal to $AD$ [Def.~1.15]. But,
+$C$ is also equal to $AD$. Thus, $AE$ and $C$ are each equal to $AD$. So $AE$
+is also equal to $C$ [C.N.~1].\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig03e.pdf}}
+
+Thus, for two given unequal straight-lines, $AB$ and $C$, the (straight-line) $AE$, equal to
+the lesser $C$, has been cut off from the greater $AB$. (Which is) the very thing it was required to do.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.4
+%%%%%%
+\pdfbookmark[1]{Proposition 1.4}{pdf1.4}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{4}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐὰν δύο τρίγωνα τὰξ δύο πλευρὰξ [ταῖξ] δυσὶ πλευραῖξ >ίσαξ >έθῃ ἑκατέραν ἑκατέρᾳ καὶ τὴν γωνίαν τῆ| γωνίᾳ >ίσην >έθῃ τὴν ὑπὸ τῶν >ίσων εὐθειῶν περιεθομένην, καὶ τὴν βάσιν τὴ| βάσει >ίσην <έχει, καὶ τὸ τρίγωνον τῶ| τριγώνῳ >ίσον >έσται, καὶ αἱ λοιπαὶ γωνίαι ταῖξ λοιπαῖξ γωνίαιξ >ίσαι >έσονται ἑκατέρα ἑκατέρᾳ, ὑφ> <ὰξ αἱ
+>ίσαι πλευραὶ ὑποτείνουσιν.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig04g.pdf}}
+
+\gr{>'Εστω δύο τρίγωνα τὰ ΑΒΓ, ΔΕΖ τὰξ δύο πλευρὰξ τὰξ ΑΒ, ΑΓ ταῖξ δυσὶ πλευραῖξ ταῖξ ΔΕ, ΔΖ >ίσαξ >έθοντα ἑκατέραν ἑκατέρᾳ τὴν μὲν ΑΒ τῆ| ΔΕ τὴν δὲ ΑΓ τῆ| ΔΖ καὶ γωνίαν τὴν ὑπὸ ΒΑΓ γωνίᾳ τῆ| ὑπὸ ΕΔΖ >ίσην. λέγω, <ότι καὶ βάσιξ ἡ ΒΓ βάσει τῆ| ΕΖ >ίση ἐστίν, καὶ τὸ ΑΒΓ τρίγωνον τῶ| ΔΕΖ τριγώνῳ >ίσον >έσται, 
+καὶ αἱ λοιπαὶ γωνίαι ταῖξ λοιπαῖξ γωνίαιξ >ίσαι >έσονται ἑκατέρα ἑκατέρᾳ, ὑφ> <ὰξ αἱ >ίσαι πλευραὶ ὑποτείνουσιν, ἡ μὲν ὑπὸ ΑΒΓ τῆ| ὑπὸ ΔΕΖ, ἡ δὲ ὑπὸ ΑΓΒ τῆ| ὑπὸ ΔΖΕ.}
+
+\gr{Ἐφαρμοζομένου γὰρ τοῦ ΑΒΓ τριγώνου ἐπὶ τὸ ΔΕΖ τρίγωνον καὶ τιθεμένου τοῦ μὲν Α σημείου ἐπὶ τὸ Δ σημεῖον τῆξ δὲ ΑΒ εὐθείαξ ἐπὶ τὴν ΔΕ, ἐφαρμόσει καὶ τὸ Β σημεῖον ἐπὶ τὸ Ε διὰ τὸ >ίσην ε>ῖναι τὴν ΑΒ τῆ| ΔΕ; ἐφαρμοσάσηξ δὴ τῆξ ΑΒ ἐπὶ τὴν ΔΕ ἐφαρμόσει καὶ ἡ ΑΓ εὐθεῖα ἐπὶ τὴν ΔΖ διὰ τὸ >ίσην ε>ῖναι τὴν ὑπὸ ΒΑΓ γωνίαν τῆ| ὑπὸ ΕΔΖ; <ώστε καὶ τὸ Γ σημεῖον ἐπὶ τὸ Ζ σημεῖον ἐφαρμόσει διὰ τὸ >ίσην πάλιν ε>ῖναι τὴν ΑΓ τῆ| ΔΖ. ἀλλὰ μ\kern -.7pt  ὴν καὶ τὸ Β ἐπὶ τὸ Ε ἐφηρμόκει; <ώστε βάσιξ ἡ ΒΓ ἐπὶ βάσιν τὴν ΕΖ ἐφαρμόσει. εἰ γὰρ τοῦ μὲν Β ἐπὶ τὸ Ε ἐφαρμόσαντοξ τοῦ δὲ Γ ἐπὶ τὸ Ζ ἡ ΒΓ βάσιξ ἐπὶ τὴν ΕΖ οὐκ ἐφαρμόσει, δύο εὐθεῖαι θωρίον περιέχουσιν; <όπερ ἐστὶν ἀδύνατον. ἐφαρμόσει >άρα ἡ ΒΓ βάσιξ ἐπὶ τὴν ΕΖ καὶ >ίση α\kern -.7pt  ὐτῆ| >έσται; <ώστε καὶ <όλον τὸ ΑΒΓ 
+τρίγωνον ἐπὶ <όλον τὸ ΔΕΖ τρίγωνον ἐφαρμόσει καὶ >ίσον α\kern -.5pt  ὐτῶ| >έσται, καὶ
+αἱ λοιπαὶ γωνίαι ἐπὶ τὰξ λοιπὰξ γωνίαξ ἐφαρμόσουσι καὶ >ίσαι α\kern -.3pt  ὐταῖξ >έσονται, ἡ μὲν ὑπὸ ΑΒΓ τῆ| ὑπὸ ΔΕΖ ἡ δὲ ὑπὸ ΑΓΒ τῆ| ὑπὸ ΔΖΕ.}
+
+\gr{Ἐὰν >άρα δύο τρίγωνα τὰξ δύο πλευρὰξ [ταῖξ] δύο πλευραῖξ >ίσαξ >έθῃ ἑκατέραν ἑκατέρᾳ καὶ τὴν γωνίαν τῆ| γωνίᾳ >ίσην >έθῃ τὴν ὑπὸ τῶν >ίσων εὐθειῶν περιεθομένην, καὶ τὴν βάσιν τὴ| βάσει >ίσην <έχει, καὶ τὸ τρίγωνον τῶ| τριγώνῳ >ίσον >έσται, καὶ αἱ λοιπαὶ γωνίαι ταῖξ λοιπαῖξ γωνίαιξ >ίσαι >έσονται ἑκατέρα ἑκατέρᾳ, ὑφ> <ὰξ αἱ
+>ίσαι πλευραὶ ὑποτείνουσιν; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 4}
+\end{center}
+
+If two triangles have two  sides equal to two sides, respectively, and have the
+angle(s) enclosed by the equal straight-lines equal, (then)
+they will also have the base equal to the base, and the triangle will be equal
+to the triangle,  and
+the remaining angles subtended by the equal sides will be equal to the corresponding remaining angles.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig04e.pdf}}
+
+Let $ABC$ and $DEF$ be  two triangles having the two sides $AB$ and $AC$ equal to the two sides $DE$ and $DF$, respectively. (That is) $AB$ to $DE$, and $AC$ to $DF$. And (let) the angle $BAC$ (be) equal to the angle $EDF$. I say that the base $BC$ is also equal to the base
+$EF$, and  triangle $ABC$ will be equal to triangle $DEF$, and the remaining angles
+subtended by the equal sides will be equal to the corresponding remaining angles. (That is) $ABC$ to $DEF$, and $ACB$ to
+$DFE$.
+
+For if triangle $ABC$ is applied to triangle $DEF$,$^\dag$ the point $A$ being placed
+on the point $D$, and the straight-line $AB$ on $DE$, (then) the point $B$ will also coincide with $E$, on account of $AB$ being equal to $DE$. So (because of) $AB$ coinciding with $DE$, the straight-line $AC$ will also coincide with $DF$, on account of the angle $BAC$ being equal to $EDF$. So the point $C$ will also coincide with the
+point $F$,  again on account of $AC$ being equal to $DF$.  But,  point $B$  certainly also coincided with point $E$, so that the base $BC$ will coincide with the base $EF$.
+For if $B$ coincides with $E$, and $C$ with $F$, and the base $BC$ does not coincide with $EF$, (then) two straight-lines will encompass an area. The very thing is impossible [Post.~1].$^\ddag$ Thus, the base $BC$ will coincide with $EF$, and will be equal to it [C.N.~4]. So  the whole triangle $ABC$ will coincide with the whole triangle $DEF$, and will be equal to it [C.N.~4]. And the remaining angles will coincide with the remaining angles, and  will be equal to them [C.N.~4]. (That is) $ABC$ to $DEF$, and $ACB$
+to $DFE$ [C.N.~4].
+
+Thus, if two triangles have two  sides equal to two sides, respectively, and have the
+angle(s) enclosed by the equal straight-lines equal, (then)
+they will also have the base equal to the base, and the triangle will be equal
+to the triangle,  and
+the remaining angles subtended by the equal sides will be equal to the
+corresponding remaining angles. (Which is) the very thing it was required to show.}
+\end{Parallel}
+{\footnotesize
+\noindent $^\dag$ The application of one figure to another should be counted as an additional postulate.\\[0.5ex]
+$^\ddag$ Since Post.~1 implicitly assumes that the straight-line
+joining two given points is unique.}
+
+%%%%%%
+% Prop 1.5
+%%%%%%
+\pdfbookmark[1]{Proposition 1.5}{pdf1.5}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{5}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Τῶν ἰσοσκελῶν τριγώνων αἱ πρὸξ τῆ| βάσει γωνίαι >ίσαι ἀλλήλαιξ εἰσίν, καὶ προσεκβληθεισῶν τῶν >ίσων εὐθειῶν αἱ ὑπὸ τὴν βάσιν γωνίαι >ίσαι ἀλλήλαιξ >έσονται.}
+
+\gr{>'Εστω τρίγωνον ἰσοσκελὲξ τὸ ΑΒΓ >ίσην >έθον τὴν ΑΒ πλευρὰν τῆ| ΑΓ πλευρᾶ|, καὶ προσεκβεβλήσθωσαν ἐπ> εὐθείαξ ταῖξ ΑΒ,  ΑΓ εὐθεῖαι αἱ ΒΔ, ΓΕ; λέγω, <ότι ἡ μὲν ὑπὸ ΑΒΓ γωνία τῆ| ὑπὸ ΑΓΒ >ίση ἐστίν, ἡ δὲ ὑπὸ ΓΒΔ τῆ| ὑπὸ ΒΓΕ.}
+
+\gr{Εἰλήφθω γὰρ ἐπὶ τῆξ ΒΔ τυθὸν σημεῖον τὸ Ζ, καὶ ἀφῃρήσθω ἀπὸ τῆξ μείζονοξ τῆξ ΑΕ τῆ| ἐλάσσονι τῆ| ΑΖ >ίση ἡ ΑΗ, καὶ ἐπεζεύθθωσαν αἱ ΖΓ, ΗΒ εὐθεῖαι.}\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig05g.pdf}}
+
+\gr{Ἐπεὶ ο>ῦν >ίση ἐστὶν ἡ μὲν ΑΖ τῆ| ΑΗ ἡ δὲ ΑΒ τῆ| ΑΓ, δύο δὴ αἱ ΖΑ, ΑΓ δυσὶ ταῖξ ΗΑ, ΑΒ >ίσαι εἰσὶν ἑκατέρα ἑκατέρᾳ; καὶ γωνίαν κοινὴν περιέθουσι τὴν ὑπὸ ΖΑΗ; βάσιξ >άρα ἡ ΖΓ βάσει τῆ| ΗΒ >ίση ἐστίν, καὶ τὸ ΑΖΓ τρίγωνον τῶ| ΑΗΒ τριγώνῳ >ίσον >έσται, καὶ αἱ λοιπαὶ γωνίαι ταῖξ λοιπαῖξ γωνίαιξ >ίσαι >έσονται ἑκατέρα ἑκατέρᾳ, ὑφ> <ὰξ αἱ >ίσαι πλευραὶ ὑποτείνουσιν, ἡ μὲν ὑπὸ ΑΓΖ τῆ| ὑπὸ ΑΒΗ, ἡ δὲ ὑπὸ ΑΖΓ τῆ| ὑπὸ ΑΗΒ. καὶ ἐπεὶ <όλη ἡ ΑΖ <όλῃ τῆ| ΑΗ ἐστιν >ίση, <ῶν ἡ ΑΒ τῆ| ΑΓ ἐστιν >ίση, λοιπὴ
+>άρα ἡ ΒΖ λοιπῆ| τῆ| ΓΗ ἐστιν >ίση. ἐδείθθη δὲ καὶ ἡ ΖΓ τῆ| ΗΒ >ίση; δύο δὴ αἱ ΒΖ, ΖΓ δυσὶ ταῖξ ΓΗ, ΗΒ >ίσαι εἰσὶν ἑκατέρα ἑκατέρᾳ; καὶ γωνία ἡ ὑπὸ ΒΖΓ γωνίᾳ  τῃ ὑπὸ ΓΗΒ >ίση, καὶ βάσιξ α\kern -.7pt  ὐτῶν κοινὴ ἡ ΒΓ; καὶ τὸ ΒΖΓ >άρα τρίγωνον τῶ| ΓΗΒ τριγώνῳ
+>ίσον >έσται, καὶ αἱ λοιπαὶ γωνίαι ταῖξ λοιπαῖξ γωνίαιξ >ίσαι >έσονται ἑκατέρα  ἑκατέρᾳ, ὑφ> <ὰξ αἱ >ίσαι πλευραὶ ὑποτείνουσιν; >ίση >άρα ἐστὶν ἡ μὲν ὑπὸ ΖΒΓ τῆ| ὑπὸ ΗΓΒ ἡ δὲ ὑπὸ ΒΓΖ τῆ| ὑπὸ ΓΒΗ. ἐπεὶ ο>ῦν <όλη ἡ ὑπὸ ΑΒΗ γωνία <όλῃ τῆ| ὑπὸ ΑΓΖ γωνίᾳ ἐδείθθη >ίση, <ῶν ἡ ὑπὸ ΓΒΗ τῆ| ὑπὸ ΒΓΖ >ίση, λοιπὴ
+>άρα ἡ ὑπὸ
+ΑΒΓ λοιπῆ| τῆ| ὑπὸ ΑΓΒ ἐστιν >ίση; καί εἰσι πρὸξ τῆ| βάσει τοῦ ΑΒΓ τριγώνου. ἐδείθθη δὲ καὶ ἡ ὑπὸ ΖΒΓ τῆ| ὑπὸ ΗΓΒ >ίση; καί εἰσιν ὑπὸ τὴν βάσιν.}
+
+\gr{Τῶν >άρα ἰσοσκελῶν τριγώνων αἱ τρὸξ τῆ| βάσει γωνίαι >ίσαι ἀλλήλαιξ εἰσίν, καὶ προσεκβληθεισῶν τῶν >ίσων εὐθειῶν αἱ ὑπὸ τὴν βάσιν γωνίαι >ίσαι ἀλλήλαιξ >έσονται; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 5}
+\end{center}
+
+For isosceles triangles, the angles at the base are equal to one another, and if
+the equal sides are produced (then) the angles under the base will be equal to one another.
+
+Let $ABC$ be an isosceles triangle having the side $AB$ equal to the side $AC$, and let the straight-lines $BD$ and $CE$ be produced in a straight-line
+with $AB$ and $AC$ (respectively) [Post.~2]. I say that the angle $ABC$ is equal to $ACB$, and (angle) $CBD$  to $BCE$.
+
+For let the point $F$ be taken at random on  $BD$, and let $AG$
+be cut off from the greater $AE$, equal to the lesser $AF$ [Prop.~1.3]. Also, let
+the straight-lines $FC$ and $GB$ be joined [Post.~1].
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig05e.pdf}}
+
+In fact, since $AF$ is equal to $AG$, and $AB$ to $AC$, the two (straight-lines) $FA$, $AC$ are
+equal to the two (straight-lines) $GA$, $AB$, respectively. They also encompass a
+common angle, $FAG$. Thus, the base $FC$ is equal to the base $GB$, and the
+triangle $AFC$ will be equal to the triangle $AGB$, and the remaining angles
+subtended by the equal sides will
+be equal to the corresponding  remaining angles [Prop.~1.4].  (That is) $ACF$ to $ABG$, and $AFC$ to $AGB$. And since the whole of $AF$ is
+equal to the whole of $AG$, within which $AB$ is equal to $AC$, the remainder
+$BF$ is thus equal to the remainder $CG$ [C.N.~3]. But $FC$ was also shown (to be) equal to $GB$. So
+the two (straight-lines) $BF$, $FC$ are equal to the two (straight-lines) $CG$, $GB$, respectively,
+and the angle $BFC$ (is) equal to the angle $CGB$, and the base $BC$ is common to
+them. Thus, the triangle $BFC$ will be equal to the triangle $CGB$, and
+the remaining angles subtended by the equal sides will be equal to the corresponding remaining angles [Prop.~1.4]. Thus, $FBC$ is equal to $GCB$, and $BCF$ to
+$CBG$. Therefore, since the whole angle $ABG$ was shown (to be) equal to the
+whole angle $ACF$, within which $CBG$ is equal to $BCF$, the remainder $ABC$
+is thus equal to the remainder $ACB$ [C.N.~3]. And they are at the base of triangle
+$ABC$. And $FBC$ was also shown (to be) equal to $GCB$. And they are under
+the base.
+
+Thus, for isosceles triangles, the angles at the base are equal to one another, and if
+the equal sides are produced (then) the angles under the base will be equal to one another. (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.6
+%%%%%%
+\pdfbookmark[1]{Proposition 1.6}{pdf1.6}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{6}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐὰν τριγώνου αἱ δύο γωνίαι >ίσαι ἀλλήλαιξ >ῶσιν, καὶ αἱ ὑπὸ
+τὰξ >ίσαξ γωνίαξ ὑποτείνουσαι πλευραὶ >ίσαι ἀλλήλαιξ >έσονται.}
+
+\gr{>'Εστω τρίγωνον τὸ ΑΒΓ >ίσην >έθον τὴν ὑπὸ ΑΒΓ γωνίαν τῆ| ὑπὸ ΑΓΒ γωνίᾳ; λέγω, <ότι καὶ πλευρὰ ἡ ΑΒ πλευρᾶ| τῆ| ΑΓ ἐστιν >ίση.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig06g.pdf}}
+
+\gr{Εἰ γὰρ >άνισόξ ἐστιν ἡ ΑΒ τῆ| ΑΓ, ἡ ἑτέρα α\kern -.7pt  ὐτῶν μείζων ἐστίν. >έστω μείζων ἡ ΑΒ, καὶ ἀφῃρήσθω ἀπὸ τῆξ μείζονοξ τῆξ ΑΒ τῆ|
+ἐλάττονι τῆ| ΑΓ >ίση ἡ ΔΒ, καὶ ἐπεζεύθθω ἡ ΔΓ.}
+
+\gr{Ἐπεὶ ο>ῦν >ίση ἐστὶν ἡ ΔΒ τῆ| ΑΓ κοινὴ δὲ ἡ ΒΓ, δύο
+δὴ αἱ ΔΒ, ΒΓ δύο ταῖξ ΑΓ, ΓΒ >ίσαι εἰσὶν ἑκατέρα ἑκατέρᾳ, καὶ
+γωνία ἡ ὑπὸ ΔΒΓ γωνίᾳ τῆ| ὑπὸ ΑΓΒ ἐστιν >ίση; βάσιξ >άρα
+ἡ ΔΓ βάσει τῆ| ΑΒ >ίση ἐστίν, καὶ τὸ ΔΒΓ τρίγωνον τῶ| ΑΓΒ
+τριγώνῳ >ίσον >έσται, τὸ >έλασσον τῶ| μείζονι; <όπερ >άτοπον;
+οὐκ >άρα >άνισόξ ἐστιν ἡ ΑΒ τῆ| ΑΓ; >ίση >άρα.}
+
+\gr{Ἐὰν >άρα  τριγώνου αἱ δὑο γωνίαι >ίσαι ἀλλήλαιξ >ῶσιν, καὶ αἱ ὑπὸ
+τὰξ >ίσαξ γωνίαξ ὑποτείνουσαι πλευραὶ >ίσαι ἀλλήλαιξ >έσονται;
+<όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 6}
+\end{center}
+
+If a triangle has two angles equal to one another (then) the sides subtending the
+equal angles will also be equal to one another.
+
+Let $ABC$ be a triangle having the angle $ABC$ equal to the angle $ACB$. I say that
+side $AB$ is also equal to side $AC$.\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig06e.pdf}}
+
+For if $AB$ is unequal to $AC$ (then) one of them is greater. Let $AB$ be greater. And
+let $DB$, equal to the lesser $AC$, be cut off from the greater $AB$ [Prop.~1.3].  And
+let $DC$ be joined [Post.~1].
+
+Therefore, since $DB$ is equal to $AC$, and $BC$ (is) common, the two sides $DB$, $BC$ are equal to the two sides $AC$, $CB$, respectively, and the angle $DBC$
+is equal to the angle $ACB$. Thus, the base $DC$ is equal to the base
+$AB$, and the triangle $DBC$ will be equal to the triangle $ACB$ [Prop.~1.4], the lesser
+to the greater. The very notion (is) absurd [C.N.~5]. Thus, $AB$ is not unequal
+to $AC$. Thus, (it is) equal.$^\dag$
+
+Thus, if a triangle has two angles equal to one another (then) the sides subtending the
+equal angles will also be equal to one another. (Which is) the very thing it was required to show.}
+\end{Parallel}
+{\footnotesize \noindent $^\dag$ Here, use is made of the previously
+unmentioned common notion that if two quantities are not unequal then they must be equal. Later on, use is made of the closely related common notion
+that if two quantities are not greater than or less than one another, respectively, then they must be equal to one another.}
+
+%%%%%%
+% Prop 1.7
+%%%%%%
+\pdfbookmark[1]{Proposition 1.7}{pdf1.7}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{7}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐπὶ τῆξ α\kern -.7pt  ὐτῆξ εὐθείαξ δύο ταῖξ α\kern -.7pt  ὐταῖξ εὐθείαιξ >άλλαι δύο
+εὐθεῖαι >ίσαι ἑκατέρα ἑκατέρᾳ οὐ συσταθήσονται πρὸξ >άλλῳ καὶ >άλλῳ
+σημείῳ ἐπὶ τὰ α\kern -.5pt  ὐτὰ μέρη τὰ α\kern -.3pt  ὐτὰ πέρατα >έθουσαι ταῖξ ἐχ ἀρθῆξ
+εὐθείαιξ.}\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig07g.pdf}}
+
+\gr{Εἰ γὰρ δυνατόν, ἐπὶ τῆξ α\kern -.7pt  ὐτῆξ εὐθείαξ τῆξ ΑΒ δύο ταῖξ α\kern -.7pt  ὐταῖξ
+εὐθείαιξ ταῖξ ΑΓ, ΓΒ >άλλαι δύο εὐθεῖαι αἱ ΑΔ, ΔΒ >ίσαι
+ἑκατέρα ἑκατέρᾳ συνεστάτωσαν πρὸξ >άλλῳ καὶ >άλλῳ σημείῳ τῶ|
+τε Γ καὶ Δ ἐπὶ τὰ α\kern -.5pt  ὐτὰ μέρη τὰ α\kern -.3pt  ὐτὰ πέρατα >έθουσαι, <ώστε >ίσην ε>ῖναι τὴν
+μὲν ΓΑ τῆ| ΔΑ τὸ α\kern -.7pt  ὐτὸ πέραξ >έθουσαν α\kern -.7pt  ὐτῆ| τὸ Α, τὴν δὲ
+ΓΒ τῆ| ΔΒ τὸ α\kern -.7pt  ὐτὸ πέραξ >έθουσαν α\kern -.7pt  ὐτῆ| τὸ Β, καὶ 
+ἐπεζεύθθω ἡ ΓΔ.}
+
+\gr{Ἐπεὶ ο>ῦν >ίση ἐστὶν ἡ ΑΓ τῆ|  ΑΔ, >ίση ἐστὶ καὶ  γωνία ἡ ὑπὸ
+ΑΓΔ τῆ| ὑπὸ ΑΔΓ; μείζων >άρα ἡ ὑπὸ ΑΔΓ τῆξ ὑπὸ ΔΓΒ; πολλῶ|
+>άρα ἡ ὑπὸ ΓΔΒ μείζων ἐστί τῆξ ὑπὸ ΔΓΒ. πάλιν ἐπεὶ
+>ίση ἐστὶν ἡ ΓΒ τῆ| ΔΒ, >ίση ἐστὶ καὶ γωνία ἡ ὑπὸ ΓΔΒ
+γωνίᾳ τῆ| ὑπὸ ΔΓΒ. ἐδείθθη δὲ α\kern -.7pt  ὐτῆξ καὶ πολλῶ| μείζων;
+<όπερ ἐστὶν ἀδύνατον.}
+
+\gr{Οὐκ  >άρα ἐπὶ τῆξ α\kern -.7pt  ὐτῆξ εὐθείαξ δύο ταῖξ α\kern -.7pt  ὐταῖξ εὐθείαιξ >άλλαι δύο
+εὐθεῖαι >ίσαι ἑκατέρα ἑκατέρᾳ  
+συσταθήσονται πρὸξ >άλλῳ καὶ >άλλῳ
+σημείῳ ἐπὶ τὰ α\kern -.5pt  ὐτὰ μέρη τὰ α\kern -.3pt  ὐτὰ πέρατα >έθουσαι ταῖξ ἐχ ἀρθῆξ
+εὐθείαιξ;  <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 7}
+\end{center}
+
+On the same straight-line, two other straight-lines 
+equal, respectively, to 
+two (given) straight-lines (which meet) cannot be constructed (meeting)
+at  a different point on the same
+side (of the straight-line), but having the same ends as the given straight-lines.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig07e.pdf}}
+
+For, if possible, let the two straight-lines $AC$, $CB$, equal to two other straight-lines $AD$, $DB$, respectively, be constructed
+on the same straight-line $AB$, meeting at different points, $C$ and $D$, on the
+same side (of $AB$), and having the same ends (on $AB$). So $CA$ is equal to $DA$, having the same end $A$ as it, and $CB$ is equal to $DB$, having the
+same end $B$ as it. And let $CD$ be joined [Post.~1].
+
+Therefore, since $AC$ is equal to $AD$,  the angle $ACD$ is also equal to angle $ADC$ [Prop.~1.5].
+Thus, $ADC$ (is) greater than $DCB$ [C.N.~5]. Thus, $CDB$ is much greater
+than $DCB$ [C.N.~5]. Again, since  $CB$ is equal to $DB$, the angle $CDB$ is also equal to
+angle $DCB$ [Prop.~1.5]. But it was shown that the former (angle) is also much
+greater (than the latter). The very thing is impossible.
+
+Thus, on the same straight-line, two other straight-lines equal, respectively, to  
+two (given) straight-lines  (which meet) cannot be constructed (meeting)
+at a different point on the same
+side (of the straight-line), but having the same ends as the given straight-lines.
+(Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.8
+%%%%%%
+\pdfbookmark[1]{Proposition 1.8}{pdf1.8}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{8}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐὰν δύο τρίγωνα τὰξ δύο πλευρὰξ [ταῖξ] δύο πλευραῖξ >ίσαξ >έθῃ
+ἑκατέραν ἑκατέρᾳ, >έθῃ δὲ καὶ τὴν βάσιν τῆ| βάσει >ίσην, καὶ
+τὴν γωνίαν τῆ| γωνίᾳ >ίσην <έχει τὴν ὑπὸ τῶν >ίσων
+εὐθειῶν περιεθομένην.}
+
+\gr{>'Εστω δύο τρίγωνα τὰ ΑΒΓ, ΔΕΖ τὰξ δύο πλευρὰξ τὰξ ΑΒ, ΑΓ ταῖξ δύο πλευραῖξ ταῖξ ΔΕ, ΔΖ >ίσαξ >έθοντα ἑκατέραν ἑκατέρᾳ, τὴν μὲν ΑΒ τῆ| ΔΕ τὴν δὲ ΑΓ τῆ| ΔΖ; ἐθέτω δὲ καὶ βάσιν τὴν ΒΓ βάσει τῆ| ΕΖ
+>ίσην; λέγω, <ότι καὶ γωνία ἡ ὑπὸ ΒΑΓ γωνίᾳ τῆ| ὑπὸ ΕΔΖ ἐστιν >ίση.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig08g.pdf}}
+
+\gr{Ἐφαρμοζομένου γὰρ τοῦ ΑΒΓ τριγώνου ἐπὶ τὸ ΔΕΖ τρίγωνον
+καὶ τιθεμένου τοῦ μὲν Β σημείου ἐπὶ τὸ Ε σημεῖον τῆξ δὲ ΒΓ εὐθείαξ ἐπὶ τὴν ΕΖ ἐφαρμόσει καὶ τὸ Γ σημεῖον ἐπὶ τὸ Ζ
+διὰ τὸ >ίσην ε>ῖναι τὴν ΒΓ τῆ| ΕΖ; ἐφαρμοσάσηξ δὴ τῆξ ΒΓ ἐπὶ τὴν ΕΖ ἐφαρμόσουσι καὶ αἱ ΒΑ, ΓΑ ἐπὶ τὰξ ΕΔ, ΔΖ. εἰ γὰρ
+βάσιξ μὲν ἡ ΒΓ ἐπὶ βάσιν τὴν ΕΖ ἐφαρμόσει, αἱ δὲ ΒΑ, ΑΓ
+πλευραὶ ἐπὶ τὰξ ΕΔ, ΔΖ οὐκ ἐφαρμόσουσιν ἀλλὰ παραλλάχουσιν ὡξ
+αἱ ΕΗ, ΗΖ, συσταθήσονται ἐπὶ τῆξ α\kern -.7pt  ὐτῆξ εὐθείαξ δύο ταῖξ α\kern -.7pt  ὐταῖξ εὐθείαιξ >άλλαι δύο εὐθεῖαι >ίσαι ἑκατέρα ἑκατέρᾳ πρὸξ >άλλῳ καὶ
+>άλλῳ σημείῳ ἐπὶ τὰ α\kern -.5pt  ὐτὰ μέρη τὰ α\kern -.3pt  ὐτὰ πέρατα >έθουσαι. οὐ
+συνίστανται δέ; οὐκ >άρα ἐφαρμοζομένηξ τῆξ ΒΓ βάσεωξ ἐπὶ τὴν
+ΕΖ βάσιν οὐκ
+ἐφαρμόσουσι καὶ αἱ ΒΑ, ΑΓ πλευραὶ
+ἐπὶ τὰξ ΕΔ, ΔΖ. ἐφαρμόσουσιν >άρα;
+<ώστε καὶ γωνία ἡ ὑπὸ ΒΑΓ ἐπὶ  γωνίαν τὴν ὑπὸ
+ΕΔΖ ἐφαρμόσει καὶ >ίση α\kern -.7pt  ὐτῆ| >έσται.}
+
+\gr{Ἐὰν >άρα δύο τρίγωνα τὰξ δύο πλευρὰξ [ταῖξ] δύο πλευραῖξ >ίσαξ >έθῃ
+ἑκατέραν ἑκατέρᾳ  καὶ τὴν βάσιν τῆ| βάσει >ίσην >έθῃ, καὶ
+τὴν γωνίαν τῆ| γωνίᾳ >ίσην <έχει τὴν ὑπὸ τῶν >ίσων
+εὐθειῶν περιεθομένην; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 8}
+\end{center}
+
+If two triangles have  two sides equal to two sides, respectively, 
+and also have the base equal to the base, (then) they will
+also have equal the angles  encompassed by
+the equal straight-lines.
+
+Let $ABC$ and $DEF$ be two triangles having the two sides $AB$ and $AC$ equal to the two
+sides $DE$ and $DF$, respectively. (That is) $AB$ to $DE$, and $AC$ to $DF$.  Let them also have
+the base $BC$ equal to the base $EF$. I say that the angle $BAC$ is also equal
+to the angle $EDF$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig08e.pdf}}
+
+For if triangle $ABC$ is applied to triangle $DEF$, the point $B$ being placed on
+point $E$, and the straight-line $BC$ on $EF$, (then) point $C$ will also coincide with $F$, on
+account of $BC$ being equal to $EF$.
+So  (because of) $BC$ coinciding with $EF$,  (the sides) $BA$ and $CA$ will also
+coincide with  $ED$ and $DF$ (respectively). 
+For if base $BC$ coincides with base $EF$, but the sides $AB$ and $AC$ 
+do not coincide with $ED$ and $DF$ (respectively), but miss like $EG$
+and $GF$ (in the above figure), 
+then we will have constructed upon the same straight-line two other straight-lines equal, respectively, to two (given) straight-lines,  and (meeting)
+at a different point on the same
+side (of the straight-line), but having the same ends. But (such straight-lines) cannot be constructed [Prop.~1.7].
+Thus,  the base $BC$ being applied to the  base $EF$,  the sides $BA$ and $AC$
+cannot not coincide with $ED$ and $DF$ (respectively). Thus, they
+will coincide. So the angle $BAC$ will also coincide with angle $EDF$,
+and will be equal to it [C.N.~4].
+
+Thus, if two triangles have  two  sides equal to two side, respectively,
+and  have the base equal to the base, (then) they will also have equal the angles  encompassed by
+the equal straight-lines. (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.9
+%%%%%%
+\pdfbookmark[1]{Proposition 1.9}{pdf1.9}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{9}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Τὴν δοθεῖσαν γωνίαν εὐθύγραμμον δίθα τεμεῖν.}
+
+\gr{>'Εστω ἡ δοθεῖσα γωνία εὐθύγραμμοξ ἡ ὑπὸ ΒΑΓ. δεῖ δὴ
+α\kern -.7pt  ὐτὴν δίθα τεμεῖν.}
+
+\gr{Εἰλήφθω ἐπὶ τῆξ ΑΒ τυθὸν σημεῖον τὸ Δ, καὶ ἀφῃρήσθω ἀπὸ
+τῆξ ΑΓ τῆ| ΑΔ >ίση ἡ ΑΕ, καὶ ἐπεζεύθθω ἡ ΔΕ, καὶ συνεστάτω
+ἐπὶ τῆξ ΔΕ τρίγωνον ἰσόπλευρον τὸ ΔΕΖ, καὶ ἐπεζεύθθω ἡ ΑΖ; λέγω, <ότι ἡ ὑπὸ ΒΑΓ γωνία δίθα τέτμ\kern -.7pt  ηται ὑπὸ τῆξ ΑΖ
+εὐθείαξ.}
+
+\gr{Ἐπεὶ γὰρ >ίση ἐστὶν ἡ ΑΔ τῆ| ΑΕ, κοινὴ δὲ ἡ ΑΖ, δύο δὴ αἱ ΔΑ, ΑΖ δυσὶ ταῖξ ΕΑ, ΑΖ >ίσαι εἰσὶν ἑκατέρα ἑκατέρᾳ. καὶ βάσιξ ἡ ΔΖ
+βάσει τῆ| ΕΖ >ίση ἐστίν; γωνία >άρα ἡ ὑπὸ ΔΑΖ γωνίᾳ τῆ|
+ὑπὸ ΕΑΖ >ίση ἐστίν.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig09g.pdf}}
+
+\gr{Ἡ >άρα δοθεῖσα γωνία εὐθύγραμμοξ ἡ ὑπὸ ΒΑΓ δίθα τέτμ\kern -.7pt  ηται
+ὑπὸ τῆξ ΑΖ εὐθείαξ; <όπερ >έδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 9}
+\end{center}
+
+To cut a given rectilinear angle in half.
+
+Let $BAC$ be the given rectilinear angle. So it is required to
+cut it in half.
+
+Let the point $D$ be taken at random on $AB$,
+and let $AE$, equal to $AD$,  be cut off from $AC$  [Prop.~1.3], and
+let $DE$ be joined. And let the equilateral triangle $DEF$
+be constructed upon $DE$ [Prop.~1.1], and let $AF$ be
+joined. I say that the angle $BAC$ has been cut in half by the straight-line
+$AF$.
+
+For since $AD$ is equal to  $AE$, and $AF$ is common, the two (straight-lines) $DA$,
+$AF$ are equal to the two (straight-lines) $EA$, $AF$, respectively. And the base $DF$
+is equal to the base $EF$. Thus, angle $DAF$ is equal to angle $EAF$ [Prop.~1.8].
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig09e.pdf}}
+
+Thus, the given rectilinear angle $BAC$ has been cut in half by the
+straight-line $AF$. (Which is) the very thing it was required to do.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.10
+%%%%%%
+\pdfbookmark[1]{Proposition 1.10}{pdf1.10}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{10}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Τὴν δοθεῖσαν εὐθεῖαν πεπερασμένην δίθα τεμεῖν.}
+
+\gr{>'Εστω ἡ δοθεῖσα εὐθεῖα πεπερασμένη ἡ ΑΒ; δεῖ δὴ τὴν ΑΒ εὐθεῖαν πεπερασμένην δίθα τεμεῖν.}
+
+\gr{Συνεστάτω ἐπ> α\kern -.7pt  ὐτῆξ τρίγωνον ἰσόπλευρον τὸ ΑΒΓ, καὶ τετμ\kern -.7pt  ήσθω ἡ ὑπὸ ΑΓΒ γωνία δίθα τῆ| ΓΔ εὐθείᾳ; λέγω, <ότι ἡ ΑΒ εὐθεῖα
+δίθα τέτμ\kern -.5pt  ηται κατὰ τὸ Δ σημεῖον.}\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig10g.pdf}}
+
+\gr{Ἐπεὶ γὰρ >ίση ἐστὶν ἡ ΑΓ τῆ| ΓΒ, κοινὴ δὲ ἡ ΓΔ, δύο δὴ αἱ
+ΑΓ, ΓΔ δύο ταῖξ ΒΓ, ΓΔ >ίσαι εἰσὶν ἑκατέρα ἑκατέρᾳ; καὶ γωνία
+ἡ ὑπὸ ΑΓΔ γωνίᾳ τῆ| ὑπὸ ΒΓΔ >ίση ἐστίν; βάσιξ >άρα ἡ
+ΑΔ βάσει τῆ| ΒΔ >ίση ἐστίν.}
+
+\gr{Ἡ >άρα δοθεῖσα εὐθεῖα πεπερασμένη ἡ ΑΒ δίθα τέτμ\kern -.7pt  ηται κατὰ τὸ
+Δ; <όπερ >έδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 10}
+\end{center}
+
+To cut a given finite straight-line in half.
+
+Let $AB$ be the given finite straight-line. So it is required to cut the
+finite straight-line $AB$ in half.
+
+Let the equilateral triangle $ABC$ be constructed upon  ($AB$)
+[Prop.~1.1], and let the angle $ACB$ be cut in half by the
+straight-line $CD$ [Prop.~1.9]. I say that the straight-line $AB$ has been
+cut in half at  point $D$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig10e.pdf}}
+
+For since $AC$ is equal to $CB$, and $CD$ (is) common, the two (straight-lines) $AC$, $CD$
+are equal to the two (straight-lines) $BC$, $CD$, respectively. And the angle $ACD$ is
+equal to the angle $BCD$. Thus, the base $AD$ is equal to the base $BD$
+[Prop.~1.4].
+
+Thus, the given finite straight-line $AB$ has been cut in half at  (point) $D$. 
+(Which is) the
+very thing it was required to do.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.11
+%%%%%%
+\pdfbookmark[1]{Proposition 1.11}{pdf1.11}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{11}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Τῆ| δοθείσῃ εὐθείᾳ ἀπὸ τοῦ πρὸξ α\kern -.7pt  ὐτῆ| δοθέντοξ σημείου
+πρὸξ ὀρθὰξ γωνίαξ εὐθεῖαν γραμμ\kern -.7pt  ὴν ἀγαγεῖν.}
+
+\gr{>'Εστω ἡ μὲν δοθεῖσα εὐθεῖα ἡ ΑΒ τὸ δὲ δοθὲν σημεῖον
+ἐπ> α\kern -.7pt  ὐτῆξ τὸ Γ; δεῖ δὴ ἀπὸ τοῦ Γ σημείου τῆ| ΑΒ εὐθείᾳ
+πρὸξ ὀρθὰξ γωνίαξ εὐθεῖαν γραμμ\kern -.7pt  ὴν ἀγαγεῖν.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig11g.pdf}}
+
+\gr{Εἰλήφθω ἐπὶ τῆξ ΑΓ τυθὸν σημεῖον τὸ Δ, καὶ κείσθω τῆ|
+ΓΔ >ίση ἡ ΓΕ, καὶ συνεστάτω ἐπὶ τῆξ ΔΕ τρίγωνον ἰσόπλευρον
+τὸ ΖΔΕ, καὶ ἐπεζεύθθω ἡ ΖΓ; λέγω, <ότι τῆ| δοθείσῃ
+εὐθείᾳ τῆ| ΑΒ ἀπὸ τοῦ πρὸξ α\kern -.7pt  ὐτῆ| δοθέντοξ σημείου τοῦ
+Γ πρὸξ ὀρθὰξ γωνίαξ εὐθεῖα γραμμ\kern -.7pt  ὴ >ῆκται ἡ ΖΓ.}
+
+\gr{Ἐπεὶ γὰρ >ίση ἐστὶν ἡ ΔΓ τῆ| ΓΕ, κοινὴ δὲ ἡ ΓΖ, δύο δὴ
+αἱ ΔΓ, ΓΖ δυσὶ ταῖξ ΕΓ, ΓΖ >ίσαι εἰσὶν ἑκατέρα ἑκατέρᾳ;
+καὶ βάσιξ ἡ ΔΖ βάσει τῆ| ΖΕ >ίση ἐστίν; γωνία >άρα ἡ ὑπὸ
+ΔΓΖ γωνίᾳ τῆ| ὑπὸ ΕΓΖ >ίση ἐστίν; καί εἰσιν ἐφεχῆξ.
+<όταν δὲ εὐθεῖα ἐπ> εὐθεῖαν σταθεῖσα τὰξ ἐφεχῆξ γωνίαξ
+>ίσαξ ἀλλήλαιξ ποιῆ|, ὀρθὴ ἑκατέρα τῶν >ίσων γωνιῶν
+ἐστιν; ὀρθὴ >άρα ἐστὶν ἑκατέρα τῶν ὑπὸ ΔΓΖ, ΖΓΕ.}
+
+\gr{Τῆ| >άρα δοθείσῃ εὐθείᾳ τῆ| ΑΒ ἀπὸ τοῦ πρὸξ α\kern -.7pt  ὐτῆ|
+δοθέντοξ σημείου τοῦ Γ πρὸξ ὀρθὰξ γωνίαξ εὐθεῖα γραμμ\kern -.7pt  ὴ
+>ῆκται ἡ ΓΖ; <όπερ >έδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 11}
+\end{center}
+
+To draw a straight-line at right-angles to a given straight-line from a given point on it.
+
+Let $AB$ be the given straight-line, and $C$ the given point on it. So it is required
+to draw a straight-line from the point $C$ at right-angles to the straight-line $AB$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig11e.pdf}}
+
+Let the point $D$ be be taken at random on $AC$, and let $CE$ be made equal to $CD$ [Prop.~1.3], and let the equilateral triangle $FDE$
+be constructed on $DE$ [Prop.~1.1], and let $FC$ be
+joined. I say that the straight-line $FC$ has been drawn at right-angles
+to the given straight-line $AB$ from the given point $C$ on it.
+
+For since $DC$ is equal to $CE$, and $CF$ is common, the two (straight-lines) $DC$, $CF$
+are equal to the two (straight-lines), $EC$, $CF$, respectively.  And the base $DF$
+is equal to the base $FE$. Thus, the angle $DCF$ is equal to the
+angle $ECF$ [Prop.~1.8], and they are adjacent. But when a straight-line stood on 
+a(nother) straight-line makes the adjacent angles equal to one another, each of the
+equal angles is a right-angle [Def.~1.10]. Thus, each of the (angles)
+$DCF$ and $FCE$ is a right-angle.
+
+Thus, the straight-line $CF$ has been drawn at right-angles to the
+given straight-line $AB$ from the given point $C$ on it. (Which is) the very thing
+it was required to do.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.12
+%%%%%%
+\pdfbookmark[1]{Proposition 1.12}{pdf1.12}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{12}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐπὶ τὴν δοθεῖσαν εὐθεῖαν >άπειρον ἀπὸ τοῦ δοθέντοξ σημείου, <ὸ μ\kern -.7pt  ή
+ἐστιν ἐπ> α\kern -.7pt  ὐτῆξ, κάθετον εὐθεῖαν γραμμ\kern -.5pt  ὴν ἀγαγεῖν.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig12g.pdf}}
+
+\gr{>'Εστω ἡ μὲν δοθεῖσα εὐθεῖα >άπειροξ ἡ ΑΒ τὸ δὲ δοθὲν σημεῖον,
+<ὸ μ\kern -.7pt  ή ἐστιν ἐπ> α\kern -.7pt  ὐτῆξ, τὸ Γ; δεῖ δὴ ἐπὶ τὴν δοθεῖσαν εὐθεῖαν
+>άπειρον τὴν ΑΒ ἀπὸ τοῦ δοθέντοξ σημείου τοῦ Γ, <ὸ μ\kern -.5pt  ή ἐστιν
+ἐπ> α\kern -.3pt  ὐτῆξ, κάθετον εὐθεῖαν γραμμ\kern -.7pt  ὴν ἀγαγεῖν.}
+
+\gr{Εἰλήφθω γὰρ ἐπὶ τὰ <έτερα μέρη τῆξ ΑΒ εὐθείαξ τυθὸν σημεῖον τὸ 
+Δ, καὶ κέντρῳ μὲν τῶ| Γ διαστήματι δὲ τῶ| ΓΔ κύκλοξ γεγράφθω ὁ ΕΖΗ, καὶ τετμ\kern -.7pt  ήσθω ἡ ΕΗ εὐθεῖα δίθα κατὰ τὸ Θ, καὶ ἐπεζεύθθωσαν
+αἱ ΓΗ, ΓΘ, ΓΕ εὐθεῖαι; λέγω, <ότι ἐπὶ τὴν δοθεῖσαν εὐθεῖαν
+>άπειρον τὴν ΑΒ ἀπὸ τοῦ δοθέντοξ σημείου τοῦ Γ, <ὸ μ\kern -.7pt  ή ἐστιν ἐπ>
+α\kern -.5pt  ὐτῆξ, κάθετοξ >ῆκται ἡ ΓΘ.}
+
+\gr{Ἐπεὶ γὰρ >ίση ἐστὶν ἡ ΗΘ τῆ| ΘΕ, κοινὴ δὲ ἡ ΘΓ, δύο
+δὴ αἱ ΗΘ, ΘΓ δύο ταῖξ ΕΘ, ΘΓ >ίσαι εἱσὶν ἑκατέρα ἑκατέρᾳ; καὶ
+βάσιξ ἡ ΓΗ βάσει τῆ| ΓΕ ἐστιν >ίση; γωνία >άρα ἡ ὑπὸ ΓΘΗ γωνίᾳ
+τῆ| ὑπὸ ΕΘΓ ἐστιν >ίση. καί εἰσιν ἐφεχῆξ. <όταν δὲ εὐθεῖα ἐπ>
+εὐθεῖαν σταθεῖσα τὰξ ἐφεχῆξ γωνίαξ >ίσαξ ἀλλήλαιξ ποιῆ|, ὀρθὴ
+ἑκατέρα τῶν >ίσων γωνιῶν ἐστιν, καὶ ἡ ἐφεστηκυῖα εὐθεῖα
+κάθετοξ καλεῖται ἐφ> <ὴν ἐφέστηκεν.}
+
+\gr{Ἐπὶ τὴν δοθεῖσαν >άρα εὐθεῖαν >άπειρον τὴν ΑΒ ἀπὸ τοῦ
+δοθέντοξ σημείου τοῦ Γ, <ὸ μ\kern -.7pt  ή ἐστιν ἐπ> α\kern -.7pt  ὐτῆξ, κάθετοξ ~ἠκται
+ἡ ΓΘ; <όπερ >έδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 12}
+\end{center}
+
+To draw a straight-line perpendicular to a given infinite straight-line from a given point which is not
+on it.\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig12e.pdf}}
+
+Let $AB$ be the given infinite straight-line  and $C$ the given point, which is not
+on it. So it is required to draw a  straight-line  perpendicular to the
+given infinite straight-line $AB$ from the given point $C$, which is not on
+it.
+
+For let point $D$ be taken at random on the other side (to $C$) of 
+the straight-line $AB$, and let the circle $EFG$ be drawn
+with center $C$ and radius $CD$ [Post.~3], and let the straight-line $EG$ be cut
+in half at (point) $H$ [Prop.~1.10], and let the straight-lines $CG$, $CH$,
+and $CE$ be joined. I say that the  (straight-line) $CH$ has
+been drawn  perpendicular to the given infinite straight-line
+$AB$ from the given point $C$, which is not on it.
+
+For since $GH$ is equal to $HE$, and $HC$ (is) common, the two (straight-lines) $GH$, 
+$HC$
+are equal to the two (straight-lines) $EH$, $HC$, respectively, and the base $CG$ is
+equal to the base $CE$. Thus, the angle $CHG$ is equal to the
+angle $EHC$ [Prop.~1.8], and they are adjacent. But when a straight-line
+stood on a(nother) straight-line makes the adjacent angles equal to one another, each of the equal angles is a right-angle, and the former straight-line is called a perpendicular to that upon which it stands [Def.~1.10].
+
+Thus, the (straight-line) $CH$ has been drawn perpendicular to the given infinite straight-line $AB$ from the given point $C$, which is not
+on  it. (Which is) the very thing it was required to do.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.13
+%%%%%%
+\pdfbookmark[1]{Proposition 1.13}{pdf1.13}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large\ggn{13}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐὰν εὐθεῖα ἐπ> εὐθεῖαν σταθεῖσα γωνίαξ ποιῆ|, >ήτοι δύο ὀρθὰξ
+>ὴ δυσὶν ὀρθαῖξ >ίσαξ ποιήσει.}
+
+\gr{Εὐθεῖα γάρ τιξ ἡ ΑΒ ἐπ> εὐθεῖαν τὴν ΓΔ σταθεῖσα γωνίαξ ποιείτω
+τὰξ ὑπὸ ΓΒΑ, ΑΒΔ; λὲγω, <ότι αἱ ὑπὸ ΓΒΑ, ΑΒΔ γωνίαι >ήτοι
+δύο ὀρθαί εἰσιν >ὴ δυσὶν ὀρθαῖξ >ίσαι.}\\~\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig13g.pdf}}
+
+\gr{Εἰ μὲν ο>ῦν >ίση ἐστὶν ἡ ὑπὸ ΓΒΑ τῆ| ὑπὸ ΑΒΔ, δύο
+ὀρθαί εἰσιν. εἰ δὲ ο>ύ, >ήθθω ἀπὸ τοῦ Β σημείου τῆ| ΓΔ
+[εὐθείᾳ] πρὸξ ὀρθὰξ ἡ ΒΕ; αἱ >άρα ὑπὸ ΓΒΕ, ΕΒΔ δύο ὀρθαί
+εἰσιν; καὶ ἐπεὶ ἡ ὑπὸ ΓΒΕ δυσὶ ταῖξ ὑπὸ ΓΒΑ, ΑΒΕ >ίση
+ἐστίν, κοινὴ προσκείσθω ἡ ὑπὸ ΕΒΔ; αἱ >άρα ὑπὸ ΓΒΕ, ΕΒΔ
+τρισὶ ταῖξ ὑπὸ ΓΒΑ, ΑΒΕ, ΕΒΔ >ίσαι εἰσίν. πάλιν, ἐπεὶ ἡ ὑπὸ
+ΔΒΑ δυσὶ ταῖξ ὑπὸ ΔΒΕ, ΕΒΑ >ίση ἐστίν, κοινὴ προσκείσθω
+ἡ ὑπὸ ΑΒΓ; αἱ >άρα ὑπὸ ΔΒΑ, ΑΒΓ τρισὶ ταῖξ ὑπὸ ΔΒΕ, ΕΒΑ, ΑΒΓ >ίσαι εἰσίν. ἐδείθθησαν δὲ καὶ αἱ ὑπὸ ΓΒΕ, ΕΒΔ τρισὶ
+ταῖξ α\kern -.7pt  ὐταῖξ >ίσαι; τὰ δὲ τῶ| α\kern -.7pt  ὐτῶ| >ίσα καὶ ἀλλήλοιξ ἐστὶν >ίσα;
+ καὶ αἱ ὑπὸ ΓΒΕ, ΕΒΔ
+>άρα ταῖξ ὑπὸ ΔΒΑ, ΑΒΓ >ίσαι εἰσίν; ἀλλὰ αἱ ὑπὸ ΓΒΕ, ΕΒΔ δύο
+ὀρθαί εἰσιν; καὶ αἱ ὑπὸ ΔΒΑ, ΑΒΓ >άρα δυσὶν ὀρθαῖξ >ίσαι εἰσίν.}
+
+\gr{Ἐὰν >άρα εὐθεῖα ἐπ> εὐθεῖαν σταθεῖσα γωνίαξ ποιῆ|, >ήτοι δύο ὀρθὰξ
+>ὴ δυσὶν ὀρθαῖξ >ίσαξ ποιήσει; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 13}
+\end{center}
+
+If a straight-line stood on a(nother)  straight-line makes angles,
+it will certainly either make two right-angles, or (angles whose sum is) equal
+to two right-angles. 
+
+For  let some straight-line $AB$ stood on the straight-line $CD$ make the
+angles $CBA$ and $ABD$. I say that the angles $CBA$ and $ABD$ are
+certainly either two right-angles, or (have a sum) equal to two right-angles.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig13e.pdf}}
+
+In fact, if $CBA$ is equal to $ABD$ (then) they are two right-angles [Def.~1.10].
+But, if not, let $BE$ be drawn from the point $B$ at right-angles to [the
+straight-line] $CD$ [Prop.~1.11]. Thus, $CBE$ and $EBD$ are two right-angles.
+And since $CBE$ is equal to the two (angles) $CBA$ and $ABE$, let $EBD$ be added
+to both. Thus, the (sum of the angles) $CBE$ and $EBD$ is equal to the  (sum of the) three (angles)
+$CBA$, $ABE$, and $EBD$ [C.N.~2]. Again, since $DBA$ is equal to the two (angles) $DBE$
+and $EBA$, let $ABC$ be added to both. Thus, the (sum of the angles) $DBA$ and $ABC$ is
+equal to the (sum of the) three (angles) $DBE$, $EBA$, and $ABC$ [C.N.~2]. But (the sum of) $CBE$ and $EBD$ was
+also shown (to be) equal to the (sum of the) same three (angles). And things equal to the
+same thing are also equal to one another [C.N.~1]. Therefore, 
+(the sum of) $CBE$ and
+$EBD$ is also equal to (the sum of) $DBA$ and $ABC$. But, (the sum of) $CBE$ and $EBD$ is two
+right-angles. Thus, (the sum of) $ABD$ and $ABC$ is also equal to two right-angles.
+
+Thus, if a straight-line stood on a(nother)  straight-line makes angles,
+it will certainly either make two right-angles, or (angles whose sum is) equal
+to two right-angles. (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.14
+%%%%%%
+\pdfbookmark[1]{Proposition 1.14}{pdf1.14}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{14}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐὰν πρόξ τινι εὐθείᾳ καὶ τῶ| πρὸξ α\kern -.7pt  ὐτῆ| σημείῳ δύο εὐθεῖαι
+μ\kern -.7pt  ὴ ἐπὶ τὰ α\kern -.5pt  ὐτὰ μέρη κείμεναι τὰξ ἐφεχῆξ γωνίαξ δυσὶν ὀρθαῖξ
+>ίσαξ ποιῶσιν, ἐπ> εὐθείαξ >έσονται ἀλλήλαιξ αἱ εὐθεῖαι.}
+
+\gr{Πρὸξ γάρ τινι εὐθείᾳ τῆ| ΑΒ καὶ τῶ| πρὸξ α\kern -.7pt  ὐτῆ| σημείῳ τῶ|
+Β δύο εὐθεῖαι αἱ ΒΓ, ΒΔ μ\kern -.7pt  ὴ ἐπὶ τὰ α\kern -.5pt  ὐτὰ μέρη
+κείμεναι
+τὰξ ἐφεχῆξ γωνίαξ τὰξ ὑπὸ ΑΒΓ, ΑΒΔ δύο ὀρθαῖξ
+>ίσαξ ποιείτωσαν; λέγω, <ότι ἐπ> εὐθείαξ ἐστὶ τῆ| ΓΒ ἡ ΒΔ.}\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig14g.pdf}}
+
+\gr{Εἰ γὰρ μ\kern -.7pt  ή ἐστι τῆ| ΒΓ ἐπ> εὐθείαξ ἡ ΒΔ, >έστω τῆ| ΓΒ ἐπ>
+εὐθείαξ ἡ ΒΕ.}
+
+\gr{Ἐπεὶ ο>ῦν εὐθεῖα ἡ ΑΒ ἐπ> εὐθεῖαν τὴν ΓΒΕ ἐφέστηκεν, αἱ
+>άρα ὑπὸ ΑΒΓ, ΑΒΕ γωνίαι δύο ὀρθαῖξ >ίσαι εἰσίν; εἰσὶ δὲ καὶ
+αἱ ὑπὸ ΑΒΓ, ΑΒΔ δύο ὀρθαῖξ >ίσαι; αἱ >άρα ὑπὸ ΓΒΑ, ΑΒΕ
+ταῖξ ὑπὸ ΓΒΑ, ΑΒΔ >ίσαι εἰσίν. κοινὴ ἀφῃρήσθω ἡ ὑπὸ ΓΒΑ;
+λοιπὴ >άρα ἡ ὑπὸ ΑΒΕ λοιπῆ| τῆ| ὑπὸ ΑΒΔ ἐστιν >ίση, ἡ
+ἐλάσσων τῆ| μείζονι; <όπερ ἐστὶν ἀδύνατον. οὐκ >άρα
+ἐπ> εὐθείαξ ἐστὶν ἡ ΒΕ τῆ| ΓΒ. ὁμοίωξ δὴ δείχομεν, <ότι
+οὐδὲ >άλλη τιξ πλὴν τῆξ ΒΔ; ἐπ> εὐθείαξ >άρα ἐστὶν ἡ ΓΒ τῆ| ΒΔ.}
+
+\gr{Ἐὰν >άρα πρόξ τινι εὐθείᾳ καὶ τῶ| πρὸξ α\kern -.7pt  ὐτῆ| σημείῳ δύο εὐθεῖαι
+μ\kern -.7pt  ὴ ἐπὶ α\kern -.5pt  ὐτὰ μέρη κείμεναι τὰξ ἐφεχῆξ γωνίαξ δυσὶν ὀρθαῖξ
+>ίσαξ ποιῶσιν, ἐπ> εὐθείαξ >έσονται ἀλλήλαιξ αἱ εὐθεῖαι; <όπερ
+>έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 14}
+\end{center}
+
+If two straight-lines, not lying on the same side,  make adjacent angles (whose sum is) equal to two right-angles  with some straight-line, at a point on it, (then) the two straight-lines
+will be straight-on (with respect) to one another.
+
+For let two
+straight-lines $BC$ and $BD$, not lying on the same side,  make adjacent angles $ABC$ and $ABD$ (whose sum is)
+equal to two right-angles with some straight-line $AB$, at the point $B$ on it. I say
+that $BD$ is  straight-on with respect to $CB$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig14e.pdf}}
+
+For if $BD$ is not straight-on to $BC$ (then) let $BE$ be straight-on to $CB$.
+
+Therefore, since the straight-line $AB$ stands on the straight-line $CBE$, the (sum of the) angles $ABC$ and $ABE$ is thus equal to two right-angles [Prop.~1.13]. But (the sum of) $ABC$ and $ABD$ is also equal to two right-angles.
+Thus, 
+(the sum of angles) $CBA$ and $ABE$ is equal to (the sum of angles) $CBA$ and $ABD$ [C.N.~1]. Let (angle)
+$CBA$ be subtracted from both. Thus, the remainder $ABE$ is
+equal to the remainder $ABD$ [C.N.~3], the lesser to the greater. The very thing is impossible. Thus, $BE$ is not straight-on with respect to $CB$. Similarly, we can
+show that neither (is) any other (straight-line)   than $BD$.
+Thus, $CB$ is straight-on with respect to $BD$.
+
+Thus, if two straight-lines, not lying on the same side,  make adjacent angles (whose sum is) equal to two right-angles with some straight-line, at a point on it, (then) the two straight-lines
+will be straight-on (with respect) to one another. (Which is) the very thing it
+was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.15
+%%%%%%
+\pdfbookmark[1]{Proposition 1.15}{pdf1.15}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{15}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐὰν δύο εὐθεῖαι τέμνωσιν ἀλλήλαξ, τὰξ κατὰ κορυφὴν γωνίαξ >ίσαξ ἀλλήλαιξ ποιοῦσιν.}
+
+\gr{Δύο γὰρ εὐθεῖαι αἱ ΑΒ, ΓΔ τεμνέτωσαν ἀλλήλαξ κατὰ τὸ Ε σημεῖον;
+λέγω, <ότι >ίση ἐστὶν ἡ μὲν ὑπὸ ΑΕΓ γωνία τῆ| ὑπὸ ΔΕΒ, ἡ
+δὲ ὑπὸ ΓΕΒ τῆ| ὑπὸ ΑΕΔ.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig15g.pdf}}
+
+\gr{Ἐπεὶ γὰρ εὐθεῖα ἡ ΑΕ ἐπ> εὐθεῖαν τὴν ΓΔ ἐφέστηκε γωνίαξ ποιοῦσα τὰξ ὑπὸ ΓΕΑ, ΑΕΔ, αἱ >άρα ὑπὸ ΓΕΑ, ΑΕΔ γωνίαι δυσὶν
+ὀρθαῖξ >ίσαι εἰσίν. πάλιν, ἐπεὶ εὐθεῖα ἡ ΔΕ ἐπ> εὐθεῖαν
+τὴν ΑΒ ἐφέστηκε γωνίαξ ποιοῦσα τὰξ ὑπὸ ΑΕΔ, ΔΕΒ, αἱ >άρα
+ὑπὸ ΑΕΔ, ΔΕΒ γωνίαι δυσὶν ὀρθαῖξ >ίσαι εἰσίν. ἐδείθθησαν
+δὲ καὶ αἱ ὑπὸ ΓΕΑ, ΑΕΔ δυσὶν ὀρθαῖξ >ίσαι; αἱ >άρα ὑπὸ ΓΕΑ,
+ΑΕΔ ταῖξ ὑπὸ ΑΕΔ, ΔΕΒ >ίσαι εἰσίν. κοινὴ ἀφῃρήσθω ἡ ὑπὸ
+ΑΕΔ; λοιπὴ >άρα ἡ ὑπὸ ΓΕΑ λοιπῆ| τῆ| ὑπὸ ΒΕΔ >ίση ἐστίν;
+ὁμοίωξ δὴ δειθθήσεται, <ότι καὶ αἱ ὑπὸ ΓΕΒ, ΔΕΑ >ίσαι εἰσίν.}
+
+\gr{Ἐὰν >άρα δύο εὐθεῖαι τέμνωσιν ἀλλήλαξ, τὰξ κατὰ κορυφὴν γωνίαξ >ίσαξ ἀλλήλαιξ ποιοῦσιν; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 15}
+\end{center}
+
+If two straight-lines cut one another (then) they make the vertically opposite angles
+equal to one another.
+
+For let the two straight-lines $AB$ and $CD$ cut one another at the point $E$. I say
+that  angle $AEC$ is equal to (angle) $DEB$, and (angle) $CEB$ to (angle) $AED$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig15e.pdf}}
+
+For since the straight-line $AE$ stands on the straight-line $CD$, making the
+angles $CEA$ and $AED$, the (sum of the) angles $CEA$ and $AED$ is thus equal to two
+right-angles [Prop.~1.13]. Again, since the straight-line $DE$ stands on the
+straight-line $AB$, making the angles $AED$ and $DEB$, the (sum of the) angles $AED$ and
+$DEB$ is thus equal to two right-angles [Prop.~1.13]. But (the sum of) $CEA$ and $AED$ was also shown
+(to be) equal to two right-angles. Thus, (the sum of) $CEA$ and $AED$ is equal to (the sum of) $AED$ and $DEB$ [C.N.~1]. Let $AED$ be subtracted from both. Thus, the remainder
+$CEA$ is equal to the remainder $BED$ [C.N.~3]. Similarly, it can be shown that
+$CEB$ and $DEA$ are also equal.
+
+Thus, if two straight-lines cut one another (then) they make the vertically opposite angles
+equal to one another. (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.16
+%%%%%%
+\pdfbookmark[1]{Proposition 1.16}{pdf1.16}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{16}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Παντὸξ τριγώνου μιᾶξ τῶν πλευρῶν προσεκβληθείσηξ ἡ ἐκτὸξ γωνία
+ἑκατέραξ τῶν ἐντὸξ καὶ ἀπεναντίον γωνιῶν μείζων ἐστίν.}
+
+\gr{>'Εστω τρίγωνον τὸ ΑΒΓ, καὶ προσεκβεβλήσθω α\kern -.7pt  ὐτοῦ μία πλευρὰ
+ἡ ΒΓ ἐπὶ τὸ Δ; λὲγω, <ότι ἡ ἐκτὸξ γωνία ἡ ὑπὸ ΑΓΔ
+μείζων ἐστὶν ἑκατέραξ τῶν ἐντὸξ καὶ ἀπεναντίον τῶν
+ὑπὸ ΓΒΑ, ΒΑΓ γωνιῶν.}
+
+\gr{Τετμ\kern -.7pt  ήσθω ἡ ΑΓ δίθα κατὰ τὸ Ε, καὶ ἐπιζευθθεῖσα ἡ ΒΕ ἐκβεβλήσθω
+ἐπ> εὐθείαξ ἐπὶ τὸ Ζ, καὶ κείσθω τῆ| ΒΕ >ίση ἡ ΕΖ, καὶ ἐπεζεύθθω
+ἡ ΖΓ, καὶ διήθθω ἡ ΑΓ ἐπὶ τὸ Η.}\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig16g.pdf}}
+
+\gr{Ἐπεὶ ο>ῦν >ίση ἐστὶν ἡ μὲν ΑΕ τῆ| ΕΓ, ἡ δὲ ΒΕ τῆ| ΕΖ, δύο
+δὴ αἱ ΑΕ, ΕΒ δυσὶ ταῖξ ΓΕ, ΕΖ >ίσαι εἰσὶν ἑκατέρα ἑκατέρᾳ;
+καὶ γωνία ἡ ὑπὸ ΑΕΒ γωνίᾳ τῆ| ὑπὸ ΖΕΓ >ίση ἐστίν; κατὰ κορυφὴν γάρ; βάσιξ >άρα ἡ ΑΒ βάσει τῆ| ΖΓ >ίση ἐστίν, καὶ τὸ ΑΒΕ
+τρίγωνον τῶ| ΖΕΓ τριγώνῳ ἐστὶν >ίσον, καὶ αἱ λοιπαὶ
+γωνίαι ταῖξ λοιπαῖξ γωνίαιξ  >ίσαι εἰσὶν ἑκατέρα
+ ἑκατέρᾳ,
+ὑφ> <ὰξ αἱ >ίσαι πλευραὶ ὑποτείνουσιν; >ίση >άρα ἐστὶν ἡ
+ὑπὸ ΒΑΕ τῆ| ὑπὸ ΕΓΖ. μείζων δέ ἐστιν ἡ ὑπὸ ΕΓΔ τῆξ
+ὑπὸ ΕΓΖ; μείζων >άρα ἡ ὑπὸ ΑΓΔ τῆξ ὑπὸ ΒΑΕ. Ὁμοίωξ
+δὴ τῆξ ΒΓ τετμ\kern -.7pt  ημένηξ δίθα δειθθήσεται καὶ ἡ ὑπὸ ΒΓΗ, τουτέστιν
+ἡ ὑπὸ ΑΓΔ, μείζων καὶ τῆξ ὑπὸ ΑΒΓ.}
+
+\gr{Παντὸξ >άρα τριγώνου μιᾶξ τῶν πλευρῶν προσεκβληθείσηξ ἡ ἐκτὸξ γωνία
+ἑκατέραξ τῶν ἐντὸξ καὶ ἀπεναντίον γωνιῶν μείζων ἐστίν;
+<όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 16}
+\end{center}
+
+For any triangle, when one of the sides is produced, the external angle
+is greater than each of the internal and opposite angles.
+
+Let $ABC$ be a triangle, and let one of its sides $BC$ be produced 
+ to $D$. I say that the external angle $ACD$ is greater than each of the
+ internal and opposite angles, $CBA$ and $BAC$.
+ 
+ Let the (straight-line) $AC$ be cut in half at (point) $E$ [Prop.~1.10].
+ And $BE$ being joined, let it be produced in a straight-line to
+ (point) $F$.$^\dag$ And let $EF$ be made equal to $BE$ [Prop.~1.3], and let $FC$ be joined, and let $AC$ be drawn through to (point) $G$.
+ 
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig16e.pdf}}
+
+ Therefore, since $AE$ is equal to $EC$, and $BE$ to $EF$, the two (straight-lines)
+ $AE$, $EB$ are equal to the two (straight-lines) $CE$, $EF$, respectively. 
+ Also, angle $AEB$ is equal to angle $FEC$, for (they are)
+ vertically opposite [Prop.~1.15]. Thus, the base $AB$ is equal to the base
+ $FC$, and the triangle $ABE$ is equal to the triangle $FEC$, and the remaining
+ angles subtended by the equal sides are equal to the corresponding remaining angles [Prop.~1.4]. Thus, $BAE$ is equal to $ECF$. But $ECD$ is greater than $ECF$. Thus,
+ $ACD$ is greater than $BAE$. Similarly, by having cut $BC$ in half,  it can  be shown (that) $BCG$---that is to say, $ACD$---(is) also greater than $ABC$.
+ 
+ Thus, for any triangle, when one of the sides is produced, the external angle
+is greater than each of the internal and opposite angles. (Which is) the very thing
+it was required to show.}
+\end{Parallel}
+{\footnotesize
+\noindent $^\dag$  The implicit assumption that the point $F$ lies in the
+ interior of the angle $ABC$ should be counted as an additional postulate.} 
+ 
+ %%%%%%
+% Prop 1.17
+%%%%%%
+\pdfbookmark[1]{Proposition 1.17}{pdf1.17}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{17}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Παντὸνξ τριγώνου αἱ δύο γωνίαι δύο ὀρθῶν ἐλάσσονέξ εἰσι πάντῆ| μεταλαμβανόμεναι.}
+
+\gr{>'Εστω τρίγωνον τὸ ΑΒΓ; λέγω, <ότι τοῦ ΑΒΓ τριγώνου αἱ δύο γωνίαι δύο ὀρθῶν ἐλάττονέξ εἰσι πάντῃ μεταλαμβανόμεναι.}
+
+\gr{Ἐκβεβλήσθω γὰρ ἡ ΒΓ ἐπὶ τὸ Δ.}
+
+\gr{Καὶ ἐπεὶ τριγώνου τοῦ ΑΒΓ ἐκτόξ ἐστι γωνία ἡ ὑπὸ ΑΓΔ,
+μείζων ἐστὶ τῆξ ἐντὸξ καὶ ἀπεναντίον τῆξ ὑπὸ ΑΒΓ. κοινὴ
+προσκείσθω ἡ ὑπὸ ΑΓΒ; αἱ >άρα ὑπὸ ΑΓΔ, ΑΓΒ τῶν ὑπὸ ΑΒΓ,
+ΒΓΑ μείζονέξ εἰσιν. ἀλλ>  αἱ ὑπὸ ΑΓΔ, ΑΓΒ δύο ὀρθαῖξ >ίσαι εἰσίν; αἱ >άρα ὑπὸ  
+ΑΒΓ, ΒΓΑ δύο ὀρθῶν ἐλάσσονέξ εἰσιν.
+ὁμοίωξ δὴ δείχομεν, <ότι καὶ αἱ ὑπὸ ΒΑΓ, ΑΓΒ δύο
+ὀρθῶν ἐλάσσονέξ εἰσι καὶ >έτι αἱ ὑπὸ
+ΓΑΒ, ΑΒΓ.}\\~\\~\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig17g.pdf}}
+
+\gr{Παντὸνξ >άρα τριγώνου αἱ δύο γωνίαι δύο ὀρθῶν ἐλάσσονέξ εἰσι πάντῆ| μεταλαμβανόμεναι; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 17}
+\end{center}
+
+For any triangle,  (the sum of) two angles taken together in any (possible way) is less than two right-angles.
+
+Let $ABC$ be a triangle. I say that (the sum of) two angles of triangle $ABC$
+taken together in any (possible way) is less than two right-angles.
+
+For let $BC$ be produced to $D$.
+
+And since the angle $ACD$ is external to triangle $ABC$, it is greater than the
+internal and opposite angle $ABC$ [Prop.~1.16]. Let $ACB$ be added to both. Thus, the
+(sum of the angles) $ACD$ and $ACB$ is greater than the  (sum of the angles) $ABC$ and
+$BCA$. But, (the sum of) $ACD$ and $ACB$ is equal to two right-angles [Prop.~1.13].
+Thus, (the sum of) $ABC$ and $BCA$ is less than two right-angles. Similarly,
+we can show that (the sum of) $BAC$ and $ACB$ is also less than two right-angles,
+and further (that the sum of) $CAB$ and $ABC$ (is less than two right-angles).
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig17e.pdf}}
+
+Thus, for any triangle,  (the sum of) two angles taken together in any (possible way) is less than two right-angles. (Which is) the very thing
+it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.18
+%%%%%%
+\pdfbookmark[1]{Proposition 1.18}{pdf1.18}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{18}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Παντὸξ τριγώνου ἡ μείζων πλευρὰ τὴν μείζονα γωνίαν ὑποτείνει.}
+
+\gr{>'Εστω γὰρ τρίγωνον τὸ ΑΒΓ μείζονα >έθον τὴν ΑΓ πλευρὰν τῆξ
+ΑΒ; λέγω, <ότι καὶ γωνία ἡ ὑπὸ ΑΒΓ μείζων ἐστὶ τῆξ ὑπὸ ΒΓΑ.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig18g.pdf}}
+
+\gr{Ἐπεὶ γὰρ μείζων ἐστὶν ἡ ΑΓ τῆξ ΑΒ, κείσθω τῆ| ΑΒ >ίση ἡ
+ΑΔ, καὶ ἐπεζεύθθω ἡ ΒΔ.}
+
+\gr{Καὶ ἐπεὶ τριγώνου τοῦ ΒΓΔ ἐκτόξ ἐστι γωνία ἡ ὑπὸ ΑΔΒ,
+μείζων ἐστὶ τῆξ ἐντὸξ καὶ ἀπεναντίον τῆξ ὑπὸ ΔΓΒ; >ίση
+δὲ ἡ ὑπὸ ΑΔΒ τῆ| ὑπὸ ΑΒΔ, ἐπεὶ καὶ πλευρὰ ἡ ΑΒ τῆ|
+ΑΔ ἐστιν >ίση; μείζων >άρα καὶ ἡ ὑπὸ ΑΒΔ τῆξ ὑπὸ ΑΓΒ;
+πολλῶ| >άρα ἡ ὑπὸ ΑΒΓ μείζων ἐστὶ τῆξ ὑπὸ ΑΓΒ.}
+
+\gr{Παντὸξ >άρα τριγώνου ἡ μείζων πλευρὰ τὴν μείζονα γωνίαν
+ὑποτείνει; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 18}
+\end{center}
+
+In any triangle, the greater side subtends the greater angle.
+
+For let $ABC$ be a triangle having side $AC$ greater than $AB$. I say that
+angle $ABC$ is also greater than $BCA$.\\~\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig18e.pdf}}
+
+For since $AC$ is greater than $AB$, let $AD$ be made equal to $AB$
+ [Prop.~1.3],
+and let $BD$ be joined.
+
+And since angle $ADB$ is external to triangle $BCD$, it is greater than the
+internal and opposite (angle) $DCB$ [Prop.~1.16]. But $ADB$ (is) equal to $ABD$,
+since side $AB$ is also equal to side $AD$ [Prop.~1.5]. Thus,
+$ABD$ is also greater than $ACB$. Thus, $ABC$ is much greater than 
+$ACB$.
+
+Thus, in any triangle, the greater side subtends the greater angle.
+(Which is) the very thing  it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.19
+%%%%%%
+\pdfbookmark[1]{Proposition 1.19}{pdf1.19}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{19}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Παντὸξ τριγώνου ὑπὸ τὴν μείζονα γωνίαν ἡ μείζων πλευρὰ ὑποτείνει.}
+
+\gr{>'Εστω τρίγωνον τὸ ΑΒΓ  μείζονα >έθον τὴν ὑπὸ ΑΒΓ γωνίαν τῆξ ὑπὸ ΒΓΑ; λέγω, <ότι καὶ πλευρὰ ἡ ΑΓ πλευρᾶξ τῆξ ΑΒ μείζων
+ἐστίν.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig19g.pdf}}
+
+\gr{ Εἰ γὰρ μ\kern -.7pt  ή, >ήτοι >ίση ἐστὶν ἡ ΑΓ τῆ| ΑΒ >ὴ ἐλάσσων; >ίση μὲν ο>ῦν οὐκ
+>έστιν ἡ ΑΓ τῆ| ΑΒ; >ίση γὰρ >ὰν >ῆν καὶ γωνία ἡ ὑπὸ
+ΑΒΓ τῆ| ὑπὸ ΑΓΒ; οὐκ >έστι δέ; οὐκ >άρα >ίση ἐστὶν ἡ ΑΓ
+τῆ| ΑΒ. οὐδὲ μ\kern -.7pt  ὴν ἐλάσσων ἐστὶν ἡ ΑΓ τῆξ ΑΒ;
+ἐλάσσων γὰρ >ὰν >ῆν καὶ γωνία ἡ ὑπὸ ΑΒΓ τῆξ ὑπὸ
+ΑΓΒ; οὐκ >έστι δέ; οὐκ >άρα ἐλάσσων ἐστὶν ἡ ΑΓ τῆξ
+ΑΒ. ἐδείθθη δέ, <ότι οὐδὲ >ίση ἐστίν. μείζων >άρα ἐστὶν
+ἡ ΑΓ τῆξ ΑΒ.}
+
+\gr{Παντὸξ  >άρα τριγώνου ὑπὸ τὴν μείζονα γωνίαν ἡ μείζων πλευρὰ ὑποτείνει; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 19}
+\end{center}
+
+In any triangle, the greater angle is subtended by the greater side.
+
+Let $ABC$ be a triangle having the angle $ABC$ greater than $BCA$. I say
+that side $AC$ is also greater than side $AB$.\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig19e.pdf}}
+
+For if not, $AC$ is certainly either equal to, or less than, $AB$. In fact, $AC$ is not
+equal to $AB$. For then angle $ABC$  would also be equal to $ACB$ [Prop.~1.5].
+But it is not. Thus, $AC$ is not equal to $AB$.
+Neither, indeed, is $AC$ less than $AB$. For then angle $ABC$ would also be
+less than $ACB$ [Prop.~1.18]. But it is not. Thus, $AC$ is not less than
+$AB$. But it was  shown that ($AC$) is    not equal (to $AB$) either. Thus, $AC$ 
+is greater than $AB$.
+
+Thus, in any triangle, the greater angle is subtended by the greater side.
+(Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.20
+%%%%%%
+\pdfbookmark[1]{Proposition 1.20}{pdf1.20}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{20}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Παντὸξ τριγώνου αἱ δύο πλευραὶ τῆξ λοιπῆξ μείζονέξ εἰσι πάντῃ
+μεταλαμβανόμεναι.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig20g.pdf}}
+
+\gr{>'Εστω γὰρ τρίγωνον τὸ ΑΒΓ; λέγω, <ότι τοῦ ΑΒΓ τριγώνου αἱ
+δύο πλευραὶ τῆξ λοιπῆξ μείζονέξ εἰσι πάντῃ μεταλαμβανόμεναι,
+αἱ μὲν ΒΑ, ΑΓ τῆξ ΒΓ, αἱ δὲ ΑΒ, ΒΓ τῆξ ΑΓ, αἱ δὲ ΒΓ, ΓΑ
+τῆξ ΑΒ.}
+
+\gr{Διήθθω γὰρ ἡ ΒΑ ἐπὶ τὸ Δ σημεῖον, καὶ κείσθω τῆ|
+ΓΑ >ίση ἡ ΑΔ, καὶ ἐπεζεύθθω ἡ ΔΓ.}
+
+\gr{Ἐπεὶ ο>ῦν >ίση ἐστὶν ἡ ΔΑ τῆ| ΑΓ, >ίση ἐστὶ καὶ
+γωνία ἡ ὑπὸ ΑΔΓ τῆ| ὑπὸ ΑΓΔ; μείζων >άρα ἡ
+ὑπὸ ΒΓΔ τῆξ ὑπὸ ΑΔΓ; καὶ ἐπεὶ τρίγωνόν ἐστι τὸ ΔΓΒ
+μείζονα >έθον τὴν ὑπὸ ΒΓΔ γωνίαν τῆξ ὑπὸ ΒΔΓ, ὑπὸ
+δὲ τὴν μείζονα γωνίαν ἡ μείζων πλευρὰ ὑποτείνει,
+ἡ ΔΒ >άρα τῆξ ΒΓ ἐστι μείζων. >ίση δὲ ἡ ΔΑ τῆ|
+ΑΓ; μείζονεξ >άρα αἱ ΒΑ, ΑΓ τῆξ ΒΓ; ὁμοίωξ δὴ
+δείχομεν, <ότι καὶ αἱ μὲν ΑΒ, ΒΓ τῆξ ΓΑ μείζονέξ εἰσιν,
+αἱ δὲ ΒΓ, ΓΑ τῆξ ΑΒ.}
+
+\gr{Παντὸξ >άρα τριγώνου αἱ δύο πλευραὶ τῆξ λοιπῆξ μείζονέξ εἰσι πάντῃ
+μεταλαμβανόμεναι; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 20}
+\end{center}
+
+In any triangle, (the sum of) two sides taken together in any (possible way) is greater than the remaining (side).
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig20e.pdf}}
+
+For let $ABC$ be a triangle. I say that in triangle $ABC$ (the sum of) two
+sides taken together in
+any (possible way) is greater than the remaining (side). (So), (the sum of) $BA$ and $AC$ (is greater) than $BC$,
+(the sum of) $AB$ and $BC$ than $AC$, and (the sum of) $BC$ and $CA$ than $AB$.
+
+For let $BA$ be drawn through to point $D$, and let $AD$ be made equal to $CA$ [Prop.~1.3], and let $DC$ be joined.
+
+Therefore, since $DA$ is equal to $AC$, the angle $ADC$ is also equal to
+$ACD$ [Prop.~1.5]. Thus, $BCD$ is greater than $ADC$. And since
+ $DCB$ is a triangle having the angle $BCD$ greater than $BDC$, and the
+greater angle subtends the greater side [Prop.~1.19], $DB$ is thus
+greater than $BC$. But $DA$ is equal to $AC$. Thus, (the sum of) $BA$ and $AC$ is
+greater than $BC$. Similarly, we can show that (the sum of) $AB$ and $BC$ is also
+greater than $CA$, and (the sum of) $BC$ and $CA$ than $AB$.
+
+Thus, in any triangle, (the sum of) two sides taken together in any (possible way) is greater than the remaining (side). (Which is) the very thing
+it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.21
+%%%%%%
+\pdfbookmark[1]{Proposition 1.21}{pdf1.21}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{21}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐὰν τριγώνου ἐπὶ μιᾶξ τῶν πλευρῶν ἀπὸ τῶν περάτων δύο
+εὐθεῖαι ἐντὸξ συσταθῶσιν, αἱ συσταθεῖσαι τῶν λοιπῶν τοῦ
+τριγώνου δύο πλευρῶν ἐλάττονεξ μὲν >έσονται, μείζονα δὲ
+γωνίαν περιέχουσιν.}
+
+\gr{Τριγώνου γὰρ τοῦ ΑΒΓ ἐπὶ μιᾶξ τῶν πλευρῶν τῆξ ΒΓ ἀπὸ
+τῶν περάτων τῶν Β, Γ δύο εὐθεῖαι ἐντὸξ συνεστάτωσαν αἱ ΒΔ, ΔΓ;
+λέγω, <ότι αἱ ΒΔ, ΔΓ τῶν λοιπῶν τοῦ τριγώνου δύο πλευρῶν
+τῶν ΒΑ, ΑΓ ἐλάσσονεξ μέν εἰσιν, μείζονα δὲ γωνίαν περιέθουσι
+τὴν ὑπὸ ΒΔΓ τῆξ ὑπὸ ΒΑΓ.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig21g.pdf}}
+
+\gr{Διήθθω γὰρ ἡ ΒΔ ἐπὶ τὸ Ε. καὶ ἐπεὶ παντὸξ τριγώνου αἱ δύο
+πλευραὶ τῆξ λοιπῆξ μείζονέξ εἰσιν, τοῦ ΑΒΕ >άρα τριγώνου αἱ
+δύο πλευραὶ αἱ ΑΒ, ΑΕ τῆξ ΒΕ μείζονέξ εἰσιν; κοινὴ προσκείσθω
+ἡ ΕΓ; αἱ >άρα ΒΑ, ΑΓ τῶν ΒΕ, ΕΓ μείζονέξ εἰσιν. πάλιν, ἐπεὶ
+τοῦ ΓΕΔ τριγώνου αἱ δύο πλευραὶ αἱ ΓΕ, ΕΔ τῆξ ΓΔ μείζονέξ εἰσιν, κοινὴ προσκείσθω ἡ ΔΒ; αἱ ΓΕ, ΕΒ >άρα τῶν ΓΔ, ΔΒ μείζονέξ εἰσιν. 
+ἀλλὰ τῶν ΒΕ, ΕΓ μείζονεξ ἐδείθθησαν αἱ ΒΑ, ΑΓ; πολλῶ|
+>άρα αἱ ΒΑ, ΑΓ τῶν ΒΔ, ΔΓ μείζονέξ εἰσιν.}
+
+\gr{Πάλιν, ἐπεὶ παντὸξ τριγώνου ἡ ἐκτὸξ γωνία τῆξ ἐντὸξ
+καὶ ἀπεναντίον μείζων ἐστίν, τοῦ ΓΔΕ >άρα τριγώνου ἡ
+ἐκτὸξ γωνία ἡ ὑπὸ ΒΔΓ μείζων ἐστὶ τῆξ ὑπὸ ΓΕΔ. διὰ τα\kern -.7pt  ὐτὰ
+τοίνυν καὶ τοῦ ΑΒΕ τριγώνου ἡ ἐκτὸξ γωνία ἡ ὑπὸ ΓΕΒ μείζων
+ἐστὶ τῆξ ὑπὸ ΒΑΓ. ἀλλὰ τῆξ ὑπὸ ΓΕΒ μείζων ἐδείθθη ἡ
+ὑπὸ ΒΔΓ; πολλῶ| >άρα ἡ ὑπὸ ΒΔΓ μείζων ἐστὶ τῆξ
+ὑπὸ ΒΑΓ.}
+
+\gr{Ἐὰν >άρα τριγώνου ἐπὶ μιᾶξ τῶν πλευρῶν ἀπὸ τῶν περάτων δύο
+εὐθεῖαι ἐντὸξ συσταθῶσιν, αἱ συσταθεῖσαι τῶν λοιπῶν τοῦ
+τριγώνου δύο πλευρῶν ἐλάττονεξ μέν εἰσιν, μείζονα δὲ
+γωνίαν περιέθουσιν;  <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 21}
+\end{center}
+
+If two internal straight-lines are constructed on one of the sides
+of a triangle, from its ends, 
+the constructed (straight-lines) will be less than the two remaining 
+sides of the triangle, but will encompass a greater angle.
+
+For let the two internal straight-lines $BD$ and $DC$ be constructed on one of the sides $BC$ of the triangle $ABC$, from its ends $B$ and $C$ (respectively). I say that 
+$BD$ and $DC$ are less than the (sum of the) two  remaining sides of the triangle
+$BA$ and $AC$, but encompass an angle $BDC$ greater than $BAC$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig21e.pdf}}
+
+For let $BD$ be drawn through to $E$. And since in any
+triangle (the sum of any) two sides is greater than the remaining (side) [Prop.~1.20],
+ in triangle $ABE$ the  (sum of the) two sides $AB$ and $AE$ is thus  greater than
+$BE$. Let $EC$ be added to both. Thus, (the sum of) $BA$ and $AC$ is greater
+than (the sum of) $BE$ and $EC$.  Again, since in triangle $CED$ the (sum of the) two sides $CE$ and $ED$
+is  greater than $CD$, let $DB$ be added to both. Thus, 
+(the sum of) $CE$ and $EB$ is greater than  (the sum of) $CD$ and $DB$. But, (the sum of) $BA$ and $AC$ was shown
+(to be) greater than (the sum of) $BE$
+ and $EC$. Thus, (the sum of) $BA$ and $AC$ is much greater than
+(the sum of) $BD$ and $DC$.
+
+Again, since in any  triangle the external angle 
+is greater than the internal and opposite (angles) [Prop. 1.16],
+ in triangle $CDE$ the external angle $BDC$ is thus greater
+than $CED$.  Accordingly, for the same (reason),  the external angle $CEB$ of the
+triangle $ABE$ is also greater than $BAC$. But, $BDC$ was shown (to be) 
+greater
+than $CEB$. Thus, $BDC$ is much greater than $BAC$.
+
+Thus, if two internal straight-lines are constructed on one of the sides
+of a triangle, from its ends, 
+the constructed (straight-lines) are less than the two remaining 
+sides of the triangle, but  encompass a greater angle. (Which is) the
+very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.22
+%%%%%%
+\pdfbookmark[1]{Proposition 1.22}{pdf1.22}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{22}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐκ τριῶν εὐθειῶν, α<ί εἰσιν >ίσαι τρισὶ ταῖξ δοθείσαιξ [εὐθείαιξ], τρίγωνον συστήσασθαι; δεῖ δὲ τὰξ δύο τῆξ λοιπῆξ μείζοναξ ε>ῖναι
+πάντῃ μεταλαμβανομέναξ [διὰ τὸ καὶ παντὸξ τριγώνου τὰξ δύο πλευρὰξ τῆξ λοιπῆξ μείζοναξ ε>ῖναι πάντῃ μεταλαμβανομέναξ].}\\~\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig22g.pdf}}
+
+\gr{>'Εστωσαν αἱ δοθεῖσαι τρεῖξ εὐθεῖαι αἱ Α, Β, Γ, <ῶν αἱ δύο τῆξ
+λοιπῆξ μείζονεξ >έστωσαν πάντῃ μεταλαμβανόμεναι, αἱ μὲν Α, Β
+τῆξ Γ, αἱ δὲ Α, Γ τῆξ Β, καὶ >έτι αἱ Β, Γ τῆξ Α; δεῖ δὴ ἐκ
+τῶν >ίσων ταῖξ Α, Β, Γ τρίγωνον συστήσασθαι.}
+
+\gr{Ἐκκείσθω τιξ εὐθεῖα ἡ ΔΕ πεπερασμένη μὲν κατὰ τὸ Δ >άπειροξ
+δὲ κατὰ τὸ Ε, καὶ κείσθω τῆ| μὲν Α >ίση ἡ ΔΖ, τῆ| δὲ Β >ίση ἡ ΖΗ, τῆ| δὲ Γ >ίση ἡ ΗΘ; καὶ κέντρῳ μὲν τῶ| Ζ, διαστήματι δὲ τῶ|
+ΖΔ κύκλοξ γεγράφθω ὁ ΔΚΛ; πάλιν κέντρῳ μὲν τῶ| Η, διαστήματι δὲ τῶ| ΗΘ κύκλοξ γεγράφθω ὁ ΚΛΘ, καὶ ἐπεζεύθθωσαν αἱ ΚΖ, ΚΗ; λέγω,
+<ότι ἐκ τριῶν εὐθειῶν τῶν >ίσων ταῖξ Α, Β, Γ τρίγωνον συνέσταται τὸ ΚΖΗ.}
+
+\gr{Ἐπεὶ γὰρ τὸ Ζ σημεῖον κέντρον ἐστὶ τοῦ ΔΚΛ κύκλου, >ίση ἐστὶν ἡ ΖΔ τῆ| ΖΚ; ἀλλὰ ἡ ΖΔ τῆ| Α ἐστιν >ίση. καὶ ἡ ΚΖ >άρα τῆ| 
+Α ἐστιν >ίση. πάλιν, ἐπεὶ τὸ Η σημεῖον κέντρον ἐστὶ τοῦ ΛΚΘ
+κύκλου, >ίση ἐστὶν ἡ ΗΘ τῆ| ΗΚ; ἀλλὰ ἡ ΗΘ τῆ| Γ ἐστιν >ίση;
+καὶ ἡ ΚΗ >άρα τῆ| Γ ἐστιν >ίση. ἐστὶ δὲ καὶ ἡ ΖΗ τῆ| Β >ίση;
+αἱ τρεῖξ >άρα εὐθεῖαι αἱ ΚΖ, ΖΗ, ΗΚ τρισὶ ταῖξ Α, Β, Γ >ίσαι εἰσίν.}
+
+\gr{Ἐκ τριῶν >άρα εὐθειῶν τῶν ΚΖ, ΖΗ, ΗΚ, α<ί εἰσιν >ίσαι τρισὶ ταῖξ δοθείσαιξ εὐθείαιξ ταῖξ Α, Β, Γ, τρίγωνον συνέσταται τὸ ΚΖΗ; <όπερ >έδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 22}
+\end{center}
+
+To construct a triangle from three straight-lines which are equal to three given [straight-lines]. It is necessary for (the sum of) two (of the straight-lines) taken together in any (possible way) to be greater than the remaining (one), [on account of the (fact that)
+ in any triangle (the sum of) two sides taken together in any (possible way) is greater than the remaining (one) [Prop.~1.20]\,].
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig22e.pdf}}
+
+Let $A$, $B$, and $C$ be the three given straight-lines, of which let (the sum of) two taken together in any (possible way)
+be greater than the remaining (one). (Thus), (the sum of) $A$ and $B$ (is greater) than $C$, (the sum of) $A$ and $C$ than $B$,
+and also (the sum of) $B$ and $C$ than $A$. So it is required to construct a triangle
+from (straight-lines) equal to $A$, $B$, and $C$.
+
+Let some straight-line $DE$ be set out, terminated at $D$, and infinite in the
+direction of $E$.  And let $DF$ made equal to $A$, and $FG$
+equal to $B$, and $GH$ equal to $C$ [Prop.~1.3]. And let the
+circle $DKL$ be drawn with center $F$ and radius $FD$. Again,
+let the circle $KLH$ be drawn with center $G$ and radius $GH$. And
+let $KF$ and $KG$ be joined. I say that the triangle $KFG$ has been
+constructed from three straight-lines equal to $A$, $B$, and $C$.
+
+For since point $F$ is the center of the circle $DKL$, $FD$ is equal to $FK$.
+But, $FD$ is equal to $A$. Thus, $KF$ is also equal to $A$. Again, since point
+$G$ is the center of the circle $LKH$, $GH$ is equal to $GK$. But, $GH$ is equal
+to $C$. Thus, $KG$ is also equal to $C$. And $FG$ is also equal to $B$. Thus,
+the three straight-lines $KF$, $FG$, and $GK$ are equal to $A$, $B$, and $C$ (respectively).
+
+Thus, the triangle $KFG$ has been constructed from the three straight-lines
+$KF$, $FG$, and $GK$, which are equal to the three given straight-lines
+$A$, $B$, and $C$ (respectively). (Which is) the very thing it was required
+to do.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.23
+%%%%%%
+\pdfbookmark[1]{Proposition 1.23}{pdf1.23}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{23}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Πρὸξ τῆ| δοθείσῃ εὐθείᾳ καὶ τῶ| πρὸξ α\kern -.7pt  ὐτῆ| σημείῳ τῆ| δοθείσῃ
+γωνίᾳ εὐθυγράμμῳ >ίσην γωνίαν εὐθύγραμμον συστήσασθαι.}
+
+\gr{>'Εστω ἡ μὲν δοθεῖσα εὐθεῖα ἡ ΑΒ, τὸ δὲ πρὸξ α\kern -.7pt  ὐτῆ| σημεῖον τὸ
+Α, ἡ δὲ δοθεῖσα γωνία εὐθύγραμμοξ ἡ ὑπὸ ΔΓΕ; δεῖ δὴ πρὸξ
+τῆ| δοθείσῃ εὐθείᾳ τῆ| ΑΒ καὶ τῶ| πρὸξ α\kern -.7pt  ὐτῆ| σημείῳ τῶ| Α
+τῆ| δοθείσῃ γωνίᾳ εὐθυγράμμῳ τῆ| ὑπὸ ΔΓΕ >ίσην γωνίαν εὐθύγραμμον συστήσασθαι.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig23g.pdf}}
+
+\gr{Εἰλήφθω ἐφ> ἑκατέραξ τῶν ΓΔ, ΓΕ τυθόντα σημεῖα τὰ Δ, Ε, καὶ
+ἐπεζεύθθω ἡ ΔΕ; καὶ ἐκ τριῶν εὐθειῶν, α<ί εἰσιν >ίσαι τρισὶ ταῖξ
+ΓΔ, ΔΕ, ΓΕ, τρίγωνον συνεστάτω τὸ ΑΖΗ, <ώστε >ίσην ε>ῖναι τὴν
+μὲν ΓΔ τῆ| ΑΖ, τὴν δὲ ΓΕ τῆ| ΑΗ, καὶ >έτι τὴν ΔΕ τῆ| ΖΗ.}
+
+\gr{Ἐπεὶ ο>ῦν δύο αἱ ΔΓ, ΓΕ δύο ταῖξ ΖΑ, ΑΗ >ίσαι εἰσὶν ἑκατέρα ἑκατέρᾳ, καὶ βάσιξ ἡ ΔΕ βάσει τῆ| ΖΗ >ίση, γωνία >άρα ἡ ὑπὸ
+ΔΓΕ γωνίᾳ τῆ| ὑπὸ ΖΑΗ ἐστιν >ίση.}
+
+\gr{Πρὸξ >άρα τῆ| δοθείσῃ εὐθείᾳ τῆ| ΑΒ καὶ τῶ| πρὸξ α\kern -.7pt  ὐτῆ| σημείῳ
+τῶ| Α τῆ| δοθείσῃ γωνίᾳ εὐθυγράμμῳ τῆ| ὑπὸ ΔΓΕ >ίση γωνία εὐθύγραμμοξ συνέσταται ἡ ὑπὸ ΖΑΗ; <όπερ >έδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 23}
+\end{center}
+
+To construct a rectilinear angle equal to a given rectilinear angle at a (given)
+point on a given straight-line.
+
+Let $AB$ be the given straight-line,  $A$ the (given) point on it, and 
+$DCE$ the given rectilinear angle. So it is required to construct a rectilinear
+angle equal to the given rectilinear angle $DCE$ at the (given) point
+$A$ on the given straight-line
+$AB$.\\~\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig23e.pdf}}
+
+Let the points $D$ and $E$ be taken at random on each
+of the (straight-lines) $CD$ and $CE$ (respectively), and let $DE$ be joined.
+And let the triangle $AFG$ be constructed from three straight-lines
+which are equal to $CD$, $DE$, and $CE$, such that $CD$ is equal to $AF$,
+$CE$ to $AG$, and further $DE$ to $FG$ [Prop.~1.22].
+
+Therefore, since the two (straight-lines) $DC$, $CE$ are equal to the
+two (straight-lines) $FA$, $AG$, respectively, and the base $DE$ is equal to
+the base $FG$, the angle $DCE$ is thus equal to the angle $FAG$ [Prop.~1.8].
+
+Thus, the rectilinear angle $FAG$,  equal to the  given
+rectilinear angle $DCE$, has been constructed at the (given) point $A$ on the given straight-line $AB$.
+(Which is) the very thing it was required to do.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.24
+%%%%%%
+\pdfbookmark[1]{Proposition 1.24}{pdf1.24}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large\ggn{24}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐὰν δύο τρίγωνα τὰξ δύο πλευρὰξ [ταῖξ] δύο πλευραῖξ >ίσαξ >έθῃ ἑκατέραν
+ἑκατέρᾳ, τὴν δὲ γωνίαν τῆξ γωνίαξ μείζονα >έθῃ τὴν ὑπὸ τῶν >ίσων εὐθειῶν περιεθομένην, καὶ τὴν βάσιν τῆξ βάσεωξ μείζονα <έχει.}
+
+\gr{>'Εστω δύο τρίγωνα τὰ ΑΒΓ, ΔΕΖ τὰξ δύο πλευρὰξ τὰξ ΑΒ, ΑΓ ταῖξ δύο πλευραῖξ ταῖξ ΔΕ, ΔΖ >ίσαξ >έθοντα ἑκατέραν ἑκατέρᾳ, τὴν μὲν ΑΒ τῆ| ΔΕ τὴν δὲ ΑΓ τῆ| ΔΖ, ἡ δὲ πρὸξ τῶ| Α γωνία τῆξ πρὸξ τῶ| Δ γωνίαξ μείζων >έστω; λέγω, <ότι καὶ βάσιξ ἡ ΒΓ βάσεωξ τῆξ ΕΖ μείζων ἐστίν.}
+
+\gr{Ἐπεὶ γὰρ μείζων ἡ ὑπὸ ΒΑΓ γωνία τῆξ ὑπὸ ΕΔΖ γωνίαξ, συνεστάτω πρὸξ τῆ| ΔΕ εὐθείᾳ καὶ τῶ| πρὸξ α\kern -.7pt  ὐτῆ| σημείῳ τῶ| Δ τῆ| ὑπὸ ΒΑΓ γωνίᾳ >ίση ἡ ὑπὸ ΕΔΗ, καὶ κείσθω ὁποτέρᾳ τῶν ΑΓ, ΔΖ >ίση ἡ ΔΗ, καὶ ἐπεζεύθθωσαν αἱ ΕΗ, ΖΗ.}\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig24g.pdf}}
+
+\gr{Ἐπεὶ ο>ῦν >ίση ἐστὶν ἡ μὲν ΑΒ τῆ| ΔΕ, ἡ δὲ ΑΓ τῆ| ΔΗ, δύο
+δὴ αἱ ΒΑ, ΑΓ δυσὶ ταῖξ ΕΔ, ΔΗ >ίσαι εἰσὶν ἑκατέρα ἑκατέρᾳ;
+καὶ γωνία ἡ ὑπὸ ΒΑΓ γωνίᾳ τῆ| ὑπὸ ΕΔΗ >ίση; βάσιξ >άρα ἡ ΒΓ βάσει τῆ| ΕΗ ἐστιν >ίση.  πάλιν, ἐπεὶ >ίση ἐστὶν ἡ ΔΖ τῆ| ΔΗ, >ίση ἐστὶ καὶ ἡ
+ὑπὸ ΔΗΖ γωνία τῆ| ὑπὸ ΔΖΗ; μείζων >άρα ἡ ὑπὸ ΔΖΗ τῆξ ὑπὸ ΕΗΖ; πολλῶ| >άρα μείζων ἐστὶν ἡ ὑπὸ ΕΖΗ τῆξ ὑπὸ ΕΗΖ.
+καὶ ἐπεὶ τρίγωνόν ἐστι τὸ ΕΖΗ μείζονα >έθον τὴν ὑπὸ ΕΖΗ γωνίαν τῆξ ὑπὸ ΕΗΖ, ὑπὸ δὲ τὴν μείζονα γωνίαν ἡ μείζων πλευρὰ ὑποτείνει, μείζων >άρα καὶ πλευρὰ ἡ ΕΗ τῆξ ΕΖ. >ίση δὲ ἡ ΕΗ τῆ|
+ΒΓ; μείζων >άρα καὶ ἡ ΒΓ τῆξ ΕΖ.}
+
+\gr{Ἐὰν >άρα δύο τρίγωνα τὰξ δύο πλευρὰξ δυσὶ πλευραῖξ >ίσαξ >έθῃ ἑκατέραν
+ἑκατέρᾳ, τὴν δὲ γωνίαν τῆξ γωνίαξ μείζονα >έθῃ τὴν ὑπὸ τῶν 
+>ίσων εὐθειῶν περιεθομένην, καὶ τὴν βάσιν τῆξ βάσεωξ μείζονα <έχει; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 24}
+\end{center}
+
+If two triangles have two sides equal to two sides, respectively,
+but (one) has the angle encompassed by the equal straight-lines greater than the (corresponding)
+angle (in the other),  (then the former triangle) will also have a base greater than the base (of the latter).
+
+Let  $ABC$ and $DEF$ be two triangles having the two sides $AB$ and $AC$
+equal to the two sides $DE$ and $DF$, respectively. (That is), $AB$ (equal) to $DE$, and
+$AC$ to $DF$.  Let them also have the angle at $A$ greater than the angle at $D$.
+I say that the base $BC$ is also greater than the base $EF$.
+
+For since angle $BAC$ is greater than angle $EDF$, let (angle) $EDG$, equal to
+angle $BAC$,  be constructed at  the point $D$ on the straight-line $DE$ [Prop.~1.23]. And let $DG$ be made equal to either of $AC$ or $DF$ [Prop.~1.3], and let $EG$ and $FG$ be joined.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig24e.pdf}}
+
+Therefore, since $AB$ is equal to $DE$ and $AC$ to $DG$, the two (straight-lines)
+$BA$, $AC$ are equal to the two (straight-lines) $ED$, $DG$, respectively.
+Also the angle $BAC$ is equal to the angle $EDG$. Thus, the base $BC$ is equal
+to the base $EG$ [Prop.~1.4]. Again, since $DF$ is equal to $DG$, angle $DGF$
+is also equal to angle $DFG$ [Prop.~1.5]. Thus, $DFG$ (is) greater than $EGF$.
+Thus, $EFG$ is much greater than $EGF$. And since triangle $EFG$ has angle $EFG$
+greater than $EGF$, and the greater angle is subtended by the greater side [Prop.~1.19], side $EG$ (is) thus also greater than $EF$. But $EG$ (is) equal to
+$BC$. Thus, $BC$ (is) also greater than $EF$.
+
+Thus, if two triangles have two sides equal to two sides, respectively,
+but (one) has the angle encompassed by the equal straight-lines greater than the 
+(corresponding) angle (in the other), (then the former triangle) will also have a base greater than the base (of the latter).
+(Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.25
+%%%%%%
+\pdfbookmark[1]{Proposition 1.25}{pdf1.25}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{25}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐὰν δύο τρίγωνα τὰξ δύο πλευρὰξ δυσὶ πλευραῖξ >ίσαξ >έθῃ ἑκατέραν ἑκατέρᾳ, τὴν δὲ βάσιν τῆξ βάσεωξ μείζονα >έθῃ, καὶ τὴν γωνίαν τῆξ γωνίαξ μείζονα <έχει τὴν ὑπὸ τῶν >ίσων εὐθειῶν περιεθομένην.}
+
+\gr{>'Εστω δύο τρίγωνα τὰ ΑΒΓ, ΔΕΖ τὰξ δύο πλευρὰξ τὰξ ΑΒ, ΑΓ ταῖξ δύο πλευραῖξ ταῖξ ΔΕ, ΔΖ >ίσαξ >έθοντα ἑκατέραν ἑκατέρᾳ, τὴν μὲν ΑΒ
+τῆ| ΔΕ, τὴν δὲ ΑΓ τῆ| ΔΖ; βάσιξ δὲ ἡ ΒΓ βάσεωξ τῆξ ΕΖ μείζων >έστω; λέγω, <ότι καὶ γωνία ἡ ὑπὸ ΒΑΓ γωνίαξ τῆξ ὑπὸ ΕΔΖ μείζων ἐστίν.}
+
+\gr{Εἰ γὰρ μ\kern -.7pt  ή, >ήτοι >ίση ἐστὶν α\kern -.7pt  ὐτῆ| >ὴ ἐλάσσων; >ίση μὲν ο>ῦν οὐκ >έστιν ἡ ὑπὸ ΒΑΓ τῆ| ὑπὸ ΕΔΖ; >ίση γὰρ >ὰν >ῆν καὶ βάσιξ ἡ ΒΓ βάσει τῆ| ΕΖ; οὐκ >έστι δέ. οὐκ >άρα >ίση ἐστὶ γωνία ἡ ὑπὸ ΒΑΓ τῆ| ὑπὸ ΕΔΖ; οὐδὲ μ\kern -.5pt  ὴν ἐλάσσων ἐστὶν ἡ ὑπὸ ΒΑΓ τῆξ ὑπὸ ΕΔΖ; ἐλάσσων γὰρ >ὰν >ῆν καὶ βάσιξ ἡ ΒΓ βάσεωξ τῆξ ΕΖ; οὐκ >έστι δέ; οὐκ >άρα ἐλάσσων ἐστὶν ἡ ὑπὸ ΒΑΓ γωνία τῆξ ὑπὸ ΕΔΖ. ἐδείθθη δέ, <ότι οὐδὲ >ίση; μείζων >άρα ἐστὶν ἡ ὑπὸ ΒΑΓ τῆξ ὑπὸ ΕΔΖ.}\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig25g.pdf}}
+
+\gr{Ἐὰν >άρα δύο τρίγωνα τὰξ δύο πλευρὰξ δυσὶ πλευραῖξ >ίσαξ >έθῃ ἑκατέραν ἑκάτερᾳ, τὴν δὲ βασίν τῆξ βάσεωξ μείζονα >έθῃ, καὶ τὴν γωνίαν τῆξ γωνίαξ μείζονα <έχει τὴν ὑπὸ τῶν >ίσων εὐθειῶν περιεθομένην; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 25}
+\end{center}
+
+If two triangles have two sides equal to two sides, respectively,
+but (one) has a base greater than the base (of the other), (then the former triangle) will also have the angle encompassed by the equal straight-lines greater than the (corresponding) angle (in the latter).
+
+Let $ABC$ and $DEF$ be  two triangles having the two sides $AB$ and $AC$
+equal to the two sides $DE$ and $DF$, respectively (That is), $AB$ (equal) to $DE$, and $AC$ to $DF$. And let the base $BC$ be greater than the base $EF$. I say that angle
+$BAC$ is also greater than $EDF$.
+
+For if not, ($BAC$) is certainly either equal to, or less than, ($EDF$). In fact, $BAC$ is not equal to
+$EDF$. For then the base $BC$ would also be equal to the base $EF$ [Prop.~1.4]. But it is not.
+Thus, angle $BAC$ is not equal to $EDF$. Neither, indeed, is $BAC$ less
+than $EDF$. For then the base $BC$ would also be less than the base $EF$ [Prop.~1.24].
+But it is not. Thus, angle $BAC$ is not less than $EDF$. But it was  shown
+that ($BAC$ is) not equal (to $EDF$) either. Thus, $BAC$ is greater than $EDF$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig25e.pdf}}
+
+Thus, if two triangles have two sides equal to two sides, respectively,
+but (one) has a base greater than the base (of the other), (then the former triangle) will also have the angle encompassed by the equal straight-lines greater than the (corresponding) angle (in the latter). (Which is) the
+very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.26
+%%%%%%
+\pdfbookmark[1]{Proposition 1.26}{pdf1.26}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{26}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐὰν δύο τρίγωνα τὰξ δύο γωνίαξ δυσὶ γωνίαιξ >ίσαξ >έθῃ ἑκατέραν
+ἑκατέρᾳ καὶ μίαν πλευρὰν μιᾶ| πλευρᾶ| >ίσην >ήτοι τὴν πρὸξ ταῖξ >ίσαιξ γωνίαιξ >ὴ τὴν ὑποτείνουσαν ὑπὸ μίαν τῶν >ίσων γωνιῶν, καὶ τὰξ λοιπὰξ πλευρὰξ ταῖξ λοιπαῖξ πλευραῖξ >ίσαξ <έχει [ἑκατέραν
+ἑκατέρᾳ] καὶ τὴν λοιπὴν γωνίαν τῆ| λοιπῆ| γωνίᾳ.}
+
+\gr{>'Εστω δύο τρίγωνα τὰ ΑΒΓ, ΔΕΖ τὰξ δύο γωνίαξ τὰξ ὑπὸ ΑΒΓ, ΒΓΑ δυσὶ ταῖξ ὑπὸ ΔΕΖ, ΕΖΔ >ίσαξ >έθοντα ἑκατέραν ἑκατέρᾳ, τὴν μὲν ὑπὸ ΑΒΓ τῆ| ὑπὸ ΔΕΖ, τὴν δὲ ὑπὸ ΒΓΑ τῆ| ὑπὸ ΕΖΔ; ἐθέτω δὲ καὶ μίαν πλευρὰν μιᾶ| πλευρᾶ| >ίσην, πρότερον τὴν πρὸξ ταῖξ >ίσαιξ γωνίαιξ τὴν ΒΓ τῆ| ΕΖ; λέγω, <ότι καὶ τὰξ λοιπὰξ πλευρὰξ ταῖξ λοιπαῖξ πλευραῖξ >ίσαξ <έχει ἑκατέραν ἑκατέρᾳ, τὴν μὲν ΑΒ τῆ| ΔΕ τὴν δὲ ΑΓ τῆ| ΔΖ, καὶ τὴν λοιπὴν γωνίαν τῆ| λοιπῆ| γωνίᾳ, τὴν ὑπὸ ΒΑΓ τῆ| ὑπὸ ΕΔΖ.}
+
+\gr{Εἰ γὰρ >άνισόξ ἐστιν ἡ ΑΒ τῆ| ΔΕ, μία α\kern -.7pt  ὐτῶν μείζων ἐστίν.
+>έστω μείζων ἡ ΑΒ, καὶ κείσθω τῆ| ΔΕ >ίση ἡ ΒΗ, καὶ ἐπεζεύθθω ἡ ΗΓ.}
+
+\gr{Ἐπεὶ ο>ῦν >ίση ἐστὶν ἡ μὲν ΒΗ τῆ| ΔΕ, ἡ δὲ ΒΓ τῆ| ΕΖ, δύο δὴ αἱ ΒΗ, ΒΓ δυσὶ ταῖξ ΔΕ, ΕΖ >ίσαι εἰσὶν ἑκατέρα ἑκατέρᾳ; καὶ γωνία ἡ ὑπὸ ΗΒΓ γωνίᾳ τῆ| ὑπὸ ΔΕΖ >ίση ἐστίν; βάσιξ >άρα ἡ ΗΓ βάσει τῆ| ΔΖ >ίση ἐστίν, καὶ τὸ ΗΒΓ τρίγωνον τῶ| ΔΕΖ τριγώνῳ >ίσον ἐστίν, καὶ αἱ λοιπαὶ γωνίαι ταῖξ λοιπαῖξ γωνίαιξ >ίσαι >έσονται, ὑφ> <ὰξ αἱ >ίσαι πλευραὶ ὑποτείνουσιν; >ίση >άρα ἡ ὑπὸ ΗΓΒ γωνία τῆ| ὑπὸ ΔΖΕ. ἀλλὰ ἡ ὑπὸ ΔΖΕ τῆ| ὑπὸ ΒΓΑ ὑπόκειται >ίση;
+καὶ ἡ ὑπὸ ΒΓΗ >άρα τῆ| ὑπὸ ΒΓΑ >ίση ἐστίν, ἡ ἐλάσσων
+τῆ| μείζονι; <όπερ ἀδύνατον. οὐκ >άρα >άνισόξ ἐστιν ἡ ΑΒ τῆ| ΔΕ.
+>ίση >άρα. >έστι δὲ καὶ ἡ ΒΓ τῆ| ΕΖ >ίση; δύο δὴ αἱ ΑΒ, ΒΓ δυσὶ ταῖξ ΔΕ, ΕΖ >ίσαι εἰσὶν ἑκατέρα ἑκατέρᾳ; καὶ γωνία ἡ ὑπὸ ΑΒΓ
+γωνίᾳ τῆ| ὑπὸ ΔΕΖ ἐστιν >ίση; βάσιξ >άρα ἡ ΑΓ βάσει τῆ| ΔΖ >ίση ἐστίν, καὶ λοιπὴ γωνία ἡ ὑπὸ ΒΑΓ τῆ| λοιπῆ| γωνίᾳ τῆ| ὑπὸ ΕΔΖ >ίση ἐστίν.}\\~\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig26g.pdf}}
+
+\gr{Ἀλλὰ δὴ πάλιν >έστωσαν αἱ ὑπὸ τὰξ >ίσαξ γωνίαξ πλευραὶ ὑποτείνουσαι >ίσαι, ὡξ ἡ ΑΒ τῆ| ΔΕ; λέγω πάλιν, <ότι καὶ αἱ λοιπαὶ πλευραὶ ταῖξ λοιπαῖξ πλευραῖξ >ίσαι >έσονται, ἡ μὲν ΑΓ τῆ| ΔΖ, ἡ δὲ ΒΓ τῆ| ΕΖ καὶ >έτι ἡ λοιπὴ γωνία ἡ ὑπὸ ΒΑΓ τῆ| λοιπῆ| γωνίᾳ τῆ| ὑπὸ ΕΔΖ >ίση ἐστίν.}
+
+\gr{Εἰ γὰρ >άνισόξ ἐστιν ἡ ΒΓ τῆ| ΕΖ, μία α\kern -.7pt  ὐτῶν μείζων ἐστίν. >έστω μείζων, εἰ δυνατόν, ἡ ΒΓ, καὶ κείσθω τῆ| ΕΖ >ίση ἡ ΒΘ, καὶ ἐπεζεύθθω ἡ ΑΘ. καὶ ἐπὲι >ίση ἐστὶν ἡ μὲν ΒΘ τῆ| ΕΖ ἡ δὲ ΑΒ τῆ| ΔΕ, δύο δὴ αἱ ΑΒ, ΒΘ δυσὶ ταῖξ ΔΕ, ΕΖ >ίσαι εἰσὶν ἑκατέρα ἑκαρέρᾳ; καὶ γωνίαξ >ίσαξ περιέθουσιν; βάσιξ >άρα ἡ ΑΘ βάσει τῆ| ΔΖ >ίση ἐστίν, καὶ τὸ ΑΒΘ τρίγωνον τῶ| ΔΕΖ τριγώνῳ >ίσον ἐστίν, καὶ αἱ λοιπαὶ γωνίαι ταῖξ λοιπαῖξ γωνίαιξ >ίσαι >έσονται, ὑφ> <ὰξ αἱ >ίσαξ πλευραὶ ὑποτείνουσιν;
+ >ίση >άρα ἐστὶν ἡ ὑπὸ ΒΘΑ γωνία τῆ| ὑπὸ ΕΖΔ.
+ἀλλὰ ἡ ὑπὸ ΕΖΔ τῆ| ὑπὸ ΒΓΑ ἐστιν >ίση; τριγώνου δὴ τοῦ ΑΘΓ ἡ ἐκτὸξ γωνία ἡ ὑπὸ ΒΘΑ >ίση ἐστὶ τῆ| ἐντὸξ καὶ ἀπεναντίον
+τῆ| ὑπὸ ΒΓΑ; <όπερ ἀδύνατον. οὐκ >άρα >άνισόξ ἐστιν ἡ ΒΓ τῆ| ΕΖ; >ίση >άρα. ἐστὶ δὲ καὶ ἡ ΑΒ τῆ| ΔΕ >ίση. δύο δὴ αἱ ΑΒ, ΒΓ δύο ταῖξ ΔΕ, ΕΖ >ίσαι εἰσὶν ἑκατέρα ἑκατέρᾳ; καὶ γωνίαξ >ίσαξ περιέθουσι; βάσιξ >άρα ἡ ΑΓ βάσει τῆ| ΔΖ >ίση ἐστίν, καὶ τὸ ΑΒΓ τρίγωνον τῶ| ΔΕΖ τριγώνῳ >ίσον καὶ λοιπὴ γωνία ἡ ὑπὸ ΒΑΓ τῆ| λοιπὴ| γωνίᾳ τῆ| ὑπὸ ΕΔΖ >ίση.}
+
+\gr{Ἐὰν >άρα δύο τρίγωνα τὰξ δύο γωνίαξ δυσὶ γωνίαιξ >ίσαξ >έθῃ ἑκατέραν
+ἑκατέρᾳ καὶ μίαν πλευρὰν μιᾶ| πλευρᾶ| >ίσην >ήτοι τὴν πρὸξ ταῖξ >ίσαιξ γωνίαιξ, >ὴ τὴν ὑποτείνουσαν ὑπὸ μίαν τῶν >ίσων γωνιῶν, καὶ τὰξ λοιπὰξ πλευρὰξ ταῖξ λοιπαῖξ πλευραῖξ >ίσαξ <έχει 
+καὶ τὴν λοιπὴν γωνίαν τῆ| λοιπῆ| γωνίᾳ; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 26}
+\end{center}
+
+If  two triangles have two angles equal to two angles, respectively, 
+and one side equal to one side---in fact, either that by the equal angles, or that
+subtending one of the equal angles---(then the triangles) will also have the remaining
+sides equal to the [corresponding] remaining sides, and the
+remaining angle (equal) to the remaining angle.
+
+Let $ABC$ and $DEF$ be two triangles having the two angles $ABC$ and
+$BCA$ equal to the two (angles) $DEF$ and $EFD$, respectively.
+(That is) $ABC$ (equal) to $DEF$, and $BCA$ to $EFD$. And let them also have
+one side equal to one side. First of all, the (side) by the equal angles. (That is)
+$BC$ (equal) to $EF$. I say that they will have the  remaining sides equal to the
+corresponding remaining sides. (That is) $AB$ (equal) to $DE$, and $AC$ to
+$DF$. And (they will have) the remaining angle (equal) to the remaining angle.
+(That is) $BAC$ (equal) to $EDF$.
+
+For if $AB$ is unequal to $DE$ (then) one of them is greater. Let $AB$ be greater,
+and let $BG$ be made equal to $DE$ [Prop.~1.3], and let $GC$ be
+joined.
+
+Therefore, since $BG$ is equal to $DE$, and $BC$ to $EF$, the two (straight-lines)
+$GB$, $BC$$^\dag$ are equal to the two (straight-lines) $DE$, $EF$, respectively. And angle
+$GBC$ is equal to angle $DEF$. Thus, the base $GC$ is equal to the base $DF$,
+and triangle $GBC$ is equal to triangle $DEF$, and the remaining angles 
+subtended by the equal sides will
+be equal to the (corresponding) remaining angles [Prop.~1.4].
+Thus, $GCB$ (is equal) to $DFE$. But,  $DFE$ was assumed (to be) equal to $BCA$.
+Thus, $BCG$ is also equal to $BCA$, the lesser to the greater. The very thing (is) impossible. Thus, $AB$ is not unequal to $DE$. Thus, (it is) equal. And $BC$ is
+also equal to $EF$. So the two (straight-lines) $AB$, $BC$ are equal to the two (straight-lines) $DE$, $EF$, respectively. And angle $ABC$ is equal to
+angle $DEF$. Thus, the base $AC$ is equal to the base $DF$, and the remaining
+angle $BAC$ is equal to the remaining angle $EDF$ [Prop.~1.4].
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig26e.pdf}}
+
+But, again, let the sides subtending the equal angles be equal: for instance, 
+(let) $AB$ (be equal) to
+$DE$.  Again, I say that the remaining sides will be equal to the remaining
+sides. (That is) $AC$ (equal) to $DF$, and $BC$ to $EF$. Furthermore, the remaining angle
+$BAC$ is equal to the remaining angle $EDF$.
+
+For if $BC$ is unequal to $EF$ (then) one of them is greater. If possible, let $BC$
+be greater. And let $BH$ be made equal to $EF$ [Prop.~1.3], and let $AH$ be joined.
+And since $BH$ is equal to $EF$, and $AB$ to $DE$, the two (straight-lines) $AB$, $BH$
+are equal to the two (straight-lines) $DE$, $EF$, respectively. And the angles
+they encompass (are also equal). Thus, the base $AH$ is equal to the base  
+$DF$, and the triangle $ABH$ is equal to the triangle $DEF$, and the
+remaining angles subtended by the equal sides will be equal to the
+(corresponding) remaining angles [Prop.~1.4]. Thus, angle $BHA$ 
+is equal to $EFD$. But, $EFD$ is equal to $BCA$. So, in triangle $AHC$,
+the external angle $BHA$ is equal to the internal and opposite angle 
+$BCA$. The very thing (is) impossible [Prop.~1.16]. Thus, $BC$ is not unequal to $EF$.
+Thus, (it is) equal. And $AB$ is also equal to $DE$. So the two
+(straight-lines) $AB$, $BC$ are equal to the two (straight-lines) $DE$, $EF$,
+respectively. And they encompass equal angles. Thus, the base $AC$ is equal
+to the base $DF$, and triangle $ABC$ (is) equal to triangle $DEF$, and the
+remaining angle $BAC$ (is) equal to the remaining angle $EDF$ [Prop.~1.4].
+
+Thus, if two triangles have two angles equal to two angles, respectively, 
+and one side equal to one side---in fact, either that by the equal angles, or that
+subtending one of the equal angles---(then the triangles) will also have the remaining sides equal to the (corresponding) remaining sides, and the
+remaining angle (equal) to the remaining angle. (Which is) the very thing it
+was required to show.}
+\end{Parallel}
+\noindent{\footnotesize $^\dag$ The Greek text has ``$BG$, $BC$'', which is obviously a mistake.}
+
+%%%%%%
+% Prop 1.27
+%%%%%%
+\pdfbookmark[1]{Proposition 1.27}{pdf1.27}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{27}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐὰν εἰξ δύο εὐθείαξ εὐθεῖα ἐμπίπτουσα τὰξ ἐναλλὰχ γωνίαξ >ίσαξ ἀλλήλαιξ ποιῆ|, παράλληλοι >έσονται ἀλλήλαιξ αἱ εὐθεῖαι.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig27g.pdf}}
+
+\gr{Εἰξ γὰρ δύο εὐθείαξ τὰξ ΑΒ, ΓΔ εὐθεῖα ἐμπίπτουσα ἡ ΕΖ τὰξ ἐναλλὰχ γωνίαξ τὰξ ὑπὸ ΑΕΖ, ΕΖΔ >ίσαξ ἀλλήλαιξ ποιείτω; λέγω, <ότι
+παράλληλόξ ἐστιν ἡ ΑΒ τῆ| ΓΔ.}
+
+\gr{Εἰ γὰρ μ\kern -.7pt  ή, ἐκβαλλόμεναι αἱ ΑΒ, ΓΔ συμπεσοῦνται >ήτοι ἐπὶ τὰ Β, Δ μέρη >ὴ  ἐπὶ τὰ  Α, Γ. ἐκβεβλήσθωσαν καὶ συμπιπτέτωσαν ἐπὶ τὰ Β, Δ μέρη κατὰ τὸ Η.  τριγώνου δὴ τοῦ ΗΕΖ ἡ ἐκτὸξ γωνία ἡ ὑπὸ
+ΑΕΖ >ίση ἐστὶ τῆ| ἐντὸξ καὶ ἀπεναντίον τῆ| ὑπὸ ΕΖΗ;
+<όπερ ἐστὶν ἀδύνατον; οὐκ >άρα αἱ ΑΒ, ΔΓ ἐκβαλλόμεναι
+συμπεσοῦνται ἐπὶ τὰ Β, Δ μέρη. ὁμοίωξ δὴ δειθθήσεται, <ότι οὐδὲ ἐπὶ τὰ Α, Γ; αἱ δὲ ἐπὶ μ\kern -.7pt  ηδέτερα τὰ μέρη συμπίπτουσαι παράλληλοί
+εἰσιν; παράλληλοξ >άρα ἐστὶν ἡ ΑΒ τῆ| ΓΔ.}
+
+\gr{Ἐὰν >άρα εἰξ δύο εὐθείαξ εὐθεῖα ἐμπίπτουσα τὰξ ἐναλλὰχ γωνίαξ >ίσαξ ἀλλήλαιξ ποιῆ|, παράλληλοι >έσονται αἱ εὐθεῖαι;
+<όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 27}
+\end{center}
+
+If a straight-line falling across two straight-lines makes  the alternate
+angles equal to one another (then) the (two) straight-lines will be parallel to
+one another.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig27e.pdf}}
+
+For let the straight-line $EF$, falling across the two straight-lines $AB$ and
+$CD$, make the alternate angles $AEF$ and $EFD$ equal to one another.
+I say that $AB$ and $CD$ are parallel.
+
+For if not, being produced, $AB$ and $CD$ will certainly meet together:
+either in the direction of $B$ and $D$, or (in the
+direction) of $A$ and $C$ [Def.~1.23]. Let them be
+produced, and let them meet together in the direction of $B$ and $D$ at
+ (point) $G$. So, for the triangle $GEF$, the external angle
+$AEF$ is equal to the interior and opposite (angle) $EFG$. The
+very thing is impossible [Prop.~1.16]. Thus, being produced, $AB$ and $CD$
+will not meet together in the direction of $B$ and $D$. Similarly, 
+it can be shown that neither (will they meet together) in (the
+direction of) $A$ and $C$. But  (straight-lines) meeting in neither
+direction are parallel [Def.~1.23]. Thus, $AB$ and $CD$ are parallel.
+
+Thus, if a straight-line falling across two straight-lines makes  the alternate
+angles equal to one another (then) the (two) straight-lines will be parallel (to
+one another). (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.28
+%%%%%%
+\pdfbookmark[1]{Proposition 1.28}{pdf1.28}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{28}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐὰν εἰξ δύο εὐθείαξ εὐθεῖα ἐμπίπτουσα τὴν ἐκτὸξ γωνίαν τῆ| ἐντὸξ καὶ ἀπεναντίον καὶ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη >ίσην ποιῆ| >ὴ τὰξ ἐντὸξ καὶ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη δυσὶν ὀρθαῖξ >ίσαξ, παράλληλοι >έσονται ἀλλήλαιξ αἱ εὐθεῖαι.}
+
+\gr{Εἰξ γὰρ δύο εὐθείαξ τὰξ ΑΒ, ΓΔ εὐθεῖα ἐμπίπτουσα ἡ ΕΖ τὴν ἐκτὸξ γωνίαν τὴν ὑπὸ ΕΗΒ τῆ| ἐντὸξ καὶ ἀπεναντίον γωνίᾳ
+τῆ| ὑπὸ ΗΘΔ >ίσην ποιείτω >ὴ τὰξ ἐντὸξ καὶ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη
+τὰξ ὑπὸ ΒΗΘ, ΗΘΔ δυσὶν ὀρθαῖξ >ίσαξ; λέγω, <ότι παράλληλόξ ἐστιν
+ἡ ΑΒ τῆ| ΓΔ.}
+
+\gr{Ἐπεὶ γὰρ >ίση ἐστὶν ἡ ὑπὸ ΕΗΒ τῆ| ὑπὸ ΗΘΔ, ἀλλὰ ἡ ὑπὸ
+ΕΗΒ τῆ| ὑπὸ ΑΗΘ ἐστιν >ίση, καὶ ἡ ὑπὸ ΑΗΘ >άρα τῆ| ὑπὸ ΗΘΔ
+ἐστιν >ίση; καί εἰσιν ἐναλλάχ; παράλληλοξ >άρα ἐστὶν
+ἡ ΑΒ τῆ| ΓΔ.}
+
+\gr{Πάλιν, ἐπεὶ αἱ ὑπὸ ΒΗΘ, ΗΘΔ δύο ὀρθαῖξ >ίσαι εἰσίν, εἰσὶ
+δὲ καὶ αἱ ὑπὸ ΑΗΘ, ΒΗΘ δυσὶν ὀρθαῖξ >ίσαι, αἱ >άρα ὑπὸ ΑΗΘ, ΒΗΘ
+ταῖξ ὑπὸ ΒΗΘ, ΗΘΔ >ίσαι εἰσίν; κοινὴ ἀφῃρήσθω ἡ ὑπὸ ΒΗΘ;
+λοιπὴ >άρα ἡ ὑπὸ ΑΗΘ λοιπῆ| τῆ| ὑπὸ ΗΘΔ ἐστιν >ίση;
+καί εἰσιν ἐναλλάχ; παράλληλοξ >άρα ἐστὶν ἡ ΑΒ τῆ| ΓΔ.}\\~\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig28g.pdf}}
+
+\gr{Ἐὰν >άρα εἰξ δύο εὐθείαξ εὐθεῖα ἐμπίπτουσα τὴν ἐκτὸξ γωνίαν τῆ| ἐντὸξ καὶ ἀπεναντίον καὶ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη >ίσην ποιῆ| >ὴ τὰξ ἐντὸξ καὶ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη δυσὶν ὀρθαῖξ >ίσαξ, παράλληλοι >έσονται  αἱ εὐθεῖαι; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 28}
+\end{center}
+
+If a straight-line falling across two straight-lines makes the external angle equal
+to the internal and opposite angle on the same side, or (makes) the (sum  of the) internal
+(angles) on the same side equal
+to two right-angles, (then) the (two) straight-lines will be parallel to
+one another.
+
+For let $EF$, falling across the two straight-lines $AB$ and $CD$, make the external
+angle $EGB$ equal to the internal and opposite angle $GHD$, or the (sum of the) internal
+(angles) on the same side, $BGH$ and $GHD$, equal to two right-angles.
+I say that $AB$ is parallel to $CD$.
+
+For since (in the first case) $EGB$ is equal to $GHD$, but $EGB$ is equal to $AGH$ [Prop.~1.15],
+$AGH$ is thus also equal to $GHD$. And they are alternate (angles).
+Thus, $AB$ is
+ parallel to $CD$ [Prop.~1.27].
+
+Again, since (in the second case, the sum of) $BGH$ and $GHD$ is equal to two right-angles,  and (the sum of) $AGH$ and
+$BGH$ is also equal to two right-angles [Prop.~1.13], 
+(the sum of) $AGH$ and $BGH$ is thus equal to (the sum of) $BGH$ and $GHD$. Let $BGH$ be
+subtracted from both. Thus, the remainder $AGH$ is equal to the remainder
+$GHD$. And they are alternate (angles). Thus, $AB$ is parallel
+to $CD$ [Prop.~1.27].
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig28e.pdf}}
+
+Thus, if a straight-line falling across  two straight-lines makes the external angle equal
+to the internal and opposite angle on the same side, or (makes) the (sum of the) internal
+(angles) on the same side equal
+to two right-angles, (then) the (two) straight-lines will be parallel (to
+one another). (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.29
+%%%%%%
+\pdfbookmark[1]{Proposition 1.29}{pdf1.29}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large\ggn{29}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἡ εἰξ τὰξ παραλλήλουξ εὐθείαξ εὐθεῖα ἐμπίπτουσα τάξ τε ἐναλλὰχ γωνίαξ >ίσαξ ἀλλήλαιξ ποιεῖ καὶ τὴν ἐκτὸξ τῆ| ἐντὸξ καὶ ἀπεναντίον
+>ίσην καὶ τὰξ ἐντὸξ καὶ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη δυσὶν ὀρθαῖξ >ίσαξ.}
+
+\gr{Εἰξ γὰρ παραλλήλουξ εὐθείαξ τὰξ ΑΒ, ΓΔ εὐθεῖα ἐμπιπτέτω ἡ ΕΖ;
+λέγω, <ότι τὰξ ἐναλλὰχ γωνίαξ τὰξ ὑπὸ ΑΗΘ, ΗΘΔ >ίσαξ ποιεῖ καὶ τὴν ἐκτὸξ γωνίαν τὴν ὑπὸ ΕΗΒ τῆ| ἐντὸξ καὶ ἀπεναντίον τῆ| ὑπὸ ΗΘΔ >ίσην καὶ τὰξ ἐντὸξ καὶ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη τὰξ ὑπὸ ΒΗΘ, ΗΘΔ δυσὶν ὀρθαῖξ >ίσαξ.}\\
+
+\gr{Εἰ γὰρ >άνισόξ ἐστιν ἡ ὑπὸ ΑΗΘ τῆ| ὑπὸ ΗΘΔ, μία α\kern -.7pt  ὐτῶν μείζων ἐστίν. >έστω μείζων ἡ ὑπὸ ΑΗΘ; κοινὴ προσκείσθω ἡ ὑπὸ ΒΗΘ; αἱ >άρα ὑπὸ ΑΗΘ, ΒΗΘ τῶν ὑπὸ ΒΗΘ, ΗΘΔ μείζονέξ εἰσιν. ἀλλὰ αἱ ὑπὸ ΑΗΘ, ΒΗΘ δυσὶν ὀρθαῖξ >ίσαι εἰσίν. [καὶ] αἱ >άρα ὑπὸ ΒΗΘ, ΗΘΔ δύο ὀρθῶν ἐλάσσονέξ εἰσιν. αἱ δὲ ἀπ> ἐλασσόνων >ὴ δύο ὀρθῶν ἐκβαλλόμεναι εἰξ >άπειρον συμπίπτουσιν; αἱ >άρα ΑΒ, ΓΔ ἐκβαλλόμεναι εἰξ >άπειρον συμπεσοῦνται; οὐ συμπίπτουσι δὲ διὰ τὸ παραλλήλουξ α\kern -.7pt  ὐτὰξ ὑποκεῖσθαι; οὐκ >άρα >άνισόξ ἐστιν ἡ ὑπὸ 
+ΑΗΘ τῆ| ὑπὸ ΗΘΔ; >ίση >άρα. ἀλλὰ ἡ ὑπὸ ΑΗΘ τῆ| ὑπὸ ΕΗΒ ἐστιν >ίση;
+καὶ ἡ ὑπὸ ΕΗΒ >άρα τῆ| ὑπὸ ΗΘΔ ἐστιν >ίση;
+κοινὴ προσκείσθω ἡ ὑπὸ ΒΗΘ; αἱ >άρα ὑπὸ ΕΗΒ, ΒΗΘ ταῖξ
+ὑπὸ ΒΗΘ, ΗΘΔ >ίσαι εἰσίν. ἀλλὰ αἱ ὑπὸ ΕΗΒ, ΒΗΘ δύο ὀρθαῖξ
+>ίσαι εἰσίν; καὶ αἱ ὑπὸ ΒΗΘ, ΗΘΔ >άρα δύο ὀρθαῖξ >ίσαι
+εἰσίν.}\\~\\~\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig28g.pdf}}
+
+\gr{Ἡ  >άρα εἰξ τὰξ παραλλήλουξ εὐθείαξ εὐθεῖα ἐμπίπτουσα τάξ τε ἐναλλὰχ γωνίαξ >ίσαξ ἀλλήλαιξ ποιεῖ καὶ τὴν ἐκτὸξ τῆ| ἐντὸξ καὶ ἀπεναντίον
+>ίσην καὶ τὰξ ἐντὸξ καὶ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη δυσὶν ὀρθαῖξ >ίσαξ;
+<όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 29}
+\end{center}
+
+A straight-line falling across  parallel straight-lines makes the alternate angles
+equal to one another,  the external (angle) equal to the internal and
+opposite (angle), and the (sum of the) internal (angles) on the same side equal to
+two right-angles.
+
+For let the straight-line $EF$ fall across the parallel straight-lines $AB$ and $CD$.
+I say that it makes the  alternate angles, $AGH$ and $GHD$,  equal,  the
+external angle $EGB$ equal to the internal and opposite (angle) $GHD$,
+and the (sum of the) internal (angles) on the same side, $BGH$ and $GHD$, equal to
+two right-angles.
+
+For if $AGH$ is unequal to $GHD$ (then) one of them is greater. Let $AGH$ be greater.
+Let $BGH$ be added to both. Thus, (the sum of) $AGH$ and $BGH$ is greater
+than (the sum of) $BGH$ and $GHD$. But, (the sum of) $AGH$ and $BGH$ is equal to two right-angles
+[Prop~1.13]. Thus,  (the sum of) $BGH$ and $GHD$ is [also] less than two right-angles. 
+But (straight-lines) being produced to infinity from (internal angles whose sum is) less than
+two right-angles meet together [Post.~5]. Thus, $AB$ and $CD$, being produced to
+infinity, will meet together. But they do not meet, on account of
+them (initially) being assumed parallel (to one another) [Def.~1.23]. Thus, $AGH$ is not unequal to $GHD$. Thus, (it is) equal. But, $AGH$ is equal to $EGB$ [Prop.~1.15]. 
+And $EGB$ is thus also equal to $GHD$.
+Let $BGH$
+be added to both. Thus, (the sum of) $EGB$ and $BGH$ is equal to (the sum of) $BGH$ and $GHD$.
+But, (the sum of) $EGB$ and $BGH$ is equal to two right-angles [Prop.~1.13]. 
+Thus, (the sum of) $BGH$ and $GHD$ is also equal to two right-angles.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig28e.pdf}}
+
+Thus, a straight-line falling across parallel straight-lines makes the alternate angles
+equal to one another,  the external (angle) equal to the internal and
+opposite (angle), and the (sum of the) internal (angles) on the same side equal to
+two right-angles. (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.30
+%%%%%%
+\pdfbookmark[1]{Proposition 1.30}{pdf1.30}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{30}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Αἱ τῆ| α\kern -.7pt  ὐτῆ| εὐθείᾳ παράλληλοι καὶ ἀλλήλαιξ εἰσὶ παράλλη\-λοι.}
+
+\gr{>'Εστω ἑκατέρα τῶν ΑΒ, ΓΔ τῆ| ΕΖ παράλληλοξ; λέγω, <ότι καὶ ἡ ΑΒ τῆ| ΓΔ ἐστι παράλληλοξ.}
+
+\gr{Ἐμπιπτέτω γὰρ εἰξ α\kern -.7pt  ὐτὰξ εὐθεῖα ἡ ΗΚ.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig30g.pdf}}
+
+\gr{Καὶ ἐπεὶ εἰξ παραλλήλουξ εὐθείαξ τὰξ ΑΒ, ΕΖ εὐθεῖα ἐμπέπτωκεν ἡ ΗΚ, >ίση >άρα ἡ ὑπὸ ΑΗΚ τῆ| ὑπὸ ΗΘΖ. πάλιν, ἐπεὶ εἰξ παραλλήλουξ εὐθείαξ τὰξ ΕΖ, ΓΔ εὐθεῖα ἐμπέπτωκεν ἡ ΗΚ, >ίση ἐστὶν ἡ ὑπὸ ΗΘΖ τῆ| ὑπὸ ΗΚΔ. ἐδείθθη δὲ καὶ ἡ ὑπὸ ΑΗΚ
+τῆ| ὑπὸ ΗΘΖ >ίση. καὶ ἡ ὑπὸ ΑΗΚ >άρα τῆ| ὑπὸ ΗΚΔ ἐστιν >ίση; καί εἰσιν ἐναλλάχ. παράλληλοξ >άρα ἐστὶν ἡ ΑΒ τῆ| ΓΔ.}
+
+\gr{[Αἱ  >άρα τῆ| α\kern -.7pt  ὐτῆ| εὐθείᾳ παράλληλοι καὶ ἀλλήλαιξ εἰσὶ παράλληλοι;]
+<όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 30}
+\end{center}
+
+(Straight-lines) parallel to the same straight-line are also parallel
+to one another.
+
+Let each of the (straight-lines) $AB$ and $CD$ be parallel to $EF$. I say that
+$AB$ is also parallel to $CD$.
+
+For let the straight-line $GK$ fall across  ($AB$, $CD$, and $EF$).
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig30e.pdf}}
+
+And since the straight-line $GK$ has fallen across the parallel straight-lines $AB$ and $EF$, (angle) $AGK$
+(is) thus equal to $GHF$ [Prop.~1.29]. Again, since the straight-line $GK$ has fallen across the parallel
+straight-lines $EF$ and $CD$, (angle) $GHF$ is equal to $GKD$ [Prop.~1.29].
+But $AGK$ was also shown (to be) equal to $GHF$. Thus, $AGK$ is also equal to 
+$GKD$. And they are alternate (angles). Thus, $AB$ is parallel to $CD$ [Prop.~1.27].
+
+\mbox{[}Thus, (straight-lines) parallel to the same straight-line are also parallel
+to one another.] (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.31
+%%%%%%
+\pdfbookmark[1]{Proposition 1.31}{pdf1.31}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{31}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Διὰ τοῦ δοθέντοξ σημείου τῆ| δοθείσῃ εὐθείᾳ παράλληλον εὐθεῖαν
+γραμμ\kern -.7pt  ὴν ἀγαγεῖν.}
+
+\gr{>'Εστω τὸ μὲν δοθὲν σημεῖον τὸ Α, ἡ δὲ δοθεῖσα εὐθεῖα ἡ ΒΓ;
+δεῖ δὴ διὰ τοῦ Α σημείου τῆ| ΒΓ εὐθείᾳ παράλληλον εὐθεῖαν γραμμ\kern -.7pt  ὴν ἀγαγεῖν.}
+
+\gr{Εἰλήφθω ἐπὶ τῆξ ΒΓ τυθὸν σημεῖον τὸ Δ, καὶ ἐπεζεύθθω ἡ ΑΔ; καὶ συνεστάτω πρὸξ τῆ| ΔΑ εὐθείᾳ καὶ τῶ| πρὸξ α\kern -.7pt  ὐτῆ| σημείῳ  
+ τῶ| Α τῆ| ὑπὸ ΑΔΓ γωνίᾳ >ίση ἡ ὑπὸ ΔΑΕ; καὶ ἐκβεβλήσθω ἐπ> εὐθείαξ τῆ| ΕΑ εὐθεῖα ἡ ΑΖ.}\\
+ 
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig31g.pdf}}
+ 
+\gr{Καὶ ἐπεὶ εἰξ δύο εὐθείαξ τὰξ ΒΓ, ΕΖ εὐθεῖα ἐμπίπτουσα ἡ
+ΑΔ τὰξ ἐναλλὰχ γωνίαξ τὰξ ὑπὸ ΕΑΔ, ΑΔΓ >ίσαξ ἀλλήλαιξ πεποίηκεν, παράλληλοξ >άρα ἐστὶν ἡ ΕΑΖ τῆ| ΒΓ.}
+
+\gr{Διὰ τοῦ δοθέντοξ >άρα σημείου τοῦ Α τῆ| δοθείσῃ εὐθείᾳ τῆ| ΒΓ παράλληλοξ εὐθεῖα
+γραμμ\kern -.7pt  ὴ >ῆκται ἡ ΕΑΖ; <όπερ >έδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 31}
+\end{center}
+
+To draw a straight-line parallel to a given straight-line, through a given
+point.
+
+Let $A$ be the given point, and $BC$ the given straight-line. So it is
+required to draw a straight-line parallel to the straight-line $BC$, through
+the point $A$.
+
+Let the point $D$ be taken a random  on $BC$, and let $AD$ be
+joined. And let (angle) $DAE$, equal to angle $ADC$,  be constructed 
+on the straight-line $DA$ at the point $A$ on it [Prop.~1.23]. And let the
+straight-line $AF$ be
+produced in a straight-line with $EA$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig31e.pdf}}
+
+And since the straight-line $AD$, (in) falling across the two straight-lines
+$BC$ and $EF$,  has made the alternate
+angles $EAD$ and $ADC$ equal to one another, $EAF$ is thus parallel to $BC$
+[Prop.~1.27].
+
+Thus, the straight-line $EAF$ has been drawn parallel to the given straight-line $BC$, through the  given
+point $A$. (Which is) the very thing it was required to do.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.32
+%%%%%%
+\pdfbookmark[1]{Proposition 1.32}{pdf1.32}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{32}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Παντὸξ τριγώνου μιᾶξ τῶν πλευρῶν προσεκβληθείσηξ ἡ ἐκτὸξ γωνία
+δυσὶ ταῖξ ἐντὸξ καὶ ἀπεναντίον >ίση ἐστίν, καὶ αἱ ἐντὸξ τοῦ τριγώνου τρεῖξ γωνίαι δυσὶν ὀρθαῖξ >ίσαι εἰσίν.}~\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig32g.pdf}}
+
+\gr{>'Εστω τρίγωνον τὸ ΑΒΓ, καὶ προσεκβεβλήσθω α\kern -.7pt  ὐτοῦ μία πλευρὰ ἡ ΒΓ
+ἐπὶ τὸ Δ; λέγω, <ότι ἡ ἐκτὸξ γωνία ἡ ὑπὸ ΑΓΔ >ίση ἐστὶ δυσὶ ταῖξ ἐντὸξ καὶ ἀπεναντίον ταῖξ ὑπὸ ΓΑΒ, ΑΒΓ, καὶ αἱ ἐντὸξ
+τοῦ τριγώνου
+ τρεῖξ γωνίαι αἱ ὑπὸ ΑΒΓ, ΒΓΑ, ΓΑΒ δυσὶν ὀρθαῖξ >ίσαι εἰσίν.}
+ 
+ \gr{>'Ηθθω γὰρ διὰ τοῦ Γ σημείου τῆ| ΑΒ εὐθείᾳ παράλληλοξ ἡ ΓΕ.}
+ 
+ \gr{Καὶ ἐπεὶ παράλληλόξ ἐστιν ἡ ΑΒ τῆ| ΓΕ, καὶ εἰξ α\kern -.7pt  ὐτὰξ ἐμπέπτωκεν ἡ ΑΓ, αἱ ἐναλλὰχ γωνίαι αἱ ὑπὸ ΒΑΓ, ΑΓΕ >ίσαι ἀλλήλαιξ εἰσίν. πάλιν, ἐπεὶ παράλληλόξ ἐστιν ἡ ΑΒ τῆ| ΓΕ, καὶ εἰξ α\kern -.7pt  ὐτὰξ ἐμπέπτωκεν εὐθεῖα ἡ ΒΔ, ἡ ἐκτὸξ γωνία ἡ ὑπὸ ΕΓΔ >ίση ἐστὶ τῆ|  ἐντὸξ καὶ ἀπεναντίον τῆ| ὑπὸ ΑΒΓ. ἐδείθθη δὲ καὶ ἡ ὑπὸ ΑΓΕ τῆ| ὑπὸ ΒΑΓ >ίση; <όλη >άρα ἡ ὑπὸ ΑΓΔ γωνία >ίση ἐστὶ δυσὶ ταῖξ ἐντὸξ καὶ ἀπεναντίον ταῖξ ὑπὸ ΒΑΓ, ΑΒΓ.}
+ 
+ \gr{Κοινὴ προσκείσθω ἡ ὑπὸ ΑΓΒ; αἱ >άρα ὑπὸ ΑΓΔ, ΑΓΒ τρισὶ ταῖξ ὑπὸ ΑΒΓ, ΒΓΑ, ΓΑΒ >ίσαι εἰσίν. ἀλλ> αἱ ὑπὸ ΑΓΔ, ΑΓΒ δυσὶν ὀρθαῖξ >ίσαι εἰσίν; καὶ αἱ ὑπὸ ΑΓΒ, ΓΒΑ, ΓΑΒ >άρα δυσὶν ὀρθαῖξ >ίσαι εἰσίν.}
+ 
+ \gr{Παντὸξ >άρα τριγώνου μιᾶξ τῶν πλευρῶν προσεκβληθείσηξ ἡ ἐκτὸξ γωνία
+δυσὶ ταῖξ ἐντὸξ καὶ ἀπεναντίον >ίση ἐστίν, καὶ αἱ ἐντὸξ τοῦ τριγώνου τρεῖξ γωνίαι δυσὶν ὀρθαῖξ >ίσαι εἰσίν; <όπερ >έδει
+δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 32}
+\end{center}
+
+In any triangle,  (if) one of the sides (is) produced  (then) the external
+angle is equal to the (sum of the) two internal and opposite (angles), and the (sum of the) three
+internal angles of the triangle is equal to two right-angles.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig32e.pdf}}
+
+Let $ABC$ be a triangle, and let one of its sides $BC$ be produced to $D$.
+I say that the external angle $ACD$ is equal to the (sum of the) two internal and opposite
+angles $CAB$ and $ABC$, and the (sum of the) three internal angles of the triangle---$ABC$, $BCA$, and $CAB$---is equal to two right-angles.
+
+For let $CE$ be drawn through point $C$ parallel to the straight-line
+$AB$ [Prop.~1.31].
+
+And since $AB$ is parallel to $CE$, and $AC$ has fallen across them, the alternate
+angles $BAC$ and $ACE$ are equal to one another [Prop.~1.29]. Again,
+since $AB$ is parallel to $CE$, and the straight-line $BD$ has fallen across them, 
+the external angle $ECD$ is equal to the internal and opposite (angle)
+$ABC$ [Prop.~1.29]. But $ACE$ was also shown (to be) equal to $BAC$. Thus, the whole
+angle $ACD$ is equal to the (sum of the) two internal and opposite (angles) $BAC$ and $ABC$.
+
+Let $ACB$ be added to both. Thus, (the sum of) $ACD$ and $ACB$ is equal to
+the (sum of the) three (angles) $ABC$, $BCA$, and $CAB$. But, (the sum of) $ACD$ and $ACB$ is equal
+to two right-angles [Prop.~1.13]. Thus, (the sum of) $ACB$, $CBA$, and $CAB$ is also
+equal to two right-angles.
+
+Thus, in any triangle,  (if) one of the sides  (is) produced (then) the external
+angle is equal to the (sum of the) two internal and opposite (angles), and the (sum of the) three
+internal angles of the triangle is equal to two right-angles. (Which is)
+the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.33
+%%%%%%
+\pdfbookmark[1]{Proposition 1.33}{pdf1.33}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{33}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Αἱ τὰξ >ίσαξ τε καὶ παραλλήλουξ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη ἐπιζευγνύουσαι εὐθεῖαι καὶ α\kern -.7pt  ὐταὶ >ίσαι τε καὶ παράλληλοί εἰσιν.}
+
+\gr{>'Εστωσαν >ίσαι τε καὶ παράλληλοι αἱ  ΑΒ, ΓΔ, καὶ ἐπιζευγνύτωσαν α\kern -.7pt  ὐτὰξ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη εὐθεῖαι αἱ ΑΓ, ΒΔ; λέγω, <ότι καὶ αἱ ΑΓ, ΒΔ >ίσαι τε καὶ παράλληλοί εἰσιν.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig33g.pdf}}
+
+\gr{Ἐπεζεύθθω ἡ ΒΓ. καὶ ἐπεὶ παράλληλόξ ἐστιν ἡ ΑΒ τῆ| ΓΔ, καὶ εἰξ α\kern -.7pt  ὐτὰξ ἐμπέπτωκεν ἡ ΒΓ, αἱ ἐναλλὰχ γωνίαι αἱ ὑπὸ ΑΒΓ, ΒΓΔ
+>ίσαι ἀλλήλαιξ εἰσίν. καὶ ἐπεὶ >ίση ἐστὶν ἡ ΑΒ τῆ| ΓΔ κοινὴ δὲ ἡ
+ΒΓ, δύο δὴ αἱ ΑΒ, ΒΓ δύο ταῖξ
+ ΒΓ, ΓΔ >ίσαι εἰσίν; καὶ γωνία ἡ ὑπὸ ΑΒΓ γωνίᾳ τῆ| ὑπὸ ΒΓΔ >ίση; βάσιξ >άρα ἡ ΑΓ βάσει τῆ| ΒΔ ἐστιν >ίση, καὶ τὸ ΑΒΓ τρίγωνον τῶ| ΒΓΔ τριγώνῳ >ίσον ἐστίν, καὶ αἱ λοιπαὶ γωνίαι ταῖξ λοιπαῖξ γωνίαιξ >ίσαι >έσονται ἑκατέρα ἑκατέρᾳ, ὑφ> <ὰξ αἱ >ίσαι πλευραὶ
+ὑποτείνουσιν; >ίση >άρα ἡ ὑπὸ ΑΓΒ γωνία τῆ| ὑπὸ ΓΒΔ. καὶ
+ἐπεὶ εἰξ δύο εὐθείαξ τὰξ ΑΓ, ΒΔ εὐθεῖα
+ἐμπίπτουσα ἡ ΒΓ τὰξ ἐναλλὰχ γωνίαξ >ίσαξ ἀλλήλαιξ πεποίηκεν, παράλληλοξ >άρα ἐστὶν ἡ ΑΓ τῆ| ΒΔ. ἐδείθθη δὲ α\kern -.7pt  ὐτῆ| καὶ >ίση.}
+
+\gr{Αἱ >άρα τὰξ >ίσαξ τε καὶ παραλλήλουξ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη ἐπιζευγνύουσαι εὐθεῖαι καὶ α\kern -.7pt  ὐταὶ >ίσαι τε καὶ παράλληλοί εἰσιν;
+ <όπερ >έδει
+δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 33}
+\end{center}
+
+Straight-lines joining equal and parallel (straight-lines) on the same sides
+are  themselves also equal and parallel.
+
+Let $AB$ and $CD$ be equal and parallel (straight-lines), and let the
+straight-lines $AC$ and $BD$ join them on the same sides. I say that $AC$
+and $BD$ are also equal and parallel.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig33e.pdf}}
+
+Let $BC$ be joined. And since $AB$ is parallel to $CD$, and $BC$ has
+fallen across them, the alternate angles $ABC$ and $BCD$ are equal to one another [Prop.~1.29]. And since $AB$ is equal to $CD$, and $BC$ is common,
+the two (straight-lines) $AB$, $BC$ are equal to the two (straight-lines)
+$DC$, $CB$.$^\dag$And the angle $ABC$ is equal to the angle $BCD$. Thus, the
+base $AC$ is equal to the base $BD$, and triangle $ABC$ is equal to triangle
+$DCB$$^\ddag$, and the remaining angles will be equal to the corresponding remaining
+angles subtended by the equal sides [Prop.~1.4]. Thus,  angle $ACB$ 
+is equal to $CBD$. Also, since the straight-line $BC$, (in) falling across the two
+straight-lines $AC$ and $BD$, has made the alternate angles  ($ACB$ and $CBD$) equal to one another,
+$AC$ is thus parallel to $BD$ [Prop.~1.27]. And ($AC$) was also shown (to be) equal
+to ($BD$).
+
+Thus, straight-lines joining equal and parallel (straight-lines) on the same sides
+are  themselves also equal and parallel. (Which is) the very thing it was
+required to show.}
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ The Greek text has ``$BC$, $CD$'', which is obviously a mistake.} \\
+{\footnotesize \noindent$^\ddag$ The Greek text has ``$DCB$'', which is obviously a mistake.} 
+
+%%%%%%
+% Prop 1.34
+%%%%%%
+\pdfbookmark[1]{Proposition 1.34}{pdf1.34}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{34}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Τῶν παραλληλογράμμων θωρίων αἱ ἀπεναντίον πλευραί τε καὶ γωνίαι
+>ίσαι ἀλλήλαιξ εἰσίν, καὶ ἡ διάμετροξ α\kern -.7pt  ὐτὰ δίθα τέμνει.}
+
+\gr{>'Εστω παραλληλόγραμμον θωρίον τὸ ΑΓΔΒ, διάμετ\-ροξ δὲ α\kern -.7pt  ὐτοῦ ἡ ΒΓ; λέγω, <ότι τοῦ ΑΓΔΒ παραλληλογράμμου αἱ ἀπεναντίον πλευραί τε καὶ γωνίαι >ίσαι ἀλλήλαιξ εἰσίν, καὶ ἡ ΒΓ διάμετροξ α\kern -.7pt  ὐτὸ δίθα τέμνει.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig34g.pdf}}
+
+\gr{Ἐπεὶ γὰρ παράλληλόξ ἐστιν ἡ ΑΒ τῆ| ΓΔ, καὶ εἰξ α\kern -.7pt  ὐτὰξ ἐμπέπτωκεν
+εὐθεῖα ἡ ΒΓ, αἱ ἐναλλὰχ γωνίαι αἱ ὑπὸ ΑΒΓ, ΒΓΔ >ίσαι ἀλλήλαιξ εἰσίν. πάλιν ἐπεὶ παράλληλόξ ἐστιν ἡ ΑΓ τῆ| ΒΔ, καὶ εἰξ α\kern -.7pt  ὐτὰξ ἐμπέπτωκεν ἡ ΒΓ, αἱ ἐναλλὰχ γωνίαι αἱ ὑπὸ ΑΓΒ, ΓΒΔ >ίσαι ἀλλήλαιξ εἰσίν. δύο δὴ τρίγωνά ἐστι τὰ ΑΒΓ, ΒΓΔ τὰξ δύο γωνίαξ τὰξ ὑπὸ ΑΒΓ, ΒΓΑ δυσὶ ταῖξ ὑπὸ ΒΓΔ, ΓΒΔ >ίσαξ >έθοντα ἑκατέραν ἑκατέρᾳ καὶ μίαν πλευρὰν μιᾶ| πλευρᾶ| >ίσην τὴν πρὸξ ταῖξ >ίσαιξ γωνίαιξ κοινὴν α\kern -.5pt  ὐτῶν τὴν ΒΓ; καὶ τὰξ λοιπὰξ >άρα πλευρὰξ ταῖξ λοιπαῖξ >ίσαξ <έχει ἑκατέραν ἑκατέρᾳ καὶ τὴν λοιπὴν γωνίαν τῆ| λοιπῆ| γωνίᾳ; >ίση >άρα ἡ μὲν ΑΒ πλευρὰ τῆ| ΓΔ, ἡ δὲ ΑΓ τῆ| ΒΔ, καὶ >έτι >ίση ἐστὶν ἡ ὑπὸ ΒΑΓ γωνία τῆ| ὑπὸ ΓΔΒ. καὶ ἐπεὶ >ίση ἐστὶν ἡ μὲν ὑπὸ ΑΒΓ γωνία τῆ| ὑπὸ ΒΓΔ, ἡ δὲ ὑπὸ ΓΒΔ τῆ| ὑπὸ ΑΓΒ, <όλη >άρα ἡ ὑπὸ ΑΒΔ <όλῃ τῆ| ὑπὸ ΑΓΔ ἐστιν >ίση. ἐδείθθη δὲ καὶ ἡ ὑπὸ ΒΑΓ τῆ| ὑπὸ ΓΔΒ >ίση.}
+
+\gr{Τῶν >άρα παραλληλογράμμων θωρίων αἱ ἀπεναντίον πλευραί τε
+καὶ γωνίαι >ίσαι ἀλλήλαιξ εἰσίν.}
+
+\gr{Λέγω δή, <ότι καὶ ἡ διάμετροξ α\kern -.7pt  ὐτὰ δίθα τέμνει. ἐπεὶ γὰρ >ίση ἐστὶν ἡ ΑΒ τῆ| ΓΔ, κοινὴ δὲ ἡ ΒΓ, δύο δὴ αἱ ΑΒ, ΒΓ δυσὶ ταῖξ ΓΔ, ΒΓ >ίσαι εἰσὶν ἑκατέρα ἑκατέρᾳ; καὶ γωνία ἡ ὑπὸ ΑΒΓ γωνίᾳ τῆ| ὑπὸ ΒΓΔ >ίση. καὶ βάσιξ >άρα ἡ ΑΓ τῆ| ΔΒ >ίση. καὶ τὸ ΑΒΓ [>άρα] τρίγωνον τῶ| ΒΓΔ τριγώνῳ >ίσον ἐστίν.}
+
+\gr{Ἡ >άρα ΒΓ διάμετροξ δίθα τέμνει τὸ ΑΒΓΔ παραλληλόγραμμον;
+<όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 34}
+\end{center}
+In parallelogramic figures, the opposite sides and angles are equal to one
+another, and a diagonal cuts them in half.
+
+Let $ACDB$ be a parallelogramic figure, and $BC$ its diagonal. I say that
+for parallelogram $ACDB$, the opposite sides and angles are equal to
+one another, and the diagonal $BC$ cuts it in half.\\
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig34e.pdf}}
+
+For since $AB$ is parallel to $CD$, and the straight-line $BC$ has fallen
+across  them, the alternate angles $ABC$ and $BCD$ are equal to one another [Prop.~1.29]. 
+Again, since $AC$ is parallel to $BD$, and $BC$ has fallen across them, the
+alternate angles $ACB$ and $CBD$ are equal to one another [Prop.~1.29]. 
+So $ABC$ and $BCD$ are two triangles having the two angles $ABC$ and
+$BCA$ equal to the two (angles) $BCD$ and $CBD$, respectively, and one
+side equal to one side---the (one) by the equal angles and common to them, (namely) $BC$. Thus,
+they will also  have the remaining sides  equal to the corresponding
+remaining (sides), and the remaining angle (equal) to the remaining angle [Prop.~1.26].
+Thus, side $AB$ is equal to $CD$, and $AC$ to $BD$. Furthermore, angle $BAC$ is 
+equal to $CDB$. And since angle $ABC$ is equal to $BCD$, and $CBD$ to
+$ACB$, the whole (angle) $ABD$ is thus equal to the whole (angle) $ACD$.
+And  $BAC$ was also shown  (to be) equal to $CDB$.
+
+Thus, in parallelogramic figures, the opposite sides and angles are equal
+to one another.
+
+And, I also say that a diagonal cuts them in half. For since $AB$ is equal
+to $CD$, and $BC$ (is) common, the two (straight-lines) $AB$, $BC$ are equal
+to the two (straight-lines) $DC$, $CB$$^\dag$, respectively. And angle $ABC$ is
+equal to angle $BCD$. Thus, the base $AC$ (is) also equal to $DB$, and
+triangle $ABC$ is equal to triangle $BCD$ [Prop.~1.4].
+
+Thus, the diagonal $BC$ cuts the parallelogram $ACDB$$^\ddag$ in half. (Which is) the
+very thing it was required to show.}
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ The Greek text has ``$CD$, $BC$'',
+which is obviously a mistake.\\
+$^\ddag$ The Greek
+text has ``$ABCD$'', which is obviously a mistake.}
+
+%%%%%%
+% Prop 1.35
+%%%%%%
+\pdfbookmark[1]{Proposition 1.35}{pdf1.35}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{35}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Τὰ παραλληλόγραμμα τὰ ἐπὶ τῆξ α\kern -.7pt  ὐτῆξ βάσεωξ >όντα καὶ ἐν ταῖξ
+α\kern -.7pt  ὐταῖξ παραλλήλοιξ >ίσα ἀλλήλοιξ ἐστίν.}
+
+\gr{>'Εστω παραλληλόγραμμα τὰ ΑΒΓΔ, ΕΒΓΖ ἐπὶ τῆξ α\kern -.7pt  ὐτῆξ βάσεωξ τῆξ
+ΒΓ καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ ταῖξ ΑΖ, ΒΓ; λέγω, <ότι >ίσον ἐστὶ τὸ ΑΒΓΔ τῶ| ΕΒΓΖ παραλληλογράμμῳ.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig35g.pdf}}
+
+\gr{Ἐπεὶ γὰρ παραλληλόγραμμόν ἐστι τὸ ΑΒΓΔ, >ίση ἐστὶν ἡ ΑΔ τῆ| ΒΓ. διὰ τὰ α\kern -.7pt  ὐτὰ δὴ καὶ ἡ ΕΖ τῆ| ΒΓ ἐστιν >ίση; <ώστε καὶ ἡ ΑΔ τῆ| ΕΖ ἐστιν >ίση; καὶ κοινὴ ἡ ΔΕ; <όλη >άρα ἡ ΑΕ <όλῃ τῆ| ΔΖ ἐστιν >ίση. >έστι δὲ καὶ ἡ ΑΒ τῆ| ΔΓ >ίση; δύο δὴ αἱ ΕΑ, ΑΒ δύο ταῖξ ΖΔ, ΔΓ >ίσαι εἰσὶν ἑκατέρα ἑκατέρᾳ; καὶ γωνία ἡ ὑπὸ ΖΔΓ γωνίᾳ
+τῆ| ὑπὸ ΕΑΒ ἐστιν >ίση ἡ ἐκτὸξ τῆ| ἐντόξ; βάσιξ >άρα ἡ ΕΒ
+βάσει τῆ| ΖΓ >ίση ἐστίν, καὶ τὸ ΕΑΒ τρίγωνον τῶ| ΔΖΓ τριγώνῳ >ίσον
+>έσται; κοινὸν ἀφῃρήσθω τὸ ΔΗΕ; λοιπὸν >άρα τὸ ΑΒΗΔ τραπέζιον λοιπῶ| τῶ| ΕΗΓΖ τραπεζίῳ ἐστὶν >ίσον; κοινὸν προσκείσθω τὸ ΗΒΓ τρίγωνον; <όλον >άρα τὸ ΑΒΓΔ παραλληλόγραμμον <όλῳ τῶ| ΕΒΓΖ
+παραλληλογράμμῳ >ίσον ἐστίν.}
+
+\gr{Τὰ >άρα παραλληλόγραμμα τὰ ἐπὶ τῆξ α\kern -.7pt  ὐτῆξ βάσεωξ >όντα καὶ ἐν ταῖξ
+α\kern -.7pt  ὐταῖξ παραλλήλοιξ >ίσα ἀλλήλοιξ ἐστίν; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 35}
+\end{center}
+
+Parallelograms which are on the same base and between the same
+parallels are equal$^\dag$ to one another.
+
+Let $ABCD$ and $EBCF$ be parallelograms on the same base $BC$, and
+between the same parallels $AF$ and $BC$. I say that $ABCD$ is equal to
+parallelogram $EBCF$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig35e.pdf}}
+
+For since $ABCD$ is a parallelogram, $AD$ is equal to $BC$ [Prop.~1.34].
+So, for the same (reasons), $EF$ is also equal to $BC$. So $AD$ is also equal to
+$EF$. And $DE$ is common. Thus, the whole (straight-line) $AE$ is equal
+to the whole (straight-line) $DF$.  And $AB$ is also equal to $DC$.
+So the two (straight-lines) $EA$, $AB$
+are equal to the two (straight-lines) $FD$, $DC$, respectively. And angle $FDC$ is
+equal to angle $EAB$, the external to the internal [Prop.~1.29]. Thus, the
+base $EB$ is equal to the base $FC$, and triangle $EAB$ will be equal to triangle
+$DFC$ [Prop.~1.4]. Let $DGE$ be taken away from both. 
+Thus, the remaining trapezium $ABGD$ is equal to the remaining trapezium
+$EGCF$. Let triangle $GBC$ be added to both. Thus, the whole
+parallelogram $ABCD$ is equal to the whole parallelogram $EBCF$.
+
+Thus, parallelograms which are on the same base and between the same
+parallels are equal to one another. (Which is) the very thing it was required to
+show.}
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ Here, for the first time, ``equal'' means
+``equal in area'', rather than ``congruent''.}
+
+%%%%%%
+% Prop 1.36
+%%%%%%
+\pdfbookmark[1]{Proposition 1.36}{pdf1.36}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{36}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Τὰ παραλληλόγραμμα τὰ ἐπὶ >ίσων βάσεων >όντα καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ >ίσα ἀλλήλοιξ ἐστίν.}
+
+\gr{>'Εστω παραλληλόγραμμα τὰ ΑΒΓΔ, ΕΖΗΘ ἐπὶ >ίσων βάσεων >όντα τῶν ΒΓ, ΖΗ καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ ταῖξ ΑΘ, ΒΗ; λέγω, <ότι >ίσον ἐστὶ τὸ ΑΒΓΔ παραλληλόγραμμον τῶ| ΕΖΗΘ.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig36g.pdf}}
+
+\gr{Ἐπεζεύθθωσαν γὰρ αἱ ΒΕ, ΓΘ. καὶ ἐπεὶ >ίση ἐστὶν ἡ ΒΓ τῆ| ΖΗ, ἀλλὰ ἡ ΖΗ τῆ| ΕΘ ἐστιν >ίση, καὶ ἡ ΒΓ >άρα τῆ| ΕΘ ἐστιν >ίση.
+εἰσὶ δὲ καὶ παράλληλοι. καὶ ἐπιζευγνύουσιν α\kern -.7pt  ὐτὰξ αἱ ΕΒ, ΘΓ; αἱ δὲ τὰξ >ίσαξ τε καὶ παραλλήλουξ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη ἐπιζευγνύουσαι >ίσαι
+τε καὶ παράλληλοί εἰσι [καὶ αἱ ΕΒ, ΘΓ >άρα >ίσαι τέ εἰσι καὶ παράλληλοι].
+παραλληλόγραμμον >άρα ἐστὶ τὸ ΕΒΓΘ. καί ἐστιν >ίσον τῶ| ΑΒΓΔ; βάσιν τε γὰρ α\kern -.5pt  ὐτῶ| τὴν α\kern -.3pt  ὐτὴν >έθει τὴν ΒΓ, καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ ἐστὶν α\kern -.7pt  ὐτῶ| ταῖξ ΒΓ, ΑΘ. δὶα τὰ α\kern -.7pt  ὐτὰ δὴ καὶ τὸ ΕΖΗΘ τῶ| α\kern -.7pt  ὐτῶ| τῶ| ΕΒΓΘ ἐστιν >ίσον;
+ <ώστε καὶ τὸ ΑΒΓΔ παραλληλόγραμμον τῶ| ΕΖΗΘ ἐστιν >ίσον.}
+ 
+\gr{Τὰ  >άρα παραλληλόγραμμα τὰ ἐπὶ >ίσων βάσεων >όντα καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ >ίσα ἀλλήλοιξ ἐστίν; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 36}
+\end{center}
+
+Parallelograms which are on equal bases and between the same parallels are equal to one another.
+
+Let $ABCD$ and $EFGH$ be parallelograms which are on the equal bases $BC$
+and $FG$, and (are) between the same parallels $AH$ and $BG$. I say that
+the parallelogram $ABCD$ is equal to $EFGH$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig36e.pdf}}
+
+For let $BE$ and $CH$ be joined. And since $BC$ is equal to $FG$, but $FG$ is equal to $EH$ [Prop.~1.34], $BC$ is thus equal to $EH$. And they are also parallel, and $EB$ and $HC$ join them.
+But (straight-lines) joining equal and parallel (straight-lines) on the
+same sides are (themselves) equal and parallel [Prop.~1.33] [thus, $EB$ and $HC$
+are also equal and parallel]. Thus, $EBCH$ is a parallelogram [Prop.~1.34],
+and is equal to $ABCD$. For it has  the
+same base, $BC$, (as $ABCD$), and is between the same parallels, $BC$ and $AH$, (as $ABCD$) [Prop.~1.35]. So,
+for the same (reasons), $EFGH$ is also equal to the same (parallelogram) $EBCH$ [Prop.~1.34].  So that the
+parallelogram $ABCD$ is  also equal to $EFGH$.
+
+Thus, parallelograms which are on equal bases and between the same parallels are equal to one another. (Which is) the very thing it was required
+to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.37
+%%%%%%
+\pdfbookmark[1]{Proposition 1.37}{pdf1.37}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{37}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Τὰ τρίγωνα τὰ ἐπὶ τῆξ α\kern -.7pt  ὐτῆξ βάσεωξ >όντα καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ
+παραλλήλοιξ >ίσα ἀλλήλοιξ ἐστίν.}
+
+\gr{>'Εστω τρίγωνα τὰ ΑΒΓ, ΔΒΓ ἐπὶ τῆξ α\kern -.7pt  ὐτῆξ βάσεωξ τῆξ ΒΓ καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ ταῖξ ΑΔ, ΒΓ; λέγω, <ότι >ίσον ἐστὶ τὸ ΑΒΓ τρίγωνον τῶ| ΔΒΓ τριγώνῳ.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig37g.pdf}}
+
+\gr{Ἐκβεβλήσθω ἡ ΑΔ ἐφ> ἑκάτερα τὰ μέρη ἐπὶ τὰ Ε, Ζ, καὶ διὰ μὲν τοῦ Β τῆ| ΓΑ παράλληλοξ >ήθθω ἡ ΒΕ, δὶα δὲ τοῦ Γ τῆ| ΒΔ παράλληλοξ >ήθθω ἡ ΓΖ.
+ παραλληλόγραμμον >άρα ἐστὶν ἑκάτερον τῶν ΕΒΓΑ, ΔΒΓΖ; καί εἰσιν >ίσα; ἐπί τε γὰρ τῆξ α\kern -.7pt  ὐτῆξ βάσεώξ εἰσι τῆξ ΒΓ καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ ταῖξ ΒΓ, ΕΖ; καί ἐστι τοῦ μὲν ΕΒΓΑ
+ παραλληλογράμμου
+ <ήμισυ τὸ ΑΒΓ τρίγωνον; ἡ γὰρ ΑΒ διάμετροξ α\kern -.5pt  ὐτὸ δίθα τέμνει; τοῦ δὲ ΔΒΓΖ παραλληλογράμμου <ήμισυ τὸ ΔΒΓ τρίγωνον; ἡ γὰρ ΔΓ διάμετροξ α\kern -.3pt  ὐτὸ δίθα τέμνει. [τὰ δὲ τῶν >ίσων ἡμίση >ίσα 
+ ἀλλήλοιξ ἐστίν]. >ίσον >άρα ἐστὶ τὸ ΑΒΓ τρίγωνον τῶ| ΔΒΓ τριγώνῳ.}
+ 
+ \gr{Τὰ >άρα τρίγωνα τὰ ἐπὶ τῆξ α\kern -.7pt  ὐτῆξ βάσεωξ >όντα καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ
+παραλλήλοιξ >ίσα ἀλλήλοιξ ἐστίν;  <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 37}
+\end{center}
+
+Triangles which are on the same base and between the same parallels
+are equal to one another.
+
+Let $ABC$ and $DBC$ be triangles on the same base $BC$, and between
+the same parallels $AD$ and $BC$. I say that triangle $ABC$ is equal to triangle $DBC$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig37e.pdf}}
+
+Let $AD$ be produced in both directions to $E$ and $F$, and let the
+(straight-line) $BE$ be drawn through $B$ parallel to $CA$ [Prop.~1.31],
+and let the (straight-line) $CF$ be drawn through $C$ parallel to
+$BD$ [Prop.~1.31]. Thus, $EBCA$ and $DBCF$ are both parallelograms,
+and are equal. For they are on the same base $BC$, and between
+the same parallels $BC$ and $EF$ [Prop.~1.35]. And the triangle $ABC$ is
+half of 
+the parallelogram
+$EBCA$. For the diagonal $AB$ cuts the latter in half [Prop.~1.34]. And the 
+triangle $DBC$ (is) half of the parallelogram $DBCF$. For the diagonal
+$DC$ cuts the latter in half [Prop.~1.34]. [And the halves of equal things are
+equal to one another.]$^\dag$
+Thus, triangle $ABC$ is equal to triangle $DBC$.
+
+Thus, triangles which are on the same base and between the same parallels
+are equal to one another. (Which is) the very thing it was required to show.}
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ This is an additional common notion.}
+
+%%%%%%
+% Prop 1.38
+%%%%%%
+\pdfbookmark[1]{Proposition 1.38}{pdf1.38}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{38}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Τὰ τρίγωνα τὰ ἐπὶ >ίσων βάσεων >όντα καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ >ίσα ἀλλήλοιξ ἐστίν.}
+
+\gr{>'Εστω τρίγωνα τὰ ΑΒΓ, ΔΕΖ ἐπὶ >ίσων βάσεων τῶν ΒΓ, ΕΖ καὶ ἐν
+ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ ταῖξ ΒΖ, ΑΔ; λέγω, <ότι >ίσον ἐστὶ τὸ ΑΒΓ
+τρίγωνον τῶ| ΔΕΖ τριγώνῳ.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig38g.pdf}}
+
+\gr{Ἐκβεβλήσθω γὰρ ἡ ΑΔ ἐφ> ἑκάτερα τὰ μέρη ἐπὶ τὰ Η, Θ, καὶ διὰ μὲν τοῦ Β τῆ| ΓΑ παράλληλοξ >ήθθω ἡ ΒΗ, δὶα δὲ τοῦ Ζ τῆ| ΔΕ
+παράλληλοξ >ήθθω ἡ ΖΘ. παραλληλόγραμμον >άρα ἐστὶν ἑκάτερον τῶν ΗΒΓΑ, ΔΕΖΘ; καὶ >ίσον τὸ ΗΒΓΑ τῶ| ΔΕΖΘ; ἐπί τε γὰρ >ίσων βάσεών εἰσι τῶν ΒΓ, ΕΖ καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ ταῖξ ΒΖ, ΗΘ;
+καί ἐστι τοῦ μὲν ΗΒΓΑ παραλληλογράμμου <ήμισυ τὸ ΑΒΓ τρίγωνον. ἡ γὰρ ΑΒ διάμετροξ α\kern -.7pt  ὐτὸ δίθα τέμνει; τοῦ δὲ ΔΕΖΘ παραλληλογράμμου <ήμισυ τὸ ΖΕΔ τρίγωνον; ἡ γὰρ ΔΖ δίαμετροξ
+α\kern -.5pt  ὐτὸ δίθα τέμνει [τὰ δὲ τῶν >ίσων ἡμίση >ίσα ἀλλήλοιξ ἐστίν].
+>ίσον >άρα ἐστὶ τὸ ΑΒΓ τρίγωνον τῶ| ΔΕΖ τριγώνῳ.}
+
+\gr{Τὰ >άρα τρίγωνα  τὰ ἐπὶ >ίσων βάσεων >όντα καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ >ίσα ἀλλήλοιξ ἐστίν; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 38}
+\end{center}
+
+Triangles which are on equal bases and between the same parallels
+are equal to one another.
+
+Let $ABC$ and $DEF$ be triangles on the equal bases $BC$ and $EF$, and between the same parallels $BF$ and $AD$. I say that triangle $ABC$ is equal to triangle $DEF$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig38e.pdf}}
+
+For let $AD$ be produced in both directions to $G$ and $H$, and
+let the (straight-line) $BG$ be drawn through $B$ parallel to $CA$ [Prop.~1.31], and let the (straight-line) $FH$ be drawn through
+$F$ parallel to $DE$ [Prop.~1.31]. Thus,  $GBCA$ and $DEFH$ are
+each parallelograms. And $GBCA$ is equal to $DEFH$.
+For they are on the equal bases $BC$ and $EF$, and between  the same
+parallels $BF$ and $GH$ [Prop.~1.36]. And triangle $ABC$ is half of the parallelogram
+$GBCA$. For the diagonal $AB$ cuts the latter in half [Prop.~1.34]. And
+triangle $FED$ (is) half of parallelogram $DEFH$. For the diagonal $DF$ cuts
+the latter in half. [And the halves of equal things are equal to one another.] Thus,
+triangle $ABC$ is equal to triangle $DEF$.
+
+Thus, triangles which are on equal bases and between the same parallels
+are equal to one another. (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.39
+%%%%%%
+\pdfbookmark[1]{Proposition 1.39}{pdf1.39}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{39}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Τὰ  >ίσα τρίγωνα τὰ ἐπὶ τῆξ α\kern -.7pt  ὐτῆξ βάσεωξ >όντα καὶ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη καὶ ἐν ταῖξ α\kern -.5pt  ὐταῖξ παραλλήλοιξ ἐστίν.}
+
+\gr{>'Εστω >ίσα τρίγωνα τὰ ΑΒΓ, ΔΒΓ ἐπὶ τῆξ α\kern -.7pt  ὐτῆξ βάσεωξ >όντα καὶ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη τῆξ ΒΓ; λέγω, <ότι καὶ ἐν ταῖξ α\kern -.5pt  ὐταῖξ παραλλήλοιξ ἐστίν.}
+
+\gr{Ἐπεζεύθθω γὰρ ἡ ΑΔ; λέγω, <ότι παράλληλόξ ἐστιν ἡ ΑΔ τῆ| ΒΓ.}
+
+\gr{Εἰ γὰρ μ\kern -.7pt  ή, >ήθθω διὰ τοῦ Α σημείου τῆ| ΒΓ εὐθείᾳ παράλληλοξ ἡ ΑΕ, καὶ ἐπεζεύθθω ἡ ΕΓ. >ίσον >άρα ἐστὶ τὸ ΑΒΓ τρίγωνον τῶ| ΕΒΓ τριγώνῳ; ἐπί τε γὰρ τῆξ α\kern -.7pt  ὐτῆξ βάσεώξ ἐστιν α\kern -.5pt  ὐτῶ| τῆξ ΒΓ καὶ ἐν ταῖξ α\kern -.3pt  ὐταῖξ παραλλήλοιξ. ἀλλὰ τὸ ΑΒΓ τῶ| ΔΒΓ ἐστιν >ίσον; καὶ τὸ ΔΒΓ >άρα τῶ| ΕΒΓ >ίσον ἐστὶ τὸ μεῖζον τῶ| ἐλάσσονι; <όπερ ἐστὶν ἀδύνατον; οὐκ >άρα παράλληλόξ ἐστιν ἡ ΑΕ τῆ| ΒΓ. ὁμοίωξ δὴ δείχομεν, <ότι οὐδ> >άλλη τιξ πλὴν τῆξ ΑΔ; ἡ ΑΔ >άρα τῆ| ΒΓ ἐστι παράλληλοξ.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig39g.pdf}}
+
+\gr{Τὰ  >άρα >ίσα τρίγωνα τὰ ἐπὶ τῆξ α\kern -.7pt  ὐτῆξ βάσεωξ >όντα καὶ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη καὶ ἐν ταῖξ α\kern -.5pt  ὐταῖξ παραλλήλοιξ ἐστίν; 
+<όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 39}
+\end{center}
+
+Equal triangles which are on the same base, and on the same side, are
+also between the same parallels.
+
+Let $ABC$ and $DBC$ be equal triangles which are on the same base $BC$,
+and on the same side (of it). I say that they are also between the same parallels.
+
+For let $AD$ be joined. I say that $AD$ and $BC$ are parallel.
+
+For, if not, let $AE$ be drawn through point A parallel to the straight-line $BC$ [Prop.~1.31], and let $EC$ be joined. Thus, triangle $ABC$ is equal
+to triangle $EBC$. For it is on the same base as it, $BC$, and between the
+same parallels [Prop.~1.37]. But $ABC$ is equal to $DBC$. Thus, $DBC$ is
+also equal to $EBC$, the greater to the lesser. The very thing is impossible.
+Thus, $AE$ is not parallel to $BC$. Similarly, we can show that neither (is)
+any other (straight-line) than $AD$. Thus, $AD$ is parallel to $BC$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig39e.pdf}}
+
+Thus, equal triangles which are on the same base, and on the same side, are
+also between the same parallels. (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.40
+%%%%%%
+\pdfbookmark[1]{Proposition 1.40}{pdf1.40}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large\ggn{40}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Τὰ >ίσα τρίγωνα τὰ ἐπὶ >ίσων βάσεων >όντα καὶ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ ἐστίν.}
+
+\gr{>'Εστω >ίσα τρίγωνα τὰ ΑΒΓ, ΓΔΕ ἐπὶ >ίσων βάσεων τῶν ΒΓ, ΓΕ καὶ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη. λέγω, <ότι καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ ἐστίν.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig40g.pdf}}
+
+\gr{Ἐπεζεύθθω γὰρ ἡ ΑΔ; λέγω, <ότι παράλληλόξ ἐστιν
+ἡ ΑΔ τῆ| ΒΕ.}
+
+\gr{Εἰ γὰρ μ\kern -.7pt  ή, >ήθθω διὰ τοῦ Α τῆ| ΒΕ παράλληλοξ ἡ ΑΖ, καὶ ἐπεζεύθθω ἡ ΖΕ. >ίσον >άρα ἐστὶ τὸ ΑΒΓ τρίγωνον τῶ| ΖΓΕ τριγώνῳ; ἐπί τε
+γὰρ >ίσων βάσεών εἰσι τῶν ΒΓ, ΓΕ καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ ταῖξ ΒΕ, ΑΖ. ἀλλὰ τὸ ΑΒΓ τρίγωνον >ίσον ἐστὶ τῶ|
+ΔΓΕ  [τριγώνῳ]; καὶ τὸ ΔΓΕ >άρα [τρίγωνον] >ίσον ἐστὶ τῶ| ΖΓΕ τριγώνῳ τὸ μεῖζον τῶ| ἐλάσσονι; <όπερ ἐστὶν ἀδύνατον; οὐκ >άρα παράλληλοξ ἡ ΑΖ τῆ| ΒΕ. ὁμοίωξ δὴ δείχομεν, <ότι οὐδ> >άλλη τιξ πλὴν τῆξ ΑΔ; ἡ ΑΔ >άρα τῆ| ΒΕ ἐστι παράλληλοξ.}
+
+\gr{Τὰ >άρα >ίσα τρίγωνα τὰ ἐπὶ >ίσων βάσεων >όντα καὶ ἐπὶ τὰ α\kern -.7pt  ὐτὰ μέρη καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ ἐστίν;
+<όπερ >έδει δεῖχαι.
+}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 40$^\dag$}
+\end{center}
+
+Equal triangles which are on equal bases, and on the same side, are also
+between the same parallels.
+
+Let $ABC$ and $CDE$ be equal triangles on the equal bases $BC$ and $CE$ (respectively), and on the same side (of $BE$). I say that they are also between
+the same parallels.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig40e.pdf}}
+
+For let $AD$ be joined. I say that $AD$ is parallel to $BE$.
+
+For if not, let $AF$ be drawn through $A$ parallel to $BE$ [Prop.~1.31],
+and let $FE$ be joined. Thus, triangle $ABC$ is equal to triangle
+$FCE$. For they are on equal bases, $BC$ and $CE$, and between the same
+parallels, $BE$ and $AF$ [Prop.~1.38]. But, triangle $ABC$ is equal to [triangle] $DCE$.
+Thus, [triangle] $DCE$ is also equal to triangle $FCE$, the greater to the
+lesser. The very thing is impossible. 
+Thus, $AF$ is not parallel to $BE$. Similarly, we can show that neither (is)
+any other (straight-line) than $AD$. Thus, $AD$ is parallel to $BE$.
+
+Thus, equal triangles which are on equal bases, and on the same side, are also
+between the same parallels. (Which is) the very thing it was required to show.}
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ This whole proposition is regarded by
+Heiberg as a relatively early interpolation to the original text.\\}
+
+%%%%%%
+% Prop 1.41
+%%%%%%
+\pdfbookmark[1]{Proposition 1.41}{pdf1.41}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{41}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐὰν παραλληλόγραμμον τριγώνῳ βάσιν τε >έθῃ τὴν α\kern -.7pt  ὐτὴν καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ >ῆ|, διπλάσιόν ἐστί τὸ παραλληλόγραμμον τοῦ
+τριγώνου.}
+
+\gr{Παραλληλόγραμμον γὰρ τὸ ΑΒΓΔ τριγώνῳ τῶ| ΕΒΓ βάσιν τε ἐθέτω τὴν α\kern -.7pt  ὐτὴν τὴν ΒΓ καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ >έστω ταῖξ ΒΓ, ΑΕ; λέγω, <ότι διπλάσιόν ἐστι τὸ ΑΒΓΔ παραλληλόγραμμον τοῦ ΒΕΓ τριγώνου.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig41g.pdf}}
+
+\gr{Ἐπεζεύθθω γὰρ ἡ ΑΓ. >ίσον δή ἐστι τὸ ΑΒΓ τρίγωνον τῶ| ΕΒΓ τριγώνῳ; ἐπί τε γὰρ τῆξ α\kern -.7pt  ὐτῆξ βάσεώξ ἐστιν α\kern -.7pt  ὐτῶ| τῆξ ΒΓ καὶ ἐν ταῖξ α\kern -.5pt  ὐταῖξ παραλλήλοιξ ταῖξ ΒΓ, ΑΕ. ἀλλὰ τὸ ΑΒΓΔ παραλληλόγραμμον διπλάσιόν ἐστι τοῦ ΑΒΓ τριγώνου; ἡ γὰρ ΑΓ διάμετροξ α\kern -.3pt  ὐτὸ δίθα τέμνει; <ώστε τὸ ΑΒΓΔ παραλληλόγραμμον καὶ τοῦ ΕΒΓ τριγώνου ἐστὶ διπλάσιον.}
+
+\gr{Ἐὰν >άρα παραλληλόγραμμον τριγώνῳ βάσιν τε >έθῃ τὴν α\kern -.7pt  ὐτὴν καὶ 
+ἐν ταῖξ α\kern -.7pt  ὐταῖξ παραλλήλοιξ >ῆ|, διπλάσιόν ἐστί τὸ παραλληλόγραμμον τοῦ
+τριγώνου; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 41}
+\end{center}
+
+If a parallelogram has the same base as a triangle, and is between
+the same parallels, (then) the parallelogram is double (the area) of the triangle.
+
+For let parallelogram $ABCD$ have the same base $BC$ as triangle $EBC$,
+and let it be between the same parallels, $BC$ and $AE$. I say that 
+parallelogram $ABCD$ is double (the area) of triangle $BEC$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig41e.pdf}}
+
+For let $AC$ be joined. So triangle $ABC$ is equal to triangle
+$EBC$. For it is on the same base, $BC$,  (as $EBC$), and between the same
+parallels, $BC$ and $AE$ [Prop.~1.37]. But, parallelogram $ABCD$
+is double (the area) of triangle $ABC$. For the diagonal $AC$ cuts
+the former in half [Prop.~1.34]. So parallelogram $ABCD$ is also
+double (the area) of triangle $EBC$.
+
+Thus, if a parallelogram has the same base as a triangle, and is between
+the same parallels, (then) the parallelogram is double (the area) of the triangle.
+(Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.42
+%%%%%%
+\pdfbookmark[1]{Proposition 1.42}{pdf1.42}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{42}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Τῶ| δοθέντι τριγώνῳ >ίσον παραλληλόγραμμον συστή\-σασθαι 
+ ἐν τῆ| δοθείσῃ γωνίᾳ εὐθυγράμμῳ.}
+ 
+\gr{>'Εστω τὸ μὲν δοθὲν τρίγωνον τὸ ΑΒΓ, ἡ δὲ δοθεῖσα γωνία εὐθύγραμμοξ ἡ Δ; δεῖ δὴ τῶ| ΑΒΓ τριγώνῳ >ίσον παραλληλόγραμμον συστήσασθαι ἐν τῆ| Δ γωνίᾳ εὐθυγράμμῳ.}
+
+\gr{Τετμ\kern -.7pt  ήσθω ἡ ΒΓ δίθα κατὰ τὸ Ε, καὶ ἐπεζεύθθω ἡ ΑΕ, καὶ συνεστάτω πρὸξ τῆ| ΕΓ εὐθείᾳ καὶ τῶ| πρὸξ α\kern -.7pt  ὐτῆ| σημείῳ τῶ| Ε τῆ| Δ γωνίᾳ >ίση ἡ ὑπὸ ΓΕΖ, καὶ διὰ μὲν τοῦ Α τῆ| ΕΓ παράλληλοξ >ήθθω ἡ ΑΗ, διὰ δὲ τοῦ Γ τῆ| ΕΖ παράλληλοξ >ήθθω ἡ ΓΗ; παραλληλόγραμμον >άρα ἐστὶ τὸ ΖΕΓΗ. καὶ ἐπεὶ >ίση ἐστὶν ἡ ΒΕ τῆ| ΕΓ, >ίσον ἐστὶ καὶ τὸ ΑΒΕ τρίγωνον τῶ| ΑΕΓ τριγώνῳ; ἐπί τε γὰρ >ίσων βάσεών εἰσι τῶν ΒΕ, ΕΓ καὶ ἐν ταῖξ α\kern -.5pt  ὐταῖξ παραλλήλοιξ ταῖξ ΒΓ, ΑΗ; διπλάσιον 
+>άρα ἐστὶ τὸ ΑΒΓ τρίγωνον τοῦ ΑΕΓ τριγώνου. >έστι δὲ καὶ τὸ ΖΕΓΗ
+παραλληλόγραμμον διπλάσιον τοῦ ΑΕΓ  τριγώνου; βάσιν τε γὰρ α\kern -.3pt  ὐτῶ| τὴν α\kern -.7pt  ὐτὴν >έθει καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ ἐστιν α\kern -.7pt  ὐτῶ| παραλλήλοιξ; >ίσον >άρα ἐστὶ τὸ ΖΕΓΗ παραλληλόγραμμον τῶ| ΑΒΓ τριγώνῳ. καὶ >έθει τὴν ὑπὸ ΓΕΖ γωνίαν >ίσην τῆ| δοθείσῃ τῆ| Δ.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig42g.pdf}}
+
+\gr{Τῶ| >άρα δοθέντι τριγώνῳ τῶ| ΑΒΓ >ίσον παραλληλό\-γραμ\-μον συνέσταται τὸ ΖΕΓΗ ἐν γωνίᾳ τῆ| ὑπὸ ΓΕΖ, <ήτιξ ἐστὶν >ίση τῆ| Δ;
+<όπερ >έδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 42}
+\end{center}
+
+To construct a parallelogram equal to a given triangle in a given
+rectilinear angle.
+
+Let $ABC$ be the given triangle, and $D$ the given rectilinear angle. So
+it is required to construct a parallelogram equal to triangle $ABC$
+in the rectilinear angle $D$.
+
+Let $BC$ be cut in half at $E$ [Prop.~1.10], and let $AE$ be joined. And let (angle) $CEF$, equal to angle $D$,  be constructed
+at the point $E$ on the straight-line $EC$ [Prop.~1.23]. And let $AG$ be drawn through $A$
+parallel to $EC$ [Prop.~1.31], and let $CG$ be drawn through $C$ parallel
+to $EF$ [Prop.~1.31]. Thus, $FECG$ is a parallelogram. And since $BE$ is
+equal to $EC$, triangle $ABE$ is also equal to triangle $AEC$. For they are
+on the equal bases, $BE$ and $EC$, and between the same parallels, $BC$ and $AG$ [Prop.~1.38]. Thus, triangle $ABC$ is double (the area) of triangle $AEC$. And
+parallelogram $FECG$ is also double (the area) of triangle $AEC$. For it has the same base (as $AEC$), and is between the same parallels  (as $AEC$) [Prop.~1.41].
+Thus, parallelogram $FECG$ is equal to triangle $ABC$.  ($FECG$) also has
+the angle $CEF$ equal to the given (angle) $D$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig42e.pdf}}
+
+Thus, parallelogram $FECG$,  equal to the given
+triangle $ABC$, has been constructed in the angle $CEF$, which is equal to $D$. (Which is) the
+very thing it was required to do.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.43
+%%%%%%
+\pdfbookmark[1]{Proposition 1.43}{pdf1.43}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{43}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Παντὸξ παραλληλογράμμου τῶν περὶ τὴν διάμετρον παραλληλογράμμων τὰ παραπληρώματα >ίσα ἀλλήλοιξ ἐστίν.}
+
+\gr{>'Εστω παραλληλόγραμμον τὸ ΑΒΓΔ, διάμετροξ δὲ α\kern -.7pt  ὐτοῦ ἡ ΑΓ, περὶ
+δὲ τὴν ΑΓ παραλληλόγραμμα μὲν >έστω τὰ ΕΘ, ΖΗ, τὰ δὲ λεγόμενα παραπληρώματα τὰ ΒΚ, ΚΔ; λέγω, <ότι >ίσον ἐστὶ τὸ ΒΚ παραπλήρωμα τῶ| ΚΔ
+παραπληρώματι.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig43g.pdf}}
+
+\gr{Ἐπεὶ γὰρ παραλληλόγραμμόν ἐστι τὸ ΑΒΓΔ, διάμετροξ δὲ α\kern -.7pt  ὐτοῦ ἡ
+ΑΓ, >ίσον ἐστὶ τὸ ΑΒΓ τρίγωνον τῶ| ΑΓΔ τριγώνῳ. πάλιν, ἐπεὶ παραλληλόγραμμόν ἐστι τὸ ΕΘ, διάμετροξ δὲ α\kern -.7pt  ὐτοῦ ἐστιν ἡ ΑΚ,
+>ίσον ἐστὶ τὸ ΑΕΚ τρίγωνον τῶ| ΑΘΚ τριγώνῳ. διὰ τὰ α\kern -.5pt  ὐτὰ δὴ καὶ τὸ ΚΖΓ τρίγωνον τῶ| ΚΗΓ ἐστιν >ίσον. ἐπεὶ ο>ῦν τὸ μὲν ΑΕΚ τρίγωνον τῶ| ΑΘΚ τριγώνῳ ἐστὶν >ίσον, τὸ δὲ ΚΖΓ τῶ| ΚΗΓ, τὸ 
+ΑΕΚ τρίγωνον μετὰ τοῦ ΚΗΓ >ίσον ἐστὶ
+τῶ| ΑΘΚ  τριγώνῳ μετὰ τοῦ ΚΖΓ; >έστι δὲ καὶ <όλον τὸ ΑΒΓ τρίγωνον <όλῳ τῶ| ΑΔΓ >ίσον; λοιπὸν >άρα τὸ ΒΚ παραπλήρωμα λοιπῶ| τῶ| ΚΔ παραπληρώματί ἐστιν >ίσον.}
+
+\gr{Παντὸξ >άρα παραλληλογράμμου θωρίου τῶν περὶ τὴν διάμετρον παραλληλογράμμων τὰ παραπληρώματα >ίσα ἀλλή\-λοιξ ἐστίν; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 43}
+\end{center}
+
+For any parallelogram, the complements of the parallelograms about the diagonal are equal to one another.
+
+Let $ABCD$ be a parallelogram, and $AC$ its diagonal. And let $EH$ and $FG$
+be the parallelograms about  $AC$, and $BK$ and $KD$ the so-called complements
+(about $AC$).
+I say that the complement $BK$ is equal to the complement $KD$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig43e.pdf}}
+
+For since $ABCD$ is a parallelogram, and $AC$ its diagonal,  triangle
+$ABC$ is equal to triangle $ACD$ [Prop.~1.34]. Again, since $EH$ is
+a parallelogram, and $AK$ is its diagonal, triangle $AEK$ is equal to
+triangle $AHK$ [Prop.~1.34]. So, for the same (reasons), triangle
+$KFC$ is also equal to (triangle) $KGC$. Therefore, since triangle $AEK$ is
+equal to triangle $AHK$, and $KFC$ to $KGC$, triangle $AEK$ plus $KGC$ is
+equal to triangle $AHK$ plus $KFC$. And the whole triangle $ABC$ is
+also equal to the whole (triangle) $ADC$. Thus, the remaining complement
+$BK$ is equal to the remaining complement $KD$.
+
+Thus, for any parallelogramic figure, the complements of the
+parallelograms about the diagonal are equal to one another.
+(Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.44
+%%%%%%
+\pdfbookmark[1]{Proposition 1.44}{pdf1.44}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{44}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Παρὰ τὴν δοθεῖσαν εὐθεῖαν τῶ| δοθέντι  τριγώνῳ >ίσον παραλληλόγραμμον παραβαλεῖν ἐν  τῆ| δοθείσῃ γωνίᾳ εὐθυγράμ\-μῳ.}
+
+\gr{>'Εστω ἡ μὲν δοθεῖσα εὐθεῖα ἡ ΑΒ, τὸ δὲ δοθὲν τρίγωνον τὸ Γ, ἡ δὲ δοθεῖσα γωνία εὐθύγραμμοξ ἡ Δ; δεῖ δὴ παρὰ τὴν δοθεῖσαν εὐθεῖαν τὴν ΑΒ τῶ| δοθέντι τριγώνῳ τῶ| Γ >ίσον παραλληλόγραμμον
+παραβαλεῖν ἐν >ίσῃ τῆ| Δ γωνίᾳ.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig44g.pdf}}
+
+\gr{Συνεστάτω τῶ| Γ τριγώνῳ >ίσον παραλληλόγραμμον τὸ ΒΕΖΗ ἐν γωνίᾳ τῆ| ὑπὸ ΕΒΗ, <ή ἐστιν >ίση τῆ| Δ; καὶ κείσθω <ώστε ἐπ> εὐθείαξ ε>ῖναι τὴν ΒΕ τῆ| ΑΒ, καὶ διήθθω ἡ ΖΗ ἐπὶ τὸ Θ, καὶ διὰ τοῦ 
+Α ὁποτέρᾳ τῶν ΒΗ, ΕΖ παράλληλοξ >ήθθω ἡ ΑΘ, καὶ ἐπεζεύθθω ἡ ΘΒ. καὶ ἐπεὶ εἰξ παραλλήλουξ τὰξ ΑΘ, ΕΖ εὐθεῖα ἐνέπεσεν ἡ ΘΖ, αἱ
+>άρα ὑπὸ  ΑΘΖ, ΘΖΕ γωνίαι δυσὶν ὀρθαῖξ εἰσιν >ίσαι. αἱ >άρα ὑπὸ ΒΘΗ, ΗΖΕ δύο ὀρθῶν ἐλάσσονέξ εἰσιν; αἱ δὲ ἀπὸ ἐλασσόνων >ὴ δύο ὀρθῶν εἰξ >άπειρον ἐκβαλλόμεναι συμπίπτουσιν; αἱ ΘΒ, ΖΕ >άρα ἐκβαλλόμεναι συμπεσοῦνται. ἐκβεβλήσθωσαν καὶ συμπιπτέτωσαν κατὰ τὸ Κ, καὶ διὰ τοῦ Κ σημείου ὁποτέρᾳ τῶν ΕΑ, ΖΘ παράλληλοξ >ήθθω ἡ
+ΚΛ, καὶ ἐκβεβλήσθωσαν αἱ ΘΑ, ΗΒ ἐπὶ τὰ Λ, Μ σημεῖα. παραλληλόγραμμον >άρα ἐστὶ 
+τὸ ΘΛΚΖ, διάμετροξ δὲ α\kern -.7pt  ὐτοῦ ἡ ΘΚ, περὶ δὲ τὴν ΘΚ παραλληλόγραμμα μὲν τὰ ΑΗ, ΜΕ, τὰ δὲ λεγόμενα παραπληρώματα τὰ ΛΒ, ΒΖ; >ίσον >άρα ἐστὶ τὸ ΛΒ τῶ| ΒΖ. ἀλλὰ τὸ ΒΖ τῶ| Γ τριγώνῳ ἐστὶν >ίσον; καὶ τὸ ΛΒ >άρα τῶ| Γ ἐστιν >ίσον. καὶ ἐπεὶ >ίση ἐστὶν ἡ ὑπὸ ΗΒΕ γωνία τῆ| ὑπὸ ΑΒΜ, ἀλλὰ ἡ ὑπὸ ΗΒΕ τῆ| Δ ἐστιν >ίση, καὶ ἡ ὑπὸ ΑΒΜ >άρα τῆ| Δ γωνίᾳ ἐστὶν >ίση.}
+
+\gr{Παρὰ τὴν δοθεῖσαν >άρα εὐθεῖαν τὴν ΑΒ τῶ| δοθέντι τριγώνῳ τῶ|
+Γ >ίσον παραλληλόγραμμον παραβέβληται τὸ ΛΒ ἐν γωνίᾳ τῆ| ὑπὸ
+ΑΒΜ,  <ή ἐστιν >ίση τῆ| Δ; <όπερ >έδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 44}
+\end{center}
+
+To apply a parallelogram equal to a given triangle to a given straight-line
+in a given rectilinear angle.
+
+Let $AB$ be the given straight-line,  $C$ the given triangle, and $D$ the
+given rectilinear angle. So it is required to apply a parallelogram
+equal to the given triangle $C$ to the given straight-line $AB$ in an angle equal to (angle) $D$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig44e.pdf}}
+
+Let the parallelogram $BEFG$, equal to the triangle $C$, be
+constructed in the angle $EBG$, which is equal to $D$ [Prop.~1.42].
+And let it be placed so that $BE$ is straight-on to $AB$.$^\dag$  And
+let $FG$ be drawn through to $H$, and let $AH$ be
+drawn through $A$ parallel to either of $BG$ or $EF$ [Prop.~1.31], and
+let $HB$ be joined. And since the straight-line $HF$ falls across the
+parallels $AH$ and $EF$, the (sum of the) angles $AHF$ and $HFE$ is thus equal to
+two right-angles [Prop.~1.29]. Thus, (the sum of) $BHG$ and $GFE$ is less than two
+right-angles.
+And (straight-lines) produced to
+infinity from (internal angles whose sum is) less than two right-angles meet together [Post.~5].
+Thus, being produced, $HB$ and $FE$ will meet together. Let them 
+be produced, and let them meet together at $K$. And let $KL$ be
+drawn through point $K$ parallel to either of $EA$ or $FH$ [Prop.~1.31]. And
+let $HA$ and $GB$ be produced to points $L$ and $M$ (respectively). Thus, $HLKF$ is a parallelogram, and $HK$ its diagonal. And $AG$ and $ME$ (are) parallelograms, and $LB$ and $BF$ the so-called complements, about $HK$. Thus, $LB$ is
+equal to $BF$ [Prop.~1.43]. But, $BF$ is equal to triangle $C$. Thus, $LB$ is also
+equal to $C$. Also, since angle $GBE$ is equal to $ABM$ [Prop.~1.15], but
+$GBE$ is equal to $D$, $ABM$ is thus also equal to angle $D$.
+
+Thus, the parallelogram $LB$, equal to the
+given triangle $C$, has been applied to the given straight-line
+$AB$ in the angle $ABM$, which is equal to $D$. (Which is) the very thing it was required to do.}
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ This can be achieved using Props.~1.3, 1.23, and 1.31.}
+
+%%%%%%
+% Prop 1.45
+%%%%%%
+\pdfbookmark[1]{Proposition 1.45}{pdf1.45}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{45}.}
+\end{center}
+\vspace*{-7pt}
+
+\gr{Τῶ| δοθέντι εὐθυγράμμῳ >ίσον παραλληλόγραμμον συστ\-ήσασθαι ἐν τῆ|
+δοθείσῃ γωνίᾳ εὐθυγράμμῳ.}
+
+\gr{>'Εστω τὸ μὲν δοθὲν εὐθύγραμμον τὸ ΑΒΓΔ, ἡ δὲ δοθεῖσα γωνία εὐθύγραμμοξ ἡ Ε; δεῖ δὴ τῶ| ΑΒΓΔ εὐθυ\-γράμμῳ >ίσον παραλληλόγραμμον συστήσασθαι ἐν τῆ| δοθείσῃ γωνίᾳ τῆ| Ε.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig45g.pdf}}
+
+\gr{Ἐπεζεύθθω ἡ ΔΒ, καὶ συνεστάτω τῶ| ΑΒΔ τριγώνῳ >ίσον παραλληλόγραμμον τὸ ΖΘ ἐν τῆ| ὑπὸ ΘΚΖ γωνίᾳ, <ή ἐστιν >ίση τῆ| Ε;
+καὶ παραβεβλήσθω παρὰ τὴν ΗΘ εὐθεῖαν τῶ| ΔΒΓ τριγώνῳ >ίσον παραλληλόγραμμον τὸ ΗΜ ἐν τῆ| ὑπὸ ΗΘΜ γωνίᾳ, <ή ἐστιν >ίση τῆ| Ε. καὶ ἐπεὶ ἡ Ε γωνία ἑκατέρᾳ τῶν ὑπὸ ΘΚΖ, ΗΘΜ ἐστιν >ίση, καὶ ἡ ὑπὸ ΘΚΖ >άρα τῆ| ὑπὸ ΗΘΜ ἐστιν >ίση. κοινὴ προσκείσθω ἡ ὑπὸ ΚΘΗ; αἱ >άρα ὑπὸ ΖΚΘ, ΚΘΗ ταῖξ ὑπὸ ΚΘΗ, ΗΘΜ >ίσαι εἰσίν.
+ἀλλ> αἱ ὑπὸ ΖΚΘ, ΚΘΗ
+ δυσὶν ὀρθαῖξ >ίσαι εἰσίν; καὶ αἱ  ὑπὸ ΚΘΗ, ΗΘΜ >άρα δύο ὀρθαῖξ
+ >ίσαι εἰσίν.
+  πρὸξ δή τινι εὐθεῖᾳ τῆ| ΗΘ καὶ τῶ| πρὸξ α\kern -.7pt  ὐτῆ| σημείῳ τῶ| Θ δύο εὐθεῖαι
+ αἱ ΚΘ, ΘΜ 
+ μ\kern -.7pt  ὴ ἐπὶ τὰ α\kern -.5pt  ὐτὰ μέρη κείμεναι τὰξ ἐφεχῆξ γωνίαξ δύο ὀρθαῖξ >ίσαξ ποιοῦσιν; ἐπ> εὐθείαξ >άρα ἐστὶν ἡ ΚΘ
+τῆ| ΘΜ; καὶ ἐπεὶ εἰξ παραλλήλουξ τὰξ ΚΜ, ΖΗ εὐθεῖα ἐνέπεσεν ἡ ΘΗ, αἱ ἐναλλὰχ γωνίαι αἱ ὑπὸ ΜΘΗ, ΘΗΖ >ίσαι ἀλλήλαιξ εἰσίν. κοινὴ
+προσκείσθω ἡ ὑπὸ ΘΗΛ; αἱ >άρα ὑπὸ ΜΘΗ, ΘΗΛ ταῖξ ὑπὸ ΘΗΖ, ΘΗΛ
+>ίσαι εἰσιν. ἀλλ> αἱ ὑπὸ ΜΘΗ, ΘΗΛ
+δύο ὀρθαῖξ >ίσαι
+εἰσίν; καὶ αἱ ὑπὸ ΘΗΖ, ΘΗΛ >άρα δύο ὀρθαῖξ >ίσαι εἰσίν;
+ἐπ> εὐθείαξ >άρα ἐστὶν ἡ ΖΗ τῆ| ΗΛ. καὶ ἐπεὶ ἡ ΖΚ τῆ| ΘΗ >ίση τε καὶ παράλληλόξ ἐστιν, ἀλλὰ καὶ ἡ ΘΗ τῆ| ΜΛ, καὶ ἡ ΚΖ >άρα τῆ| ΜΛ >ίση τε καὶ παράλληλόξ ἐστιν; καὶ ἐπιζευγνύουσιν α\kern -.3pt  ὐτὰξ εὐθεῖαι αἱ ΚΜ, ΖΛ; καὶ αἱ ΚΜ, ΖΛ >άρα >ίσαι τε καὶ παράλληλοί εἰσιν; παραλληλόγραμμον >άρα ἐστὶ τὸ ΚΖΛΜ. καὶ ἐπεὶ >ίσον ἐστὶ τὸ μὲν
+ΑΒΔ τρίγωνον τῶ| ΖΘ παραλληλογράμμῳ, τὸ δὲ ΔΒΓ τῶ| ΗΜ, <όλον
+>άρα τὸ ΑΒΓΔ εὐθύγραμμον <όλῳ τῶ| ΚΖΛΜ
+παραλληλογράμμῳ ἐστὶν >ίσον.}
+
+\gr{Τῶ| >άρα δοθέντι εὐθυγράμμῳ τῶ| ΑΒΓΔ >ίσον παραλληλόγραμμον συνέσταται τὸ ΚΖΛΜ ἐν γωνίᾳ τῆ| ὑπὸ ΖΚΜ, <ή ἐστιν >ίση τῆ|
+δοθείσῃ τῆ| Ε; <όπερ >έδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 45}
+\end{center}
+
+To construct a parallelogram equal to a given rectilinear figure in a given
+rectilinear angle.
+
+Let $ABCD$ be the given rectilinear figure,$^\dag$ and $E$ the given rectilinear angle.
+So it is required to construct a parallelogram equal to the rectilinear figure
+$ABCD$ in the given angle $E$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig45e.pdf}}
+
+Let $DB$ be joined, and let the parallelogram $FH$, equal to
+the triangle $ABD$, be
+constructed in the angle $HKF$, which is equal to $E$ [Prop.~1.42].
+And let the parallelogram $GM$, equal to the triangle $DBC$, be
+applied to the straight-line $GH$ in the angle $GHM$,
+which is equal to $E$ [Prop.~1.44]. And since angle $E$ is equal to each of
+(angles) $HKF$ and $GHM$,  (angle) $HKF$ is thus also equal to $GHM$. 
+Let $KHG$ be added to both. Thus, (the sum of) $FKH$ and $KHG$ is
+equal to (the sum of) $KHG$ and $GHM$. But, (the sum of) $FKH$ and $KHG$ is equal to
+two right-angles [Prop.~1.29]. Thus, (the sum of) $KHG$ and $GHM$ is also equal to
+two right-angles. So two straight-lines, $KH$ and $HM$, not lying on the same side, make  adjacent angles with some straight-line $GH$, 
+at the point $H$ on it, (whose sum is) equal to two right-angles.
+Thus, $KH$ is straight-on to $HM$ [Prop.~1.14].
+And since the straight-line $HG$ falls across the parallels $KM$ and $FG$, the alternate angles
+$m\kern -.7pt hG$ and $HGF$ are equal to one another [Prop.~1.29]. Let $HGL$ have
+been added to both. Thus, (the sum of) $m\kern -.7pt hG$ and $HGL$ is equal to 
+(the sum of) $HGF$ and $HGL$.
+But, (the sum of) $m\kern -.7pt hG$ and $HGL$ is equal to two right-angles [Prop.~1.29].
+Thus, (the sum of) $HGF$ and $HGL$ is also equal to two right-angles.
+Thus, $FG$ is straight-on to $GL$ [Prop.~1.14]. And since $FK$ is
+equal and parallel to $HG$ [Prop.~1.34], but also $HG$ to $ML$ [Prop.~1.34],
+$KF$ is thus also equal and parallel to $ML$ [Prop.~1.30]. And the straight-lines $KM$ and
+$FL$ join them. Thus, $KM$ and $FL$ are equal and parallel as well [Prop.~1.33].
+Thus, $KFLM$ is a parallelogram. And since triangle $ABD$ is equal to parallelogram $FH$, and $DBC$ to $GM$, the whole rectilinear figure
+$ABCD$ is thus equal to the whole parallelogram $KFLM$.
+
+Thus, the parallelogram $KFLM$, equal to the given
+rectilinear figure $ABCD$, has been constructed in the angle
+$FKM$, which is equal to the given (angle) $E$. (Which is) the very thing it was
+required to do.}
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ The proof is only given for a four-sided figure. However, the extension to many-sided figures is
+trivial.}
+
+%%%%%%
+% Prop 1.46
+%%%%%%
+\pdfbookmark[1]{Proposition 1.46}{pdf1.46}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{46}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἀπὸ τῆξ δοθείσηξ εὐθείαξ τετράγωνον ἀναγράψαι.}
+
+\gr{>'Εστω ἡ δοθεῖσα εὐθεῖα ἡ ΑΒ; δεῖ δὴ ἀπὸ τῆξ ΑΒ εὐθείαξ τετράγωνον ἀναγράψαι.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig46g.pdf}}
+
+\gr{>'Ηθθω τῆ| ΑΒ εὐθείᾳ ἀπὸ τοῦ πρὸξ α\kern -.7pt  ὐτῆ| σημείου τοῦ Α πρὸξ ὀρθὰξ ἡ ΑΓ, καὶ κείσθω τῆ| ΑΒ >ίση ἡ ΑΔ; καὶ διὰ μὲν τοῦ Δ σημείου τῆ| ΑΒ παράλληλοξ >ήθθω ἡ ΔΕ, διὰ δὲ τοῦ Β σημείου τῆ| ΑΔ παράλληλοξ >ήθθω ἡ ΒΕ. παραλληλόγραμμον >άρα ἐστὶ τὸ ΑΔΕΒ; >ίση >άρα ἐστὶν ἡ μὲν ΑΒ τῆ| ΔΕ, ἡ δὲ ΑΔ τῆ| ΒΕ. ἀλλὰ ἡ ΑΒ τῆ| ΑΔ ἐστιν >ίση; αἱ τέσσαρεξ >άρα αἱ ΒΑ, ΑΔ, ΔΕ, ΕΒ >ίσαι ἀλλήλαιξ εἰσίν;
+ἰσόπλευρον >άρα ἐστὶ τὸ ΑΔΕΒ παραλληλόγραμμον. λέγω δή, <ότι καὶ ὀρθογώνιον. ἐπεὶ γὰρ εἰξ παραλλήλουξ τὰξ ΑΒ, ΔΕ εὐθεῖα ἐνέπεσεν ἡ ΑΔ, αἱ >άρα ὑπὸ ΒΑΔ, ΑΔΕ γωνίαι δύο ὀρθαῖξ >ίσαι εἰσίν.
+ὀρθὴ δὲ ἡ ὑπὸ ΒΑΔ; ὀρθὴ >άρα καὶ ἡ ὑπὸ ΑΔΕ. τῶν δὲ παραλληλογράμμων θωρίων αἱ ἀπεναντίον πλευραί τε καὶ γωνίαι >ίσαι ἀλλήλαιξ εἰσίν; ὀρθὴ >άρα καὶ ἑκατέρα τῶν ἀπεναντίον τῶν ὑπὸ ΑΒΕ, ΒΕΔ γωνιῶν; ὀρθογώνιον >άρα ἐστὶ τὸ ΑΔΕΒ. ἐδείθθη δὲ καὶ ἰσόπλευρον.}
+
+\gr{Τετράγωνον >άρα ἐστίν; καί ἐστιν ἀπὸ τῆξ ΑΒ εὐθείαξ ἀναγεγραμμένον; <όπερ >έδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 46}
+\end{center}
+
+To describe a square on a given straight-line.
+
+Let $AB$ be the given straight-line. So it is required to describe a
+square on the straight-line $AB$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig46e.pdf}}
+
+Let $AC$ be drawn at right-angles to the straight-line $AB$
+from the point $A$ on it [Prop.~1.11], and let $AD$ be
+made equal to $AB$ [Prop.~1.3]. And let $DE$ be drawn
+through point $D$ parallel to $AB$ [Prop.~1.31], and let $BE$ be
+drawn through point $B$ parallel to $AD$ [Prop.~1.31]. Thus,
+$ADEB$ is a parallelogram. Therefore, $AB$ is equal to $DE$, and $AD$ to $BE$ [Prop.~1.34]. But, $AB$ is equal to $AD$. Thus, the four (sides) $BA$, $AD$, $DE$, and $EB$ are equal to one another. Thus, the parallelogram $ADEB$ is equilateral.
+So I say that (it is) also right-angled. For since the straight-line $AD$ falls
+across the parallels $AB$ and $DE$, the (sum of the) angles $BAD$ and $ADE$ is
+equal to two right-angles [Prop.~1.29]. But $BAD$ (is a) right-angle. Thus,
+$ADE$ (is) also a right-angle. And for parallelogramic figures, the opposite
+sides and angles are equal to one another [Prop.~1.34]. Thus, each of the
+opposite angles $ABE$ and $BED$ (are) also right-angles. Thus, $ADEB$ is
+right-angled. And it was also shown (to be) equilateral.
+
+Thus, ($ADEB$) is a square [Def.~1.22]. And it is described on the straight-line $AB$. (Which is) the very thing it was required to do.}
+\end{Parallel}
+
+%%%%%%
+% Prop 1.47
+%%%%%%
+\pdfbookmark[1]{Proposition 1.47}{pdf1.47}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large\ggn{47}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐν τοῖξ ὀρθογωνίοιξ τριγώνοιξ τὸ ἀπὸ τῆξ τὴν ὀρθὴν γωνίαν ὑποτεινούσηξ πλευρᾶξ τετράγωνον >ίσον ἐστὶ τοῖξ ἀπὸ τῶν τὴν ὀρθὴν γωνίαν περιεθουσῶν πλευρῶν τετραγώνοιξ.}
+
+\gr{>'Εστω τρίγωνον ὀρθογώνιον τὸ ΑΒΓ ὀρθὴν >έθον τὴν ὑπὸ ΒΑΓ γωνίαν; λέγω, <ότι τὸ ἀπὸ τῆξ ΒΓ τετράγωνον >ίσον ἐστὶ τοῖξ
+ἀπὸ τῶν ΒΑ, ΑΓ τετραγώνοιξ.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig47g.pdf}}
+
+\gr{Ἀναγεγράφθω γὰρ ἀπὸ μὲν τῆξ ΒΓ τετράγωνον τὸ ΒΔΕΓ, ἀπὸ δὲ τῶν ΒΑ, ΑΓ τὰ ΗΒ, ΘΓ, καὶ διὰ τοῦ Α ὁποτέρᾳ τῶν ΒΔ, ΓΕ παράλληλοξ >ήθθω ἡ ΑΛ; καὶ ἐπεζεύθθωσαν αἱ ΑΔ, ΖΓ. καὶ ἐπεὶ ὀρθή ἐστιν ἑκατέρα τῶν ὑπὸ ΒΑΓ, ΒΑΗ γωνιῶν, πρὸξ δή τινι εὐθείᾳ τῆ| ΒΑ καὶ τῶ| πρὸξ α\kern -.7pt  ὐτῆ| σημείῳ τῶ| Α δύο εὐθεῖαι αἱ ΑΓ, ΑΗ μ\kern -.7pt  ὴ ἐπὶ τὰ α\kern -.5pt  ὐτὰ μέρη κείμεναι τὰξ ἐφεχῆξ γωνίαξ δυσὶν ὀρθαῖξ >ίσαξ ποιοῦσιν; ἐπ> εὐθείαξ >άρα ἐστὶν ἡ ΓΑ τῆ| ΑΗ. διὰ τὰ α\kern -.3pt  ὐτὰ δὴ καὶ ἡ ΒΑ τῆ| ΑΘ ἐστιν ἐπ> εὐθείαξ. καὶ ἐπεὶ >ίση ἐστὶν ἡ ὑπὸ ΔΒΓ γωνία τῆ| ὑπὸ ΖΒΑ; ὀρθὴ γὰρ ἑκατέρα; κοινὴ προσκείσθω ἡ ὑπὸ ΑΒΓ; <όλη >άρα ἡ ὑπὸ ΔΒΑ <όλῃ τῆ| ὑπὸ ΖΒΓ ἐστιν >ίση.
+καὶ ἐπεὶ >ίση ἐστὶν ἡ μὲν ΔΒ τῆ| ΒΓ, ἡ δὲ ΖΒ τῆ| ΒΑ, δύο δὴ αἱ ΔΒ, ΒΑ δύο ταῖξ ΖΒ, ΒΓ >ίσαι  εἰσὶν ἑκατέρα ἑκατέρᾳ;
+καὶ γωνία ἡ ὑπὸ ΔΒΑ γωνίᾳ τῆ| ὑπὸ ΖΒΓ >ίση;
+βάσιξ >άρα ἡ ΑΔ βάσει τῆ| ΖΓ [ἐστιν] >ίση, καὶ τὸ ΑΒΔ τρίγωνον τῶ| ΖΒΓ τριγώνῳ ἐστὶν >ίσον; καί [ἐστι] τοῦ μὲν ΑΒΔ τριγώνου διπλάσιον τὸ ΒΛ παραλληλόγραμμον; βάσιν τε γὰρ τὴν α\kern -.7pt  ὐτὴν >έθουσι τὴν ΒΔ καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ εἰσι παραλλήλοιξ ταῖξ ΒΔ, ΑΛ; τοῦ δὲ ΖΒΓ τριγώνου διπλάσιον τὸ ΗΒ τετράγωνον; βάσιν τε γὰρ πάλιν τὴν α\kern -.7pt  ὐτὴν >έθουσι τὴν ΖΒ καὶ ἐν ταῖξ α\kern -.7pt  ὐταῖξ εἰσι παραλλήλοιξ ταῖξ ΖΒ, ΗΓ. [τὰ δὲ τῶν >ίσων διπλάσια >ίσα ἀλλήλοιξ ἐστίν;] >ίσον >άρα ἐστὶ καὶ τὸ ΒΛ παραλληλόγραμμον τῶ| ΗΒ τετραγώνῳ. ὁμοίωξ δὴ ἐπιζευγνυμένων τῶν ΑΕ, ΒΚ δειθθήσεται καὶ τὸ ΓΛ παραλληλόγραμμον
+>ίσον τῶ| ΘΓ τετραγώνῳ; <όλον >άρα τὸ ΒΔΕΓ τετράγωνον δυσὶ τοῖξ ΗΒ, ΘΓ τετραγώνοιξ >ίσον ἐστίν. καί ἐστι τὸ μὲν ΒΔΕΓ τετράγωνον ἀπὸ τῆξ ΒΓ ἀναγραφέν, τὰ δὲ ΗΒ, ΘΓ ἀπὸ τῶν ΒΑ, ΑΓ. τὸ >άρα ἀπὸ τῆξ ΒΓ πλευρᾶξ τετράγωνον >ίσον ἐστὶ τοῖξ ἀπὸ τῶν ΒΑ, ΑΓ
+πλευρῶν τετραγώνοιξ.}
+
+\gr{Ἐν >άρα  τοῖξ ὀρθογωνίοιξ τριγώνοιξ τὸ ἀπὸ τῆξ τὴν ὀρθὴν γωνίαν ὑποτεινούσηξ πλευρᾶξ τετράγωνον >ίσον ἐστὶ τοῖξ ἀπὸ τῶν τὴν ὀρθὴν [γωνίαν] περιεθουσῶν πλευρῶν τετραγώνοιξ; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 47}
+\end{center}
+
+In right-angled triangles,  the square on the side subtending the right-angle
+is equal to the (sum of the) squares on the sides containing the right-angle.
+
+Let $ABC$ be a right-angled triangle having the angle $BAC$ a right-angle. I say that the
+square on $BC$ is equal to the (sum of the) squares on $BA$ and $AC$.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig47e.pdf}}
+
+For let the square $BDEC$ be described on $BC$, and (the squares) $GB$ and $HC$ on $AB$ and $AC$ (respectively) [Prop.~1.46]. And let $AL$ be drawn through point $A$ parallel to either of $BD$ or $CE$ [Prop.~1.31]. And let $AD$ and $FC$ be joined. And
+since angles $BAC$ and $BAG$ are each right-angles, then two straight-lines $AC$ and $AG$, not lying on the same side,
+make the adjacent angles with some straight-line $BA$, at the point
+$A$ on it, (whose sum is) equal to two right-angles. Thus, $CA$ is straight-on to $AG$ [Prop.~1.14]. So, for
+the same (reasons), $BA$ is also straight-on to $AH$. And since angle $DBC$ is
+equal to $FBA$, for (they are) both right-angles, let $ABC$ be added to
+both.  Thus, the whole (angle) $DBA$ is equal to the whole (angle) $FBC$.
+And since $DB$ is equal to $BC$, and $FB$ to $BA$, the two (straight-lines) $DB$,
+$BA$ are equal to the two (straight-lines) $CB$, $BF$,$^\dag$ respectively. And angle $DBA$ (is) equal to angle $FBC$. Thus, the base $AD$ [is] equal to the base $FC$,
+and the triangle $ABD$ is equal to the triangle $FBC$ [Prop.~1.4]. And 
+parallelogram $BL$ [is] double (the area) of triangle $ABD$. For they
+have the same base, $BD$, and are between the same parallels, $BD$ and $AL$  [Prop.~1.41]. And
+ square
+$GB$ is double (the area) of triangle $FBC$. For again they have the same base, $FB$, and
+are between the same parallels,
+$FB$ and $GC$ [Prop.~1.41]. [And the doubles of equal things
+are equal to one another.]$^\ddag$ Thus, the parallelogram $BL$ is also equal to the square $GB$. So, similarly, $AE$ and $BK$ being joined, 
+the parallelogram $CL$ can be shown (to be)  equal to the square $HC$. Thus, the whole square
+$BDEC$ is equal to the (sum of the) two squares $GB$ and $HC$. And the square $BDEC$
+is described on $BC$, and the (squares) $GB$ and $HC$ on $BA$ and $AC$ (respectively). Thus, the square on the side $BC$ is equal to the
+(sum of the) squares
+on the sides $BA$ and $AC$.
+
+Thus, in right-angled triangles,  the square on the side subtending the right-angle
+is equal to the (sum of the) squares on the sides surrounding the right-[angle].
+(Which is) the very thing it was required to show.}
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ The
+Greek text has ``$FB$, $BC$'', which is obviously a mistake.\\[0.5ex]
+$^\ddag$ This is an additional common notion.}
+
+%%%%%%
+% Prop 1.48
+%%%%%%
+\pdfbookmark[1]{Proposition 1.48}{pdf1.48}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large\ggn{48}.}
+\end{center}\vspace*{-7pt}
+
+\gr{Ἐὰν τριγώνου τὸ ἀπὸ μιᾶξ τῶν πλευρῶν τετράγωνον >ίσον >ῆ| τοῖξ ἀπὸ τῶν λοιπῶν τοῦ τριγώνου δύο πλευρῶν τετραγώνοιξ, ἡ περιεθομένη γωνία ὑπὸ τῶν λοιπῶν τοῦ τριγώνου δύο πλευρῶν ὀρθή ἐστιν.}
+
+\gr{Τριγώνου γὰρ τοῦ ΑΒΓ τὸ ἀπὸ μιᾶξ τῆξ ΒΓ πλευρᾶξ τετράγωνον >ίσον >έστω τοῖξ ἀπὸ τῶν ΒΑ, ΑΓ πλευρῶν τετραγώνοιξ; λέγω, <ότι ὀρθή ἐστιν ἡ ὑπὸ ΒΑΓ γωνία.}
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig48g.pdf}}
+
+\gr{>'Ηθθω γὰρ ἀπὸ τοῦ Α σημείου τῆ| ΑΓ εὐθείᾳ πρὸξ ὀρθὰξ ἡ ΑΔ καὶ κείσθω τῆ| ΒΑ >ίση ἡ ΑΔ, καὶ ἐπεζεύθθω ἡ ΔΓ. ἐπεὶ >ίση
+ἐστὶν ἡ ΔΑ τῆ| ΑΒ, >ίσον ἐστὶ καὶ τὸ ἀπὸ τῆξ ΔΑ τετράγωνον τῶ| ἀπὸ τῆξ ΑΒ τετραγώνῳ. κοινὸν προσκείσθω τὸ ἀπὸ τῆξ ΑΓ τετράγωνον; τὰ >άρα ἀπὸ τῶν ΔΑ, ΑΓ τετράγωνα >ίσα ἐστὶ τοῖξ ἀπὸ τῶν ΒΑ, ΑΓ τετραγώνοιξ. ἀλλὰ τοῖξ μὲν ἀπὸ τῶν ΔΑ, ΑΓ >ίσον ἐστὶ τὸ ἀπὸ τῆξ ΔΓ; ὀρθὴ γάρ ἐστιν ἡ ὑπὸ ΔΑΓ γωνία; τοῖξ δὲ ἀπὸ τῶν ΒΑ, ΑΓ >ίσον ἐστὶ τὸ ἀπὸ τῆξ ΒΓ; ὑπόκειται γάρ; τὸ >άρα ἀπὸ τῆξ ΔΓ τετράγωνον >ίσον ἐστὶ τῶ| ἀπὸ τῆξ ΒΓ τετραγώνῳ; <ώστε καὶ πλευρὰ ἡ ΔΓ τῆ| ΒΓ ἐστιν >ίση; καὶ ἐπεὶ >ίση ἐστὶν ἡ ΔΑ τῆ| ΑΒ, κοινὴ δὲ ἡ ΑΓ, δύο δὴ αἱ ΔΑ, ΑΓ δύο ταῖξ ΒΑ, ΑΓ >ίσαι εἰσίν; καὶ βάσιξ ἡ ΔΓ βάσει τῆ| ΒΓ >ίση; γωνία >άρα ἡ ὑπὸ ΔΑΓ γωνίᾳ τῆ| ὑπὸ ΒΑΓ [ἐστιν] >ίση. ὀρθὴ δὲ ἡ ὑπὸ ΔΑΓ; ὀρθὴ >άρα καὶ ἡ ὑπὸ ΒΑΓ.}
+
+\gr{Ἐὰν ἀρὰ τριγώνου τὸ ἀπὸ μιᾶξ τῶν πλευρῶν τετράγωνον >ίσον >ῆ| τοῖξ ἀπὸ τῶν λοιπῶν τοῦ τριγώνου δύο πλευρῶν τετραγώνοιξ, ἡ περιεθομένη γωνία ὑπὸ τῶν λοιπῶν τοῦ τριγώνου δύο πλευρῶν ὀρθή ἐστιν; <όπερ >έδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 48}
+\end{center}
+
+If the square on one of the sides of a triangle is equal to the (sum of the)
+squares on the two remaining sides of the triangle (then) the angle contained
+by the two remaining sides of the triangle is a right-angle.
+
+For let the square on one of the sides, $BC$, of triangle $ABC$ be equal
+to the (sum of the) squares on the sides $BA$ and $AC$. I say that angle
+$BAC$ is a right-angle.
+
+% Removed epsf size command
+\centerline{\includegraphics{Book01/fig48e.pdf}}
+
+For let $AD$ be drawn from point $A$ at right-angles to the
+straight-line $AC$ [Prop.~1.11], and let $AD$ be made equal to
+$BA$ [Prop.~1.3], and let $DC$ be joined. Since $DA$ is equal to $AB$,
+the square on $DA$ is thus also equal to the square on $AB$.$^\dag$ Let the square on
+$AC$ be added to both. Thus, the (sum of the) squares on $DA$ and $AC$ is equal
+to the (sum of the) squares on $BA$ and $AC$. But, the (square) on $DC$ 
+is equal to the (sum of the squares) on $DA$ and $AC$. For angle $DAC$ is a right-angle [Prop.~1.47].
+But, the  (square) on $BC$ is equal to (sum of the squares) on $BA$ and $AC$.
+For (that) was assumed. Thus, the square on $DC$ is equal to the square on $BC$.
+So  side $DC$ is also equal to (side) $BC$. And since $DA$ is equal to $AB$, and $AC$ (is) common, the two (straight-lines) $DA$, $AC$ are equal to the two (straight-lines)
+$BA$, $AC$. And the base $DC$ is equal to the base $BC$. Thus, angle $DAC$ [is] equal to angle $BAC$ [Prop.~1.8].  But $DAC$ is a right-angle. Thus, $BAC$ is
+also a right-angle.
+
+Thus, if the square on one of the sides of a triangle is equal to the (sum of the)
+squares on the remaining two sides of the triangle (then) the angle contained
+by the remaining two sides of the triangle is a right-angle. (Which is) the very thing
+it was required to show.}
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ Here, use is made of the additional common notion that the squares of equal things are
+themselves equal. Later on, the inverse notion is used.} 

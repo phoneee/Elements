@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-09-08T00:32:12.222309",
+  "total_files": 1,
+  "total_macros_found": 343,
+  "total_patches_applied": 343,
+  "total_leftover_macros": 0,
+  "total_residual_diacritics": 0,
+  "qa_summary": {
+    "legacy_in_blocks": 252,
+    "ascii_j_in_blocks": 0,
+    "wrong_sigma_end": 0,
+    "wrong_sigma_internal": 0,
+    "paren_eq_in_blocks": 258,
+    "dimension_units_protected": 0
+  },
+  "file_details": [
+    {
+      "input": "Book1.tex",
+      "output": "/Users/phoneee/proj/euclid/Elements/test_output/Book1_modern.tex",
+      "macros_found": 343,
+      "patches_applied": 343,
+      "leftover_macros": 0,
+      "residual_diacritics": 0,
+      "qa_issues": {
+        "legacy_in_blocks": 252,
+        "ascii_j_in_blocks": 0,
+        "wrong_sigma_end": 0,
+        "wrong_sigma_internal": 0,
+        "paren_eq_in_blocks": 258,
+        "dimension_units_protected": 0
+      }
+    }
+  ]
+}

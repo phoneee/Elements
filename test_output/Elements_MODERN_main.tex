@@ -1,0 +1,68 @@
+% !TeX program = lualatex
+\documentclass[12pt,a4paper]{book}
+
+% Modern Unicode setup
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage[variant=ancient]{greek}
+
+% Main font
+\IfFontExistsTF{EB Garamond}{
+  \setmainfont{EB Garamond}
+}{
+  \setmainfont{Times New Roman}
+}
+
+% Greek font with polytonic support
+\IfFontExistsTF{Cardo}{
+  \newfontfamily\greekfont{Cardo}
+}{
+  \IfFontExistsTF{New Athena Unicode}{
+    \newfontfamily\greekfont{New Athena Unicode}
+  }{
+    \IfFontExistsTF{Noto Serif}{
+      \newfontfamily\greekfont{Noto Serif}
+    }{
+      \newfontfamily\greekfont{DejaVu Serif}
+    }
+  }
+}
+
+% Document setup
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{csquotes}
+\usepackage{cleveref}
+
+% Headers and footers (configure in main file, not chapter files)
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+% Fallback passthrough for any remaining old macros (should be unused)
+\providecommand{\gr}[1]{#1}
+\providecommand{\grq}[1]{#1}
+\providecommand{\grqq}[1]{#1}
+\providecommand{\gn}[1]{#1}
+\providecommand{\ggn}[1]{#1}
+
+% Compatibility for old graphics commands
+\providecommand{\epsffile}[1]{\includegraphics[width=0.6\textwidth]{#1}}
+
+\begin{document}
+
+\frontmatter
+\title{Euclid's Elements\\{\large Modernized Unicode Edition}}
+\author{Compiled from Fitzpatrick Edition}
+\date{\today}
+\maketitle
+
+\tableofcontents
+
+\mainmatter
+\input{Book1_modern}
+\backmatter
+
+\end{document}

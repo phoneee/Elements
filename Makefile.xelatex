@@ -1,0 +1,25 @@
+# Makefile for Euclid's Elements with XeLaTeX
+# Unicode Greek support
+
+# Compiler selection
+LATEX = xelatex
+# Alternative: LATEX = lualatex
+
+# Main document
+MAIN = Elements
+
+# Build targets
+all: $(MAIN).pdf
+
+$(MAIN).pdf: $(MAIN).tex Book*/*.tex
+	$(LATEX) $(MAIN).tex
+	$(LATEX) $(MAIN).tex  # Run twice for references
+
+clean:
+	rm -f *.aux *.log *.out *.toc *.pdf Book*/*.aux
+
+# Compile individual books
+book%:
+	cd Book$* && $(LATEX) Book$*.tex
+
+.PHONY: all clean

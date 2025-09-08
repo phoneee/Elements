@@ -1,0 +1,1561 @@
+% !TEX root = ../Elements.tex
+% Greek and English text last checked 16/03/2013
+%%%%%%
+% BOOK 4
+%%%%%%
+\pdfbookmark[0]{Book 4}{book4}
+\pagestyle{empty}
+\begin{center}
+{\Huge ELEMENTS BOOK 4}\\
+\spa\spa\spa
+{\huge\it Construction of Rectilinear Figures In and}\\[0.5ex] {\huge\it Around Circles}
+\end{center}
+%\vspace{2cm}
+%\epsfysize=5in
+%\centerline{\epsffile{Book04/front.eps}}
+\newpage
+
+%%%%%%%
+% Definitions
+%%%%%%%
+\pdfbookmark[1]{Definitions}{def4}
+\pagestyle{fancy}
+\cfoot{{\greekfont τ̀ηεπαγε}}
+\lhead{\large{\greekfont ΣΤΟΙΘΕΙΩΝ γ̀γν{4}.}}
+\rhead{\large ELEMENTS BOOK 4}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+\large{{\greekfont Ὅροι}.}
+\end{center}\vspace*{-7pt}
+
+\ggn{1}.~{\greekfont Σθῆμα εὐθύγραμμον εἰς σχῆμα εὐθύγραμμον ἐγγράφ-εσθαι λέγεται, ὅταν ἑκάστη τῶν τοῦ ἐγγραφομένου σθήματ-ος γωνιῶν
+ἑκάστης πλευρᾶς τοῦ, εἰς ὃ ἐγγράφεται, ἅπτηται.}
+
+\ggn{2}.~{\greekfont Σθῆμα δὲ ὁμοίως περὶ σχῆμα περιγράφεσθαι λέγεται, ὅταν ἑκάστη
+πλευρὰ τοῦ περιγραφομένου ἑκάστης γωνίας τοῦ, περὶ ὃ περιγράφεται,
+ἅπτηται.}
+
+\ggn{3}.~{\greekfont Σθῆμα εὐθύγραμμον εἰς κύκλον ἐγγράφεσθαι λέγεται, ὅταν
+ἑκάστη γωνία τοῦ ἐγγραφομένου ἅπτηται τῆς τοῦ κύκλου
+περιφερείας.}
+
+\ggn{4}.~{\greekfont Σθῆμα δὲ εὐθύγραμμον περὶ κύκλον περιγράφε-σθαι λέγεται,
+ὅταν ἑκάστη πλευρὰ τοῦ περιγραφομένου ἐφάπτηται τῆς τοῦ κύκλου
+περιφερείας.}
+
+\ggn{5}.~{\greekfont Κύκλος δὲ εἰς σχῆμα ὁμοίως ἐγγράφεσθαι λέγεται, ὅταν
+ἡ τοῦ κύκλου περιφέρεια ἑκάστης πλευρᾶς τοῦ, εἰς ὃ ἐγγράφεται,
+ἅπτηται.}
+
+\ggn{6}.~{\greekfont Κύκλος δὲ περὶ σχῆμα περιγράφεσθαι λέγεται, ὅταν ἡ τοῦ
+κύκλου περιφέρεια ἑκάστης γωνίας τοῦ, περὶ ὃ περιγράφεται, ἅπτηται.}
+
+\ggn{7}.~{\greekfont Εὐθεῖα εἰς κύκλον ἐναρμόζεσθαι λέγεται, ὅταν τὰ πέρατα
+α ὐτῆς ἐπὶ τῆς περιφερείας ᾖ τοῦ κύκλου.}}
+
+\ParallelRText{
+\begin{center}
+{\large Definitions}
+\end{center}
+
+1.~A rectilinear figure is said to be inscribed in a(nother) rectilinear figure
+when  the respective angles of the inscribed figure touch the respective
+sides of the (figure) in which it is inscribed.
+
+2.~And, similarly, a  (rectilinear) figure is said to be circumscribed about a(nother rectilinear) figure when the respective sides of the circumscribed
+(figure) touch the respective angles of the (figure) about which it is
+circumscribed.
+
+3.~A rectilinear figure is said to be inscribed in a circle when
+each angle of the inscribed (figure) touches the circumference of the
+circle.
+
+4.~And a rectilinear figure is said to be circumscribed about a circle
+when each side of the circumscribed (figure) touches the
+circumference of the circle.
+
+5.~And, similarly, a circle is said to be inscribed in a (rectilinear) figure
+when the circumference of the circle touches each  side of
+the (figure) in which it is inscribed.
+
+6.~And a circle is said to be circumscribed about a rectilinear (figure)
+when the circumference of the circle touches each  angle of the
+(figure) about which it is circumscribed.
+
+7.~A straight-line is said to be inserted into a circle when its extremities
+are on the circumference of the circle.}
+\end{Parallel}
+
+%%%%%%
+% Prop 4.1
+%%%%%%
+\pdfbookmark[1]{Proposition 4.1}{pdf4.1}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{1}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Εἰς τὸν δοθέντα κύκλον τῇ δοθείσῃ εὐθείᾳ μὴ μείζονι οὔσῃ
+τῆς τοῦ κύκλου διαμέτρου ἴσην εὐθεῖαν ἐναρμόσαι.}\\
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig01g.eps}}
+
+{\greekfont Ἔστω ὁ δοθεὶς κύκλος ὁ ΑΒΓ, ἡ δὲ δοθεῖσα εὐθεῖα μὴ
+μείζων τῆς τοῦ κύκλου διαμέτρου ἡ Δ. δεῖ δὴ εἰς τὸν
+ΑΒΓ κύκλον τῇ Δ εὐθείᾳ ἴσην εὐθεῖαν ἐναρμόσαι.}
+
+{\greekfont Ἤθθω τοῦ ΑΒΓ κύκλου διάμετρος ἡ ΒΓ. εἰ μὲν
+οὖν ἴση ἐστὶν ἡ ΒΓ τῇ Δ, γεγονὸς ἂν εἴη τὸ
+ἐπιταθθέν; ἐνήρμοσται γὰρ εἰς τὸν ΑΒΓ κύκλον τῇ
+Δ εὐθείᾳ ἴση ἡ ΒΓ. εἰ δὲ μείζων ἐστὶν ἡ ΒΓ τῆς
+Δ, κείσθω τῇ Δ ἴση ἡ ΓΕ, καὶ κέντρῳ τῷ Γ διαστήματι
+δὲ τῷ ΓΕ κύκλος γεγράφθω ὁ ΕΑΖ, καὶ ἐπεζεύθθω
+ἡ ΓΑ.}
+
+{\greekfont Ἐπεὶ οὖν το Γ σημεῖον κέντρον ἐστὶ τοῦ ΕΑΖ κύκλου, ἴση
+ ἐστὶν ἡ ΓΑ τῇ ΓΕ. ἀλλὰ τῇ Δ ἡ ΓΕ ἐστιν ἴση;
+καὶ ἡ Δ ἄρα τῇ ΓΑ ἐστιν ἴση.}
+
+{\greekfont Εἰς ἄρα τὸν δοθέντα κύκλον τὸν ΑΒΓ τῇ δοθείσῃ εὐθείᾳ τῇ
+Δ ἴση ἐνήρμοσται ἡ ΓΑ; ὅπερ ἔδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 1}
+\end{center}
+
+To insert a straight-line equal to
+a given straight-line into a circle, (the latter straight-line) not being greater than the diameter of the circle.
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig01e.eps}}
+
+Let $ABC$ be the given circle, and $D$ the given straight-line (which is) not greater than
+the diameter of the circle. So it is required to insert a straight-line, equal to the
+straight-line $D$, into the circle $ABC$.
+
+Let a diameter $BC$ of circle $ABC$ be drawn.$^\dag$ Therefore, if
+$BC$ is equal to $D$, (then) that (which)  was prescribed has taken place.
+For the (straight-line) $BC$, equal to the straight-line $D$, has been inserted into the circle $ABC$.
+And if $BC$ is greater than $D$ then let $CE$ be made equal to $D$ [Prop.~1.3], and let the circle $EAF$ be drawn with center $C$ and radius $CE$. And let $CA$ be joined.
+
+Therefore, since the point $C$ is the center of  circle $EAF$, $CA$ is equal to $CE$. But,
+$CE$ is equal to $D$. Thus, $D$ is also equal to $CA$.
+
+Thus, $CA$, equal to the given straight-line $D$,  has been inserted into
+the given circle $ABC$. (Which is) the very thing it was required to do.}
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ Presumably, by finding the center of the circle [Prop.~3.1], and then
+drawing a line through it.}
+
+%%%%%%
+% Prop 4.2
+%%%%%%
+\pdfbookmark[1]{Proposition 4.2}{pdf4.2}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{2}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Εἰς τὸν δοθέντα κύκλον τῷ δοθέντι τριγώνῳ ἰσογώνιον τρίγωνον
+ἐγγράψαι.}
+
+\epsfysize=2in
+\centerline{\epsffile{Book04/fig02g.eps}}
+
+{\greekfont Ἔστω ὁ δοθεὶς κύκλος ὁ ΑΒΓ, τὸ δὲ δοθὲν τριγωνον τὸ ΔΕΖ;
+δεῖ δὴ εἰς τὸν ΑΒΓ κύκλον τῷ ΔΕΖ τριγώνῳ ἰσογώνιον
+τρίγωνον ἐγγράψαι.}
+
+{\greekfont Ἤθθω τοῦ ΑΒΓ κύκλου ἐφαπτομένη ἡ ΗΘ κατὰ τὸ Α,
+καὶ συνεστάτω πρὸς τῇ ΑΘ εὐθείᾳ καὶ τῷ πρὸς α ὐτῇ σημείῳ
+τῷ Α τῇ ὑπὸ ΔΕΖ γωνίᾳ ἴση ἡ ὑπὸ
+ΘΑΓ, πρὸς δὲ τῇ ΑΗ εὐθείᾳ καὶ τῷ πρὸς α ὐτῇ
+σημείῳ τῷ Α τῇ ὑπὸ ΔΖΕ [γωνίᾳ] ἴση ἡ ὑπὸ ΗΑΒ, καὶ
+ἐπεζεύθθω ἡ ΒΓ.}
+
+{\greekfont Ἐπεὶ οὖν κύκλου τοῦ ΑΒΓ ἐφάπτεταί τις εὐθεῖα ἡ ΑΘ, καὶ
+ἀπὸ τῆς κατὰ τὸ Α ἐπαφῆς εἰς τὸν κύκλον διῆκται εὐθεῖα
+ἡ ΑΓ, ἡ ἄρα ὑπὸ ΘΑΓ ἴση ἐστὶ τῇ ἐν τῷ ἐναλλὰχ τοῦ
+κύκλου τμήματι γωνίᾳ τῇ ὑπὸ ΑΒΓ. ἀλλ ἡ ὑπὸ ΘΑΓ τῇ
+ὑπὸ ΔΕΖ ἐστιν ἴση; καὶ ἡ ὑπὸ ΑΒΓ ἄρα γωνία τῇ ὑπὸ
+ΔΕΖ ἐστιν ἴση. διὰ τὰ α ὐτὰ δὴ καὶ ἡ ὑπὸ ΑΓΒ τῇ ὑπὸ
+ΔΖΕ ἐστιν ἴση; καὶ λοιπὴ ἄρα ἡ ὑπὸ ΒΑΓ λοιπῇ τῇ ὑπὸ
+ΕΔΖ ἐστιν ἴση [ἰσογώνιον ἄρα ἐστὶ τὸ ΑΒΓ τρίγωνον τῷ
+ΔΕΖ τριγώνῳ, καὶ ἐγγέγραπται εἰς τὸν ΑΒΓ κύκλον].}
+
+{\greekfont Εἰς τὸν δοθέντα ἄρα κύκλον τῷ δοθέντι τριγώνῳ
+ἰσογώνιον τρίγωνον ἐγγέγραπται; ὅπερ ἔδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 2}
+\end{center}
+
+To inscribe a triangle, equiangular with a given triangle, in a given circle.
+
+\epsfysize=2in
+\centerline{\epsffile{Book04/fig02e.eps}}
+
+Let $ABC$ be the given circle, and $DEF$ the given triangle. So it is required
+to inscribe a triangle, equiangular with triangle $DEF$, in circle $ABC$.
+
+Let $GH$ be drawn touching circle $ABC$ at $A$.$^\dag$ And let  (angle) $HAC$, equal to angle $DEF$,  be constructed
+on the straight-line $AH$ at the point $A$ on it, and (angle) $GAB$, equal to
+[angle] $DFE$,  on the straight-line $AG$ at the point $A$ on it
+ [Prop.~1.23]. And let $BC$ be joined.
+ 
+ Therefore, since some straight-line $AH$ touches the circle $ABC$, and the
+ straight-line $AC$ has been drawn across (the circle) from the point of
+ contact $A$, (angle) $HAC$ is thus equal to the angle $ABC$ in the alternate
+ segment of the circle [Prop.~3.32]. But, $HAC$ is equal to $DEF$.
+ Thus, angle $ABC$ is also equal to $DEF$. So, for the same (reasons),
+ $ACB$ is also equal to $DFE$.  Thus, the remaining (angle) $BAC$ is equal
+ to the remaining (angle) $EDF$ [Prop.~1.32]. [Thus, triangle
+ $ABC$ is equiangular with triangle $DEF$, and has been inscribed in circle
+ $ABC$].
+ 
+ Thus, a triangle, equiangular with the given triangle, has been inscribed in
+ the given circle. (Which is) the very thing it was required to do.}
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ See the footnote
+to Prop.~3.34.}
+
+%%%%%%
+% Prop 4.3
+%%%%%%
+\pdfbookmark[1]{Proposition 4.3}{pdf4.3}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{3}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Περὶ τὸν δοθέντα κύκλον τῷ δοθέντι τριγώνῳ ἰσογώνιον τρίγωνον περιγράψαι.}
+
+\epsfysize=1.8in
+\centerline{\epsffile{Book04/fig03g.eps}}
+
+{\greekfont Ἔστω ὁ δοθεὶς κύκλος ὁ ΑΒΓ, τὸ δὲ δοθὲν τρίγωνον τὸ ΔΕΖ; δεῖ
+δὴ περὶ τὸν ΑΒΓ κύκλον τῷ ΔΕΖ τριγώνῳ ἰσογώνιον τρίγωνον
+περιγράψαι.}
+
+{\greekfont Ἐκβεβλήσθω ἡ ΕΖ ἐφ ἑκάτερα τὰ μέρη κατὰ τὰ Η, Θ σημεῖα,
+καὶ εἰλήφθω τοῦ ΑΒΓ κύκλου κέντρον τὸ Κ, καὶ διήθθω, ὡς
+ἔτυθεν, εὐθεῖα ἡ ΚΒ, καὶ συνεστάτω πρὸς τῇ ΚΒ εὐθείᾳ
+καὶ τῷ πρὸς α ὐτῇ σημείῳ τῷ Κ τῇ μὲν ὑπὸ ΔΕΗ γωνίᾳ
+ἴση ἡ ὑπὸ ΒΚΑ, τῇ δὲ ὑπὸ ΔΖΘ ἴση ἡ ὑπὸ ΒΚΓ, καὶ διὰ
+τῶν Α, Β, Γ σημείων ἤθθωσαν ἐφαπτόμεναι τοῦ ΑΒΓ κύκλου
+αἱ ΛΑΜ, ΜΒΝ, ΝΓΛ.}
+
+{\greekfont Καὶ ἐπεὶ ἐφάπτονται τοῦ ΑΒΓ κύκλου αἱ ΛΜ, ΜΝ,
+ΝΛ κατὰ τὰ Α, Β, Γ σημεῖα, ἀπὸ δὲ τοῦ Κ κέντρου ἐπὶ
+τὰ Α, Β, Γ σημεῖα
+ἐπεζευγμέναι εἰσὶν  αἱ ΚΑ, ΚΒ, ΚΓ, ὀρθαὶ ἄρα εἰσὶν αἱ
+πρὸς τοῖς Α, Β, Γ σημείοις γωνίαι. καὶ ἐπεὶ τοῦ ΑΜΒΚ τετραπλεύρου αἱ τέσσαρες γωνίαι τέτρασιν ὀρθαῖς ἴσαι εἰσίν, ἐπειδήπερ καὶ
+εἰς δύο τρίγωνα διαιρεῖται τὸ ΑΜΒΚ, καί εἰσιν ὀρθαὶ αἱ ὑπὸ
+ΚΑΜ, ΚΒΜ γωνίαι, λοιπαὶ ἄρα αἱ ὑπὸ ΑΚΒ, ΑΜΒ δυσὶν ὀρθαῖς
+ἴσαι εἰσίν. εἰσὶ δὲ καὶ αἱ ὑπὸ ΔΕΗ, ΔΕΖ δυσὶν ὀρθαῖς ἴσαι;
+αἱ ἄρα ὑπὸ ΑΚΒ, ΑΜΒ ταῖς ὑπὸ ΔΕΗ, ΔΕΖ ἴσαι εἰσίν,
+ὧν ἡ ὑπὸ ΑΚΒ τῇ ὑπὸ ΔΕΗ ἐστιν ἴση; λοιπὴ ἄρα ἡ ὑπὸ
+ΑΜΒ λοιπῇ τῇ ὑπὸ ΔΕΖ ἐστιν ἴση.
+ ὁμοίως δὴ
+δειθθήσεται, ὅτι καὶ ἡ ὑπὸ ΛΝΒ τῇ ὑπὸ ΔΖΕ ἐστιν ἴση;
+καὶ λοιπὴ ἄρα ἡ ὑπὸ ΜΛΝ [λοιπῇ] τῇ ὑπὸ ΕΔΖ ἐστιν
+ἴση. ἰσογώνιον ἄρα ἐστὶ τὸ ΛΜΝ τρίγωνον τῷ ΔΕΖ
+τριγώνῳ; καὶ περιγέγραπται περὶ τὸν ΑΒΓ κύκλον.}
+
+{\greekfont Περὶ τὸν δοθέντα ἄρα κύκλον τῷ δοθέντι τριγώνῳ ἰσογώνιον
+τρίγωνον περιγέγραπται; ὅπερ ἔδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 3}
+\end{center}
+
+To circumscribe a triangle, equiangular with a given triangle, about a given
+circle.
+
+\epsfysize=1.8in
+\centerline{\epsffile{Book04/fig03e.eps}}
+
+Let $ABC$ be the given circle, and $DEF$ the given triangle. So it is required
+to circumscribe a triangle, equiangular with triangle  $DEF$, about circle $ABC$.
+
+Let $EF$ be produced in each direction to points $G$ and 
+$H$. And
+let the center $K$ of circle $ABC$ be found [Prop.~3.1].
+And let the straight-line $KB$ be drawn, at random,  across ($ABC$).
+And let (angle) $BKA$, equal to angle $DEG$, be constructed on the straight-line $KB$ at the point $K$ on it, and (angle) $BKC$, equal to
+$DFH$ [Prop.~1.23]. And let the (straight-lines) $LAM$, $MBN$, and $NCL$ be 
+drawn through the points $A$, $B$, and $C$ (respectively), touching the circle $ABC$.$^\dag$
+
+And since $LM$, $MN$, and $NL$ touch circle $ABC$ at points $A$, $B$, and $C$
+(respectively), and $KA$, $KB$, and $KC$ are joined from the center $K$
+to  points $A$, $B$, and $C$ (respectively), the angles at points
+$A$, $B$, and $C$ are thus right-angles [Prop.~3.18]. And
+since the (sum of the) four angles of quadrilateral $AMBK$ is equal to
+four right-angles,
+inasmuch as $AMBK$ (can) also (be) divided into two triangles [Prop.~1.32],
+and angles $KAM$ and $KBM$ are (both) right-angles, the (sum of the) remaining (angles), $AKB$ and $AMB$, is thus equal to two right-angles. 
+And $DEG$ and $DEF$ is also equal to two right-angles [Prop.~1.13].
+Thus, $AKB$ and $AMB$ is equal to $DEG$ and $DEF$, of which $AKB$ is
+equal to $DEG$. Thus, the remainder $AMB$ is equal to the remainder $DEF$.
+So, similarly, it can be shown that $LNB$ is also equal to $DFE$. Thus, the
+remaining (angle) $MLN$ is also equal to the [remaining] (angle) $EDF$ [Prop.~1.32]. Thus,
+triangle $LMN$ is equiangular with triangle $DEF$. And it has been drawn around
+circle $ABC$.
+
+Thus,  a triangle, equiangular with  the given triangle, has been circumscribed about the given
+circle. (Which is) the very thing it was required to do.}
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ See the footnote
+to Prop.~3.34.}
+
+%%%%%%
+% Prop 4.4
+%%%%%%
+\pdfbookmark[1]{Proposition 4.4}{pdf4.4}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{4}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Εἰς τὸ δοθὲν  τρίγωνον κύκλον ἐγγράψαι.}
+
+\epsfysize=2in
+\centerline{\epsffile{Book04/fig04g.eps}}
+
+{\greekfont Ἔστω τὸ δοθὲν τρίγωνον τὸ ΑΒΓ; δεῖ δὴ εἰς τὸ ΑΒΓ τρίγωνον κύκλον ἐγγράψαι.}
+
+{\greekfont Τετμήσθωσαν αἱ ὑπὸ ΑΒΓ, ΑΓΒ γωνίαι δίθα ταῖς ΒΔ, ΓΔ εὐθείαις,
+καὶ συμβαλλέτωσαν ἀλλήλαις κατὰ τὸ Δ σημεῖον, καὶ ἤθθωσαν ἀπὸ
+τοῦ Δ ἐπὶ τὰς ΑΒ, ΒΓ, ΓΑ 	εὐθείας κάθετοι αἱ ΔΕ, ΔΖ, ΔΗ.}
+
+{\greekfont Καὶ ἐπεὶ ἴση ἐστὶν ἡ ὑπὸ ΑΒΔ γωνία τῇ ὑπὸ ΓΒΔ, ἐστὶ
+δὲ καὶ ὀρθὴ ἡ ὑπὸ ΒΕΔ ὀρθῇ τῇ ὑπὸ ΒΖΔ ἴση, δύο
+δὴ τρίγωνά ἐστι τὰ ΕΒΔ, ΖΒΔ τὰς δύο γωνίας ταῖς δυσὶ γωνίαις
+ἴσας ἔθοντα καὶ μίαν πλευρὰν μιᾷ πλευρᾷ ἴσην τὴν ὑποτείνουσαν
+ὑπὸ μίαν
+τῶν ἴσων γωνιῶν κοινὴν α ὐτῶν τὴν
+ΒΔ; καὶ τὰς λοιπὰς ἄρα πλευρὰς ταῖς λοιπαῖς πλευραῖς ἴσας
+ἕχουσιν; ἴση ἄρα ἡ ΔΕ τῇ ΔΖ. διὰ τὰ α ὐτὰ δὴ καὶ ἡ
+ΔΗ τῇ ΔΖ ἐστιν ἴση. αἱ τρεῖς ἄρα εὐθεῖαι αἱ ΔΕ, ΔΖ, ΔΗ
+ἴσαι ἀλλήλαις εἰσίν; ὁ ἄρα κέντρῷ τῷ Δ καὶ διαστήματι
+ἑνὶ τῶν Ε, Ζ, Η κύκλος γραφόμενος ἥχει καὶ διὰ τῶν λοιπῶν
+σημείων καὶ ἐφάψεται τῶν ΑΒ, ΒΓ, ΓΑ εὐθειῶν διὰ τὸ ὀρθὰς εἶναι τὰς πρὸς τοῖς Ε, Ζ, Η σημείοις γωνίας. εἰ γὰρ τεμεῖ
+α ὐτάς, ἔσται ἡ τῇ διαμέτρῳ τοῦ κύκλου πρὸς ὀρθὰς
+ἀπ ἄκρας ἀγομένη ἐντὸς πίπτουσα τοῦ κύκλου; ὅπερ
+ἄτοπον ἐδείθθη; οὐκ ἄρα ὁ κέντρῳ τῷ Δ διαστήματι
+δὲ ἑνὶ τῶν Ε, Ζ, Η γραφόμενος κύκλος τεμεῖ τὰς ΑΒ, ΒΓ, ΓΑ εὐθείας; ἐφάψεται ἄρα α ὐτῶν, καὶ ἔσται ὁ 
+κύκλος ἐγγεγραμμένος εἰς τὸ ΑΒΓ τρίγωνον. 
+ἐγγεγράφθω ὡς ὁ ΖΗΕ.}
+
+{\greekfont Εἰς ἄρα τὸ δοθὲν τρίγωνον τὸ ΑΒΓ κύκλος
+ἐγγέγρ-απται ὁ ΕΖΗ; ὅπερ ἔδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 4}
+\end{center}
+
+To inscribe a circle in a given triangle.
+
+\epsfysize=2in
+\centerline{\epsffile{Book04/fig04e.eps}}
+
+Let $ABC$ be the given triangle. So it is required to inscribe
+a circle in triangle $ABC$.
+
+Let the angles $ABC$ and $ACB$ be cut in half by the
+straight-lines $BD$ and $CD$ (respectively) [Prop.~1.9], and let them meet one another
+at point $D$, and let $DE$, $DF$, and $DG$ be drawn from
+point $D$, perpendicular to the straight-lines $AB$, $BC$, and $CA$ (respectively) [Prop.~1.12].
+
+And since angle $ABD$ is equal to $CBD$, and the right-angle
+$BED$ is also equal to the right-angle $BFD$, $EBD$ and $FBD$ are thus two triangles
+having two angles equal to two angles, and one side equal to one side---the
+(one) subtending one of the equal angles (which is) common to the (triangles)---(namely), $BD$. Thus, they will also have the 
+remaining sides equal to the (corresponding) remaining sides [Prop.~1.26]. Thus, $DE$ (is)
+equal to $DF$. So, for the same (reasons), $DG$ is also equal
+to $DF$. Thus, the three straight-lines $DE$, $DF$, and $DG$ are equal to one another.
+Thus, the circle drawn with center $D$, and radius one of $E$, $F$, or $G$,$^\dag$ will also
+go through the remaining points, and will  touch the straight-lines $AB$, $BC$, and $CA$, on account of the angles at $E$, $F$, and $G$ being right-angles. For if it cuts (one of) them then it will be a (straight-line)
+drawn at right-angles to a diameter of the circle, from its extremity, falling inside
+the circle. The very thing was shown (to be) absurd [Prop.~3.16].
+Thus, the circle drawn with center $D$, and radius one of $E$, $F$, or $G$,
+does not cut the straight-lines $AB$, $BC$, and $CA$. Thus, it will
+touch them, and will be the circle inscribed  in triangle $ABC$.
+Let it be (so) inscribed, like $FGE$ (in the figure).
+
+Thus, the circle $EFG$ has been inscribed in the given triangle $ABC$.
+(Which is) the very thing it was required to do.}
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ Here, and in the following propositions, it
+is understood that the radius is actually one of $DE$, $DF$, or $DG$.}
+
+%%%%%%
+% Prop 4.5
+%%%%%%
+\pdfbookmark[1]{Proposition 4.5}{pdf4.5}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{5}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Περὶ τὸ δοθὲν τρίγωνον κύκλον περιγράψαι.}
+
+\epsfysize=1.05in
+\centerline{\epsffile{Book04/fig05g.eps}}
+
+{\greekfont Ἔστω τὸ δοθὲν τρίγωνον τὸ ΑΒΓ; δεῖ δὲ περὶ τὸ δοθὲν τρίγωνον
+τὸ ΑΒΓ κύκλον περιγράψαι.}
+
+{\greekfont Τετμήσθωσαν αἱ ΑΒ, ΑΓ εὐθεῖαι δίθα κατὰ τὰ Δ, Ε σημεῖα, καὶ
+ἀπὸ τῶν Δ, Ε σημείων ταῖς ΑΒ, ΑΓ πρὸς ὀρθὰς ἤθθωσαν
+αἱ ΔΖ, ΕΖ; συμπεσοῦνται δὴ ἤτοι ἐντὸς τοῦ ΑΒΓ τριγώνου
+ἢ ἐπὶ τῆς ΒΓ εὐθείας ἢ ἐκτὸς τῆς ΒΓ.}
+
+{\greekfont Συμπιπτέτωσαν πρότερον ἐντὸς κατὰ τὸ Ζ, καὶ ἐπεζεύθθ-ωσαν
+αἱ ΖΒ, ΖΓ, ΖΑ. καὶ ἐπεὶ ἴση ἐστὶν ἡ ΑΔ τῇ ΔΒ, κοινὴ
+δὲ καὶ πρὸς ὀρθὰς ἡ ΔΖ, βάσις ἄρα ἡ ΑΖ βάσει τῇ ΖΒ
+ἐστιν ἴση. ὁμοίως δὴ δείχομεν, ὅτι καὶ ἡ ΓΖ τῇ ΑΖ ἐστιν
+ἴση; ὥστε καὶ ἡ ΖΒ τῇ ΖΓ ἐστιν ἴση; αἱ τρεῖς
+ἄρα αἱ ΖΑ, ΖΒ, ΖΓ ἴσαι  ἀλλήλαις εἰσίν. ὁ ἄρα κέντρῳ
+τῷ Ζ διαστήματι δὲ ἑνὶ τῶν Α, Β, Γ κύκλος γραφόμενος ἥχει
+καὶ διὰ τῶν λοιπῶν σημείων, καὶ ἔσται περιγεγραμμένος
+ὁ κύκλος περὶ τὸ ΑΒΓ τρίγωνον. περιγεγράφθω ὡς ὁ ΑΒΓ.}
+
+{\greekfont Ἀλλὰ δὴ αἱ ΔΖ, ΕΖ συμπιπτέτωσαν ἐπὶ τῆς ΒΓ εὐθείας
+κατὰ τὸ Ζ, ὡς ἔχει ἐπὶ τῆς δευτέρας καταγραφῆς, καὶ
+ἐπεζεύθθω ἡ ΑΖ. ὁμοίως δὴ δείχομεν, ὅτι τὸ Ζ σημεῖον
+κέντρον ἐστὶ τοῦ περὶ τὸ ΑΒΓ τρίγωνον περιγραφομένου κύκλου.}
+
+{\greekfont Ἀλλὰ δὴ αἱ ΔΖ, ΕΖ συμπιπτέτωσαν ἐκτὸς τοῦ ΑΒΓ τριγώνου κατὰ
+τὸ Ζ πάλιν, ὡς ἔχει ἐπὶ τῆς τρίτης καταγραφῆς, καί 
+ἐπεζεύθθωσαν αἱ ΑΖ, ΒΖ, ΓΖ. καὶ ἐπεὶ πάλιν ἴση ἐστὶν ἡ
+ΑΔ τῇ ΔΒ, κοινὴ δὲ καὶ πρὸς ὀρθὰς ἡ ΔΖ, βάσις ἄρα
+ἡ ΑΖ βάσει τῇ ΒΖ ἐστιν ἴση. ὁμοίως δὴ δείχομεν, ὅτι
+καὶ ἡ ΓΖ τῇ ΑΖ ἐστιν ἴση; ὥστε καὶ ἡ ΒΖ τῇ ΖΓ ἐστιν
+ἴση; ὁ ἄρα [πάλιν] κέντρῳ τῷ Ζ διαστήματι δὲ ἑνὶ τῶν
+ΖΑ, ΖΒ, ΖΓ κύκλος γραφόμενος ἥχει καὶ διὰ τῶν λοιπῶν σημείων,
+καὶ ἔσται περιγεγραμμένος περὶ τὸ ΑΒΓ τρίγωνον.}
+
+{\greekfont Περὶ τὸ δοθὲν ἄρα τρίγωνον κύκλος περιγέγραπται; ὅπερ ἔδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 5}
+\end{center}
+
+To circumscribe a circle about a given  triangle.
+
+\epsfysize=1.05in
+\centerline{\epsffile{Book04/fig05e.eps}}
+
+Let $ABC$ be the given triangle. So it is required to circumscribe
+a circle about the given triangle $ABC$.
+
+Let the straight-lines $AB$ and $AC$ be cut in half at points $D$ and $E$ (respectively) [Prop.~1.10]. And let $DF$ and $EF$ be drawn from 
+points $D$ and $E$, at right-angles to $AB$ and $AC$ (respectively) [Prop.~1.11].
+So  ($DF$ and $EF$) will surely either meet inside triangle $ABC$, on the straight-line
+$BC$, or beyond $BC$.
+
+Let them, first of all, meet inside (triangle $ABC$) at (point) $F$, and let $FB$, 
+$FC$, and $FA$ be joined. And since $AD$ is equal to $DB$, and $DF$ is
+common and at right-angles, the base $AF$ is thus equal to the base $FB$
+[Prop.~1.4]. So, similarly, we can show that $CF$ is also equal to
+$AF$. So that $FB$ is also equal to $FC$. Thus, the three (straight-lines)
+$FA$, $FB$, and $FC$ are equal to one another. Thus, the circle drawn with
+center $F$, and radius one of $A$, $B$, or $C$, will also go through the remaining points.
+And the circle will be circumscribed about triangle $ABC$. Let it
+be (so) circumscribed, like $ABC$ (in the first diagram from the left).
+
+And so, let $DF$ and $EF$ meet on the straight-line $BC$ at (point) $F$, like
+in the second diagram (from the left). And let $AF$ be joined.
+So, similarly, we can show that point $F$ is the center of the circle circumscribed about triangle $ABC$.
+
+And so, let $DF$ and $EF$ meet outside triangle $ABC$, again at (point) $F$, like
+in the third diagram (from the left). And let $AF$, $BF$, and $CF$ be joined.
+And, again, since $AD$ is equal to $DB$, and $DF$ is common and at right-angles,
+the base $AF$ is thus equal to the base $BF$ [Prop.~1.4]. So, similarly,
+we can show that $CF$ is also equal to $AF$. So that $BF$ is also equal to $FC$.
+Thus, [again] the circle drawn with center $F$, and radius one of $FA$, $FB$, and
+$FC$, will also go through the remaining points. And it will be circumscribed
+about triangle $ABC$.
+
+Thus, a circle has been circumscribed about the given triangle. (Which is)
+the very thing it was required to do.}
+\end{Parallel}
+
+%%%%%%
+% Prop 4.6
+%%%%%%
+\pdfbookmark[1]{Proposition 4.6}{pdf4.6}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{6}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Εἰς τὸν δοθέντα κύκλον τετράγωνον ἐγγράψαι.}
+
+{\greekfont Ἔστω ἡ δοθεὶς κύκλος ὁ ΑΒΓΔ; δεῖ δὴ εἰς τὸν ΑΒΓΔ κύκλον
+τετράγωνον ἐγγράψαι.}
+
+{\greekfont Ἤθθωσαν τοῦ ΑΒΓΔ κύκλου δύο διάμετροι πρὸς ὀρθὰς ἀλλήλαις
+αἱ ΑΓ, ΒΔ, καὶ ἐπεζεύθθωσαν αἱ ΑΒ, ΒΓ, ΓΔ, ΔΑ.}\\
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig06g.eps}}
+
+{\greekfont Καὶ ἐπεὶ ἴση ἐστὶν ἡ ΒΕ τῇ ΕΔ; κέντρον γὰρ τὸ Ε; κοινὴ
+δὲ καὶ πρὸς ὀρθὰς ἡ ΕΑ, βάσις ἄρα ἡ ΑΒ βάσει τῇ ΑΔ ἴση
+ἐστίν. διὰ τὰ α ὐτὰ δὴ καὶ ἑκατέρα τῶν ΒΓ, ΓΔ ἑκατέρᾳ  τῶν ΑΒ, 
+ΑΔ ἴση ἐστίν; ἰσόπλευρον ἄρα ἐστὶ τὸ ΑΒΓΔ τετράπλευρον. λέγω
+δή, ὅτι καὶ ὀρθογώνιον. ἐπεὶ γὰρ ἡ ΒΔ εὐθεῖα  διάμετρός ἐστι
+τοῦ ΑΒΓΔ κύκλου, ἡμικύκλιον ἄρα ἐστὶ τὸ ΒΑΔ; ὀρθὴ ἄρα
+ἡ ὑπὸ ΒΑΔ γωνία. διὰ τὰ α ὐτὰ δὴ καὶ ἑκάστη τῶν ὑπὸ ΑΒΓ, ΒΓΔ, ΓΔΑ ὀρθή ἐστιν; ὀρθογώνιον ἄρα ἐστὶ τὸ ΑΒΓΔ τετράπλευρον.
+ἐδείθθη δὲ καὶ ἰσόπλευρον; τετράγωνον ἄρα ἐστίν. καὶ
+ἐγγέγραπται εἰς τὸν ΑΒΓΔ κύκλον.}
+
+{\greekfont Εἰς ἄρα τὸν δοθέντα κύκλον τετράγωνον ἐγγέγραπται τὸ ΑΒΓΔ; ὅπερ
+ἔδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 6}
+\end{center}
+
+To inscribe a square in a given circle.
+
+Let $ABCD$ be the given circle. So it is required to inscribe a square in circle
+$ABCD$.
+
+Let two diameters  of circle $ABCD$,  $AC$ and $BD$, be drawn at right-angles to one another.$^\dag$ And let $AB$, $BC$, $CD$, and $DA$ be joined.
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig06e.eps}}
+
+And since $BE$ is equal to $ED$, for $E$ (is) the center (of the circle), and $EA$
+is common and at right-angles, the base $AB$ is thus equal to the base $AD$ [Prop.~1.4]. So, for the same (reasons), each of $BC$ and $CD$ is equal
+to each of $AB$ and $AD$. Thus, the quadrilateral $ABCD$ is equilateral. So I say
+that (it is) also right-angled. For since the straight-line $BD$ is a diameter
+of circle $ABCD$, $BAD$ is thus a semi-circle. Thus, angle $BAD$ (is) a right-angle
+[Prop.~3.31]. So, for the same (reasons), (angles)
+$ABC$, $BCD$, and $CDA$ are also each right-angles. Thus, the quadrilateral $ABCD$
+is right-angled. And it was also shown (to be) equilateral. Thus, it is a square [Def.~1.22]. And it has been inscribed in circle
+$ABCD$.
+
+Thus, the square $ABCD$ has been inscribed in the given circle. (Which is)
+the very thing it was required to do.}
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ Presumably, by finding the center of the circle [Prop.~3.1], 
+drawing a line through it, and then drawing a second line through it, at right-angles to the first [Prop.~1.11].} 
+
+%%%%%%
+% Prop 4.7
+%%%%%%
+\pdfbookmark[1]{Proposition 4.7}{pdf4.7}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{7}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Περὶ τὸν δοθέντα κύκλον τετράγωνον περιγράψαι.}
+
+{\greekfont Ἔστω ὁ δοθεὶς κύκλος ὁ ΑΒΓΔ; δεῖ δὴ περὶ τὸν ΑΒΓΔ κύκλον
+τετράγωνον περιγράψαι.}
+
+{\greekfont Ἤθθωσαν τοῦ ΑΒΓΔ κύκλου δύο διάμετροι πρὸς ὀρθὰς ἀλλήλαις
+αἱ ΑΓ, ΒΔ, καὶ διὰ τῶν Α, Β, Γ, Δ σημείων ἤθθωσαν ἐφαπτόμεναι
+τοῦ ΑΒΓΔ κύκλου αἱ ΖΗ, ΗΘ, ΘΚ, ΚΖ.}
+
+{\greekfont Ἐπεὶ οὖν ἐφάπτεται ἡ ΖΗ τοῦ ΑΒΓΔ κύκλου, ἀπὸ δὲ τοῦ Ε κέντρου ἐπὶ τὴν κατὰ τὸ Α ἐπαφὴν ἐπέζευκται ἡ ΕΑ, αἱ
+ἄρα πρὸς τῷ Α γωνίαι ὀρθαί εἰσιν. διὰ τὰ α ὐτὰ δὴ καὶ αἱ
+πρὸς τοῖς Β, Γ, Δ σημείοις γωνίαι ὀρθαί εἰσιν. καὶ ἐπεὶ
+ὀρθή ἐστιν ἡ ὑπὸ ΑΕΒ γωνία, ἐστὶ δὲ ὀρθὴ καὶ ἡ ὑπὸ
+ΕΒΗ, παράλληλος ἄρα ἐστὶν ἡ ΗΘ τῇ ΑΓ. διὰ τὰ α ὐτὰ
+δὴ καὶ ἡ ΑΓ τῇ ΖΚ ἐστι παράλληλος. ὥστε καὶ ἡ ΗΘ τῇ
+ΖΚ ἐστι παράλληλος. ὁμοίως δὴ δείχομεν, ὅτι καὶ ἑκατέρα
+τῶν ΗΖ, ΘΚ τῇ ΒΕΔ ἐστι παράλληλος. παραλληλόγραμμα ἄρα ἐστὶ
+τὰ ΗΚ, ΗΓ, ΑΚ, ΖΒ, ΒΚ; ἴση ἄρα ἐστὶν ἡ μὲν ΗΖ τῇ ΘΚ,
+ἡ δὲ ΗΘ τῇ ΖΚ. καὶ ἐπεὶ ἴση ἐστὶν ἡ ΑΓ τῇ ΒΔ, ἀλλὰ
+καὶ ἡ μὲν ΑΓ ἑκατέρᾳ τῶν ΗΘ, ΖΚ, ἡ δὲ ΒΔ ἑκατέρᾳ
+τῶν ΗΖ, ΘΚ ἐστιν ἴση [καὶ ἑκατέρα ἄρα τῶν ΗΘ, ΖΚ ἑκατέρᾳ
+τῶν ΗΖ, ΘΚ ἐστιν ἴση], ἰσόπλευρον ἄρα ἐστὶ τὸ ΖΗΘΚ
+τετράπλευρον. λέγω δή, ὅτι
+καὶ ὀρθογώνιον. ἐπεὶ γὰρ παραλληλόγραμμόν ἐστι τὸ ΗΒΕΑ,
+καί ἐστιν ὀρθὴ ἡ ὑπὸ ΑΕΒ, ὀρθὴ ἄρα καὶ ἡ ὑπὸ ΑΗΒ. ὁμοίως
+δὴ δείχομεν, ὅτι καὶ αἱ πρὸς τοῖς Θ, Κ, Ζ γωνίαι ὀρθαί
+εἰσιν. ὀρθογώνιον ἄρα ἐστὶ τὸ ΖΗΘΚ. ἐδείθθη δὲ καὶ ἰσόπλευρον;
+τετράγωνον ἄρα ἐστίν. καὶ περιγέγραπται περὶ τὸν ΑΒΓΔ κύκλον.}
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig07g.eps}}
+
+{\greekfont Περὶ τὸν δοθέντα ἄρα κύκλον τετράγωνον περιγέγραπται;
+ὅπερ ἔδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 7}
+\end{center}
+
+To circumscribe a square about a given circle.
+
+Let $ABCD$ be the given circle. So it is required to circumscribe a square
+about circle $ABCD$.
+Let two diameters of circle $ABCD$,  $AC$ and $BD$,  be drawn at right-angles to one another.$^\dag$
+And let $FG$, $GH$, $HK$, and $KF$ be drawn through points $A$, $B$, $C$, and
+$D$ (respectively), touching circle $ABCD$.$^\ddag$
+
+Therefore, since $FG$ touches circle $ABCD$, and $EA$ has been joined from the
+center $E$ to the point of contact $A$, the angles at $A$ are thus  right-angles  
+[Prop.~3.18]. So, for the same (reasons), the angles at points $B$, $C$, and $D$ are also
+right-angles. And since angle $AEB$ is a right-angle, and $EBG$ is also a right-angle, $GH$ is thus parallel to $AC$ [Prop.~1.29]. So, for the same
+(reasons), $AC$ is also parallel to $FK$. So that $GH$ is also parallel to
+$FK$ [Prop.~1.30]. So, similarly, we can show that $GF$ and $HK$ are each parallel to
+$BED$. Thus, $GK$, $GC$, $AK$, $FB$, and $BK$ are (all) parallelograms. Thus, 
+$GF$ is equal to $HK$, and $GH$ to $FK$ [Prop.~1.34]. And since
+$AC$ is equal to $BD$, but $AC$ (is) also (equal) to each of $GH$ and $FK$,
+and $BD$ is equal to each of $GF$ and $HK$ [Prop.~1.34] [and each of $GH$ and $FK$ is thus equal to each of $GF$ and $HK$], the quadrilateral $FGHK$ is
+thus equilateral.  So I say that (it is) also right-angled. For since $GBEA$
+is a parallelogram, and $AEB$ is a right-angle, $AGB$ is thus also a right-angle [Prop.~1.34]. So, similarly, we can show that the angles at $H$, $K$, and
+$F$ are also right-angles. Thus, $FGHK$ is right-angled. And it was also shown
+(to be) equilateral. Thus,  it is a square [Def.~1.22].
+And it has been circumscribed about circle $ABCD$.
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig07e.eps}}
+
+Thus, a square has been circumscribed about the given circle. (Which is)
+the very thing it was required to do.}
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ See the footnote to the previous
+ proposition.\\
+ $^\ddag$ See the footnote
+to Prop.~3.34.}
+
+%%%%%%
+% Prop 4.8
+%%%%%%
+\pdfbookmark[1]{Proposition 4.8}{pdf4.8}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{8}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Εἰς τὸ δοθὲν τετράγωνον κύκλον ἐγγράψαι.}
+
+{\greekfont Ἔστω τὸ δοθὲν τετράγωνον τὸ ΑΒΓΔ; δεῖ δὴ εἰς τὸ ΑΒΓΔ
+τετράγωνον κύκλον ἐγγράψαι.}
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig08g.eps}}
+
+{\greekfont Τετμήσθω ἑκατέρα τῶν ΑΔ, ΑΒ δίθα κατὰ τὰ Ε, Ζ σημεῖα, καὶ
+διὰ μὲν τοῦ Ε ὁποτέρᾳ τῶν ΑΒ, ΓΔ παράλληλος ἤθθω
+ὁ ΕΘ, διὰ δὲ τοῦ Ζ ὁποτέρᾳ τῶν ΑΔ, ΒΓ παράλληλος ἤθθω
+ἡ ΖΚ; παραλληλόγραμμον ἄρα ἐστὶν ἕκαστον τῶν ΑΚ, ΚΒ,
+ΑΘ, ΘΔ, ΑΗ, ΗΓ, ΒΗ, ΗΔ, καὶ αἱ ἀπεναντίον α ὐτῶν πλευραὶ
+δηλονότι ἴσαι [εἰσίν]. καὶ ἐπεὶ ἴση ἐστὶν ἡ ΑΔ τῇ ΑΒ,
+καί ἐστι τῆς μὲν ΑΔ ἡμίσεια ἡ ΑΕ, τῆς δὲ ΑΒ ἡμίσεια ἡ ΑΖ,
+ἴση ἄρα καὶ ἡ ΑΕ τῇ ΑΖ; ὥστε καὶ αἱ ἀπεναντίον; ἴση ἄρα
+καὶ ἡ ΖΗ τῇ ΗΕ. ὁμοίως δὴ δείχομεν, ὅτι καὶ ἑκατέρα
+τῶν ΗΘ, ΗΚ
+ἑκατέρᾳ τῶν ΖΗ, ΗΕ ἐστιν ἴση; αἱ τέσσαρες ἄρα αἱ ΗΕ, ΗΖ, ΗΘ, ΗΚ ἴσαι ἀλλήλαις [εἰσίν]. ὁ ἄρα κέντρῳ μὲν τῷ Η διαστήματι
+δὲ ἑνὶ τῶν Ε, Ζ, Θ, Κ κύκλος γραφόμενος ἥχει καὶ διὰ τῶν λοιπῶν
+σημείων; καὶ ἐφάψεται τῶν ΑΒ, ΒΓ, ΓΔ, ΔΑ εὐθειῶν διὰ
+τὸ ὀρθὰς εἶναι τὰς πρὸς τοῖς Ε, Ζ, Θ, Κ γωνίας; εἰ γὰρ τεμεῖ
+ὁ κύκλος τὰς ΑΒ, ΒΓ, ΓΔ, ΔΑ, ἡ τῇ διαμέτρῳ τοῦ κύκλου
+πρὸς ὀρθὰς ἀπ ἄκρας ἀγομένη ἐντὸς πεσεῖται τοῦ κύκλου;
+ὅπερ ἄτοπον ἐδείθθη. οὐκ
+ἄρα ὁ κέντρῳ τῷ Η διαστήματι δὲ ἑνὶ τῶν Ε, Ζ, Θ, Κ
+κύκλος γραφόμενος τεμεῖ τὰς ΑΒ, ΒΓ, ΓΔ, ΔΑ εὐθείας. ἐφάψεται
+ἄρα α ὐτῶν καὶ ἔσται ἐγγεγραμμένος εἰς τὸ ΑΒΓΔ τετράγωνον.}
+
+{\greekfont Εἰς  ἄρα τὸ δοθὲν τετράγωνον κύκλος ἐγγέγραπται; ὅπερ
+ἔδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 8}
+\end{center}
+
+To inscribe a circle in a given square.
+
+Let the given square be $ABCD$. So it is required to inscribe a circle in
+square $ABCD$.
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig08e.eps}}
+
+Let  $AD$ and $AB$ each be cut in half at points $E$ and $F$ (respectively)
+[Prop.~1.10]. And let $EH$ be drawn through $E$, parallel
+to either of $AB$ or $CD$, and let $FK$ be drawn through $F$, parallel to either of $AD$ or $BC$ [Prop.~1.31].
+Thus, $AK$, $KB$, $AH$, $HD$, $AG$, $GC$, $BG$, and $GD$ are each parallelograms,
+and their opposite sides [are] manifestly equal [Prop.~1.34].
+And since $AD$ is equal to $AB$, and $AE$ is half of $AD$, and $AF$ half of
+$AB$, $AE$ (is) thus also equal to $AF$. So that the opposite (sides are) also (equal).
+Thus, $FG$ (is) also equal to $GE$. So, similarly, we can also show that each of
+$GH$ and $GK$ is equal to each of $FG$ and $GE$. Thus, the four (straight-lines)
+$GE$, $GF$, $GH$, and $GK$ [are] equal to one another. Thus, the circle drawn
+with center $G$, and radius one of $E$, $F$, $H$, or $K$, will also go through the remaining points. And it will touch the straight-lines $AB$, $BC$, $CD$, and $DA$,
+on account of the angles at $E$, $F$, $H$, and $K$ being right-angles. For if the
+circle cuts $AB$, $BC$, $CD$, or $DA$, (then) a (straight-line) drawn at right-angles to a diameter of the circle, from its extremity, will fall inside the circle. 
+The very thing was shown (to be) absurd [Prop.~3.16].  Thus, the
+circle drawn with center $G$, and radius one of $E$, $F$, $H$, or $K$, does not
+cut the straight-lines $AB$, $BC$, $CD$, or $DA$. Thus, it will touch them, and will
+be inscribed in the square $ABCD$.
+
+Thus, a circle has been inscribed in the given square. (Which is) the very thing it was required to do.}
+\end{Parallel}
+
+%%%%%%
+% Prop 4.9
+%%%%%%
+\pdfbookmark[1]{Proposition 4.9}{pdf4.9}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{9}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Περὶ τὸ δοθὲν τετράγωνον κύκλον περιγράψαι.}
+
+{\greekfont Ἔστω τὸ δοθὲν τετράγωνον τὸ ΑΒΓΔ; δεῖ δὴ περὶ τὸ ΑΒΓΔ τετράγωνον κύκλον περιγράψαι.}
+
+{\greekfont Ἐπιζευθθεῖσαι γὰρ αἱ ΑΓ, ΒΔ τεμνέτωσαν ἀλλήλας κατὰ τὸ Ε.}
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig06g.eps}}
+
+{\greekfont Καὶ ἐπεὶ ἴση ἐστὶν ἡ ΔΑ τῇ ΑΒ, κοινὴ δὲ ἡ ΑΓ, δύο
+δὴ αἱ ΔΑ, ΑΓ δυσὶ ταῖς ΒΑ, ΑΓ ἴσαι εἰσίν; καὶ βάσις ἡ ΔΓ βάσει
+τῇ ΒΓ ἴση; γωνία ἄρα ἡ ὑπὸ ΔΑΓ γωνίᾳ τῇ ὑπὸ ΒΑΓ ἴση
+ἐστίν; ἡ ἄρα ὑπὸ ΔΑΒ γωνία δίθα τέτμ ηται ὑπὸ τῆς ΑΓ. ὁμοίως
+δὴ δείχομεν, ὅτι καὶ ἑκάστη τῶν ὑπὸ ΑΒΓ, ΒΓΔ, ΓΔΑ δίθα
+τέτμ ηται ὑπὸ τῶν ΑΓ, ΔΒ εὐθειῶν. καὶ ἐπεὶ ἴση
+ἐστὶν ἡ ὑπὸ ΔΑΒ γωνία τῇ ὑπὸ ΑΒΓ, καί ἐστι τῆς μὲν ὑπὸ
+ΔΑΒ ἡμίσεια ἡ ὑπὸ ΕΑΒ, τῆς  δὲ ὑπὸ ΑΒΓ ἡμίσεια ἡ ὑπὸ
+ΕΒΑ, καὶ ἡ ὑπὸ ΕΑΒ ἄρα τῇ ὑπὸ ΕΒΑ ἐστιν ἴση; ὥστε
+καὶ πλευρὰ ἡ ΕΑ τῇ ΕΒ ἐστιν ἴση. ὁμοίως δὴ δείχομεν,
+ὅτι καὶ ἑκατέρα τῶν ΕΑ, ΕΒ [εὐθειῶν] ἑκατέρᾳ τῶν ΕΓ, ΕΔ
+ἴση ἐστίν. αἱ τέσσαρες ἄρα αἱ ΕΑ,  ΕΒ, ΕΓ, ΕΔ ἴσαι ἀλλήλαις
+εἰσίν. ὁ ἄρα κέντρῳ τῷ Ε καὶ διαστήματι ἑνὶ τῶν Α, Β, Γ, Δ
+κύκλος γραφόμενος ἥχει καὶ διὰ τῶν λοιπῶν σημείων καὶ
+ἔσται περιγεγραμμένος περὶ τὸ ΑΒΓΔ τετράγωνον. περιγεγράφθω
+ὡς ὁ ΑΒΓΔ.}
+
+{\greekfont Περὶ τὸ δοθὲν ἄρα τετράγωνον κύκλος περιγέγραπται; ὅπερ ἔδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 9}
+\end{center}
+
+To  circumscribe a circle about a given square.
+
+Let $ABCD$ be the given square. So it is required to circumscribe a circle about
+square $ABCD$.
+
+$AC$ and $BD$ being joined, let them cut one another at $E$.\\
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig06e.eps}}
+
+And since $DA$ is equal to $AB$, and $AC$ (is) common, the two (straight-lines)
+$DA$, $AC$ are thus equal to the two (straight-lines) $BA$, $AC$. And the base $DC$
+(is) equal to the base $BC$. Thus, angle $DAC$ is equal to angle $BAC$ [Prop.~1.8]. Thus, the angle $DAB$ has been cut in half by $AC$. So, similarly,
+we can show that $ABC$, $BCD$, and $CDA$ have each been cut in half
+by the straight-lines $AC$ and $DB$. And since angle $DAB$ is equal
+ to $ABC$, and $EAB$ is half of $DAB$, and $EBA$ half of $ABC$, $EAB$ is thus
+ also equal to $EBA$. So that side $EA$ is also equal to  $EB$ [Prop.~1.6]. So, similarly, we can show that each of the [straight-lines] $EA$ and $EB$ are also equal to each of $EC$ and $ED$. Thus, the four (straight-lines)
+ $EA$, $EB$, $EC$, and $ED$ are equal to one another. Thus, the circle drawn with
+ center $E$, and radius one of $A$, $B$, $C$, or $D$, will also go through the remaining points, and will be circumscribed about the square $ABCD$. Let
+ it be (so) circumscribed, like $ABCD$ (in the figure).
+ 
+ Thus, a circle has been circumscribed about the given square.
+ (Which is) the very thing it was required to do.}
+\end{Parallel}
+
+%%%%%%
+% Prop 4.10
+%%%%%%
+\pdfbookmark[1]{Proposition 4.10}{pdf4.10}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{10}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἰσοσκελὲς τρίγωνον συστήσασθαι ἔθον ἑκατέραν τῶν πρὸς τῇ
+βάσει γωνιῶν διπλασίονα τῆς λοιπῆς.}
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig10g.eps}}
+
+{\greekfont Ἐκκείσθω τις εὐθεῖα ἡ ΑΒ, καὶ τετμήσθω κατὰ τὸ Γ σημεῖον,
+ὥστε τὸ ὑπὸ τῶν ΑΒ, ΒΓ περιεχόμενον ὀρθογώνιον ἴσον
+εἶναι τῷ ἀπὸ τῆς ΓΑ τετραγώνῳ; καὶ κέντρῳ τῷ Α καὶ
+διαστήματι τῷ ΑΒ κύκλος γεγράφθω ὁ ΒΔΕ, καὶ ἐνηρμόσθω
+εἰς τὸν ΒΔΕ κύκλον τῇ ΑΓ εὐθείᾳ μὴ μείζονι οὔσῃ τῆς
+τοῦ ΒΔΕ κύκλου διαμέτρου ἴση εὐθεῖα ἡ ΒΔ; καὶ ἐπεζεύθθωσαν
+αἱ ΑΔ, ΔΓ, καὶ περιγεγράφθω περὶ τὸ ΑΓΔ τρίγωνον κύκλος ὁ
+ΑΓΔ.}
+
+{\greekfont Καὶ ἐπεὶ τὸ ὑπὸ τῶν ΑΒ, ΒΓ ἴσον ἐστὶ τῷ ἀπὸ
+τῆς ΑΓ, ἴση δὲ ἡ ΑΓ τῇ ΒΔ, τὸ ἄρα ὑπὸ τῶν ΑΒ, ΒΓ ἴσον
+ἐστὶ τῷ ἀπὸ τῆς ΒΔ. καὶ ἐπεὶ κύκλου τοῦ ΑΓΔ εἴληπταί
+τι σημεῖον ἐκτὸς τὸ Β, καὶ ἀπὸ τοῦ Β πρὸς τὸν ΑΓΔ κύκλον
+προσπεπτώκασι δύο εὐθεῖαι αἱ ΒΑ, ΒΔ, καὶ ἡ μὲν α ὐτῶν
+τέμνει, ἡ δὲ προσπίπτει, καί ἐστι τὸ ὑπὸ τῶν ΑΒ, ΒΓ ἴσον τῷ ἀπὸ τῆς ΒΔ, ἡ ΒΔ ἄρα ἐφάπτεται τοῦ ΑΓΔ κύκλου.
+ἐπεὶ οὖν ἐφάπτεται μὲν ἡ ΒΔ, ἀπὸ δὲ τῆς κατὰ τὸ Δ
+ἐπαφῆς διῆκται ἡ ΔΓ, ἡ ἄρα ὑπὸ ΒΔΓ γωνιά ἴση ἐστὶ
+τῇ ἐν τῷ ἐναλλὰχ τοῦ κύκλου τμήματι γωνίᾳ
+τῇ ὑπὸ ΔΑΓ. ἐπεὶ οὖν ἴση ἐστὶν ἡ ὑπὸ ΒΔΓ τῇ
+ὑπὸ ΔΑΓ, κοινὴ προσκείσθω ἡ ὑπὸ ΓΔΑ; ὅλη ἄρα ἡ
+ὑπὸ ΒΔΑ ἴση ἐστὶ δυσὶ ταῖς ὑπὸ ΓΔΑ, ΔΑΓ. ἀλλὰ ταῖς
+ὑπὸ ΓΔΑ, ΔΑΓ ἴση ἐστὶν ἡ ἐκτὸς ἡ ὑπὸ ΒΓΔ;
+καὶ ἡ ὑπὸ ΒΔΑ ἄρα ἴση ἐστὶ τῇ ὑπὸ ΒΓΔ. ἀλλὰ
+ἡ ὑπὸ ΒΔΑ τῇ ὑπὸ ΓΒΔ ἐστιν ἴση, ἐπεὶ καὶ πλευρὰ
+ἡ ΑΔ τῇ ΑΒ ἐστιν ἴση; ὥστε καὶ ἡ ὑπὸ ΔΒΑ τῇ
+ὑπὸ ΒΓΔ ἐστιν ἴση.
+αἱ τρεῖς ἄρα αἱ ὑπὸ ΒΔΑ,
+ΔΒΑ, ΒΓΑ ἴσαι ἀλλήλαις εἰσίν. καὶ ἐπεὶ ἴση ἐστὶν
+ἡ ὑπὸ ΔΒΓ γωνία τῇ ὑπὸ ΒΓΔ, ἴση ἐστὶ καὶ πλευρὰ
+ἡ ΒΔ πλευρᾷ τῇ ΔΓ. ἀλλὰ ἡ ΒΔ τῇ ΓΑ ὑπόκειται ἴση;
+καὶ ἡ ΓΑ ἄρα τῇ ΓΔ ἐστιν ἴση; ὥστε καὶ
+γωνία ἡ ὑπὸ ΓΔΑ γωνίᾳ τῇ ὑπὸ ΔΑΓ ἐστιν ἴση; αἱ
+ἄρα ὑπὸ ΓΔΑ, ΔΑΓ τῆς ὑπὸ ΔΑΓ εἰσι διπλασίους.
+ἴση δὲ ἡ ὑπὸ ΒΓΔ ταῖς ὑπὸ ΓΔΑ, ΔΑΓ; καὶ
+ἡ ὑπὸ ΒΓΔ ἄρα τῆς ὑπὸ ΓΑΔ ἐστι διπλῆ. ἴση
+δὲ ἡ ὑπὸ ΒΓΔ ἑκατέρᾳ τῶν ὑπὸ ΒΔΑ, ΔΒΑ; καὶ
+ἑκατέρα ἄρα τῶν ὑπὸ ΒΔΑ, ΔΒΑ τῆς ὑπὸ ΔΑΒ
+ἐστι διπλῆ.}
+
+{\greekfont Ἰσοσκελὲς ἄρα τρίγωνον συνέσταται τὸ ΑΒΔ ἔθον
+ἑκατέραν τῶν πρὸς τῇ ΔΒ βάσει γωνιῶν διπλασίονα τῆς
+λοιπῆς; ὅπερ ἔδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 10}
+\end{center}
+
+To construct an isosceles triangle having each of the angles at the base
+double the remaining (angle).
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig10e.eps}}
+
+Let some straight-line $AB$ be taken, and let it be cut at point $C$
+so that the rectangle contained by $AB$ and $BC$ is equal to the square
+on $CA$ [Prop.~2.11]. And let the circle $BDE$ be drawn with
+center $A$, and radius $AB$. And let the straight-line $BD$, equal to the straight-line $AC$, being not greater than the diameter of circle $BDE$, be inserted into circle $BDE$ [Prop.~4.1]. And let $AD$ and $DC$ be joined. 
+And let the circle $ACD$ be circumscribed about triangle $ACD$ [Prop.~4.5].
+
+And since the (rectangle contained) by $AB$ and $BC$ is equal to the
+(square) on $AC$, and $AC$ (is) equal to $BD$, the (rectangle contained) by
+$AB$ and $BC$ is thus equal to the (square) on $BD$. And since some point
+$B$ has been taken outside of circle $ACD$, and two straight-lines $BA$ and
+$BD$ have radiated from $B$ towards the circle $ACD$, and (one) of them
+cuts (the circle), and (the other) meets (the circle), and the (rectangle contained)
+by $AB$ and $BC$ is equal to the (square) on  $BD$,   $BD$ thus touches
+circle $ACD$ [Prop.~3.37]. Therefore, since $BD$ touches (the circle),
+and $DC$ has been drawn across (the circle) from the point of contact $D$,
+the angle $BDC$ is thus equal to the angle $DAC$ in the alternate segment
+of the circle [Prop.~3.32]. Therefore, since $BDC$ is equal to
+$DAC$, let $CDA$ be added to both. Thus, the whole of $BDA$ is equal
+to the two (angles) $CDA$ and $DAC$. But, the
+external (angle)  $BCD$  is equal to $CDA$ and $DAC$  [Prop.~1.32]. Thus, $BDA$ is also equal to
+$BCD$. But, $BDA$ is equal to $CBD$, since the side $AD$ is also equal to
+$AB$ [Prop.~1.5]. So that $DBA$ is also equal to $BCD$. Thus, the three
+(angles) $BDA$, $DBA$, and $BCD$ are equal to one another. And since angle
+$DBC$ is equal to $BCD$, side $BD$ is also equal to side $DC$ [Prop.~1.6].
+But, $BD$ was assumed (to be) equal to $CA$. Thus, $CA$ is also equal to $CD$.
+So that angle $CDA$ is also equal to angle $DAC$ [Prop.~1.5]. 
+Thus, $CDA$ and $DAC$ is double $DAC$. But $BCD$ (is) equal to $CDA$ and
+$DAC$. Thus, $BCD$ is also double $CAD$. And $BCD$ (is) equal to to each of
+$BDA$ and $DBA$. Thus, $BDA$ and $DBA$ are each double $DAB$.
+
+Thus, the isosceles triangle $ABD$ has been constructed having each of the
+angles at the base $BD$ double the remaining (angle). (Which is) the
+very thing it was required to do.}
+\end{Parallel}
+
+%%%%%%
+% Prop 4.11
+%%%%%%
+\pdfbookmark[1]{Proposition 4.11}{pdf4.11}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{11}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Εἰς τὸν δοθέντα κύκλον πεντάγωνον ἰσόπλευρόν τε καὶ ἰσογώνιον
+ἐγγράψαι.}
+
+\epsfysize=1.8in
+\centerline{\epsffile{Book04/fig11g.eps}}
+
+{\greekfont Ἔστω ὁ δοθεὶς κύκλος ὁ ΑΒΓΔΕ; δεῖ δὴ εἰς τὸν ΑΒΓΔΕ κύκλον πεντάγωνον ἰσόπλευρόν τε καὶ ἰσογώνιον ἐγγράψαι.}
+
+{\greekfont Ἐκκείσθω τρίγωνον ἰσοσκελὲς τὸ ΖΗΘ διπλασίονα ἔθον ἑκατέραν
+τῶν πρὸς τοῖς Η, Θ γωνιῶν τῆς πρὸς τῷ Ζ, καὶ ἐγγεγράφθω
+εἰς τὸν ΑΒΓΔΕ κύκλον τῷ ΖΗΘ τριγώνῳ ἰσογώνιον τρίγωνον
+τὸ ΑΓΔ, ὥστε τῇ μὲν πρὸς τῷ Ζ γωνίᾳ ἴσην εἶναι
+τὴν ὑπὸ ΓΑΔ, ἑκατέραν δὲ τῶν πρὸς τοῖς Η, Θ ἴσην ἑκατέρᾳ
+τῶν ὑπὸ ΑΓΔ, ΓΔΑ; καὶ ἑκατέρα ἄρα τῶν ὑπὸ ΑΓΔ, ΓΔΑ
+τῆς ὑπὸ ΓΑΔ ἐστι διπλῆ. τετμήσθω δὴ ἑκατέρα τῶν ὑπὸ
+ΑΓΔ, ΓΔΑ δίθα ὑπὸ ἑκατέρας τῶν ΓΕ, ΔΒ εὐθειῶν, καὶ
+ἐπεζεύθθωσαν αἱ ΑΒ, ΒΓ,  ΔΕ, ΕΑ.}
+
+{\greekfont Ἐπεὶ οὖν ἑκατέρα τῶν ὑπὸ ΑΓΔ, ΓΔΑ γωνιῶν διπλασίων
+ἐστὶ τῆς ὑπὸ ΓΑΔ, καὶ τετμ ημέναι εἰσὶ δίθα ὑπὸ τῶν ΓΕ,
+ΔΒ εὐθειῶν, αἱ πέντε ἄρα γωνίαι αἱ ὑπὸ ΔΑΓ, ΑΓΕ, ΕΓΔ, ΓΔΒ,
+ΒΔΑ ἴσαι ἀλλήλαις εἰσίν. αἱ δὲ ἴσαι γωνίαι ἐπὶ ἴσων
+περιφερειῶν βεβήκασιν; αἱ πέντε  ἄρα περιφέρειαι αἱ ΑΒ, ΒΓ, ΓΔ, ΔΕ, ΕΑ ἴσαι ἀλλήλαις εἰσίν. ὑπὸ δὲ τὰς ἴσας
+περιφερείας ἴσαι εὐθεῖαι ὑποτείνουσιν; αἱ πέντε ἄρα εὐθεῖαι
+αἱ ΑΒ, ΒΓ, ΓΔ, ΔΕ, ΕΑ ἴσαι ἀλλήλαις εἰσίν; ἰσόπλευρον ἄρα
+ἐστὶ τὸ ΑΒΓΔΕ πεντάγωνον. λέγω δή, ὅτι καὶ ἰσογώνιον. ἐπεὶ
+γὰρ ἡ ΑΒ περιφέρεια τῇ ΔΕ περιφερείᾳ ἐστὶν ἴση, κοινὴ
+προσκείσθω ἡ ΒΓΔ; ὅλη ἄρα ἡ ΑΒΓΔ περιφέρια  ὅλῃ
+τῇ ΕΔΓΒ
+περιφερείᾳ ἐστὶν ἴση. καὶ βέβηκεν ἐπὶ μὲν τῆς ΑΒΓΔ
+περιφερείας γωνία ἡ ὑπὸ ΑΕΔ, ἐπὶ δὲ τῆς ΕΔΓΒ περιφερείας
+γωνία ἡ ὑπὸ ΒΑΕ; καὶ ἡ ὑπὸ ΒΑΕ ἄρα γωνία
+τῇ ὑπὸ ΑΕΔ ἐστιν ἴση. διὰ τὰ α ὐτὰ δὴ καὶ ἑκάστη τῶν
+ὑπὸ ΑΒΓ, ΒΓΔ, ΓΔΕ γωνιῶν ἑκατέρᾳ τῶν ὑπὸ ΒΑΕ, ΑΕΔ
+ἐστιν ἴση; ἰσογώνιον ἄρα ἐστὶ τὸ ΑΒΓΔΕ πεντάγωνον.
+ἐδείθθη δὲ καὶ ἰσόπλευρον.}
+
+{\greekfont Εἰς ἄρα τὸν δοθέντα κύκλον πεντάγωνον ἰσόπλευρόν τε καὶ ἰσογώνιον
+ἐγγέγραπται; ὅπερ ἔδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 11}
+\end{center}
+
+To inscribe an equilateral and equiangular pentagon in a given circle.
+
+\epsfysize=1.8in
+\centerline{\epsffile{Book04/fig11e.eps}}
+
+Let $ABCDE$ be the given circle. So it is required to inscribed an equilateral
+and equiangular pentagon in circle $ABCDE$.
+
+Let the the isosceles triangle $FGH$ be set up having each of the angles
+at $G$ and $H$ double the (angle) at $F$ [Prop.~4.10]. And let triangle $ACD$, equiangular
+to $FGH$, be inscribed in circle $ABCDE$, such that $CAD$ is equal 
+to the angle at $F$, and  the (angles) at $G$ and $H$ (are) equal to $ACD$ and $CDA$, respectively [Prop.~4.2]. Thus,
+$ACD$ and $CDA$ are each double $CAD$. So let $ACD$ and $CDA$ 
+be cut in half by the straight-lines $CE$ and $DB$, respectively
+[Prop.~1.9]. And let $AB$, $BC$, $DE$ and
+$EA$ be joined.
+
+Therefore, since angles $ACD$ and $CDA$ are each double $CAD$, and are cut
+in half by the straight-lines $CE$ and $DB$, the five angles
+$DAC$, $ACE$, $ECD$, $CDB$, and $BDA$ are thus equal to one another.
+And equal angles stand upon equal circumferences [Prop.~3.26]. Thus, the five circumferences
+$AB$, $BC$, $CD$, $DE$, and $EA$ are equal to one another [Prop.~3.29]. Thus, the pentagon
+$ABCDE$ is equilateral. So I say that (it is) also equiangular. For since the
+circumference $AB$ is equal to the circumference $DE$, let $BCD$ be added to both. Thus, the whole circumference $ABCD$ is equal to the
+whole circumference $EDCB$. And the angle $AED$ stands upon circumference
+$ABCD$, and angle $BAE$ upon circumference $EDCB$. Thus, angle $BAE$ is
+also equal to $AED$ [Prop.~3.27]. 
+So, for the same (reasons), each of the angles $ABC$, $BCD$,  and $CDE$ is also equal
+to each of $BAE$ and $AED$. Thus, pentagon $ABCDE$ is equiangular.
+And it was also shown (to be) equilateral.
+
+Thus, an equilateral and equiangular pentagon has been inscribed in the
+given circle. (Which is) the very thing it was required to do.}
+\end{Parallel}
+
+%%%%%%
+% Prop 4.12
+%%%%%%
+\pdfbookmark[1]{Proposition 4.12}{pdf4.12}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{12}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Περὶ τὸν δοθέντα κύκλον πεντάγωνον ἰσόπλευρόν τε καὶ ἰσογώνιον
+περιγράψαι.}
+
+\epsfysize=2in
+\centerline{\epsffile{Book04/fig12g.eps}}
+
+{\greekfont Ἔστω ὁ δοθεὶς κύκλος ὁ ΑΒΓΔΕ; δεῖ δὲ περὶ τὸν ΑΒΓΔΕ κύκλον
+πεντάγωνον ἰσόπλευρόν τε καὶ ἰσογώνιον περιγράψαι.}
+
+{\greekfont Νενοήσθω τοῦ ἐγγεγραμμένου πενταγώνου τῶν γωνιῶν σημεῖα
+τὰ Α, Β, Γ, Δ, Ε, ὥστε ἴσας εἶναι τὰς ΑΒ, ΒΓ, ΓΔ, ΔΕ, ΕΑ
+περιφερείας; καὶ διὰ τῶν Α, Β, Γ, Δ, Ε ἤθθωσαν τοῦ κύκλου
+ἐφαπτόμεναι αἱ ΗΘ, ΘΚ, ΚΛ, ΛΜ, μ η, καὶ εἰλήφθω τοῦ ΑΒΓΔΕ
+κύκλου κέντρον τὸ Ζ, καὶ ἐπεζεύθθωσαν αἱ ΖΒ, ΖΚ, ΖΓ, ΖΛ, ΖΔ.}
+
+{\greekfont Καὶ ἐπεὶ ἡ μὲν ΚΛ εὐθεῖα ἐφάπτεται τοῦ ΑΒΓΔΕ κατὰ τὸ
+Γ, ἀπὸ δὲ τοῦ Ζ κέντρου ἐπὶ τὴν κατὰ τὸ Γ ἐπαφὴν ἐπέζευκται
+ἡ ΖΓ, ἡ ΖΓ ἄρα κάθετός ἐστιν ἐπὶ τὴν ΚΛ; ὀρθὴ ἄρα ἐστὶν
+ἑκατέρα τῶν πρὸς τῷ Γ γωνιῶν. διὰ τὰ α ὐτὰ δὴ καὶ αἱ 
+πρὸς τοῖς Β, Δ σημείοις γωνίαι  ὀρθαί εἰσιν. καὶ ἐπεὶ ὀρθή 
+ἐστιν ἡ ὑπὸ ΖΓΚ γωνία, τὸ ἄρα ἀπὸ τῆς ΖΚ ἴσον 
+ἐστὶ τοῖς ἀπὸ τῶν ΖΓ, ΓΚ. διὰ τὰ α ὐτὰ δὴ καὶ τοῖς 
+ἀπὸ τῶν ΖΒ, ΒΚ ἴσον ἐστὶ τὸ ἀπὸ τῆς ΖΚ; ὥστε τὰ ἀπὸ
+τῶν ΖΓ, ΓΚ τοῖς ἀπὸ τῶν ΖΒ, ΒΚ ἐστιν ἴσα, ὧν τὸ
+ἀπὸ τῆς ΖΓ τῷ ἀπὸ τῆς ΖΒ ἐστιν ἴσον; λοιπὸν ἄρα
+τὸ ἀπὸ τῆς ΓΚ τῷ ἀπὸ τῆς ΒΚ ἐστιν ἴσον. ἴση
+ἄρα ἡ ΒΚ τῇ ΓΚ. καὶ ἐπεὶ ἴση ἐστὶν ἡ ΖΒ τῇ ΖΓ, καὶ κοινὴ 
+ἡ ΖΚ, δύο δὴ αἱ ΒΖ, ΖΚ δυσὶ ταῖς ΓΖ, ΖΚ ἴσαι εἰσίν;
+καὶ βάσις ἡ ΒΚ βάσει τῇ ΓΚ [ἐστιν] ἴση; γωνία ἄρα ἡ μὲν 
+ὑπὸ ΒΖΚ [γωνίᾳ] τῇ ὑπὸ ΚΖΓ ἐστιν ἴση; ἡ δὲ ὑπὸ ΒΚΖ
+τῇ ὑπὸ ΖΚΓ; διπλῆ ἄρα ἡ μὲν ὑπὸ ΒΖΓ τῆς ὑπὸ ΚΖΓ,
+ἡ δὲ ὑπὸ ΒΚΓ τῆς ὑπὸ ΖΚΓ. διὰ τὰ α ὐτὰ δὴ καὶ ἡ
+μὲν ὑπὸ ΓΖΔ τῆς ὑπὸ ΓΖΛ ἐστι διπλῆ, ἡ δὲ ὑπὸ ΔΛΓ
+τῆς ὑπὸ ΖΛΓ. καὶ ἐπεὶ ἴση ἐστὶν ἡ ΒΓ περιφέρεια τῇ ΓΔ,
+ἴση ἐστὶ καὶ γωνία ἡ ὑπὸ ΒΖΓ τῇ ὑπὸ ΓΖΔ.
+καί ἐστιν ἡ μὲν ὑπὸ ΒΖΓ τῆς ὑπὸ ΚΖΓ διπλῆ,
+ἡ δὲ ὑπὸ ΔΖΓ τῆς ὑπὸ ΛΖΓ; ἴση ἄρα καὶ ἡ ὑπὸ
+ΚΖΓ τῇ ὑπὸ ΛΖΓ; ἐστὶ δὲ καὶ ἡ ὑπὸ ΖΓΚ γωνία
+τῇ ὑπὸ ΖΓΛ ἴση. δύο δὴ τρίγωνά ἐστι τὰ ΖΚΓ,
+ΖΛΓ τὰς  δύο γωνίας ταῖς δυσὶ γωνίαις ἴσας ἔθοντα καὶ
+μίαν πλευρὰν μιᾷ πλευρᾷ ἴσην κοινὴν α ὐτῶν
+τὴν ΖΓ; καὶ τὰς λοιπὰς ἄρα πλευρὰς ταῖς λοιπαῖς πλευραῖς ἴσας
+ἕχει καὶ τὴν λοιπὴν γωνίαν τῇ λοιπῇ γωνίᾳ; ἴση ἄρα ἡ μὲν ΚΓ εὐθεῖα τῇ ΓΛ, ἡ δὲ ὑπὸ
+ΖΚΓ γωνία τῇ ὑπὸ ΖΛΓ. καὶ ἐπεὶ ἴση ἐστὶν
+ἡ ΚΓ τῇ ΓΛ, διπλῆ ἄρα ἡ ΚΛ τῆς ΚΓ. διὰ τὰ α ὐτα
+δὴ δειθθήσεται καὶ ἡ 
+ΘΚ τῆς ΒΚ διπλῆ. καί ἐστιν ἡ ΒΚ τῇ ΚΓ
+ἴση; καὶ ἡ ΘΚ ἄρα τῇ ΚΛ ἐστιν ἴση. ὁμοίως δὴ δειθθήσεται
+καὶ ἑκάστη τῶν ΘΗ, ΗΜ,
+ΜΛ ἑκατέρᾳ τῶν ΘΚ, ΚΛ ἴση; ἰσόπλευρον ἄρα ἐστὶ τὸ ΗΘΚΛΜ
+πεντάγωνον. λέγω δή, ὅτι καὶ ἰσογώνιον. ἐπεὶ γὰρ ἴση
+ἐστὶν ἡ ὑπὸ ΖΚΓ γωνία τῇ ὑπὸ ΖΛΓ, καὶ ἐδείθθη τῆς
+μὲν ὑπὸ ΖΚΓ διπλῆ ἡ ὑπὸ
+ΘΚΛ, τῆς δὲ ὑπὸ ΖΛΓ διπλῆ ἡ ὑπὸ ΚΛΜ, καὶ ἡ ὑπὸ
+ΘΚΛ ἄρα τῇ ὑπὸ ΚΛΜ ἐστιν ἴση. ὁμοίως δὴ δειθθήσεται καὶ
+ἑκάστη τῶν ὑπὸ ΚΘΗ, ΘΗΜ, ΗΜΛ ἑκατέρᾳ τῶν ὑπὸ ΘΚΛ, ΚΛΜ
+ἴση; αἱ πέντε ἄρα γωνίαι αἱ ὑπὸ ΗΘΚ, ΘΚΛ, ΚΛΜ, Λμ η,
+μ ηΘ
+ἴσαι ἀλλήλαις εἰσίν. ἰσογώνιον ἄρα ἐστὶ τὸ ΗΘΚΛΜ
+πεντάγωνον. ἐδείθθη δὲ καὶ ἰσόπλευρον, καὶ
+περιγέγραπται περὶ τὸν ΑΒΓΔΕ κύκλον.}
+
+{\greekfont μ̀βοχ{[}Περὶ τὸν δοθέντα ἄρα κύκλον πεντάγωνον ἰσόπλευρ-όν
+τε καὶ ἰσογώνιον περιγέγραπται]; ὅπερ ἔδει
+ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 12}
+\end{center}
+
+To circumscribe an equilateral and equiangular
+pentagon about a given circle.
+
+\epsfysize=2in
+\centerline{\epsffile{Book04/fig12e.eps}}
+
+Let $ABCDE$ be the given circle. So it is required to circumscribe an
+equilateral and equiangular pentagon about circle $ABCDE$. 
+
+Let $A$, $B$, $C$, $D$,  and $E$ be conceived as the angular points of a
+pentagon having been inscribed (in circle $ABCDE$) [Prop.~3.11], such that the circumferences $AB$, $BC$, $CD$, $DE$, and
+$EA$ are equal. And let $GH$, $HK$, $KL$, $LM$, and $MG$  be drawn through
+(points) $A$, $B$, $C$, $D$, and $E$ (respectively), touching the circle.$^\dag$ And let the center $F$
+of the circle $ABCDE$ be found [Prop.~3.1].
+And let $FB$, $FK$, $FC$, $FL$, and $FD$ be joined.
+
+And since the straight-line $KL$ touches (circle) $ABCDE$ at $C$, and $FC$ has been
+joined from the center $F$ to the point of contact $C$, $FC$ is thus perpendicular 
+to $KL$ [Prop.~3.18]. Thus, each of the angles
+at $C$ is a right-angle. So, for the same (reasons), the angles at $B$ and $D$
+are also right-angles. And since angle $FCK$ is a right-angle, the (square)
+on $FK$ is thus equal to the (sum of the squares) on $FC$ and $CK$ [Prop.~1.47]. So, for the same (reasons), 
+the (square) on $FK$ is also equal to the (sum of the squares) on $FB$ and $BK$.
+So that the (sum of the squares) on $FC$ and $CK$ is equal to the (sum of the squares) on $FB$ and $BK$, of which the (square) on $FC$ is equal to the
+(square) on $FB$. Thus, the remaining (square) on $CK$ is equal to
+the remaining (square) on $BK$. Thus, $BK$ (is) equal to $CK$. And since
+$FB$ is equal to $FC$, and $FK$ (is) common, the two (straight-lines)
+$BF$, $FK$ are equal to the two (straight-lines) $CF$, $FK$. And the base $BK$
+[is] equal to the base $CK$. Thus, angle $BFK$ is equal to [angle] $KFC$ 
+[Prop.~1.8]. And $BKF$ (is equal) to $FKC$ [Prop.~1.8].
+Thus, $BFC$ (is) double $KFC$,
+and $BKC$ (is double) $FKC$. So, for the same (reasons), $CFD$ is also double
+$CFL$, and $DLC$ (is also double) $FLC$. And since circumference $BC$
+is equal  to $CD$, angle $BFC$ is also  equal  to $CFD$ [Prop.~3.27]. And $BFC$ is double $KFC$,
+and $DFC$ (is double) $LFC$.  Thus, $KFC$ is also equal to $LFC$. 
+And
+angle $FCK$ is also equal to $FCL$. So, $FKC$ and $FLC$ are two triangles
+having two angles equal to two angles, and one side equal to one side,
+(namely) their common (side) $FC$. Thus, they will also have the
+remaining sides equal to the (corresponding) remaining sides, and
+the remaining angle to the remaining angle [Prop.~1.26]. Thus, the straight-line $KC$
+(is) equal to $CL$, and the angle $FKC$ to $FLC$. And since $KC$ is
+equal to $CL$, $KL$ (is) thus double $KC$. So, for the
+same (reasons), it can be shown that $HK$ (is) also double $BK$. And
+$BK$ is equal to $KC$. Thus, $HK$ is also equal to $KL$. So, similarly,  each of $HG$, $GM$, and $ML$ can also be shown (to be) equal to each of
+$HK$ and $KL$. Thus, pentagon $GHKLM$ is equilateral. So I say that
+(it is) also equiangular. For since angle $FKC$ is equal to $FLC$, 
+and $HKL$ was shown (to be) double $FKC$, and $KLM$ double 
+$FLC$, $HKL$ is thus also equal to $KLM$. So, similarly, each of $KHG$, $HGM$, and $GML$ can also be shown (to be) equal to each of
+$HKL$ and $KLM$. Thus, the five angles $GHK$, $HKL$, $KLM$, $LMG$, and
+$MGH$ are equal to one another. Thus, the pentagon $GHKLM$ is
+equiangular. And it was also shown (to be) equilateral, and has been circumscribed 
+about circle $ABCDE$.
+
+\mbox{[}Thus, an equilateral and equiangular pentagon has been circumscribed
+about the given circle]. (Which is) the very thing it was required to do. }
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ See the footnote to Prop.~3.34.} 
+
+%%%%%%
+% Prop 4.13
+%%%%%%
+\pdfbookmark[1]{Proposition 4.13}{pdf4.13}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{13}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Εἰς τὸ δοθὲν πεντάγωνον, ὅ ἐστιν ἰσόπλευρόν τε καὶ ἰσογώνιον, κύκλον ἐγγράψαι.}
+
+{\greekfont Ἔστω τὸ δοθὲν πεντάγωνον ἰσόπλευρόν τε καὶ ἰσογώνι-ον
+τὸ ΑΒΓΔΕ; δεῖ δὴ εἰς τὸ ΑΒΓΔΕ πεντάγωνον κύκλον ἐγγράψαι.}
+
+{\greekfont Τετμήσθω γὰρ ἑκατέρα τῶν ὑπὸ ΒΓΔ, ΓΔΕ γωνιῶν δίθα ὑπὸ
+ἑκατέρας τῶν ΓΖ, ΔΖ εὐθειῶν; καὶ ἀπὸ τοῦ Ζ σημείου, καθ ὃ
+συμβάλλουσιν ἀλλήλαις αἱ ΓΖ, ΔΖ εὐθεῖαι, ἐπεζεύθθωσαν αἱ ΖΒ,
+ΖΑ, ΖΕ εὐθεῖαι. καὶ ἐπεὶ ἴση ἐστὶν ἡ ΒΓ τῇ ΓΔ, κοινὴ
+δὲ ἡ ΓΖ, δύο δὴ αἱ ΒΓ, ΓΖ δυσὶ ταῖς ΔΓ, ΓΖ ἴσαι
+εἰσίν; καὶ γωνία ἡ ὑπὸ ΒΓΖ γωνίᾳ τῇ ὑπὸ ΔΓΖ [ἐστιν]
+ἴση; βάσις ἄρα ἡ ΒΖ βάσει τῇ ΔΖ ἐστιν ἴση, 
+καὶ τὸ ΒΓΖ τρίγωνον τῷ ΔΓΖ τριγώνῳ ἐστιν ἴσον,
+καὶ αἱ λοιπαὶ
+γωνίαι ταῖς λοιπαῖς γωνίαις ἴσαι ἔσονται, ὑφ ἃς αἱ
+ἴσαι πλευραὶ ὑποτείνουσιν; ἴση ἄρα ἡ ὑπὸ ΓΒΖ γωνία 
+τῇ  ὑπὸ ΓΔΖ. καὶ ἐπεὶ διπλῆ ἐστιν ἡ ὑπὸ ΓΔΕ τῆς 
+ὑπὸ ΓΔΖ, ἴση δὲ ἡ μὲν ὑπὸ ΓΔΕ τῇ ὑπὸ ΑΒΓ, ἡ δὲ 
+ὑπὸ ΓΔΖ τῇ ὑπὸ ΓΒΖ, καὶ ἡ ὑπὸ ΓΒΑ ἄρα τῆς ὑπὸ
+ΓΒΖ ἐστι διπλῆ; ἴση ἄρα ἡ ὑπὸ ΑΒΖ γωνία τῇ ὑπὸ
+ΖΒΓ; ἡ ἄρα ὑπὸ ΑΒΓ γωνία δίθα τέτμ ηται ὑπὸ τῆς
+ΒΖ εὐθείας. ὁμοίως δὴ δειθθήσεται, ὅτι καὶ ἑκατέρα τῶν
+ὑπὸ ΒΑΕ, ΑΕΔ δίθα τέτμ ηται ὑπὸ ἑκατέρας τῶν ΖΑ, ΖΕ
+εὐθειῶν. ἤθθωσαν δὴ ἀπὸ τοῦ Ζ σημείου ἐπὶ τὰς ΑΒ, ΒΓ,
+ΓΔ, ΔΕ, ΕΑ εὐθείας κάθετοι αἱ ΖΗ, ΖΘ, ΖΚ, ΖΛ, ΖΜ. καὶ ἐπεὶ
+ἴση ἐστὶν ἡ ὑπὸ ΘΓΖ γωνία τῇ ὑπὸ ΚΓΖ, ἐστὶ δὲ 
+καὶ ὀρθὴ ἡ ὑπὸ ΖΘΓ
+[ὀρθῇ] τῇ ὑπὸ ΖΚΓ ἴση,
+δύο δὴ τρίγωνά ἐστι τὰ ΖΘΓ, ΖΚΓ τὰς δύο γωνίας δυσὶ γωνίαις ἴσας
+ἔθοντα καὶ μίαν πλευρὰν μιᾷ πλευρᾷ ἴσην κοινὴν α ὐτῶν 
+τὴν ΖΓ ὑποτείνουσαν ὑπὸ μίαν τῶν ἴσων γωνιῶν; καὶ
+τὰς λοιπὰς ἄρα πλευρὰς ταῖς λοιπαῖς πλευραῖς ἴσας ἕχει;
+ἴση ἄρα ἡ ΖΘ κάθετος τῂ ΖΚ καθέτῳ. ὁμοίως
+δὴ δειθθήσεται, ὅτι καὶ ἑκάστη τῶν ΖΛ, ΖΜ, ΖΗ
+ἑκατέρᾳ τῶν ΖΘ, ΖΚ ἴση ἐστίν; αἱ πέντε ἄρα εὐθεῖαι αἱ
+ΖΗ, ΖΘ, ΖΚ, ΖΛ, ΖΜ  ἴσαι ἀλλήλαις εἰσίν. ὁ ἄρα
+κέντρῳ τῷ Ζ διαστήματι δὲ ἑνὶ τῶν Η, Θ, Κ, Λ, Μ
+κύκλος γραφόμενος ἥχει καὶ διὰ τῶν λοιπῶν σημείων
+καὶ ἐφάψεται τῶν 
+ΑΒ, ΒΓ, ΓΔ, ΔΕ, ΕΑ εὐθειῶν διὰ τὸ ὀρθὰς εἶναι
+τὰς πρὸς τοῖς Η, Θ, Κ, Λ, Μ σημείοις γωνίας. εἰ γὰρ οὐκ
+ἐφάψεται α ὐτῶν, ἀλλὰ τεμεῖ α ὐτάς, συμβήσεται τὴν τῇ
+διαμέτρῳ τοῦ κύκλου πρὸς ὀρθὰς ἀπ ἄκρας ἀγομένην
+ἐντὸς πίπτειν τοῦ κύκλου; ὅπερ ἄτοπον ἐδείθθη.
+οὐκ ἄρα ὁ κέντρῳ τῷ Ζ διαστήματι δὲ ἑνὶ τῶν
+Η, Θ, Κ, Λ, Μ σημείων γραφόμενος κύκλος τεμεῖ τὰς ΑΒ, ΒΓ, ΓΔ, ΔΕ,
+ΕΑ εὐθείας;  ἐφάψεται ἄρα α ὐτῶν. γεγράφθω ὡς ὁ ΗΘΚΛΜ.}\\~\\~\\
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig13g.eps}}
+
+{\greekfont Εἰς ἄρα τὸ δοθὲν πεντάγωνον, ὅ ἐστιν ἰσόπλευρόν
+τε καὶ ἰσογώνιον, κύκλος ἐγγέγραπται; ὅπερ ἔδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 13}
+\end{center}
+
+To inscribe a circle in a given
+pentagon, which is equilateral and equiangular.
+
+Let $ABCDE$ be the given equilateral and equiangular pentagon. So
+it is required to inscribe a circle in pentagon $ABCDE$.
+
+For let angles $BCD$ and $CDE$  each be cut in half by each
+of the straight-lines $CF$ and $DF$ (respectively) [Prop.~1.9]. And from the point $F$, at which the
+straight-lines $CF$ and $DF$ meet one another, let the straight-lines
+$FB$, $FA$, and $FE$ be joined. And since $BC$ is equal to $CD$,
+and $CF$ (is) common, the two (straight-lines) $BC$, $CF$ 
+are equal to the two (straight-lines) $DC$, $CF$. And angle $BCF$ [is]
+equal to angle $DCF$. Thus, the base $BF$ is equal to the base $DF$,
+and triangle $BCF$ is equal to triangle $DCF$, and the remaining angles
+will be equal to the (corresponding) remaining angles which the
+equal sides subtend
+[Prop.~1.4]. Thus, angle $CBF$ (is) equal
+to $CDF$. And since $CDE$ is double $CDF$, and $CDE$ (is) equal to $ABC$,
+and $CDF$ to $CBF$, $CBA$ is thus also double $CBF$. Thus, angle $ABF$
+is equal to $FBC$. Thus, angle $ABC$ has been cut in half by the straight-line
+$BF$. So, similarly, it can be shown that $BAE$ and $AED$ have 
+been cut in half by the straight-lines $FA$ and $FE$, respectively.
+So let $FG$, $FH$, $FK$, $FL$, and $FM$ be drawn from point $F$,
+perpendicular to the straight-lines $AB$, $BC$, $CD$, $DE$, and $EA$ 
+(respectively)
+[Prop.~1.12]. And since angle
+$HCF$ is equal to $KCF$, and the right-angle $FHC$ is also equal to
+the [right-angle] $FKC$, $FHC$ and $FKC$ are two triangles having two
+angles equal to two angles, and one side equal to one side, (namely)
+their common (side) $FC$, subtending one of the equal angles. 
+Thus, they will also have the remaining sides equal to the (corresponding)
+remaining sides [Prop.~1.26].
+Thus, the perpendicular $FH$ (is) equal to the perpendicular $FK$. So,
+similarly, it can be shown that $FL$, $FM$, and $FG$ are each equal to
+each  of $FH$ and $FK$. Thus, the five straight-lines $FG$, $FH$, $FK$, $FL$,
+and $FM$ are equal to one another.
+Thus, the circle drawn with center $F$, and
+radius one of $G$, $H$, $K$, $L$, or $M$, will also go through the remaining
+points, and will touch the straight-lines $AB$, $BC$, $CD$, $DE$, and $EA$,
+on account of the angles at points $G$, $H$, $K$, $L$, and $M$ being
+right-angles. For if it does not touch them, but cuts them, 
+ it follows that a (straight-line) drawn at right-angles to the diameter
+ of the circle, from its extremity, falls inside the circle.
+ The very thing was shown (to be) absurd [Prop.~3.16]. Thus, the circle drawn
+ with center $F$, and radius one of $G$, $H$, $K$, $L$,  or $M$, does not
+ cut the straight-lines $AB$, $BC$, $CD$, $DE$, or $EA$. Thus, it will
+ touch them. Let it be drawn, like $GHKLM$ (in the figure).
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig13e.eps}}
+ 
+ Thus, a circle has been inscribed in the given pentagon which is
+ equilateral and equiangular. (Which is) the very thing it was required to
+ do.}
+\end{Parallel}
+
+%%%%%%
+% Prop 4.14
+%%%%%%
+\pdfbookmark[1]{Proposition 4.14}{pdf4.14}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{14}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Περὶ τὸ δοθὲν πεντάγωνον, ὅ ἐστιν ἰσόπλευρόν τε καὶ 
+ἰσογώνιον, κύκλον περιγράψαι.}
+
+{\greekfont Ἔστω τὸ δοθὲν πεντάγωνον, ὅ ἐστιν ἰσόπλευρόν τε καὶ
+ἰσογώνιον, τὸ ΑΒΓΔΕ; δεῖ δὴ περὶ τὸ ΑΒΓΔΕ πεντάγωνον
+κύκλον περιγράψαι.}
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig14g.eps}}
+
+{\greekfont Τετμήσθω δὴ ἑκατέρα τῶν ὑπὸ ΒΓΔ, ΓΔΕ γωνιῶν δίθα
+ὑπὸ ἑκατέρας τῶν ΓΖ, ΔΖ, καὶ ἀπὸ τοῦ Ζ σημείου,
+καθ ὃ συμβάλλουσιν αἱ εὐθεῖαι, ἐπὶ τὰ Β, Α, Ε σημεῖα
+ἐπεζεύθθωσαν εὐθεῖαι αἱ ΖΒ, ΖΑ, ΖΕ. ὁμοίως δὴ τῷ πρὸ τούτου
+δειθθήσεται, ὅτι καὶ ἑκάστη τῶν ὑπὸ ΓΒΑ, ΒΑΕ, ΑΕΔ
+γωνιῶν δίθα τέτμ ηται ὑπὸ ἑκάστης τῶν ΖΒ, ΖΑ, ΖΕ
+εὐθειῶν. καὶ ἐπεὶ ἴση ἐστὶν ἡ ὑπὸ ΒΓΔ γωνία τῇ
+ὑπὸ ΓΔΕ, καί ἐστι τῆς μὲν ὑπὸ ΒΓΔ  ἡμίσεια ἡ ὑπὸ ΖΓΔ,
+τῆς δὲ ὑπὸ ΓΔΕ ἡμίσεια ἡ ὑπὸ ΓΔΖ, καὶ ἡ ὑπὸ
+ΖΓΔ ἄρα τῇ ὑπὸ ΖΔΓ ἐστιν ἴση; ὥστε καὶ πλευρὰ ἡ ΖΓ
+πλευρᾷ τῇ ΖΔ ἐστιν ἴση. ὁμοίως δὴ δειθθήσεται, ὅτι καὶ
+ἑκάστη τῶν ΖΒ, ΖΑ, ΖΕ ἑκατέρᾳ τῶν ΖΓ, ΖΔ ἐστιν ἴση; αἱ
+πέντε ἄρα εὐθεῖαι αἱ ΖΑ, ΖΒ, ΖΓ, ΖΔ, ΖΕ  ἴσαι ἀλλήλαις
+εἰσίν. ὀ ἄρα κέντρῳ τῷ Ζ καὶ διαστήματι ἑνὶ τῶν ΖΑ, ΖΒ, 
+ΖΓ, ΖΔ, ΖΕ κύκλος γραφόμενος ἥχει καὶ διὰ τῶν λοιπῶν
+σημείων καὶ ἔσται περιγεγραμμένος. περιγεγράφθω
+καὶ ἔστω ὁ ΑΒΓΔΕ.}
+
+{\greekfont Περὶ ἄρα τὸ δοθὲν πεντάγωνον, ὅ ἐστιν ἰσόπλευρόν τε καὶ
+ἰσογώνιον, κύκλος περιγέγραπται; ὅπερ ἔδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 14}
+\end{center}
+
+To circumscribe a circle about a given pentagon which is equilateral and equiangular.
+
+Let $ABCDE$ be the given pentagon  which is equilateral and equiangular.
+So it is required to circumscribe a circle about the pentagon 
+$ABCDE$.
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig14e.eps}}
+
+So let angles $BCD$ and $CDE$ have  been cut
+in half by  the (straight-lines) $CF$ and $DF$, respectively [Prop.~1.9]. And let the straight-lines
+$FB$, $FA$, and $FE$ be joined from point $F$, at which the
+straight-lines meet, to the points $B$, $A$, and $E$ (respectively).
+So, similarly, to the (proposition) before this (one), it can be shown that
+angles $CBA$, $BAE$, and $AED$ have also  been cut in half by
+the straight-lines $FB$, $FA$, and $FE$, respectively. And since
+angle $BCD$ is equal to $CDE$, and $FCD$ is half of $BCD$, and $CDF$ half
+of $CDE$, $FCD$ is thus also equal to $FDC$. So that side $FC$ is also equal to
+side $FD$ [Prop.~1.6]. So, similarly, it can be
+shown that $FB$, $FA$, and $FE$ are also each equal to each of $FC$ and $FD$. 
+Thus, the five straight-lines $FA$, $FB$, $FC$, $FD$, and $FE$ are equal to
+one another. Thus, the circle drawn with center $F$, and radius one of
+$FA$, $FB$, $FC$, $FD$, or $FE$, will also go through the remaining points, and
+will be circumscribed. Let it be (so) circumscribed, and let
+it be $ABCDE$.
+
+Thus, a circle has been circumscribed about the given pentagon, which
+is equilateral and equiangular. (Which is) the very thing it was required to
+do.}
+\end{Parallel}
+
+%%%%%%
+% Prop 4.15
+%%%%%%
+\pdfbookmark[1]{Proposition 4.15}{pdf4.15}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{15}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Εἰς τὸν δοθέντα κύκλον ἑχάγωνον ἰσόπλευρόν τε καὶ ἰσογώνιον
+ἐγγράψαι.}
+
+{\greekfont Ἔστω ὁ δοθεὶς κύκλος ὁ ΑΒΓΔΕΖ; δεῖ δὴ εἰς τὸν ΑΒΓΔΕΖ
+κύκλον ἑχάγωνον ἰσόπλευρόν τε καὶ ἰσογώνιον ἐγγράψαι.}
+
+{\greekfont Ἤθθω τοῦ ΑΒΓΔΕΖ κύκλου διάμετρος ἡ ΑΔ, καὶ εἰλήφθω τὸ
+κέντρον τοῦ κύκλου τὸ Η, καὶ κέντρῳ μὲν τῷ Δ διαστήματι δὲ
+τῷ ΔΗ κύκλος γεγράφθω ὁ ΕΗΓΘ, καὶ ἐπιζευθθεῖσαι αἱ ΕΗ, ΓΗ
+διήθθωσαν ἐπὶ τὰ Β, Ζ σημεῖα, καὶ ἐπεζεύθθωσαν αἱ ΑΒ, ΒΓ, ΓΔ,
+ΔΕ, ΕΖ, ΖΑ; λέγω, ὅτι τὸ ΑΒΓΔΕΖ ἑχάγωνον ἰσόπλευρόν τέ
+ἐστι καὶ ἰσογώνιον.}\\
+
+\epsfysize=2.4in
+\centerline{\epsffile{Book04/fig15g.eps}}
+
+{\greekfont Ἐπεὶ γὰρ τὸ Η σημεῖον κέντρον ἐστὶ τοῦ ΑΒΓΔΕΖ κύκλου,
+ἴση ἐστὶν ἡ ΗΕ τῇ ΗΔ. πάλιν, ἐπεὶ τὸ Δ σημεῖον κέντρον
+ἐστὶ τοῦ ΗΓΘ κύκλου, ἴση ἐστὶν ἡ ΔΕ τῇ ΔΗ. ἀλλ
+ἡ ΗΕ τῇ ΗΔ ἐδείθθη ἴση; καὶ ἡ ΗΕ ἄρα τῇ ΕΔ ἴση ἐστίν;
+ἰσόπλευρον ἄρα ἐστὶ τὸ ΕΗΔ τρίγωνον; καὶ αἱ τρεῖς ἄρα α ὐτοῦ
+γωνίαι αἱ ὑπὸ ΕΗΔ, ΗΔΕ, ΔΕΗ ἴσαι ἀλλήλαις εἰσίν,
+ἐπειδήπερ τῶν ἰσοσκελῶν τριγώνων αἱ πρὸς τῇ βάσει γωνίαι
+ἴσαι ἀλλήλαις εἰσίν; καί εἰσιν αἱ τρεῖς τοῦ τριγώνου γωνίαι
+δυσὶν ὀρθαῖς ἴσαι; ἡ ἄρα ὑπὸ ΕΗΔ γωνία τρίτον ἐστὶ
+δύο ὀρθῶν. ὁμοίως δὴ δειθθήσεται καὶ ἡ ὑπὸ ΔΗΓ τρίτον
+δύο ὀρθῶν.
+καὶ ἐπεὶ ἡ ΓΗ εὐθεῖα ἐπὶ τὴν ΕΒ σταθεῖσα
+τὰς ἐφεχῆς γωνίας τὰς ὑπὸ ΕΗΓ, ΓΗΒ δυσὶν ὀρθαῖς
+ἴσας ποιεῖ, καὶ λοιπὴ ἄρα ἡ ὑπὸ ΓΗΒ τρίτον ἐστὶ δύο
+ὀρθῶν; αἱ ἄρα ὑπὸ ΕΗΔ, ΔΗΓ, ΓΗΒ γωνίαι ἴσαι
+ἀλλήλαις εἰσίν; ὥστε καὶ αἱ κατὰ κορυφὴν α ὐταῖς αἱ ὑπὸ
+ΒΗΑ, ΑΗΖ, ΖΗΕ ἴσαι εἰσὶν [ταῖς ὑπὸ ΕΗΔ, ΔΗΓ, ΓΗΒ].
+αἱ ἓχ ἄρα γωνίαι αἱ ὑπὸ ΕΗΔ, ΔΗΓ, ΓΗΒ, ΒΗΑ, ΑΗΖ, ΖΗΕ
+ἴσαι ἀλλήλαις εἰσίν. αἱ δὲ ἴσαι γωνίαι ἐπὶ ἴσων περιφερειῶν
+βεβήκασιν; αἱ ἓχ ἄρα περιφέρειαι αἱ ΑΒ, ΒΓ, ΓΔ, ΔΕ, ΕΖ, ΖΑ
+ἴσαι ἀλλήλαις εἰσίν. ὑπὸ δὲ τὰς ἴσας περιφερείας αἱ ἴσαι
+εὐθεῖαι ὑποτείνουσιν; αἱ ἓχ ἄρα εὐθεῖαι ἴσαι 
+ἀλλήλαις εἰσίν; ἰσόπλευρον ἄρα ἐστὶ το ΑΒΓΔΕΖ ἑχάγωνον.
+λέγω δή, ὅτι καὶ ἰσογώνιον. ἐπεὶ γὰρ ἴση ἐστὶν ἡ ΖΑ
+περιφέρεια τῇ ΕΔ περιφερείᾳ, κοινὴ προσκείσθω ἡ ΑΒΓΔ περιφέρεια; ὅλη ἄρα ἡ ΖΑΒΓΔ ὅλῃ τῇ ΕΔΓΒΑ  ἐστιν ἴση; καὶ βέβηκεν
+ἐπὶ μὲν τῆς ΖΑΒΓΔ περιφερείας ἡ ὑπὸ 
+ΖΕΔ γωνία, ἐπὶ
+δὲ τῆς ΕΔΓΒΑ περιφερείας ἡ ὑπὸ ΑΖΕ γωνία;  ἴση 
+ἄρα ἡ ὑπὸ 
+ΑΖΕ γωνία τῇ ὑπὸ ΔΕΖ.  ὁμοίως δὴ δειθθήσεται, ὅτι 
+καὶ αἱ λοιπαὶ γωνίαι τοῦ ΑΒΓΔΕΖ ἑχαγώνου κατὰ μίαν 
+ἴσαι εἰσὶν ἑκατέρᾳ τῶν ὑπὸ ΑΖΕ, ΖΕΔ γωνιῶν; ἰσογώνιον
+ἄρα ἐστὶ τὸ ΑΒΓΔΕΖ ἑχάγωνον. ἐδείθθη δὲ καὶ ἰσόπλευρον;
+καὶ ἐγγέγραπται εἰς τὸν ΑΒΓΔΕΖ κύκλον.}
+
+{\greekfont Εἰς ἄρα τὸν δοθέντα κύκλον ἑχάγωνον ἰσόπλευρόν τε καὶ
+ἰσογώνιον ἐγγέγραπται; ὅπερ ἔδει ποιῆσαι.}\\~\\~\\~\\~\\
+
+\begin{center}
+{\large {\greekfont Πόρισμα}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐκ δὴ τούτου φανερόν, ὅτι ἡ τοῦ ἑχαγώνου πλευρὰ ἴση ἐστὶ
+τῇ ἐκ τοῦ κέντρου τοῦ κύκλου.}
+
+{\greekfont Ὁμοίως δὲ τοῖς ἐπὶ τοῦ πενταγώνου ἐὰν διὰ τῶν κατὰ
+τὸν κύκλον διαιρέσεων ἐφαπτομένας τοῦ κύκλου ἀγάγωμεν,
+περιγραφήσεται περὶ τὸν κύκλον ἑχάγωνον ἰσόπλευρόν τε
+καὶ ἰσογώνιον ἀκολούθως τοῖς ἐπὶ τοῦ πενταγώνου
+εἰρημένοις. καὶ ἔτι διὰ τῶν ὁμοίων τοῖς
+ἐπὶ τοῦ πενταγώνου εἰρημένοις εἰς τὸ δοθὲν ἑχάγωνον κύκλον
+ἐγγράψομέν τε καὶ περιγράψομεν; ὅπερ ἔδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 15}
+\end{center}
+
+To inscribe an equilateral and equiangular hexagon
+in a given circle.
+
+Let $ABCDEF$ be the given circle. So it is required to inscribe an equilateral
+and equiangular hexagon in circle $ABCDEF$.
+
+Let the diameter $AD$ of circle $ABCDEF$ be drawn,$^\dag$ and let the center $G$ of
+the circle be found [Prop.~3.1].
+And let the circle $EGCH$ be drawn, with center $D$, and radius
+$DG$.  And $EG$ and $CG$ being joined, let them be drawn across (the
+circle) to points $B$ and $F$ (respectively). 
+And let $AB$, $BC$, $CD$, $DE$, $EF$, and $FA$ be joined. 
+I say that the hexagon $ABCDEF$ is equilateral and equiangular.
+
+\epsfysize=2.4in
+\centerline{\epsffile{Book04/fig15e.eps}}
+
+For since point $G$ is the center of circle $ABCDEF$, $GE$ is equal to $GD$.
+Again, since point $D$ is the center of circle $GCH$, $DE$ is equal to
+$DG$. But, $GE$ was shown (to be) equal to $GD$. Thus, $GE$ is also equal to
+$ED$. Thus, triangle $EGD$ is equilateral. Thus, its three angles
+$EGD$, $GDE$, and $DEG$ are also equal to one another, inasmuch as the angles at the base of 
+ isosceles triangles are equal to one another [Prop.~1.5]. And the three angles of the
+ triangle are equal to
+ two right-angles [Prop.~1.32].
+ Thus, angle $EGD$ is one third of two right-angles. So, similarly,
+  $DGC$ can also be shown (to be) one third of two right-angles.
+   And since the straight-line $CG$, standing on $EB$, makes 
+ adjacent angles $EGC$ and $CGB$ equal to two right-angles [Prop.~1.13], the remaining angle
+ $CGB$ is thus also one third of two right-angles.
+ Thus, angles $EGD$, $DGC$, and $CGB$ are equal to one another.
+ And hence the (angles) opposite to them $BGA$, $AGF$, and $FGE$
+ are also equal [to $EGD$, $DGC$, and $CGB$ (respectively)] [Prop.~1.15]. Thus,
+ the six angles $EGD$, $DGC$, $CGB$, $BGA$, $AGF$, and $FGE$ are equal to one
+ another. And equal angles stand on equal circumferences [Prop.~3.26]. Thus, the six circumferences
+ $AB$, $BC$, $CD$, $DE$, $EF$, and $FA$ are equal to one another. And
+  equal circumferences
+  are subtended by equal straight-lines [Prop.~3.29]. Thus, the six
+ straight-lines ($AB$, $BC$, $CD$, $DE$, $EF$, and $FA$) are equal to one another.
+ Thus, hexagon $ABCDEF$ is equilateral. 
+ So, I say that (it is) also equiangular. For since circumference $FA$
+ is equal to circumference $ED$, let circumference $ABCD$ be added
+ to both. Thus, the whole of $FABCD$ is equal to the whole of
+ $EDCBA$. And angle $FED$ stands on circumference $FABCD$,
+ and angle $AFE$ on circumference $EDCBA$. Thus, angle
+ $AFE$ is equal to $DEF$ [Prop.~3.27].
+ Similarly, it can also be shown that the remaining angles of hexagon
+ $ABCDEF$ are individually equal to each of the angles $AFE$ and $FED$.
+ Thus, hexagon $ABCDEF$ is equiangular. And it was also shown (to be)
+ equilateral. And it has been inscribed in circle $ABCDE$.
+ 
+ Thus, an equilateral and equiangular hexagon has been inscribed
+ in the given circle. (Which is) the very thing it was required to do.\\
+ 
+ \begin{center}
+{\large Corollary}
+\end{center}\vspace*{-7pt}
+
+So, from this, (it is) manifest that a side of the hexagon is equal
+to the radius of the circle.
+
+And similarly to  a pentagon, if we draw  tangents to the circle through
+the (sixfold) divisions of the (circumference of the) circle, an equilateral and equiangular hexagon
+can be circumscribed about the circle, analogously to the aforementioned pentagon. And, further, by (means) similar to the aforementioned pentagon,
+we can inscribe and circumscribe a circle in (and about) a given hexagon. 
+(Which
+is) the very thing it was required to do.}
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ See the
+footnote to Prop.~4.6.} 
+
+%%%%%%
+% Prop 4.16
+%%%%%%
+\pdfbookmark[1]{Proposition 4.16}{pdf4.16}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{16}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Εἰς τὸν δοθέντα κύκλον πεντεκαιδεκάγωνον ἰσόπλευρ-όν τε καὶ
+ἰσογώνιον ἐγγράψαι.}
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig16g.eps}}
+
+{\greekfont Ἔστω ὁ δοθεὶς κύκλος ὁ ΑΒΓΔ; δεῖ δὴ εἰς τὸν ΑΒΓΔ
+κύκλον πεντεκαιδεκάγωνον ἰσόπλευρόν τε καὶ ἰσογώνιον
+ἐγγράψαι.}
+
+{\greekfont Ἐγγεγράφθω εἰς τὸν ΑΒΓΔ κύκλον τριγώνου μὲν ἰσοπλεύρου
+τοῦ εἰς α ὐτὸν ἐγγραφομένου πλευρὰ ἡ ΑΓ, πενταγώνου δὲ
+ἰσοπλεύρου ἡ ΑΒ; οἵων ἄρα ἐστὶν ὁ ΑΒΓΔ κύκλος ἴσων
+τμήματων δεκαπέντε, τοιούτων ἡ μὲν ΑΒΓ περιφέρεια τρίτον
+οὖσα τοῦ κύκλου ἔσται πέντε, ἡ δὲ ΑΒ περιφέρεια πέμτον
+οὖσα τοῦ κύκλου ἔσται τριῶν; λοιπὴ ἄρα ἡ ΒΓ τῶν
+ἴσων δύο. τετμήσθω ἡ ΒΓ δίθα κατὰ τὸ Ε; ἑκατέρα ἄρα τῶν
+ΒΕ, ΕΓ περιφερειῶν πεντεκαιδέκατόν ἐστι τοῦ ΑΒΓΔ κύκλου.}
+
+{\greekfont Ἐὰν ἄρα ἐπιζεύχαντες τὰς ΒΕ, ΕΓ ἴσας α ὐταῖς κατὰ 
+τὸ συνεθὲς εὐθείας ἐναρμόσωμεν εἰς τὸν ΑΒΓΔ[Ε]
+κύκλον, ἔσται εἰς α ὐτὸν ἐγγεγραμμένον πεντεκαιδεκάγωνον
+ἰσόπλευ-ρόν τε καὶ ἰσογώνιον; ὅπερ ἔδει ποιῆσαι.}
+
+{\greekfont Ὁμοίως δὲ τοῖς ἐπὶ τοῦ πενταγώνου ἐὰν διὰ τῶν κατὰ
+τὸν κύκλον διαιρέσεων  ἐφαπτομένας τοῦ  κύκλου ἀγάγωμεν,
+περιγραφήσεται περὶ τὸν κύκλον πεντεκαιδεκάγωνον ἰσόπλευρόν
+τε καὶ ἰσογώνιον. ἔτι δὲ διὰ τῶν ὁμοίων τοῖς
+ἐπὶ τοῦ πενταγώνου δείχεων καὶ εἰς τὸ δοθὲν πεντεκαιδεκάγωνον
+κύκλον ἐγγράψομέν τε καὶ περιγράψομεν; ὅπερ ἔδει ποιῆσαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 16}
+\end{center}
+
+To inscribe an equilateral and equiangular fifteen-sided figure in a given circle.
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book04/fig16e.eps}}
+
+Let $ABCD$ be the given circle. So it is required to inscribe an equilateral
+and equiangular fifteen-sided figure in circle $ABCD$.
+
+Let the side $AC$ of an equilateral triangle inscribed in (the circle) [Prop.~4.2],
+and (the side) $AB$ of an (inscribed) equilateral pentagon [Prop.~4.11],
+ be inscribed in circle $ABCD$.
+ Thus,   just as the circle $ABCD$ is (made up) of fifteen equal pieces, the
+ circumference $ABC$, being a third of the circle, will be (made up) of five
+ such (pieces), and the
+ circumference $AB$, being a fifth of the circle, will be (made up) of  three.
+ Thus, the remainder $BC$ (will be made up) of two equal (pieces).
+ Let (circumference) $BC$ be cut in half at $E$ [Prop.~3.30].
+ Thus, each of the circumferences $BE$ and $EC$ is one fifteenth of the circle
+ $ABCDE$.
+ 
+ Thus, if, joining $BE$ and $EC$, we continuously insert straight-lines
+ equal to them into circle $ABCD[E]$ [Prop.~4.1],
+ (then) an equilateral and equiangular fifteen-sided figure will be
+ inserted into (the circle). (Which is) the very thing it was required to do.
+ 
+ And similarly to the pentagon, if we draw  tangents to the circle through
+the (fifteenfold) divisions of the (circumference of the) circle, we can
+circumscribe an equilateral and equiangular fifteen-sided figure about
+the circle. 
+ And, further, through similar proofs to the  pentagon,
+ we can also inscribe and circumscribe  a circle in (and about)  a given fifteen-sided 
+  figure. (Which is) the very thing it was required to do.}
+\end{Parallel}

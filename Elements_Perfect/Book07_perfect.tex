@@ -1,0 +1,2970 @@
+% !TEX root = ../Elements.tex
+%Greek and English text last checked 30/03/2013
+%%%%%%
+% BOOK 7
+%%%%%%
+\pdfbookmark[0]{Book 7}{book7}
+\pagestyle{empty}
+\begin{center}
+{\Huge ELEMENTS BOOK 7}\\
+\spa\spa\spa
+{\huge\it Elementary Number Theory\symbolfootnote[2]{The propositions contained in Books 7--9 are generally attributed to the
+school of Pythagoras.}}
+\end{center}
+%\vspace{2cm}
+%\epsfysize=5in
+%\centerline{\epsffile{Book07/front.eps}}
+\newpage
+
+%%%%%%%
+% Definitions
+%%%%%%%
+\pdfbookmark[1]{Definitions}{def7}
+\pagestyle{fancy}
+\cfoot{{\greekfont τ̀ηεπαγε}}
+\lhead{\large{\greekfont ΣΤΟΙΘΕΙΩΝ γ̀γν{7}.}}
+\rhead{\large ELEMENTS BOOK 7}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+\large{{\greekfont Ὅροι}.}
+\end{center}\vspace*{-7pt}
+
+\ggn{1}.~{\greekfont Μονάς ἐστιν, καθ ἣν ἕκαστον τῶν ὄντων ἓν λέγεται.}
+
+\ggn{2}.~{\greekfont Ἀριθμὸς δὲ τὸ ἐκ μονάδων συγκείμενον  πλῆθος.}
+
+\ggn{3}.~{\greekfont Μέρος ἐστὶν ἀριθμὸς ἀριθμοῦ ὁ ἐλάσσων τοῦ μείζονος, ὅταν καταμετρῇ τὸν μείζονα.}
+
+\ggn{4}.~{\greekfont Μέρη δέ, ὅταν μὴ καταμετρῇ.}
+
+\ggn{5}.~{\greekfont Πολλαπλάσιος δὲ ὁ μείζων τοῦ ἐλάσσονος, ὅταν καταμε-τρῆται ὑπὸ τοῦ ἐλάσσονος.}
+
+\ggn{6}.~{\greekfont Ἄρτιος ἀριθμός ἐστιν ὁ δίθα διαιρούμενος.}
+
+\ggn{7}.~{\greekfont Περισσὸς δὲ ὁ μὴ διαιρούμενος δίθα ἢ [ὁ] μονάδι
+διαφέρων ἀρτίου ἀριθμοῦ.}
+
+\ggn{8}.~{\greekfont Ἀρτιάκις ἄρτιος ἀριθμός  ἐστιν ὁ ὑπὸ ἀρτίου
+ἀριθμοῦ μετρούμενος κατὰ ἄρτιον ἀριθμόν.}
+
+\ggn{9}.~{\greekfont Ἄρτιάκις δὲ περισσός ἐστιν ὁ ὑπὸ ἀρτίου ἀριθμοῦ μετρούμενος κατὰ περισσὸν ἀριθμόν.}
+
+\ggn{10}.~{\greekfont Περισσάκις δὲ περισσὸς ἀριθμός ἐστιν ὁ ὑπὸ περισσοῦ ἀριθμοῦ μετρούμενος κατὰ περισσὸν ἀριθμόν.}
+
+\ggn{11}.~{\greekfont Πρῶτος ἀριθμός ἐστιν ὁ μονάδι μόνῃ μετρούμενος.}
+
+\ggn{12}.~{\greekfont Πρῶτοι πρὸς ἀλλήλους ἀριθμοί εἰσιν οἱ μονάδι μόνῃ 
+μετρούμενοι κοινῷ μέτρῳ.}
+
+\ggn{13}.~{\greekfont Σύνθετος ἀριθμός ἐστιν ὁ ἀριθμῷ τινι μετρούμενος.}
+
+\ggn{14}.~{\greekfont Σύνθετοι δὲ πρὸς ἀλλήλους ἀριθμοί εἰσιν οἱ ἀριθμῷ τινι μετρούμενοι κοινῷ μέτρῳ.}
+
+\ggn{15}.~{\greekfont Ἀριθμὸς ἀριθμὸν πολλαπλασιάζειν λέγεται, ὅταν, ὅσαι
+εἰσὶν ἐν α ὐτῷ μονάδες, τοσαυτάκις συντεθῇ ὁ πολλαπλασιαζόμενος,
+καὶ γένηταί τις.}
+
+\ggn{16}.~{\greekfont Ὅταν δὲ δύο ἀριθμοὶ πολλαπλασιάσαντες ἀλλήλους ποιῶσί τινα, ὁ γενόμενος ἐπίπεδος καλεῖται, πλευραὶ δὲ α ὐτοῦ οἱ
+πολλαπλασιάσαντες ἀλλήλους ἀριθμοί.}
+
+\ggn{17}.~{\greekfont Ὅταν δὲ τρεῖς ἀριθμοὶ πολλαπλασιάσαντες ἀλλήλους ποιῶσί τινα, ὁ γενόμενος στερεός ἐστιν, πλευραὶ δὲ α ὐτοῦ οἱ
+πολλαπλασιάσαντες ἀλλήλους ἀριθμοί.}
+
+\ggn{18}.~{\greekfont Τετράγωνος ἀριθμός ἐστιν ὁ ἰσάκις ἴσος ἢ [ὁ]
+ὑπὸ δύο ἴσων ἀριθμῶν περιεθόμενος.}
+
+\ggn{19}.~{\greekfont Κύβος δὲ ὁ ἰσάκις ἴσος ἰσάκις ἢ [ὁ] ὑπὸ
+τριῶν ἴσων ἀριθμῶν περιεθόμενος.}
+
+\ggn{20}.~{\greekfont Ἀριθμοὶ ἀνάλογόν εἰσιν, ὅταν ὁ πρῶτος
+τοῦ δευτέρου καὶ ὁ τρίτος τοῦ τετάρτου ἰσάκις ᾖ
+πολλαπλάσιος ἢ τὸ α ὐτὸ μέρος ἢ τὰ α ὐτὰ μέρη
+ὦσιν.}
+
+\ggn{21}.~{\greekfont Ὅμοιοι ἐπίπεδοι καὶ στερεοὶ ἀριθμοί εἰσιν οἱ ανάλογον ἔθοντες τὰς πλευράς.}
+
+\ggn{22}.~{\greekfont Τέλειος ἀριθμός ἐστιν ὁ τοῖς ἑαυτοῦ
+μέρεσιν ἴσος ὤν.}}
+
+\ParallelRText{
+\begin{center}
+{\large Definitions}
+\end{center}
+
+1.~A unit is (that) according to which each  existing (thing)  is said (to be) one.
+
+2.~And a number (is) a multitude composed of units.$^\dag$
+
+3.~A number is part of a(nother) number, the lesser of the greater, when
+it measures the greater.$^\ddag$
+
+4.~But (the lesser is) parts (of the greater) when it does not measure it.$^\S$
+
+5.~And the greater (number is) a multiple of the lesser when it is measured by
+the lesser.
+
+6.~An even number is one (which can be) divided in half.
+
+7.~And an odd number is one (which can)not (be) divided in half, 
+or which  differs from an even number by a unit.
+
+8.~An even-times-even number is one (which is) measured by an
+even number according to an even number.$^\P$
+
+9.~And an even-times-odd number is one (which is) measured by an
+even number according to an odd number.$^\ast$
+
+10.~And an odd-times-odd number is one (which is) measured by an
+odd number according to an odd number.$^\$$
+
+11.~A prime$^\flat$  number is one (which is) measured by a unit alone.
+
+12.~Numbers prime to one another are those (which are) measured by a unit
+alone as a common measure.
+
+13.~A composite number is one (which is) measured by some number.
+
+14.~And numbers composite to one another are those (which are) measured
+by some number as a common measure.
+
+15.~A number is said to multiply a(nother) number when the (number being) multiplied is added (to itself) as many times as there are units
+ in the former (number), and (thereby) some (other number) is produced.
+ 
+16.~And when two numbers multiplying one another make some
+(other number then) the (number so) created  is called plane, and its sides (are) the numbers
+which multiply one another.
+
+17.~And when three numbers multiplying one another make some (other number
+then) the (number so) created is (called) solid, and its sides (are) the numbers which multiply
+one another.
+
+18.~A square number is an equal times an equal, or (a plane number)
+contained by two equal numbers.
+
+19.~And a cube (number) is an equal times an equal times an equal,
+or (a solid number) contained by three equal numbers.
+
+20.~Numbers are proportional when the first is the same multiple, or
+the same part, or the same parts,
+of the second that the third (is) of the fourth.
+
+21.~Similar plane and solid numbers are those having proportional
+sides.
+
+22.~A perfect number is that which is equal to its own parts.$^{\dag\dag}$}
+\end{Parallel}
+
+{\footnotesize\noindent$^\dag$ In other words, a
+``number'' is a positive integer greater than unity.\\[0.5ex]
+$^\ddag$ In other words, a number $a$ is part of
+another number $b$ if there exists some number $n$ such
+that $n\,a = b$.\\[0.5ex]
+$^\S$  In other words, a number $a$ is parts of another number
+$b$ (where $a<b$) if there exist distinct numbers, $m$ and $n$, such that $n\,a=m\,b$.\\[0.5ex]
+$^\P$ In other words.
+an even-times-even number is the product of two even numbers.\\[0.5ex]
+$^\ast$ In other words,
+an even-times-odd number is the product of an even and an odd number.\\[0.5ex]
+$^\$$ In other words,
+an odd-times-odd number is the product of two odd numbers.\\[0.5ex]
+$^\flat$ Literally, ``first''.\\[0.5ex]
+$^{\dag\dag}$  In other words, a perfect number is equal to the sum of its own factors.}
+
+%%%%%%
+% Prop 7.1
+%%%%%%
+\pdfbookmark[1]{Proposition 7.1}{pdf7.1}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{1}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Δύο ἀριθμῶν ἀνίσων ἐκκειμένων, ἀνθυφαιρουμένου δὲ ἀεὶ
+τοῦ ἐλάσσονος ἀπὸ τοῦ μείζονος, ἐὰν ὁ λειπόμενος
+μ ηδέποτε καταμετρῇ τὸν πρὸ ἑαυτοῦ, ἕως οὗ λειφθῇ
+μονάς, οἱ ἐχ ἀρθῆς ἀριθμοὶ πρῶτοι πρὸς ἀλλὴλους
+ἔσονται.}\\
+
+\epsfysize=1.8in
+\centerline{\epsffile{Book07/fig01g.eps}}
+
+{\greekfont Δύο γὰρ [ἀνίσων] ἀριθμῶν τῶν ΑΒ, ΓΔ ἀνθυφαιρουμένου ἀεὶ τοῦ ἐλάσσονος ἀπὸ τοῦ μείζονος ὁ λειπόμενος μ ηδέποτε καταμετρείτω
+τὸν πρὸ ἑαυτοῦ, ἕως οὗ λειφθῇ μονάς; λέγω, ὅτι οἱ
+ΑΒ, ΓΔ πρῶτοι πρὸς ἀλλήλους εἰσίν, τουτέστιν ὅτι
+τοὺς ΑΒ, ΓΔ μονὰς μόνη μετρεῖ.}
+
+{\greekfont Εἰ γὰρ μή εἰσιν οἱ ΑΒ, ΓΔ πρῶτοι πρὸς ἀλλήλους, μετρήσει τις
+α ὐτοὺς ἀριθμός. μετρείτω, καὶ ἔστω ὁ Ε; καὶ ὁ μὲν ΓΔ τὸν 
+ΒΖ μετρῶν λειπέτω ἑαυτοῦ ἐλάσσονα τὸν ΖΑ, ὁ δὲ ΑΖ τὸν
+ΔΗ μετρῶν λειπέτω ἑαυτοῦ ἐλάσσονα τὸν ΗΓ, ὁ δὲ ΗΓ
+τὸν ΖΘ μετρῶν λειπέτω μονάδα τὴν ΘΑ.}
+
+{\greekfont Ἐπεὶ οὖν ὁ Ε τὸν ΓΔ μετρεῖ, ὁ δὲ ΓΔ τὸν ΒΖ μετρεῖ, καὶ
+ὁ Ε ἄρα τὸν ΒΖ μετρεῖ; μετρεῖ δὲ καὶ ὅλον τὸν ΒΑ; καὶ
+λοιπὸν ἄρα τὸν ΑΖ μετρήσει. ὁ δὲ ΑΖ τὸν ΔΗ μετρεῖ; καὶ ὁ
+Ε ἄρα τὸν ΔΗ μετρεῖ; μετρεῖ δὲ καὶ ὅλον τὸν ΔΓ;
+καὶ λοιπὸν ἄρα τὸν ΓΗ μετρήσει. ὁ δὲ ΓΗ τὸν ΖΘ μετρεῖ;
+καὶ ὁ Ε ἄρα τὸν ΖΘ μετρεῖ; μετρεῖ δὲ καὶ ὅλον τὸν ΖΑ;
+καὶ λοιπὴν ἄρα τὴν ΑΘ μονάδα μετρήσει ἀριθμὸς
+ὤν; ὅπερ ἐστὶν ἀδύνατον. οὐκ ἄρα τοὺς ΑΒ, ΓΔ
+ἀριθμοὺς μετρήσει τις ἀριθμός; οἱ ΑΒ, ΓΔ ἄρα πρῶτοι
+πρὸς ἀλλήλους εἰσίν; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 1}
+\end{center}
+
+Two unequal numbers (being) laid down, and
+the lesser being continually subtracted, in turn,  from the greater, if the remainder never measures the (number) preceding it, until   a unit remains, 
+(then) the original numbers will be prime to one another.
+
+\epsfysize=1.8in
+\centerline{\epsffile{Book07/fig01e.eps}}
+
+For  two [unequal] numbers, $AB$ and $CD$, the lesser being continually
+subtracted, in turn, from the greater, let the remainder never measure the (number) preceding it, until a unit remains. I say that $AB$ and
+$CD$ are prime to one another---that is to say, that a unit alone measures
+(both) $AB$ and $CD$.
+
+For if $AB$ and $CD$ are not prime to one another, (then) some number will measure
+ them. Let (some number) measure  them, and let it be $E$. And let $CD$ measuring $BF$ leave $FA$
+less than itself, and let $AF$ measuring $DG$ leave $GC$ less than itself, and 
+let $GC$ measuring $FH$ leave a unit, $HA$.
+
+In fact, since $E$ measures $CD$, and $CD$ measures $BF$, $E$ thus also measures
+$BF$.$^\dag$ 
+And ($E$) also measures the whole of $BA$. Thus, ($E$) will also measure the
+remainder $AF$.$^\ddag$  And $AF$ measures $DG$. Thus, $E$ also
+measures $DG$. And ($E$) also measures the whole of $DC$. Thus, ($E$) will
+also measure the remainder $CG$. And $CG$ measures $FH$. Thus, $E$ also measures $FH$. And ($E$) also measures the whole of $FA$. Thus, ($E$) will also measure the remaining unit $AH$, (despite) being a number. The very thing is impossible.
+Thus, some number does not measure (both) the numbers $AB$ and $CD$.
+Thus, $AB$ and $CD$ are prime to one another. (Which is) the very thing it
+was required to show.}
+\end{Parallel}
+{\footnotesize\noindent$^\dag$ Here, use is made of the unstated common notion that if
+$a$ measures $b$, and $b$ measures $c$, then $a$ also measures $c$,
+where all symbols denote numbers.\\[0.5ex]
+$^\ddag$ Here, use is made of the unstated common notion
+that if $a$ measures $b$, and $a$ measures part of $b$, then $a$
+also measures the remainder of $b$, where all
+symbols denote numbers.}
+
+%%%%%%
+% Prop 7.2
+%%%%%%
+\pdfbookmark[1]{Proposition 7.2}{pdf7.2}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{2}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Δύο  ἀριθμῶν δοθέντων μὴ πρώτων πρὸς ἀλλήλους τὸ μέγιστον
+α ὐτῶν κοινὸν μέτρον εὑρεῖν.}
+
+\epsfysize=1.8in
+\centerline{\epsffile{Book07/fig02g.eps}}
+
+{\greekfont Ἔστωσαν οἱ δοθέντες δύο ἀριθμοὶ μὴ πρῶτοι πρὸς ἀλλήλους
+οἱ ΑΒ, ΓΔ. δεῖ δὴ τῶν ΑΒ, ΓΔ τὸ μέγιστον κοινὸν μέτρον
+εὑρεῖν.}
+
+{\greekfont Εἰ μὲν οὖν ὁ ΓΔ τὸν ΑΒ μετρεῖ, μετρεῖ δὲ καὶ ἑαυτόν,
+ὁ ΓΔ ἄρα τῶν ΓΔ, ΑΒ κοινὸν μέτρον ἐστίν. καὶ φανερόν, ὅτι
+καὶ μέγιστον; οὐδεὶς γὰρ μείζων τοῦ ΓΔ τὸν ΓΔ μετρήσει.}
+
+{\greekfont Εἰ δὲ οὐ μετρεῖ ὁ ΓΔ τὸν ΑΒ, τῶν ΑΒ, ΓΔ ἀνθυφαιρουμένου
+ἀεὶ τοῦ ἐλάσσονος ἀπὸ τοῦ μείζονος λειφθήσεταί τις
+ἀριθμός, ὃς μετρήσει τὸν πρὸ ἑαυτοῦ. μονὰς μὲν γὰρ οὐ
+λειφθήσεται; εἰ δὲ μή, ἔσονται οἱ ΑΒ, ΓΔ πρῶτοι πρὸς ἀλλήλους;
+ὅπερ οὐθ ὑπόκειται. λειφθήσεταί τις ἄρα ἀριθμὸς, ὃς μετρήσει
+τὸν πρὸ ἑαυτοῦ. καὶ ὁ μὲν ΓΔ τὸν ΒΕ μετρῶν λειπέτω ἑαυτοῦ
+ἐλάσσονα τὸν ΕΑ, ὁ δὲ ΕΑ τὸν ΔΖ μετρῶν λειπέτω ἑαυτοῦ
+ἐλάσσονα τὸν ΖΓ, ὁ δὲ ΓΖ τὸν ΑΕ μετρείτω. ἐπεὶ οὖν ὁ
+ΓΖ τὸν ΑΕ μετρεῖ, ὁ δὲ ΑΕ τὸν ΔΖ μετρεῖ, καὶ ὁ ΓΖ ἄρα
+τὸν ΔΖ μετρήσει. μετρεῖ δὲ καὶ ἑαυτόν; καὶ ὅλον ἄρα τὸν
+ΓΔ μετρήσει.
+ ὁ δὲ ΓΔ τὸν ΒΕ μετρεῖ; καὶ ὁ ΓΖ ἄρα 
+ τὸν ΒΕ μετρεῖ; μετρεῖ δὲ καὶ τὸν ΕΑ; καὶ ὅλον
+ ἄρα τὸν ΒΑ μετρήσει; μετρεῖ δὲ καὶ τὸν ΓΔ; ὁ ΓΖ
+ ἄρα
+ τοὺς
+ΑΒ, ΓΔ μετρεῖ. ὁ ΓΖ ἄρα τῶν ΑΒ, ΓΔ κοινὸν μέτρον ἐστίν. λέγω
+δή, ὅτι καὶ μέγιστον. εἰ γὰρ μή ἐστιν ὁ ΓΖ τῶν ΑΒ, ΓΔ
+μέγιστον κοινὸν μέτρον, μετρήσει τις τοὺς ΑΒ, ΓΔ ἀριθμοὺς
+ἀριθμὸς μείζων ὢν τοῦ ΓΖ. μετρείτω, καὶ ἔστω ὁ Η. καὶ
+ἐπεὶ ὁ Η τὸν ΓΔ μετρεῖ, ὁ δὲ ΓΔ τὸν ΒΕ μετρεῖ, καὶ ὁ Η
+ἄρα τὸν ΒΕ μετρεῖ; μετρεῖ δὲ καὶ ὅλον τὸν ΒΑ; καὶ
+λοιπὸν ἄρα τὸν ΑΕ μετρήσει. ὁ δὲ ΑΕ τὸν ΔΖ μετρεῖ; καὶ
+ὁ Η ἄρα τὸν ΔΖ μετρήσει; μετρεῖ δὲ καὶ ὅλον τὸν ΔΓ; καὶ
+λοιπὸν ἄρα τὸν ΓΖ μετρήσει ὁ μείζων τὸν ἐλάσσονα;
+ὅπερ ἐστὶν ἀδύνατον; οὐκ ἄρα τοὺς ΑΒ, ΓΔ ἀριθμοὺς
+ἀριθμός τις μετρήσει μείζων ὢν τοῦ ΓΖ; ὁ ΓΖ ἄρα τῶν
+ΑΒ, ΓΔ μέγιστόν ἐστι κοινὸν μέτρον [ὅπερ ἔδει δεῖχαι].}\\~\\~\\~\\~\\~\\
+
+\begin{center}
+{\large {\greekfont Πόρισμα}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐκ δὴ τούτου φανερόν, ὅτι ἐὰν ἀριθμὸς δύο ἀριθμοὺς
+μετρῇ, καὶ τὸ μέγιστον α ὐτῶν κοινὸν μέτρον μετρήσει;
+ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 2}
+\end{center}
+
+To find the greatest common measure of two given numbers (which are) not prime to one
+another.
+
+\epsfysize=1.8in
+\centerline{\epsffile{Book07/fig02e.eps}}
+
+Let $AB$ and $CD$ be the two given numbers (which are) not prime to one another.
+So it is required to find the greatest common measure of $AB$ and $CD$.
+
+In fact, if $CD$ measures $AB$,
+$CD$ is thus a common measure of $CD$ and $AB$, (since $CD$) also measures itself. And  (it is) manifest that
+(it is) also the greatest (common measure). For nothing greater than $CD$ can
+measure $CD$.
+
+But if $CD$ does not measure $AB$, (then) some number will
+remain from $AB$ and $CD$,  the lesser being continually subtracted, in turn, from the greater,  which will measure the (number) preceding it. For a unit
+will not be left. But if not, $AB$ and $CD$ will be prime to one another [Prop.~7.1]. The very opposite thing was assumed.
+Thus, some number will remain which will measure the (number) preceding
+it. And let $CD$ measuring $BE$ leave $EA$ less than itself, and let $EA$ measuring
+$DF$ leave $FC$ less than itself, and let $CF$ measure $AE$. Therefore, since
+$CF$ measures $AE$, and $AE$ measures $DF$, $CF$ will thus also measure
+$DF$. And it also measures itself. Thus, it will also measure the whole of
+$CD$. And $CD$ measures $BE$. Thus, $CF$ also measures $BE$. And it
+also
+measures $EA$. Thus, it
+will also measure the whole of $BA$. And it also measures $CD$. Thus,
+$CF$ measures (both) $AB$ and $CD$. Thus, $CF$ is a common measure of
+$AB$ and $CD$. So I say that (it is) also the greatest (common measure).
+For if $CF$ is not the greatest common measure of $AB$ and $CD$, (then) some number
+which is greater than $CF$ will measure the numbers $AB$ and $CD$.
+Let it (so) measure ($AB$ and $CD$), and let it be $G$. And since $G$ measures
+$CD$, and $CD$ measures $BE$, $G$ thus also measures $BE$. And it also measures
+the whole of $BA$. Thus, it will also measure the remainder $AE$. And 
+$AE$ measures $DF$. Thus, $G$ 
+will also measure $DF$. And it also
+measures the whole of $DC$. Thus, it will also measure the remainder
+$CF$, the greater (measuring) the lesser. The very thing is impossible.
+Thus, some number which is greater than $CF$ cannot measure the numbers
+$AB$ and $CD$. Thus, $CF$ is the greatest common measure of $AB$ and $CD$.
+[(Which is) the very thing it was required to show].\\
+
+\begin{center}
+{\large Corollary}
+\end{center}\vspace*{-7pt}
+
+So  it is manifest, from this, that if a number measures two numbers,  (then)
+it will also measure their greatest common measure. (Which is) the
+very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.3
+%%%%%%
+\pdfbookmark[1]{Proposition 7.3}{pdf7.3}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{3}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Τριῶν ἀριθμῶν δοθέντων μὴ πρώτων πρὸς ἀλλήλους τὸ μέγιστον α ὐτῶν κοινὸν μέτρον εὑρεῖν.}
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig03g.eps}}
+
+{\greekfont Ἔστωσαν οἱ δοθέντες τρεῖς ἀριθμοὶ μὴ πρῶτοι πρὸς ἀλλήλους οἱ Α, Β, Γ; δεῖ δὴ τῶν Α, Β, Γ τὸ μέγιστον κοινὸν μέτρον εὑρεῖν.}
+
+{\greekfont Εἰλήφθω γὰρ δύο τῶν Α, Β τὸ μέγιστον κοινὸν μέτρον ὁ Δ;
+ὁ δὴ Δ τὸν Γ ἤτοι μετρεῖ ἢ οὐ μετρεῖ. μετρείτω πρότερον;
+μετρεῖ δέ καὶ τοὺς Α, Β; ὁ Δ ἄρα τοὺς Α, Β, Γ μετρεῖ; ὁ Δ ἄρα
+τῶν Α, Β, Γ κοινὸν μέτρον ἐστίν. λέγω δή, ὅτι καὶ μέγιστον.
+εἰ γὰρ μή ἐστιν ὁ Δ τῶν Α, Β, Γ μέγιστον κοινὸν μέτρον,
+μετρήσει τις τοὺς Α, Β, Γ ἀριθμοὺς ἀριθμὸς μείζων ὢν τοῦ
+Δ. μετρείτω, καὶ ἔστω ὁ Ε. ἐπεὶ οὖν ὁ Ε τοὺς Α, Β, Γ μετρεῖ,
+καὶ τοὺς Α, Β  ἄρα μετρήσει; καὶ τὸ τῶν Α, Β ἄρα μέγιστον κοινὸν
+μέτρον μετρήσει. τὸ δὲ τῶν Α, Β μέγιστον κοινὸν μέτρον
+ἐστὶν ὁ Δ; ὁ Ε ἄρα τὸν Δ μετρεῖ ὁ μείζων τὸν ἐλάσσονα; ὅπερ
+ἐστὶν ἀδύνατον. οὐκ ἄρα τοὺς Α, Β, Γ ἀριθμοὺς
+ἀριθμός τις μετρήσει μείζων ὢν τοῦ Δ; ὁ Δ ἄρα τῶν Α, Β, Γ
+μέγιστόν ἐστι κοινὸν μέτρον.}
+
+{\greekfont μὴ μετρείτω δὴ ὁ Δ τὸν Γ; λέγω πρῶτον, ὅτι οἱ Γ, Δ οὔκ
+εἰσι πρῶτοι πρὸς ἀλλήλους. ἐπεὶ γὰρ οἱ Α, Β, Γ οὔκ εἰσι
+πρῶτοι πρὸς ἀλλήλους, μετρήσει τις α ὐτοὺς ἀριθμός. ὁ
+δὴ τοὺς Α, Β, Γ μετρῶν καὶ τοὺς Α, Β μετρήσει, καὶ τὸ τῶν
+Α, Β μέγιστον κοινὸν μέτρον τὸν Δ μετρήσει; μετρεῖ δὲ καὶ τὸν Γ;
+τοὺς Δ, Γ ἄρα ἀριθμοὺς ἀριθμός τις μετρήσει; οἱ Δ, Γ ἄρα οὔκ
+εἰσι πρῶτοι πρὸς ἀλλήλους. εἰλήφθω οὖν α ὐτῶν τὸ μέγιστον
+κοινὸν μέτρον ὁ Ε. καὶ ἐπεὶ ὁ Ε τὸν Δ μετρεῖ, ὁ δὲ Δ τοὺς
+Α, Β μετρεῖ, καὶ ὁ Ε ἄρα τοὺς Α, Β μετρεῖ; μετρεῖ δὲ καὶ τὸν Γ;
+ὁ Ε ἄρα τοὺς Α, Β, Γ μετρεῖ. ὁ Ε ἄρα τῶν Α, Β, Γ κοινόν
+ἐστι μέτρον. λέγω δή, ὅτι καὶ μέγιστον. εἰ γὰρ μή ἐστιν ὁ Ε
+τῶν Α, Β, Γ τὸ μέγιστον κοινὸν μέτρον, μετρήσει τις τοὺς Α, Β, Γ
+ἀριθμοὺς ἀριθμὸς μείζων ὢν τοῦ Ε. μετρείτω, καὶ ἔστω ὁ Ζ.
+καὶ ἐπεὶ ὁ Ζ τοὺς Α, Β, Γ μετρεῖ, καὶ τοὺς Α, Β μετρεῖ;
+καὶ τὸ τῶν Α, Β ἄρα μέγιστον κοινὸν μέτρον μετρήσει. τὸ δὲ τῶν
+Α, Β μέγιστον κοινὸν μέτρον ἐστὶν ὁ Δ; ὁ Ζ ἄρα τὸν Δ μετρεῖ;
+μετρεῖ δὲ καὶ τὸν Γ; ὁ Ζ ἄρα τοὺς Δ, Γ μετρεῖ; καὶ τὸ τῶν
+Δ, Γ ἄρα μέγιστον κοινὸν μέτρον μετρήσει. τὸ δὲ τῶν Δ, Γ μέγιστον
+κοινὸν μέτρον ἐστὶν ὁ Ε; ὁ Ζ ἄρα τὸν Ε μετρεῖ ὁ μείζων
+τὸν ἐλάσσονα; ὅπερ ἐστὶν ἀδύνατον. οὐκ ἄρα τοὺς
+Α, Β, Γ
+ἀριθμοὺς ἀριθμός τις μετρήσει μείζων ὢν τοῦ Ε; ὁ Ε ἄρα
+τῶν Α, Β, Γ μέγιστόν ἐστι κοινὸν μέτρον; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 3}
+\end{center}
+
+To find the greatest common measure of three given
+numbers (which are) not prime to one another.
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig03e.eps}}
+
+Let $A$, $B$,  and $C$ be the three given numbers (which are) not prime to one another. So it is
+required to find the greatest common measure of $A$, $B$,  and $C$.
+
+For let the greatest common measure, $D$, of the two (numbers) $A$ and $B$ be taken [Prop.~7.2]. So $D$ either measures, or
+does not measure, $C$. First of all, let it measure ($C$). And it also measures
+$A$ and $B$. Thus, $D$ measures $A$, $B$, and $C$. Thus, $D$ is a common measure
+of $A$, $B$,  and $C$. So I say that (it is) also the greatest (common measure).
+For if $D$ is not the greatest common measure of $A$, $B$,  and $C$,  (then) some number
+greater than $D$ will measure the numbers $A$, $B$,  and $C$. Let it (so) measure ($A$, $B$, and $C$),
+and let it be $E$. Therefore, since $E$ measures $A$, $B$,  and $C$, it will thus
+also measure $A$ and $B$. Thus, it will also measure the greatest common
+measure of $A$ and $B$ [Prop.~7.2~corr.].
+And $D$ is the greatest common measure of $A$ and $B$. Thus, $E$ measures
+$D$, the greater (measuring) the lesser. The very thing is impossible.
+Thus, some number which is greater than $D$ cannot measure the numbers $A$, $B$,  and $C$. Thus, $D$ is the greatest common measure of $A$, $B$, and $C$.
+
+So let $D$ not measure $C$. I say, first of all, that $C$ and $D$ are not prime
+to one another. For since $A$, $B$,  $C$ are not prime to one another,
+some number will measure them. So the (number) measuring $A$, $B$, and
+$C$ will also measure $A$ and $B$, and it will also measure the greatest common
+measure, $D$,  of $A$ and $B$ [Prop.~7.2~corr.].
+And it also measures $C$. Thus, some number will measure the numbers $D$ and
+$C$. Thus, $D$ and $C$ are not prime to one another. Therefore, let their
+greatest common measure, $E$, be taken  [Prop.~7.2]. And since $E$ measures $D$, and $D$
+measures $A$ and $B$, $E$ thus also measures $A$ and $B$. And it also measures $C$.
+Thus, $E$ measures $A$, $B$,  and $C$. Thus, $E$ is a common measure of
+$A$, $B$,  and $C$. So I say that (it is) also the greatest (common measure).
+For if $E$ is not the greatest common measure of $A$, $B$, and $C$, (then)
+some number greater than $E$ will measure the numbers $A$, $B$,  and $C$.
+Let it (so) measure ($A$, $B$, and $C$), and let it be $F$. And since $F$
+measures $A$, $B$,  and $C$, it also measures $A$ and $B$. 
+ Thus, it will also measure the greatest common measure of $A$ and $B$ [Prop.~7.2~corr.]. And $D$ is the greatest common measure
+of $A$ and $B$. Thus,  $F$ measures $D$. And it also measures $C$. Thus, $F$
+measures $D$ and $C$. Thus, it will also measure the greatest common
+measure of $D$ and $C$ [Prop.~7.2~corr.]. And
+$E$ is the greatest common measure of $D$ and $C$. Thus, $F$ measures $E$, the
+greater (measuring) the lesser. The very thing is impossible. Thus,
+some number which is greater than $E$ does not measure the numbers $A$, $B$, and $C$.
+Thus, $E$ is the greatest common measure of $A$, $B$, and $C$. (Which is)
+the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.4
+%%%%%%
+\pdfbookmark[1]{Proposition 7.4}{pdf7.4}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{4}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἅπας ἀριθμὸς παντὸς ἀριθμοῦ ὁ ἐλάσσων τοῦ μείζονος 
+ἤτοι μέρος ἐστὶν ἢ μέρη.}
+
+{\greekfont Ἔστωσαν δύο ἀριθμοὶ οἱ Α, ΒΓ, καὶ ἔστω ἐλάσσων ὁ ΒΓ;
+λέγω, ὅτι ὁ ΒΓ τοῦ Α ἤτοι μέρος ἐστὶν ἢ μέρη.}
+
+{\greekfont Οἱ Α, ΒΓ γὰρ ἤτοι πρῶτοι πρὸς ἀλλήλους εἰσὶν ἢ οὔ. ἔστωσαν
+πρότερον οἱ Α, ΒΓ πρῶτοι πρὸς ἀλλήλους. διαιρεθέντος δὴ τοῦ ΒΓ
+εἰς τὰς ἐν α ὐτῷ μονάδας ἔσται ἑκάστη μονὰς τῶν ἐν τῷ
+ΒΓ μέρος τι τοῦ Α; ὥστε μέρη ἐστὶν ὁ ΒΓ τοῦ Α.}
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig04g.eps}}
+
+{\greekfont μὴ ἔστωσαν δὴ οἱ  Α, ΒΓ πρῶτοι πρὸς ἀλλήλους; ὁ δὴ ΒΓ τὸν
+Α ἤτοι μετρεῖ ἢ οὐ μετρεῖ. εἰ μὲν οὖν ὁ ΒΓ τὸν Α
+μετρεῖ, μέρος ἐστὶν ὁ ΒΓ τοῦ Α. εἰ δὲ οὔ, εἰλήφθω
+τῶν Α, ΒΓ μέγιστον κοινὸν μέτρον ὁ Δ, καὶ διῃρήσθω
+ὁ ΒΓ εἰς τοὺς τῷ Δ ἴσους τοὺς ΒΕ, ΕΖ, ΖΓ. καὶ ἐπεὶ 
+ὁ Δ τὸν Α μετρεῖ, μέρος ἐστὶν ὁ Δ τοῦ Α; ἴσος δὲ ὁ 
+Δ ἑκάστῳ τῶν ΒΕ, ΕΖ, ΖΓ; καὶ ἕκαστος ἄρα τῶν ΒΕ, ΕΖ, ΖΓ
+τοῦ Α μέρος ἐστίν; ὥστε μέρη ἐστὶν ὁ ΒΓ τοῦ Α.}
+
+{\greekfont Ἅπας ἄρα ἀριθμὸς παντὸς ἀριθμοῦ ὁ ἐλάσσων
+τοῦ μείζονος ἤτοι μέρος ἐστὶν ἢ μέρη; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 4}
+\end{center}
+
+Any number is either part or parts of  any (other) number,
+the lesser of the greater.
+
+Let $A$ and $BC$ be two numbers, and let $BC$ be the lesser. I say that $BC$
+is either part or parts of $A$.
+
+For $A$ and $BC$ are either prime to one another, or not. Let $A$
+and $BC$, first of all, be prime to one another. So separating $BC$ into its
+constituent units, each of the units in $BC$ will be some part of $A$. Hence, $BC$ is parts of $A$.\\
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig04e.eps}}
+
+So let  $A$ and $BC$  be not prime to one another. So $BC$ either measures, or
+does not measure, $A$. Therefore, if $BC$ measures $A$,  (then) $BC$ is part of
+$A$. And if not, let the greatest common measure, $D$, of $A$ and
+$BC$ be taken [Prop.~7.2], and
+let $BC$ be divided into $BE$, $EF$, and $FC$, equal to $D$. And since
+$D$ measures $A$, $D$ is a part of $A$. And $D$ is equal to each of $BE$, $EF$, and
+$FC$. Thus, $BE$, $EF$, and $FC$ are also each part of $A$. Hence, $BC$ is parts of $A$.
+
+Thus, any number is either part or parts of any (other) number, the
+lesser of the greater. (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.5
+%%%%%%
+\pdfbookmark[1]{Proposition 7.5}{pdf7.5}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{5}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν ἀριθμὸς ἀριθμοῦ μέρος ᾖ, καὶ ἕτερος ἑτέρου τὸ α ὐτὸ μέρος ᾖ, καὶ συναμφότερος συναμφοτέρου τὸ α ὐτὸ μέρος
+ἔσται, ὅπερ ὁ εἷς τοῦ ἑνός.}\\
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig05g.eps}}
+
+{\greekfont Ἀριθμὸς γὰρ ὁ Α [ἀριθμοῦ] τοῦ ΒΓ μέρος ἔστω, καὶ ἕτερος
+ὁ Δ ἑτέρου τοῦ ΕΖ τὸ α ὐτὸ μέρος, ὅπερ ὁ Α τοῦ ΒΓ; λέγω,
+ὅτι καὶ συναμφότερος ὁ Α, Δ συναμφοτέρου τοῦ ΒΓ, ΕΖ τὸ α ὐτὸ
+μέρος ἐστίν, ὅπερ ὁ Α τοῦ ΒΓ.}
+
+{\greekfont Ἐπεὶ γάρ, ὃ μέρος ἐστὶν ὁ Α τοῦ ΒΓ, τὸ α ὐτὸ μέρος ἐστὶ καὶ ὁ
+Δ τοῦ ΕΖ, ὅσοι ἄρα εἰσὶν ἐν τῷ ΒΓ ἀριθμοὶ ἴσοι τῷ Α, τοσοῦτοί εἰσι καὶ ἐν τῷ ΕΖ ἀριθμοὶ ἴσοι τῷ Δ. διῇρήσθω ὁ μὲν
+ΒΓ εἰς τοὺς τῷ Α ἴσους τοὺς ΒΗ, ΗΓ, ὁ δὲ ΕΖ εἰς τοὺς τῷ Δ
+ἴσους τοὺς ΕΘ, ΘΖ; ἔσται δὴ ἴσον τὸ πλῆθος  τῶν ΒΗ, ΗΓ τῷ πλήθει τῶν ΕΘ, ΘΖ. καὶ ἐπεὶ ἴσος
+ἐστὶν ὁ μὲν ΒΗ τῷ Α, ὁ δὲ ΕΘ τῷ Δ, καὶ οἱ ΒΗ, ΕΘ ἄρα τοῖς
+Α, Δ ἴσοι. διὰ τὰ α ὐτὰ δὴ καὶ οἱ ΗΓ, ΘΖ τοῖς Α, Δ. ὅσοι ἄρα
+[εἰσὶν] ἐν τῷ ΒΓ ἀριθμοὶ ἴσοι τῷ Α, τοσοῦτοί εἰσι καὶ ἐν
+τοῖς ΒΓ, ΕΖ ἴσοι τοῖς Α, Δ. ὁσαπλασίων ἄρα ἐστὶν ὁ ΒΓ
+τοῦ Α, τοσαυταπλασίων ἐστὶ καὶ συναμφότερος ὁ ΒΓ, ΕΖ συναμφοτέρου
+τοῦ Α, Δ. ὃ ἄρα μέρος ἐστὶν ὁ Α τοῦ ΒΓ,
+τὸ α ὐτὸ μέρος ἐστὶ καὶ συναμφότερος ὁ Α, Δ συναμφοτέρου τοῦ
+ΒΓ, ΕΖ; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 5}$^\dag$
+\end{center}
+
+If a number is part of a number, and another
+(number) is the same part of another, (then) the sum (of the leading numbers) will also be the
+same part of the sum (of the following numbers) that one (number) is of another.
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig05e.eps}}
+
+For let a number $A$ be part of a [number] $BC$, and another (number)
+$D$ (be) the same part of another (number) $EF$ that $A$ (is) of $BC$. I say that
+the sum  $A$, $D$ is also the same part of the sum $BC$, $EF$ that
+$A$ (is) of $BC$.
+
+For since which(ever) part $A$ is of $BC$, $D$ is the same part of $EF$, thus as many
+numbers as are in $BC$ equal to $A$, so many numbers are also in 
+$EF$ equal to $D$. Let $BC$ be divided into $BG$ and $GC$, equal to $A$, and
+$EF$ into $EH$ and $HF$, equal to $D$. So the multitude of (divisions) $BG$,
+$GC$ will be equal to the multitude of (divisions) $EH$, $HF$. And
+since $BG$ is equal to $A$, and $EH$ to $D$, thus $BG$, $EH$ (is) also equal to $A$, $D$.
+So, for the same (reasons), $GC$, $HF$ (is) also (equal) to $A$, $D$. Thus,
+as many numbers as [are] in $BC$ equal to $A$, so many are
+also in $BC$, $EF$ equal to $A$, $D$. Thus, as many times as $BC$ is (divisible)
+by $A$, so many times is the sum $BC$, $EF$ also (divisible)  by the sum $A$, $D$.
+Thus, which(ever) part $A$ is of $BC$, the sum $A$, $D$ is also the same
+part of the sum $BC$, $EF$. (Which is) the very thing it was required to show.}
+\end{Parallel}
+{\footnotesize\noindent$^\dag$ In modern notation, this
+proposition states that if $a = (1/n)\,b$ and $c = (1/n)\,d$ then $(a+c) = (1/n)\,(b+d)$,
+where all symbols denote numbers.}
+
+%%%%%%
+% Prop 7.6
+%%%%%%
+\pdfbookmark[1]{Proposition 7.6}{pdf7.6}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{6}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν ἀριθμὸς ἀριθμοῦ μέρη ᾖ, καὶ ἕτερος ἑτέρου τὰ α ὐτὰ
+μέρη ᾖ, καὶ συναμφότερος συναμφοτέρου τὰ α ὐτὰ μέρη ἔσται,
+ὅπερ ὁ εἷς τοῦ ἑνός.}\\
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig06g.eps}}
+
+{\greekfont Ἀριθμὸς γὰρ ὁ ΑΒ ἀριθμοῦ τοῦ Γ μέρη ἔστω, καὶ ἕτερος ὁ
+ΔΕ ἑτέρου τοῦ Ζ τὰ α ὐτὰ μέρη, ἅπερ ὁ ΑΒ τοῦ Γ; λέγω, ὅτι
+καὶ συναμφότερος ὁ ΑΒ, ΔΕ συναμφοτέρου τοῦ Γ, Ζ τὰ α ὐτὰ μέρη ἐστίν,
+ἅπερ ὁ ΑΒ τοῦ Γ.}
+
+{\greekfont Ἐπεὶ γάρ, ἃ μέρη ἐστὶν ὁ ΑΒ τοῦ Γ, τὰ α ὐτὰ μέρη καὶ ὁ
+ΔΕ τοῦ Ζ, ὅσα ἄρα ἐστὶν ἐν τῷ ΑΒ μέρη τοῦ Γ, τοσαῦτά
+ἐστι καὶ ἐν τῷ ΔΕ μέρη τοῦ Ζ. διῃρήσθω ὁ μὲν ΑΒ εἰς
+τὰ τοῦ Γ μέρη τὰ ΑΗ, ΗΒ, ὁ δὲ ΔΕ εἰς τὰ τοῦ Ζ μέρη
+τὰ ΔΘ, ΘΕ; ἔσται δὴ ἴσον τὸ πλῆθος τῶν ΑΗ, ΗΒ τῷ πλήθει
+τῶν ΔΘ, ΘΕ. καὶ ἐπεί, ὃ μέρος ἐστὶν ὁ ΑΗ τοῦ Γ, τὸ α ὐτὸ
+μέρος ἐστὶ καὶ ὁ ΔΘ τοῦ Ζ, ὃ ἄρα μέρος ἐστὶν ὁ ΑΗ
+τοῦ Γ, τὸ α ὐτὸ μέρος ἐστὶ καὶ συναμφότερος ὁ ΑΗ, ΔΘ
+συναμφοτέρου τοῦ Γ, Ζ. διὰ τὰ α ὐτὰ δὴ καὶ ὃ μέρος ἐστὶν
+ὁ ΗΒ τοῦ Γ, τὸ α ὐτὸ μέρος ἐστὶ καὶ συναμφότερος ὁ ΗΒ, ΘΕ
+συναμφοτέρου τοῦ Γ, Ζ. ἃ ἄρα μέρη ἐστὶν ὁ ΑΒ τοῦ Γ, τὰ
+α ὐτὰ μέρη ἐστὶ καὶ συναμφότερος ὁ ΑΒ, ΔΕ συναμφοτέρου
+τοῦ Γ, Ζ; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 6}$^\dag$
+\end{center}
+
+If a number is parts of a number, and another
+(number) is the same parts of another, (then) the sum (of the leading numbers)
+will also be the same parts of the sum (of the following numbers) that one (number) is of another.
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig06e.eps}}
+
+For let a number $AB$ be parts of a number $C$, and another
+(number) $DE$ (be)  the same parts of  another (number) $F$ that $AB$ (is) of $C$.
+I say that the sum $AB$, $DE$ is also the same parts of the sum
+$C$, $F$ that $AB$ (is) of $C$.
+
+For since which(ever) parts $AB$ is of $C$, $DE$ (is) also the same parts  of $F$,
+thus as many parts of $C$ as are in $AB$, so many 
+ parts of $F$ are also in $DE$. Let $AB$ be divided into the parts of
+$C$, $AG$ and $GB$, and $DE$ into the parts of $F$, $DH$ and $HE$. So the
+multitude of (divisions) $AG$, $GB$ will be equal to the multitude
+of (divisions) $DH$, $HE$. And since which(ever) part $AG$ is of $C$, $DH$ is
+also the same part of $F$, thus which(ever) part $AG$ is of $C$, the sum $AG$, $DH$
+is  also the same part of the sum $C$, $F$ [Prop.~7.5].  And so, for the same (reasons), 
+which(ever) part $GB$ is of $C$, the sum $GB$, $HE$ is also
+the same part of the sum $C$, $F$. Thus, which(ever) parts $AB$ is of $C$, the
+sum $AB$, $DE$ is also the same parts of the sum $C$, $F$. (Which is)
+the very thing it was required to show.}
+\end{Parallel}
+{\footnotesize\noindent$^\dag$ In modern notation,
+this proposition states that if $a = (m/n)\,b$ and $c=(m/n)\,d$
+then $(a+c) = (m/n)\,(b+d)$, where all symbols denote numbers.}
+
+%%%%%%
+% Prop 7.7
+%%%%%%
+\pdfbookmark[1]{Proposition 7.7}{pdf7.7}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large\ggn{7}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν ἀριθμὸς ἀριθμοῦ μέρος ᾖ, ὅπερ ἀφαιρεθεὶς ἀφαιρεθέντος,
+καὶ ὁ λοιπὸς τοῦ λοιποῦ τὸ α ὐτὸ μέρος ἔσται, ὅπερ ὁ ὅλος
+τοῦ ὅλου.}
+
+\epsfysize=0.75in
+\centerline{\epsffile{Book07/fig07g.eps}}
+
+{\greekfont Ἀριθμὸς γὰρ ὁ ΑΒ ἀριθμοῦ τοῦ ΓΔ μέρος ἔστω, ὅπερ
+ἀφαιρεθεὶς ὁ ΑΕ ἀφαιρεθέντος τοῦ ΓΖ; λέγω, ὅτι
+καὶ λοιπὸς ὁ ΕΒ λοιποῦ τοῦ ΖΔ τὸ α ὐτὸ μέρος ἐστίν, ὅπερ
+ὅλος ὁ ΑΒ ὅλου τοῦ ΓΔ.}
+
+{\greekfont Ὃ γὰρ μέρος ἐστὶν ὁ ΑΕ τοῦ ΓΖ, τὸ α ὐτὸ μέρος ἔστω
+καὶ ὁ ΕΒ τοῦ ΓΗ. καὶ ἐπεί, ὃ μέρος
+ἐστὶν ὁ ΑΕ τοῦ ΓΖ, τὸ α ὐτὸ μέρος ἐστὶ καὶ ὁ ΕΒ τοῦ ΓΗ,
+ὃ ἄρα μέρος ἐστὶν ὁ ΑΕ τοῦ ΓΖ, τὸ α ὐτὸ μέρος ἐστὶ
+καὶ ὁ ΑΒ τοῦ ΗΖ. ὃ δὲ μέρος ἐστὶν ὁ ΑΕ τοῦ ΓΖ, τὸ α ὐτὸ
+μέρος ὑπόκειται καὶ ὁ ΑΒ τοῦ ΓΔ; ὃ ἄρα μέρος ἐστὶ καὶ
+ὁ ΑΒ τοῦ ΗΖ, τὸ α ὐτὸ μέρος ἐστὶ καὶ τοῦ ΓΔ; ἴσος
+ἄρα ἐστὶν ὁ ΗΖ τῷ ΓΔ. κοινὸς ἀφῃρήσθω ὁ ΓΖ; λοιπὸς
+ἄρα ὁ ΗΓ λοιπῷ τῷ ΖΔ ἐστιν ἴσος. καὶ ἐπεί, ὃ μέρος
+ἐστὶν ὁ ΑΕ τοῦ ΓΖ, τὸ α ὐτὸ μέρος [ἐστὶ] καὶ ὁ ΕΒ
+τοῦ ΗΓ, ἴσος δὲ ὁ ΗΓ τῷ ΖΔ,  ὃ ἄρα μέρος ἐστὶν
+ὁ ΑΕ τοῦ ΓΖ, τὸ α ὐτὸ μέρος ἐστὶ καὶ ὁ ΕΒ τοῦ
+ΖΔ. ἀλλὰ ὃ μέρος ἐστὶν ὁ ΑΕ τοῦ ΓΖ, τὸ α ὐτὸ μέρος
+ἐστὶ καὶ ὁ ΑΒ τοῦ ΓΔ; καὶ λοιπὸς ἄρα ὁ ΕΒ λοιποῦ
+τοῦ ΖΔ τὸ α ὐτὸ μέρος ἐστίν, ὅπερ ὅλος ὁ ΑΒ
+ὅλου τοῦ ΓΔ; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 7}$^\dag$
+\end{center}
+
+If a number is that part of a number that a (part) taken away (is) of a (part) taken away, (then) the remainder will also
+be the same part of the remainder that the whole (is) of the whole.
+
+\epsfysize=0.75in
+\centerline{\epsffile{Book07/fig07e.eps}}
+
+For let a number $AB$ be that part of a number $CD$  that a (part) taken away $AE$ (is) of a part taken away $CF$. I say that the remainder $EB$ is also the
+same part of the remainder $FD$ that the whole $AB$ (is) of the whole $CD$.
+
+For which(ever) part $AE$ is of $CF$, let $EB$ also be the same part of $CG$.
+And since which(ever) part $AE$ is of $CF$, $EB$ is also the same part
+of $CG$, thus which(ever) part $AE$ is of $CF$, $AB$ is also the same part of
+$GF$ [Prop.~7.5]. And which(ever) part $AE$ is of $CF$, $AB$ is also assumed (to be)
+the same part of $CD$. Thus, also, which(ever) part $AB$ is of $GF$, ($AB$) is also
+the same part of $CD$. Thus, $GF$ is equal to $CD$. Let $CF$ be subtracted from
+both. Thus, the remainder $GC$ is equal to the remainder $FD$. And since
+which(ever) part $AE$ is of $CF$, $EB$ [is] also the same part of $GC$, and $GC$ (is)
+equal to $FD$, thus which(ever) part $AE$ is of $CF$, $EB$ is also the same part of
+$FD$.
+ But, 
+which(ever) part $AE$ is of $CF$, $AB$ is also the same part of $CD$. Thus, the
+remainder $EB$ is also the same part of the remainder $FD$ that
+the whole $AB$ (is) of the whole $CD$. (Which is) the very thing it
+was required to show.}
+\end{Parallel}
+{\footnotesize \noindent$^\dag$ In modern notation, this
+proposition states that if $a=(1/n)\,b$ and $c=(1/n)\,d$ then $(a-c)=
+(1/n)\,(b-d)$, where all symbols denote numbers.}
+
+%%%%%%
+% Prop 7.8
+%%%%%%
+\pdfbookmark[1]{Proposition 7.8}{pdf7.8}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{8}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν ἀριθμὸς ἀριθμοῦ μέρη ᾖ, ἅπερ ἀφαιρεθεὶς
+ἀφαιρεθέντος, καὶ ὁ λοιπὸς τοῦ λοιποῦ
+τὰ α ὐτὰ μέρη ἔσται, ἅπερ ὁ ὅλος τοῦ ὅλου.}\\
+
+\epsfysize=1.4in
+\centerline{\epsffile{Book07/fig08g.eps}}
+
+{\greekfont Ἀριθμὸς γὰρ ὁ ΑΒ ἀριθμοῦ τοῦ ΓΔ μέρη ἔστω,
+ἅπερ ἀφαιρεθεὶς ὁ ΑΕ ἀφαιρεθέντος τοῦ ΓΖ; λέγω, ὅτι καὶ λοιπὸς
+ὁ ΕΒ λοιποῦ τοῦ ΖΔ τὰ α ὐτὰ μέρη ἐστίν, ἅπερ
+ὅλος ὁ ΑΒ ὅλου τοῦ ΓΔ.}
+
+{\greekfont Κείσθω γὰρ τῷ ΑΒ ἴσος ὁ ΗΘ, ἃ ἄρα μέρη ἐστὶν ὁ ΗΘ
+τοῦ ΓΔ, τὰ α ὐτὰ μέρη ἐστὶ καὶ ὁ ΑΕ τοῦ ΓΖ. διῃρήσθω
+ὁ μὲν ΗΘ εἰς τὰ τοῦ ΓΔ μέρη τὰ ΗΚ, ΚΘ, ὁ δὲ ΑΕ εἰς τὰ
+τοῦ ΓΖ μέρη τὰ ΑΛ, ΛΕ; ἔσται δὴ ἴσον τὸ πλῆθος
+τῶν ΗΚ, ΚΘ τῷ πλήθει τῶν ΑΛ, ΛΕ. καὶ ἐπεί, ὃ μέρος
+ἐστὶν ὁ ΗΚ τοῦ ΓΔ, τὸ α ὐτὸ μέρος ἐστὶ καὶ ὁ ΑΛ τοῦ
+ΓΖ, μείζων δὲ ὁ ΓΔ τοῦ ΓΖ, μείζων ἄρα καὶ ὁ ΗΚ
+τοῦ ΑΛ. κείσθω τῷ ΑΛ ἴσος ὁ ΗΜ. ὃ ἄρα μέρος
+ἐστὶν ὁ ΗΚ τοῦ ΓΔ, τὸ α ὐτὸ μέρος ἐστὶ καὶ ὁ ΗΜ
+τοῦ ΓΖ; καὶ λοιπὸς ἄρα ὁ ΜΚ λοιποῦ τοῦ ΖΔ τὸ α ὐτὸ 
+μέρος ἐστίν, ὅπερ ὅλος ὁ ΗΚ ὅλου τοῦ ΓΔ. πάλιν
+ἐπεί, ὃ μέρος ἐστὶν ὁ ΚΘ τοῦ ΓΔ, τὸ α ὐτὸ μέρος
+ἐστὶ καὶ ὁ ΕΛ τοῦ ΓΖ, μείζων δὲ ὁ ΓΔ τοῦ ΓΖ, μείζων
+ἄρα καὶ ὁ ΘΚ τοῦ ΕΛ. κείσθω τῷ ΕΛ ἴσος ὁ ΚΝ.
+ὃ ἄρα μέρος ἐστὶν ὁ ΚΘ τοῦ  ΓΔ, τὸ α ὐτὸ
+μέρος ἐστὶ καὶ ὁ ΚΝ τοῦ ΓΖ; καὶ λοιπὸς ἄρα ὁ ΝΘ
+λοιποῦ τοῦ ΖΔ τὸ α ὐτὸ μέρος ἐστίν, ὅπερ ὅλος ὁ ΚΘ
+ὅλου τοῦ ΓΔ. ἐδείθθη δὲ καὶ λοιπὸς ὁ ΜΚ λοιποῦ
+τοῦ ΖΔ τὸ α ὐτὸ μέρος ὤν, ὅπερ ὅλος
+ὁ ΗΚ ὅλου τοῦ ΓΔ; καὶ συναμφότερος ἄρα ὁ ΜΚ, ΝΘ
+τοῦ ΔΖ τὰ α ὐτὰ μέρη ἐστίν, ἅπερ ὅλος ὁ ΘΗ ὅλου τοῦ
+ΓΔ. ἴσος δὲ συναμφότερος μὲν ὁ ΜΚ, ΝΘ
+τῷ ΕΒ, ὁ δὲ ΘΗ τῷ ΒΑ; καὶ λοιπὸς ἄρα ὁ ΕΒ
+λοιποῦ τοῦ ΖΔ τὰ α ὐτὰ μέρη ἐστίν, ἅπερ ὅλος
+ὁ ΑΒ ὅλου τοῦ ΓΔ; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 8}$^\dag$
+\end{center}
+
+If  a number is those parts of a number that a
+(part) taken away (is) of a (part) taken away, (then) the remainder will also be
+the same parts of the remainder that the whole (is) of the whole.
+
+\epsfysize=1.4in
+\centerline{\epsffile{Book07/fig08e.eps}}
+
+For let a number $AB$ be those parts of a number $CD$ that a
+(part) taken away $AE$ (is) of a (part) taken away $CF$. I say that the remainder
+$EB$ is also the same parts of the remainder $FD$ that the whole $AB$ (is) of the
+whole $CD$.
+
+For let $GH$ be laid down equal to $AB$. Thus, which(ever) parts $GH$ is of $CD$,
+$AE$ is also the same parts of $CF$. Let $GH$ be divided into the parts
+of $CD$, $GK$ and $KH$, and $AE$ into the parts of $CF$, $AL$ and $LE$. So the
+multitude of (divisions) $GK$, $KH$ will be equal to the multitude of (divisions)
+$AL$, $LE$. And since which(ever) part $GK$ is of $CD$, $AL$ is also the same part 
+of $CF$, and $CD$ (is) greater than $CF$,  $GK$ (is) thus also greater than $AL$.
+Let $GM$ be made equal to $AL$. Thus, which(ever) part $GK$ is of $CD$, $GM$ is also the same part of $CF$. Thus, the remainder $MK$ is also the same part of the
+remainder $FD$ that  the whole $GK$ (is) of the whole $CD$ [Prop.~7.5]. Again, since
+which(ever) part $KH$ is of $CD$, $EL$ is also the same part of $CF$, and
+$CD$ (is) greater than $CF$, $HK$ (is) thus also greater than $EL$. Let $KN$ be
+made equal to $EL$. Thus, which(ever) part $KH$ (is) of $CD$, $KN$ is also the
+same part of $CF$. Thus, the remainder $NH$ is also the same part 
+of the remainder $FD$ that the whole $KH$ (is) of the whole $CD$  [Prop.~7.5]. And the remainder $MK$
+was also shown to be the same part of the remainder $FD$ that the whole
+$GK$ (is) of the whole $CD$. Thus, the sum $MK$, $NH$ is the same parts of
+$DF$ that the whole $HG$ (is) of the whole $CD$. And the sum $MK$, $NH$
+(is) equal to $EB$, and $HG$ to $BA$. Thus, the remainder $EB$ is also
+the same parts of the remainder $FD$ that the whole $AB$ (is)
+of the whole $CD$. (Which is) the very thing it was required to show.}
+\end{Parallel}
+{\footnotesize\noindent$^\dag$ In modern notation, this
+proposition states that if $a=(m/n)\,b$ and $c=(m/n)\,d$ then $(a-c)=
+(m/n)\,(b-d)$, where all symbols denote numbers.}
+
+%%%%%%
+% Prop 7.9
+%%%%%%
+\pdfbookmark[1]{Proposition 7.9}{pdf7.9}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{9}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν ἀριθμὸς ἀριθμοῦ μέρος ᾖ, καὶ ἕτερος ἑτέρου τὸ α ὐτὸ μέρος ᾖ, καὶ ἐναλλάχ, ὃ μέρος ἐστὶν ἢ μέρη ὁ πρῶτος
+τοῦ τρίτου, τὸ α ὐτὸ μέρος ἔσται ἢ τὰ α ὐτὰ μέρη καὶ ὁ δεύτερος
+τοῦ τετάρτου.}
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig09g.eps}}
+
+{\greekfont Ἀριθμὸς γὰρ ὁ Α ἀριθμοῦ τοῦ ΒΓ μέρος ἔστω, καὶ ἕτερος ὁ Δ
+ἑτέρου τοῦ ΕΖ τὸ α ὐτὸ μέρος, ὅπερ ὁ Α τοῦ ΒΓ; λέγω, ὅτι
+καὶ ἐναλλάχ, ὃ μέρος ἐστὶν ὁ Α τοῦ Δ ἢ μέρη, τὸ α ὐτὸ
+μέρος ἐστὶ καὶ ὁ ΒΓ τοῦ ΕΖ ἢ μέρη.}
+
+{\greekfont Ἐπεὶ γὰρ ὃ μέρος ἐστὶν ὁ Α τοῦ ΒΓ, τὸ α ὐτὸ μέρος ἐστὶ
+καὶ ὁ Δ τοῦ ΕΖ, ὅσοι ἄρα εἰσὶν ἐν τῷ ΒΓ ἀριθμοὶ ἴσοι
+τῷ Α, τοσοῦτοί εἰσι καὶ ἐν τῷ ΕΖ ἴσοι τῷ Δ. διῃρήσθω ὁ μὲν
+ΒΓ εἰς τοὺς τῷ Α ἴσους τοὺς ΒΗ, ΗΓ, ὁ δὲ ΕΖ εἰς τοὺς τῷ
+Δ ἴσους τοὺς ΕΘ, ΘΖ; ἔσται δὴ ἴσον τὸ πλῆθος τῶν ΒΗ, ΗΓ τῷ
+πλήθει τῶν ΕΘ, ΘΖ.}
+
+{\greekfont Καὶ ἐπεὶ ἴσοι εἰσὶν οἱ ΒΗ, ΗΓ ἀριθμοὶ ἀλλήλοις, εἰσὶ δὲ
+καὶ οἱ ΕΘ, ΘΖ ἀριθμοὶ ἴσοι ἀλλήλοις,  καί ἐστιν ἴσον τὸ πλῆθος
+τῶν ΒΗ, ΗΓ τῷ πλήθει τῶν ΕΘ, ΘΖ, ὃ ἄρα μέρος ἐστὶν ὁ ΒΗ
+τοῦ ΕΘ ἢ μέρη, τὸ α ὐτὸ μέρος ἐστὶ καὶ ὁ ΗΓ τοῦ ΘΖ ἢ
+τὰ α ὐτὰ μέρη; ὥστε καὶ ὃ μέρος ἐστὶν ὁ ΒΗ τοῦ ΕΘ
+ἢ μέρη, τὸ α ὐτὸ μέρος ἐστὶ καὶ συναμφότερος ὁ ΒΓ
+συναμφοτέρου τοῦ ΕΖ ἢ τὰ α ὐτὰ μέρη. ἴσος δὲ ὁ μὲν ΒΗ
+τῷ Α, ὁ δὲ ΕΘ τῷ Δ; ὃ ἄρα μέρος ἐστὶν
+ὁ Α τοῦ Δ ἢ μέρη, τὸ α ὐτὸ μέρος ἐστὶ καὶ ὁ ΒΓ
+τοῦ ΕΖ ἢ τὰ α ὐτὰ μέρη; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 9}$^\dag$
+\end{center}
+
+If a number is part of a number, and another (number) is the same part of another, also, alternately, which(ever)
+part, or parts,  the first (number)  is of the third, the second (number) will also be the same
+part, or the same parts, of the fourth.
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig09e.eps}}
+
+For let a number $A$ be part of a number $BC$, and another (number) $D$ (be) the same
+part of another $EF$ that $A$ (is) of $BC$. I say that, also, alternately, which(ever) part, or
+parts, $A$ is of $D$, $BC$ is also the same part, or parts, of $EF$.
+
+For since which(ever) part $A$ is of $BC$, $D$ is also the same part of $EF$, thus
+as many numbers as are in $BC$ equal to $A$, so many are also in $EF$ equal to
+$D$. Let $BC$ be divided into $BG$ and $GC$, equal to $A$, and $EF$ into
+$EH$ and $HF$, equal to $D$. So the multitude of (divisions) $BG$, $GC$ will be
+equal to the multitude of (divisions) $EH$, $HF$.
+
+And since the numbers $BG$ and $GC$ are equal to one another, and
+the numbers $EH$ and $HF$ are also equal to one another, and the
+multitude of (divisions) $BG$, $GC$ is equal to the multitude of (divisions)
+$EH$, $HC$, thus which(ever) part, or parts, $BG$ is of $EH$, $GC$ is also
+the same part, or the same parts, of $HF$. And hence, which(ever)
+part, or parts, $BG$ is of $EH$, the sum $BC$ is also the same
+part, or the same parts, of the sum $EF$ [Props.~7.5, 7.6]. And $BG$ (is) equal to $A$, and $EH$ to $D$.
+ Thus, which(ever) part, or parts, $A$ is of $D$, $BC$ is also the same part, or
+ the same parts, of $EF$. (Which is) the very thing it was required to show.}
+\end{Parallel}
+{\footnotesize\noindent$^\dag$ In modern notation, this
+proposition states that if $a=(1/n)\,b$ and $c=(1/n)\,d$ then if $a=(k/l)\,c$
+then $b = (k/l)\,d$, where all symbols denote numbers.}
+
+%%%%%%
+% Prop 7.10
+%%%%%%
+\pdfbookmark[1]{Proposition 7.10}{pdf7.10}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{10}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν ἀριθμὸς ἀριθμοῦ μέρη ᾖ, καὶ ἕτερος ἑτέρου τὰ α ὐτὰ
+μέρη ᾖ, καὶ ἐναλλάχ, ἃ μέρη ἐστὶν ὁ πρῶτος τοῦ τρίτου
+ἢ μέρος, τὰ α ὐτὰ μέρη ἔσται καὶ ὁ δεύτερος τοῦ τετάρτου
+ἢ τὸ α ὐτὸ μέρος.}
+
+{\greekfont Ἀριθμὸς γὰρ ὁ ΑΒ ἀριθμοῦ τοῦ Γ μέρη ἔστω, καὶ ἕτερος
+ὁ ΔΕ ἑτέρου τοῦ Ζ τὰ α ὐτὰ μέρη; λέγω, ὅτι
+καὶ ἐναλλάχ, ἃ μέρη ἐστὶν ὁ ΑΒ τοῦ ΔΕ ἢ μέρος, τὰ α ὐτὰ μέρη
+ἐστὶ καὶ ὁ Γ τοῦ Ζ ἢ τὸ α ὐτὸ μέρος.}
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig10g.eps}}
+
+{\greekfont Ἐπεὶ γάρ, ἃ μέρη ἐστὶν ὁ ΑΒ τοῦ Γ, τὰ α ὐτὰ μέρη ἐστὶ
+καὶ ὁ ΔΕ τοῦ Ζ, ὅσα ἄρα ἐστὶν ἐν τῷ ΑΒ  μέρη τοῦ Γ, τοσαῦτα
+καὶ ἐν τῷ ΔΕ μέρη τοῦ Ζ. διῃρήσθω ὁ μὲν ΑΒ εἰς τὰ τοῦ Γ μέρη
+τὰ ΑΗ, ΗΒ, ὁ δὲ ΔΕ εἰς τὰ τοῦ Ζ μέρη τὰ ΔΘ, ΘΕ; ἔσται  δὴ ἴσον
+τὸ πλῆθος τῶν ΑΗ, ΗΒ τῷ πλήθει τῶν
+ΔΘ, ΘΕ. καὶ ἐπεί, ὃ μέρος ἐστὶν ὁ ΑΗ τοῦ Γ, τὸ α ὐτὸ μέρος
+ἐστὶ καὶ ὁ ΔΘ τοῦ Ζ, καὶ ἐναλλάχ, ὃ μέρος ἐστὶν ὁ ΑΗ τοῦ ΔΘ
+ἢ μέρη, τὸ α ὐτὸ μέρος ἐστὶ καὶ ὁ Γ τοῦ Ζ ἢ τὰ α ὐτὰ μέρη.
+διὰ τὰ α ὐτὰ δὴ καί, ὃ μέρος ἐστὶν ὁ ΗΒ τοῦ ΘΕ ἢ μέρη, τὸ
+α ὐτὸ μέρος ἐστὶ καὶ ὁ Γ τοῦ Ζ ἢ τὰ α ὐτὰ μέρη; ὥστε
+καί [ὃ μέρος ἐστὶν ὁ ΑΗ τοῦ ΔΘ ἢ μέρη, τὸ α ὐτὸ μέρος
+ἐστὶ καὶ ὁ ΗΒ τοῦ ΘΕ ἢ τὰ α ὐτὰ μέρη; καὶ ὃ ἄρα μέρος 
+ἐστὶν ὁ ΑΗ τοῦ ΔΘ ἢ μέρη, τὸ α ὐτὸ μέρος 
+ ἐστὶ καὶ ὁ ΑΒ τοῦ ΔΕ ἢ τὰ α ὐτὰ μέρη; ἀλλ ὃ μέρος ἐστὶν ὁ ΑΗ
+τοῦ ΔΘ ἢ μέρη, τὸ α ὐτὸ μέρος ἐδείθθη καὶ ὁ Γ τοῦ Ζ ἢ τὰ α ὐτὰ μέρη, καὶ] ἃ [ἄρα] μέρη ἐστὶν ὁ ΑΒ τοῦ ΔΕ ἢ
+μέρος, τὰ α ὐτὰ μέρη ἐστὶ καὶ ὁ Γ τοῦ Ζ ἢ τὸ α ὐτὸ μέρος;
+ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 10}$^\dag$
+\end{center}
+
+If a number is parts of a number, and another (number) is the same parts of another, also, alternately, which(ever) parts, or part, 
+the first (number) is of the third, the second will also be the same
+parts, or the same part, of the fourth.
+
+For let a number $AB$ be parts of a number $C$, and another (number)
+$DE$ (be) the same parts of another $F$. I say that, also, alternately, which(ever)
+parts, or part, $AB$ is of $DE$, $C$ is also the same parts, or the same part,
+of $F$.
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig10e.eps}}
+
+For since which(ever) parts $AB$ is of $C$, $DE$ is also the same parts of $F$,
+thus as many parts of $C$ as are in $AB$, so many parts of $F$ (are)
+also in $DE$. Let $AB$ be divided into the parts of $C$, $AG$ and $GB$, and
+$DE$ into the parts of $F$, $DH$ and $HE$.  So the multitude of
+(divisions) $AG$, $GB$ will be equal to the multitude of (divisions) $DH$, $HE$.
+And since which(ever) part $AG$ is of $C$, $DH$ is also the same part of $F$,
+also, alternately, which(ever) part, or parts, $AG$ is
+of $DH$, $C$ is also the same part, or the same parts, of $F$  [Prop.~7.9]. And so, for the same (reasons), 
+which(ever) part, or parts, $GB$ is of $HE$, $C$ is also the same
+part, or the same parts, of $F$ [Prop.~7.9]. And so [which(ever) part, or parts, $AG$ is of
+$DH$, $GB$ is also the same part, or the same parts, of $HE$. And thus,
+which(ever) part, or parts, $AG$ is of $DH$, $AB$ is also the same part, or the
+same parts, of $DE$ [Props.~7.5, 7.6]. But, which(ever) part, or parts, $AG$ is of $DH$, $C$ was also
+shown (to be) the same part, or the same parts, of $F$. And, thus] which(ever)
+parts, or part, $AB$ is of $DE$, $C$ is also the  same parts, or the same part, of $F$. (Which
+is) the very thing it was required to show.}
+\end{Parallel}
+{\footnotesize\noindent$^\dag$ In modern notation, this
+proposition states that if $a=(m/n)\,b$ and $c=(m/n)\,d$ then if $a=(k/l)\,c$
+then $b = (k/l)\,d$, where all symbols denote numbers.}
+
+%%%%%%
+% Prop 7.11
+%%%%%%
+\pdfbookmark[1]{Proposition 7.11}{pdf7.11}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{11}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐαν ᾖ ὡς ὅλος πρὸς ὅλον, οὕτως ἀφαιρεθεὶς πρὸς ἀφαιρεθέντα,
+καὶ ὁ λοιπὸς πρὸς τὸν λοιπὸν ἔσται, ὡς ὅλος πρὸς ὅλον.}
+
+{\greekfont Ἔστω ὡς ὅλος ὁ ΑΒ πρὸς ὅλον τὸν ΓΔ, οὕτως ἀφαιρεθεὶς
+ὁ ΑΕ πρὸς ἀφαιρεθέντα τὸν ΓΖ; λέγω, ὅτι καὶ λοιπὸς ὁ ΕΒ πρὸς
+λοιπὸν τὸν ΖΔ ἐστιν, ὡς ὅλος ὁ ΑΒ πρὸς ὅλον τὸν ΓΔ.}\\~\\
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig11g.eps}}
+
+{\greekfont Ἐπεί ἐστιν ὡς ὁ ΑΒ πρὸς τὸν ΓΔ, οὕτως ὁ ΑΕ πρὸς τὸν ΓΖ,
+ὃ ἄρα μέρος ἐστὶν ὁ ΑΒ τοῦ ΓΔ ἢ μέρη, τὸ α ὐτὸ μέρος
+ἐστὶ καὶ ὁ ΑΕ τοῦ ΓΖ ἢ τὰ α ὐτὰ μέρη. καὶ λοιπὸς ἄρα
+ὁ ΕΒ λοιποῦ τοῦ ΖΔ τὸ α ὐτὸ μέρος ἐστὶν ἢ μέρη, ἅπερ
+ὁ ΑΒ τοῦ ΓΔ. ἔστιν ἄρα ὡς ὁ ΕΒ πρὸς τὸν ΖΔ, οὕτως
+ὁ ΑΒ πρὸς τὸν ΓΔ; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 11}
+\end{center}
+
+If as the whole (of a number) is to the whole (of
+another), so
+a (part) taken away (is) to a (part) taken away, (then) the remainder will also
+be to the
+remainder as the whole (is) to the whole.
+
+Let the whole $AB$ be to the whole  $CD$ as the (part) taken
+away $AE$ (is) to the (part) taken away $CF$. I say that the remainder
+$EB$ is to the remainder $FD$ as the whole $AB$ (is) to the whole $CD$.
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig11e.eps}}
+
+(For) since as $AB$ is to $CD$, so $AE$ (is) to $CF$, thus which(ever) part, or parts,
+$AB$ is of $CD$, $AE$ is also the same part, or the same parts, of $CF$ [Def.~7.20]. Thus, the remainder $EB$ is also the same
+part, or parts, of the remainder $FD$ that $AB$ (is) of $CD$ [Props.~7.7, 7.8]. Thus, as $EB$ is to $FD$, so $AB$ (is) to $CD$ [Def.~7.20].
+(Which is) the very thing it was required to show.}
+\end{Parallel}
+{\footnotesize\noindent$^\dag$ In modern notation, this
+proposition states that if $a:b::c:d$ then $a:b::a-c:b-d$, where all
+symbols denote numbers.}
+
+%%%%%%
+% Prop 7.12
+%%%%%%
+\pdfbookmark[1]{Proposition 7.12}{pdf7.12}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{12}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν ὦσιν ὁποσοιοῦν ἀριθμοὶ ἀνάλογον, ἔσται ὡς εἷς τῶν
+ἡγουμένων πρὸς ἕνα τῶν ἑπομένων, οὕτως ἅπαντες οἱ
+ἡγούμενοι πρὸς ἅπαντας τοὺς ἑπομένους.}\\
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig12g.eps}}
+
+{\greekfont Ἔστωσαν ὁποσοιοῦν ἀριθμοὶ ἀνάλογον οἱ Α, Β, Γ, Δ, ὡς ὁ
+Α πρὸς τὸν Β, οὕτως ὁ Γ πρὸς τὸν Δ; λέγω, ὅτι ἐστὶν ὡς ὁ
+Α πρὸς τὸν Β, οὕτως οἱ Α, Γ πρὸς τοὺς Β, Δ.}
+
+{\greekfont Ἐπεὶ γάρ ἐστιν ὡς ὁ Α πρὸς τὸν Β, οὕτως ὁ Γ πρὸς τὸν
+Δ, ὃ ἄρα μέρος ἐστὶν ὁ Α τοῦ Β ἢ μέρη, τὸ α ὐτὸ μέρος
+ἐστὶ καὶ ὁ Γ τοῦ Δ ἢ μέρη. καὶ συναμφότερος ἄρα ὁ Α, Γ
+συναμφοτέρου τοῦ Β, Δ τὸ α ὐτὸ μέρος ἐστὶν ἢ τὰ α ὐτὰ μέρη,
+ἅπερ ὁ Α τοῦ Β. ἔστιν ἄρα ὡς ὁ Α πρὸς τὸν Β, οὕτως οἱ Α,
+Γ πρὸς τοὺς Β, Δ; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 12}$^\dag$
+\end{center}
+
+If any multitude whatsoever of numbers are proportional,  (then) as one of the leading (numbers is) to one of the
+following so (the sum of) all of the leading (numbers) will be to 
+(the sum of) all of the following.
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig12e.eps}}
+
+Let any multitude  whatsoever of numbers, $A$, $B$, $C$,  $D$, be proportional,
+(such that) as $A$ (is) to $B$, so $C$ (is) to $D$. I say that as $A$ is to $B$, so
+$A$, $C$ (is) to $B$, $D$.
+
+For since as $A$ is to $B$, so $C$ (is) to $D$, thus which(ever) part, or parts,
+$A$ is of $B$, $C$ is also the same part, or parts, of $D$ [Def.~7.20]. Thus, the sum $A$, $C$ is also
+the same part, or the same parts, of the sum $B$, $D$ that $A$ (is) of $B$  [Props.~7.5, 7.6]. Thus, as $A$ is to $B$, so $A$, $C$ (is) to
+$B$, $D$ [Def.~7.20]. (Which is) the very thing it
+was required to show.}
+\end{Parallel}
+{\footnotesize\noindent$^\dag$ In modern notation, this
+proposition states that if $a:b::c:d$ then $a:b::a+c:b+d$, where all
+symbols denote numbers.}
+
+%%%%%%
+% Prop 7.13
+%%%%%%
+\pdfbookmark[1]{Proposition 7.13}{pdf7.13}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{13}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν τέσσαρες ἀριθμοὶ ἀνάλογον ὦσιν, καὶ ἐναλλὰχ ἀνάλογον ἔσονται.}
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig12g.eps}}
+
+{\greekfont Ἔστωσαν τέσσαρες ἀριθμοὶ ἀνάλογον οἱ Α, Β, Γ, Δ, ὡς ὁ Α
+πρὸς τὸν Β, οὕτως ὁ Γ πρὸς τὸν Δ; λέγω, ὅτι καὶ ἐναλλὰχ
+ἀνάλογον ἔσονται, ὡς ὁ Α πρὸς τὸν Γ, οὕτως ὁ Β
+πρὸς τὸν Δ.}
+
+{\greekfont Ἐπεὶ γάρ ἐστιν ὡς ὁ Α πρὸς τὸν Β, οὕτως ὁ Γ
+πρὸς τὸν Δ, ὃ ἄρα μέρος ἐστὶν ὁ Α τοῦ Β ἢ μέρη,
+τὸ α ὐτὸ μέρος ἐστὶ καὶ ὁ Γ τοῦ Δ ἢ τὰ α ὐτὰ μέρη.
+ἐναλλὰχ ἄρα, ὃ μέρος ἐστὶν ὁ Α τοῦ Γ ἢ μέρη, τὸ
+α ὐτὸ μέρος ἐστὶ καὶ ὁ Β τοῦ Δ ἢ τὰ α ὐτὰ μέρη. ἔστιν
+ἄρα ὡς ὁ Α πρὸς τὸν Γ, οὕτως ὁ Β πρὸς τὸν Δ;
+ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 13}$^\dag$
+\end{center}
+
+If four numbers are proportional,  (then) they will
+also be proportional alternately.
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig12e.eps}}
+
+Let the four numbers $A$, $B$, $C$, and $D$ be proportional, (such that) as
+$A$ (is) to $B$, so $C$ (is) to $D$. I say that they will also be proportional
+alternately, (such that) as $A$ (is) to $C$, so $B$ (is) to $D$.
+
+For since as $A$ is to $B$, so $C$ (is) to $D$, thus which(ever) part, or parts,
+$A$ is of $B$, $C$ is also the same part, or the same parts, of $D$  [Def.~7.20]. Thus, alternately, which(ever)
+part, or parts, $A$ is of $C$, $B$ is also the same part, or the same parts, of $D$
+[Props.~7.9, 7.10]. Thus, as $A$ is to $C$, so $B$ (is) to $D$
+[Def.~7.20]. (Which is) the very thing it
+was required to show.}
+\end{Parallel}
+{\footnotesize\noindent$^\dag$ In modern notation, this
+proposition states that if $a:b::c:d$ then $a:c::b:d$, where all
+symbols denote numbers.}
+
+%%%%%%
+% Prop 7.14
+%%%%%%
+\pdfbookmark[1]{Proposition 7.14}{pdf7.14}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{14}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν ὦσιν ὁποσοιοῦν ἀριθμοὶ καὶ ἄλλοι α ὐτοῖς ἴσοι τὸ
+πλῆθος σύνδυο λαμβανόμενοι καὶ ἐν τῷ α ὐτῷ λόγῳ, καὶ
+δι ἴσου ἐν τῷ α ὐτῷ λόγῷ ἔσονται.}\\
+
+\epsfysize=0.65in
+\centerline{\epsffile{Book07/fig14g.eps}}
+
+{\greekfont Ἔστωσαν ὁποσοιοῦν ἀριθμοὶ οἱ Α, Β, Γ καὶ ἄλλοι α ὐτοῖς
+ἴσοι τὸ πλῆθος σύνδυο λαμβανόμενοι ἐν τῷ α ὐτῷ λόγῳ
+οἱ Δ, Ε, Ζ, ὡς μὲν ὁ Α πρὸς τὸν Β, οὕτως ὁ Δ πρὸς τὸν
+Ε, ὡς δὲ ὁ Β πρὸς τὸν Γ, οὕτως
+ὁ Ε πρὸς τὸν Ζ; λέγω, ὅτι
+καὶ δι ἴσου ἐστὶν ὡς ὁ Α πρὸς τὸν Γ, οὕτως ὁ Δ πρὸς τὸν Ζ.}
+
+{\greekfont Ἐπεὶ γάρ ἐστιν ὡς ὁ Α πρὸς τὸν Β, οὕτως ὁ Δ πρὸς τὸν Ε,
+ἐναλλὰχ ἄρα ἐστὶν ὡς ὁ Α πρὸς τὸν Δ, οὕτως ὁ Β πρὸς
+τὸν Ε. πάλιν, ἐπεί ἐστιν ὡς ὁ Β πρὸς τὸν Γ, οὕτως ὁ Ε πρὸς τὸν
+Ζ, ἐναλλὰχ ἄρα ἐστὶν ὡς ὁ Β πρὸς τὸν Ε, οὕτως
+ὁ Γ πρὸς τὸν Ζ. ὡς δὲ ὁ Β πρὸς τὸν Ε, οὕτως ὁ Α πρὸς
+τὸν Δ; καὶ ὡς ἄρα ὁ Α πρὸς τὸν Δ, οὕτως ὁ Γ πρὸς τὸν Ζ;
+ἐναλλὰχ ἄρα ἐστὶν ὡς ὁ Α πρὸς τὸν Γ, οὕτως ὁ Δ πρὸς
+τὸν Ζ; ὅπερ ἔδει δεῖχαι.
+}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 14}$^\dag$
+\end{center}
+
+If there are any multitude of numbers whatsoever,
+and (some) other (numbers) of  equal  multitude to them, (which are)
+also in the same ratio taken two by two, (then) they will also
+be in the same ratio via equality.
+
+\epsfysize=0.65in
+\centerline{\epsffile{Book07/fig14e.eps}}
+
+Let there be any multitude of numbers whatsoever, $A$, $B$,  $C$, and 
+(some) other (numbers), $D$, $E$, $F$, of equal multitude to them, (which are)
+in the same ratio taken two by two, (such that) as $A$ (is) to $B$, so $D$ (is) to $E$,
+and as $B$ (is) to $C$, so $E$ (is) to $F$. I say that also, via equality, 
+as $A$ is to $C$, so $D$ (is) to $F$.
+
+For since as $A$ is to $B$, so $D$ (is) to $E$, thus, alternately, as $A$ is to $D$, so
+$B$ (is) to $E$  [Prop.~7.13]. Again, since
+as $B$ is to $C$, so $E$ (is) to $F$, thus, alternately, as $B$ is to $E$, so $C$ (is) to $F$
+[Prop.~7.13]. And as $B$ (is) to $E$, so
+$A$ (is) to $D$. Thus, also, as $A$ (is) to $D$, so $C$ (is) to $F$. Thus,
+alternately, as $A$ is to $C$, so $D$ (is) to $F$ [Prop.~7.13]. (Which is) the very thing it was required to show.}
+\end{Parallel}
+{\footnotesize\noindent$^\dag$ In modern notation, this
+proposition states that if $a:b::d:e$ and $b:c::e:f$ then $a:c::d:f$, where
+all symbols denote numbers.}
+
+%%%%%%
+% Prop 7.15
+%%%%%%
+\pdfbookmark[1]{Proposition 7.15}{pdf7.15}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{15}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν μονὰς ἀριθμόν τινα μετρῇ, ἰσακις δὲ ἕτερος ἀριθμὸς ἄλλον τινὰ ἀριθμὸν μετρῇ, καὶ ἐναλλὰχ ἰσάκις ἡ μονὰς τὸν τρίτον ἀριθμὸν μετρήσει
+καὶ ὁ δεύτερος τὸν τέταρτον.}\\
+
+\epsfysize=0.65in
+\centerline{\epsffile{Book07/fig15g.eps}}
+
+{\greekfont Μονὰς γὰρ ἡ Α ἀριθμόν τινα τὸν ΒΓ μετρείτω, ἰσάκις δὲ ἕτερος ἀριθμὸς
+ὁ Δ ἄλλον τινὰ ἀριθμὸν τὸν ΕΖ μετρείτω; λέγω, ὅτι καὶ ἐναλλὰχ ἰσάκις
+ἡ Α μονὰς τὸν Δ ἀριθμὸν μετρεῖ καὶ ὁ ΒΓ τὸν ΕΖ.}
+
+{\greekfont Ἐπεὶ γὰρ ἰσάκις ἡ Α μονὰς τὸν ΒΓ ἀριθμὸν μετρεῖ καὶ ὁ Δ τὸν  ΕΖ,
+ὅσαι ἄρα εἰσὶν ἐν τῷ ΒΓ μονάδες, τοσοῦτοί εἰσι καὶ ἐν τῷ 
+ΕΖ ἀριθμοὶ ἴσοι τῷ Δ. διῃρήσθω ὁ μὲν ΒΓ εἰς  τὰς ἐν ἑαυτῷ
+μονάδας τὰς ΒΗ, ΗΘ, ΘΓ, ὁ δὲ ΕΖ εἰς  τοὺς τῷ Δ ἴσους τοὺς ΕΚ, ΚΛ, ΛΖ. ἔσται δὴ ἴσον τὸ πλῆθος τῶν ΒΗ, ΗΘ, ΘΓ τῷ πλήθει τῶν ΕΚ, ΚΛ, ΛΖ.
+καὶ ἐπεὶ ἴσαι εἰσὶν αἱ ΒΗ, ΗΘ, ΘΓ μονάδες ἀλλήλαις, εἰσὶ δὲ καὶ οἱ
+ΕΚ, ΚΛ, ΛΖ ἀριθμοὶ ἴσοι ἀλλήλοις,
+καί ἐστιν 
+ἴσον τὸ πλῆθος τῶν ΒΗ, ΗΘ, ΘΓ μονάδων τῷ πλήθει τῶν ΕΚ, ΚΛ, ΛΖ
+ἀριθμῶν, ἔσται ἄρα ὡς ἡ ΒΗ μονὰς πρὸς τὸν ΕΚ ἀριθμόν, οὕτως
+ἡ ΗΘ μονὰς πρὸς τὸν ΚΛ ἀριθμὸν καὶ ἡ ΘΓ μονὰς πρὸς τὸν ΛΖ
+ἀριθμόν. ἔσται ἄρα καὶ ὡς εἷς τῶν ἡγουμένων πρὸς ἕνα τῶν
+ἑπομένων, οὕτως ἅπαντες οἱ ἡγούμενοι πρὸς ἅπαντας τοὺς
+ἑπομένους; ἔστιν ἄρα ὡς ἡ ΒΗ μονὰς πρὸς τὸν ΕΚ ἀριθμόν, οὕτως
+ὁ ΒΓ πρὸς τὸν ΕΖ. ἴση δὲ ἡ ΒΗ μονὰς τῇ Α μονάδι, ὁ δὲ ΕΚ 
+ἀριθμὸς
+τῷ Δ ἀριθμῷ. ἔστιν ἄρα ὡς ἡ Α μονὰς πρὸς τὸν Δ ἀριθμόν,
+οὕτως ὁ ΒΓ πρὸς τὸν ΕΖ. ἰσάκις ἄρα ἡ Α μονὰς τὸν Δ ἀριθμὸν
+μετρεῖ καὶ ὁ ΒΓ τὸν ΕΖ; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 15}
+\end{center}
+
+If a unit measures some number, and another number
+measures some other number as many times, (then), also, alternately, the unit will measure the
+third number as many times as the second (number measures) the fourth.
+
+\epsfysize=0.65in
+\centerline{\epsffile{Book07/fig15e.eps}}
+
+For let a unit $A$ measure some number $BC$, and let another number $D$ measure some
+other number $EF$ as many times. I  say that, also, alternately,
+the unit $A$ also measures the number $D$ as many times
+as $BC$ (measures) $EF$.
+
+For since the unit $A$ measures the number $BC$ as many times as 
+$D$ (measures) $EF$, thus as many units as are in $BC$, so many 
+numbers are also in  $EF$ equal to $D$. Let $BC$ be divided into its
+constituent units, $BG$, $GH$, and $HC$, and $EF$ into the (divisions) $EK$, $KL$, and $LF$, equal
+to $D$. So the multitude of (units) $BG$, $GH$, $HC$ will be equal to the multitude
+of (divisions) $EK$, $KL$, $LF$. And since the units $BG$, $GH$, and $HC$ are equal to
+one another, and the numbers $EK$, $KL$,  and $LF$ are also equal to one another, and the multitude of the (units) $BG$, $GH$, $HC$ is
+equal to the multitude of the numbers $EK$, $KL$, $LF$,
+thus as the unit $BG$ (is) to the number $EK$, so the unit $GH$ will be to the number $KL$, and
+the unit $HC$ to the number $LF$. And thus, as one of the leading (numbers is) to
+one of the following, so (the sum of) all of the leading will be to (the sum of) all of the following 
+[Prop.~7.12]. Thus, as the unit $BG$ (is) to the number $EK$,
+so $BC$ (is) to $EF$. And the unit $BG$ (is) equal to the unit $A$, and the number
+$EK$ to the number $D$. Thus, as the unit $A$ is to the number $D$, so $BC$ (is) to
+$EF$. Thus, the unit $A$ measures the number $D$ as many times as $BC$ (measures)
+$EF$ [Def.~7.20]. (Which is) the very thing it was required to show.}
+\end{Parallel}
+{\footnotesize\noindent$^\dag$ This proposition is a
+special case of Prop.~7.9.}
+
+%%%%%%
+% Prop 7.16
+%%%%%%
+\pdfbookmark[1]{Proposition 7.16}{pdf7.16}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{16}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Εὰν δύο ἀριθμοὶ πολλαπλασιάσαντες ἀλλήλους ποιῶσί τινας, οἱ γενόμενοι
+ἐχ α ὐτῶν ἴσοι ἀλλήλοις ἔσονται.}\\
+
+\epsfysize=1.6in
+\centerline{\epsffile{Book07/fig16g.eps}}
+
+{\greekfont Ἔστωσαν δύο ἀριθμοὶ οἱ Α, Β, καὶ ὁ μὲν Α τὸν Β πολλαπλασιάσας τὸν Γ
+ποιείτω, ὁ δὲ Β τὸν Α πολλαπλασιάσας τὸν Δ ποιείτω; λέγω, ὅτι ἴσος
+ἐστὶν ὁ Γ τῷ Δ.}
+
+{\greekfont Ἐπεὶ γὰρ ὁ Α τὸν Β πολλαπλασιάσας τὸν Γ πεποίηκεν, ὁ Β ἄρα
+τὸν Γ μετρεῖ κατὰ τὰς ἐν τῷ Α μονάδας. μετρεῖ δὲ καὶ ἡ Ε μονὰς
+τὸν Α ἀριθμὸν κατὰ τὰς ἐν α ὐτῷ μονάδας; ἰσάκις ἄρα ἡ Ε μονὰς
+τὸν Α ἀριθμὸν μετρεῖ καὶ ὁ Β τὸν Γ. ἐναλλὰχ ἄρα ἰσάκις
+ἡ Ε μονὰς τὸν Β ἀριθμὸν μετρεῖ καὶ ὁ Α τὸν Γ. πάλιν, ἐπεὶ ὁ
+Β τὸν Α πολλαπλασιάσας τὸν Δ πεποίηκεν, ὁ Α ἄρα τὸν Δ μετρεῖ κατὰ
+τὰς ἐν τῷ Β μονάδας. μετρεῖ δὲ καὶ ἡ Ε μονὰς τὸν Β κατὰ τὰς ἐν
+α ὐτῷ μονάδας; ἰσάκις ἄρα ἡ Ε μονὰς τὸν Β ἀριθμὸν μετρεῖ 
+καὶ ὁ Α τὸν Δ. ἰσάκις δὲ ἡ Ε μονὰς τὸν Β ἀριθμὸν ἐμέτρει καὶ ὁ Α
+τὸν Γ; ἰσάκις ἄρα ὁ Α ἑκάτερον τῶν Γ, Δ μετρεῖ. ἴσος ἄρα
+ἐστὶν ὁ Γ τῷ Δ; ὅπερ ἔδει δεῖχαι. }}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 16}$^\dag$
+\end{center}
+
+If two numbers multiplying one another make
+some (numbers, then) the (numbers) generated from them  will be equal
+to one another.
+
+\epsfysize=1.6in
+\centerline{\epsffile{Book07/fig16e.eps}}
+
+Let $A$ and $B$ be two numbers. And let $A$  make $C$ (by)  multiplying $B$, and let $B$  make $D$ (by) multiplying
+$A$. I say that $C$ is equal to $D$.
+
+For since $A$ has made $C$ (by) multiplying $B$, $B$ thus measures $C$ according to the
+units in $A$ [Def.~7.15]. And the unit $E$ also measures
+the number $A$ according to the units in it. Thus, the unit $E$ measures the
+number $A$ as many times as $B$ (measures) $C$. Thus, alternately, the unit
+$E$ measures the number $B$ as many times as $A$ (measures) $C$ [Prop.~7.15]. Again, since $B$ has made
+$D$ (by) multiplying $A$, $A$ thus measures $D$ according to the units in $B$ [Def.~7.15].  And the unit $E$ also measures $B$ according to
+the units in it. Thus, the unit $E$ measures the number $B$ as many times
+as $A$ (measures) $D$.  And the unit $E$ was measuring the number $B$ as many times as
+$A$ (measures) $C$. Thus, $A$ measures each of $C$ and $D$ an equal number of times. Thus,
+$C$ is equal to $D$. (Which is) the very thing it was required to show.}
+\end{Parallel}
+{\footnotesize\noindent$^\dag$ In modern notation, this proposition states that
+$a\,b=b\,a$, where all symbols denote numbers.}
+
+%%%%%%
+% Prop 7.17
+%%%%%%
+\pdfbookmark[1]{Proposition 7.17}{pdf7.17}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{17}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν ἀριθμὸς δύο ἀριθμοὺς πολλαπλασιάσας ποιῇ τινας, οἱ γενόμενοι
+ἐχ α ὐτῶν τὸν α ὐτὸν ἕχουσι λόγον τοῖς πολλαπλασιασθεῖσιν.}
+
+\epsfysize=0.9in
+\centerline{\epsffile{Book07/fig17g.eps}}
+
+{\greekfont Ἀριθμὸς γὰρ ὁ Α δύο ἀριθμοὺς τοὺς Β, Γ πολλαπλασιάσας τοὺς
+Δ, Ε ποιείτω; λέγω, ὅτι ἐστὶν ὡς ὁ Β πρὸς τὸν Γ, οὕτως ὁ Δ
+πρὸς τὸν Ε.}
+
+{\greekfont Ἐπεὶ γὰρ ὁ Α τὸν Β  πολλαπλασιάσας τὸν Δ πεποίηκεν, ὁ Β ἄρα τὸν
+Δ μετρεῖ κατὰ τὰς ἐν τῷ Α μονάδας. μετρεῖ δὲ καὶ ἡ Ζ μονὰς
+τὸν Α ἀριθμὸν κατὰ τὰς ἐν α ὐτῷ μονάδας; ἰσάκις ἄρα ἡ
+Ζ μονὰς τὸν Α ἀριθμὸν μετρεῖ καὶ ὁ  Β τὸν Δ. ἔστιν ἄρα
+ὡς ἡ Ζ μονὰς πρὸς τὸν Α ἀριθμόν, οὕτως ὁ Β πρὸς
+τὸν Δ. διὰ τὰ α ὐτὰ δὴ καὶ ὡς ἡ Ζ μονὰς πρὸς τὸν Α ἀριθμόν,
+οὕτως ὁ Γ πρὸς τὸν
+Ε; καὶ ὡς ἄρα ὁ Β πρὸς τὸν Δ, οὕτως ὁ Γ πρὸς τὸν Ε.
+ἐναλλὰχ ἄρα ἐστὶν ὡς ὁ Β πρὸς τὸν Γ, οὕτως ὁ Δ πρὸς
+τὸν Ε; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 17}$^\dag$
+\end{center}
+
+If a number  multiplying two numbers makes
+some (numbers, then) the (numbers) generated from them will have the
+same ratio as the multiplied (numbers).
+
+\epsfysize=0.9in
+\centerline{\epsffile{Book07/fig17e.eps}}
+
+For let the number $A$ make
+(the numbers) $D$ and $E$ (by) multiplying the two numbers $B$ and $C$ (respectively). I say that as $B$ is to $C$, so $D$ (is) to $E$.
+
+For since $A$  has made $D$ (by) multiplying $B$, $B$ thus measures $D$ according
+to the units in $A$ [Def.~7.15]. And the unit $F$ also measures the number $A$
+according to the units in it. Thus, the unit $F$ measures the number $A$ as many
+times as $B$ (measures) $D$. Thus, as the unit $F$ is to the number $A$, 
+so $B$ (is) to $D$ [Def.~7.20]. And so, for the same (reasons), as the unit $F$ (is) to the
+number $A$,  so $C$ (is) to $E$. And thus, as $B$ (is) to $D$, so $C$ (is) to $E$. Thus,
+alternately, as $B$ is to $C$, so $D$ (is) to $E$ [Prop.~7.13]. (Which is) the very thing it
+was required to show.}
+\end{Parallel}{\footnotesize\noindent$^\dag$ In modern notation, 
+this proposition states that if $d = a\,b$ and $e=a\,c$ then
+$d:e::b:c$, where all symbols denote numbers.}
+
+%%%%%%
+% Prop 7.18
+%%%%%%
+\pdfbookmark[1]{Proposition 7.18}{pdf7.18}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{18}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν δύο ἀριθμοὶ ἀριθμόν τινα πολλαπλασιάσαντες ποιῶσί τινας,
+οἱ γενόμενοι ἐχ α ὐτῶν τὸν α ὐτὸν ἕχουσι λόγον τοῖς
+πολλαπλασιάσασιν.}
+
+\epsfysize=1.5in
+\centerline{\epsffile{Book07/fig18g.eps}}
+
+{\greekfont Δύο γὰρ ἀριθμοὶ οἱ Α, Β ἀριθμόν τινα τὸν Γ πολλαπλασιάσαντες
+τοὺς Δ, Ε ποιείτωσαν; λέγω, ὅτι ἐστὶν ὡς ὁ Α πρὸς τὸν Β, οὕτως
+ὁ Δ πρὸς τὸν Ε.}
+
+{\greekfont Ἐπεὶ γὰρ ὁ Α τὸν Γ πολλαπλασιάσας τὸν Δ πεποίηκεν, καὶ ὁ Γ
+ἄρα τὸν Α πολλαπλασιάσας τὸν Δ πεποίηκεν. διὰ τὰ α ὐτὰ δὴ καὶ
+ὁ Γ τὸν Β πολλαπλασιάσας τὸν Ε πεποίηκεν. ἀριθμὸς δὴ ὁ Γ δύο
+ἀριθμοὺς τοὺς Α, Β πολλαπλασιάσας τοὺς Δ, Ε πεποίηκεν. ἔστιν ἄρα ὡς
+ὁ Α πρὸς τὸν Β, οὕτως ὁ Δ πρὸς τὸν Ε; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 18}$^\dag$
+\end{center}
+
+If two numbers  multiplying some
+number make some (other numbers, then) the (numbers) generated from them
+will have the same ratio as the multiplying (numbers).
+
+\epsfysize=1.5in
+\centerline{\epsffile{Book07/fig18e.eps}}
+
+For let the two numbers $A$ and $B$ make (the numbers) $D$ and $E$ (respectively, by) multiplying
+some number $C$. I say that as $A$ is to $B$, so $D$ (is) to $E$.
+
+For since $A$ has made $D$ (by) multiplying $C$,  $C$ has thus also made $D$ (by)
+multiplying $A$ [Prop.~7.16]. So, for
+the same (reasons), $C$ has also made $E$ (by) multiplying $B$. So the
+number $C$ has made  $D$ and $E$ (by) multiplying
+the two numbers $A$ and $B$ (respectively). Thus, as $A$ is to $B$, so
+$D$ (is) to $E$  [Prop.~7.17]. (Which is)
+the very thing it was required to show.}
+\end{Parallel}
+{\footnotesize\noindent$^\dag$ In modern notation, this
+propositions states that if $a\,c = d$ and $b\,c=e$ then $a:b::d:e$,
+ where all symbols denote numbers.}
+ 
+%%%%%%
+% Prop 7.19
+%%%%%%
+\pdfbookmark[1]{Proposition 7.19}{pdf7.19}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{19}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν τέσσαρες ἀριθμοὶ ἀνάλογον ὦσιν, ὁ ἐκ πρώτου καὶ
+τετάρτου γενόμενος ἀριθμὸς ἴσος ἔσται τῷ ἐκ δευτέρου καὶ
+τρίτου γενομένῳ ἀριθμῷ; καὶ ἐὰν ὁ ἐκ πρώτου καὶ τετάρτου
+γενόμενος ἀριθμὸς ἴσος ᾖ τῷ ἐκ δευτέρου
+καὶ τρίτου, οἱ τέσσασρες ἀριθμοὶ ἀνάλογον ἔσονται.}
+
+{\greekfont Ἔστωσαν τέσσαρες ἀριθμοὶ ἀνάλογον οἱ Α, Β, Γ, Δ, ὡς ὁ Α
+πρὸς τὸν Β, οὕτως ὁ Γ πρὸς τὸν Δ, καὶ ὁ μὲν Α τὸν Δ πολλαπλασιάσας τὸν Ε ποιείτω, ὁ δὲ Β τὸν Γ πολλαπλασιάσας τὸν Ζ ποιείτω;
+λέγω, ὅτι ἴσος ἐστὶν ὁ Ε τῷ Ζ.}
+
+{\greekfont Ὁ γὰρ Α τὸν Γ πολλαπλασιάσας τὸν Η ποιείτω. ἐπεὶ οὖν ὁ Α
+τὸν Γ πολλαπλασιάσας τὸν Η πεποίηκεν, τὸν δὲ Δ πολλαπλασιάσας τὸν
+Ε πεποίηκεν, ἀριθμὸς δὴ ὁ Α δύο ἀριθμοὺς τοὺς Γ, Δ πολλαπλασιάσας
+τούς Η, Ε πεποίηκεν. ἔστιν ἄρα ὡς ὁ Γ πρὸς τὸν Δ, οὕτως
+ὁ Η πρὸς τὸν Ε. ἀλλ ὡς ὁ Γ πρὸς τὸν Δ, οὕτως ὁ Α πρὸς
+τὸν Β; καὶ ὡς ἄρα ὁ Α πρὸς τὸν Β, οὕτως ὁ Η πρὸς τὸν Ε.
+πάλιν, ἐπεὶ ὁ Α τὸν Γ πολλαπλασιάσας τὸν Η πεποίηκεν, ἀλλὰ  μὴν
+καὶ ὁ Β τὸν Γ πολλαπλασιάσας τὸν Ζ πεποίηκεν, δύο δὴ ἀριθμοὶ
+οἱ Α, Β ἀριθμόν τινα τὸν Γ πολλαπλασιάσαντες τοὺς Η, Ζ πεποιήκασιν.
+ἔστιν ἄρα ὡς ὁ Α πρὸς τὸν Β, οὕτως ὁ Η πρὸς τὸν Ζ. ἀλλὰ
+μὴν καὶ ὡς ὁ Α πρὸς τὸν Β, οὕτως ὁ Η πρὸς
+τὸν Ε; καὶ ὡς ἄρα ὁ Η πρὸς τὸν Ε, οὕτως ὁ Η πρὸς
+τὸν Ζ. ὁ Η ἄρα πρὸς ἑκάτερον τῶν Ε, Ζ τὸν α ὐτὸν ἔχει λόγον;
+ἴσος ἄρα ἐστὶν ὁ Ε τῷ Ζ.}
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig19g.eps}}
+
+{\greekfont Ἔστω δὴ πάλιν ἴσος ὁ Ε τῷ Ζ; λέγω, ὅτι ἐστὶν ὡς ὁ Α πρὸς
+τὸν Β, οὕτως ὁ Γ πρὸς τὸν Δ.}
+
+{\greekfont Τῶν γὰρ α ὐτῶν κατασκευασθέντων, ἐπεὶ ἴσος ἐστὶν ὁ Ε
+τῷ Ζ, ἔστιν ἄρα ὡς ὁ Η πρὸς τὸν Ε, οὕτως ὁ Η
+πρὸς τὸν Ζ. ἀλλ ὡς μὲν ὁ Η πρὸς τὸν Ε, οὕτως ὁ Γ
+πρὸς τὸν Δ, ὡς δὲ ὁ Η πρὸς τὸν Ζ, οὕτως
+ὁ Α πρὸς τὸν Β. καὶ ὡς ἄρα ὁ Α πρὸς τὸν Β, οὕτως ὁ Γ πρὸς
+τὸν Δ; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 19}$^\dag$
+\end{center}
+
+If four number are proportional, (then) the number
+created from (multiplying) the first and fourth will be equal to the number
+created from (multiplying) the second and third. And if the number
+created from (multiplying) the first and fourth is equal to the
+(number created) from (multiplying) the second and third, (then) the
+four numbers will be proportional.
+
+Let $A$, $B$, $C$, and $D$ be four proportional numbers, (such that) as $A$ (is) to
+$B$, so $C$ (is) to $D$. And let $A$ make $E$ (by) multiplying $D$, and let
+$B$ make $F$ (by) multiplying $C$. I say that $E$ is equal to $F$.
+
+For let $A$ make $G$ (by) multiplying $C$. Therefore, since $A$ has made
+$G$ (by) multiplying $C$, and has made $E$ (by) multiplying $D$, the number $A$
+has made  $G$ and $E$ by multiplying the two numbers $C$ and $D$ (respectively).
+Thus, as $C$ is to $D$, so $G$ (is) to $E$  [Prop.~7.17].
+But, as $C$ (is) to $D$, so $A$ (is) to $B$. Thus, also, as $A$ (is) to $B$, so
+$G$ (is) to $E$. Again, since $A$ has made $G$ (by) multiplying
+$C$, but, in fact,  $B$ has also made $F$ (by)  multiplying $C$, the two
+numbers $A$ and 
+$B$ have made $G$ and $F$ (respectively, by) multiplying some
+number $C$. Thus, as $A$ is to $B$, so $G$ (is) to $F$ [Prop.~7.18]. But, also, as $A$ (is) to $B$, so
+$G$ (is) to $E$. And thus,  as $G$ (is) to $E$, so $G$ (is) to $F$. Thus, $G$ has the same
+ratio to each of $E$ and $F$. Thus, $E$ is equal to $F$ [Prop.~5.9].
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig19e.eps}}
+
+So, again, let $E$ be equal to $F$. I say that as $A$ is to $B$, so
+$C$  (is) to $D$.
+
+For, with the same construction, since $E$ is equal to $F$, thus as
+$G$ is to $E$, so $G$ (is) to $F$  [Prop.~5.7].
+But, as $G$ (is) to $E$, so $C$ (is) to $D$ [Prop.~7.17].
+And as $G$ (is) to $F$, so $A$ (is) to $B$ [Prop.~7.18].
+And, thus, as $A$ (is) to $B$, so $C$ (is) to $D$. (Which is) the very thing it
+was required to show.}
+\end{Parallel}
+{\footnotesize\noindent$^\dag$ In modern notation,  this
+proposition reads that if $a:b::c:d$ then $a\,d=b\,c$, and
+ vice versa, where all symbols denote numbers.}
+
+%%%%%%
+% Prop 7.20
+%%%%%%
+\pdfbookmark[1]{Proposition 7.20}{pdf7.20}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{20}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Οἱ ἐλάθιστοι ἀριθμοὶ τῶν τὸν α ὐτὸν λόγον ἐθόντων α ὐτοῖς
+μετροῦσι τοὺς τὸν α ὐτὸν λόγον ἔθοντας ἰσάκις ὅ τε
+μείζων τὸν μείζονα καὶ ὁ ἐλάσσων τὸν ἐλάσσονα.}
+
+{\greekfont Ἔστωσαν γὰρ ἐλάθιστοι ἀριθμοὶ τῶν τὸν α ὐτὸν 
+λόγον ἐθόντων τοῖς Α, Β οἱ ΓΔ, ΕΖ; λέγω, ὅτι ἰσάκις ὁ ΓΔ
+τὸν Α μετρεῖ καὶ ὁ ΕΖ τὸν Β.}\\
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig20g.eps}}
+
+{\greekfont Ὁ ΓΔ γὰρ τοῦ Α οὔκ ἐστι μέρη. εἰ γὰρ δυνατόν, ἔστω; καὶ
+ὁ ΕΖ ἄρα τοῦ Β τὰ α ὐτὰ μέρη ἐστίν, ἅπερ
+ὁ ΓΔ τοῦ Α. ὅσα ἄρα ἐστὶν ἐν τῷ ΓΔ μέρη τοῦ Α, τοσαῦτά
+ἐστι καὶ ἐν τῷ ΕΖ μέρη τοῦ Β. διῃρήσθω ὁ μὲν ΓΔ εἰς
+τὰ τοῦ Α μέρη τὰ ΓΗ, ΗΔ, ὁ δὲ ΕΖ εἰς τὰ τοῦ Β μέρη τὰ
+ΕΘ, ΘΖ; ἔσται δὴ ἴσον τὸ πλῆθος τῶν ΓΗ, ΗΔ τῷ πλήθει
+τῶν ΕΘ, ΘΖ. καὶ ἐπεὶ ἴσοι εἰσὶν οἱ ΓΗ, ΗΔ ἀριθμοὶ
+ ἀλλήλοις, εἰσὶ δὲ καὶ οἱ ΕΘ, ΘΖ ἀριθμοὶ ἴσοι ἀλλήλοις, 
+  καί ἐστιν ἴσον τὸ πλῆθος τῶν ΓΗ, ΗΔ
+τῷ πλήθει τῶν ΕΘ, ΘΖ, ἔστιν ἄρα ὡς ὁ ΓΗ πρὸς τὸν ΕΘ,
+οὕτως  ὁ ΗΔ πρὸς τὸν ΘΖ.
+ ἔσται ἄρα καὶ ὡς εἷς
+τῶν ἡγουμένων πρὸς ἕνα τῶν ἑπομένων, οὕτως ἅπαντες
+οἱ
+ἡγούμενοι πρὸς ἅπαντας τοὺς ἑπομένους. 
+ἔστιν ἄρα ὡς ὁ ΓΗ πρὸς τὸν ΕΘ, οὕτως ὁ ΓΔ πρὸς τὸν
+ΕΖ; οἱ ΓΗ, ΕΘ ἄρα τοῖς ΓΔ, ΕΖ ἐν τῷ α ὐτῷ λόγῳ εἰσὶν
+ἐλάσσονες ὄντες α ὐτῶν; ὅπερ ἐστὶν ἀδύνατον; ὑπόκεινται
+γὰρ οἱ ΓΔ, ΕΖ ἐλάθιστοι τῶν τὸν α ὐτὸν λόγον ἐθόντων
+α ὐτοῖς. οὐκ ἄρα μέρη ἐστὶν ὁ ΓΔ τοῦ Α; μέρος ἄρα.
+καὶ ὁ ΕΖ τοῦ Β τὸ α ὐτὸ μέρος ἐστίν, ὅπερ ὁ ΓΔ τοῦ Α;
+ἰσάκις ἄρα ὁ ΓΔ τὸν Α μετρεῖ καὶ ὁ ΕΖ τὸν Β;
+ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 20}
+\end{center}
+
+The  least numbers of those (numbers) having the
+same ratio  measure those (numbers) having the same ratio as them an equal
+number of times, the greater (measuring) the greater, and the lesser  the lesser.
+
+For let $CD$ and $EF$ be the least numbers having the same ratio as $A$ and
+$B$ (respectively). I say that $CD$ measures $A$ the same number of times
+as $EF$ (measures) $B$.
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig20e.eps}}
+
+For $CD$ is not parts of $A$. For, if possible, let it be (parts of $A$). Thus,
+$EF$ is also the same parts of $B$ that $CD$ (is) of $A$  [Def.~7.20, Prop.~7.13]. Thus, as many parts of $A$ as
+are in $CD$, so many parts of $B$ are also in $EF$.  Let $CD$ be divided into the parts of $A$, $CG$ and $GD$, and $EF$ into the
+parts of $B$, $EH$ and $HF$. So the multitude of (divisions) $CG$, $GD$
+will be equal to the multitude of (divisions) $EH$, $HF$. And since the
+numbers $CG$ and $GD$ are equal to one another, and the numbers
+$EH$ and $HF$ are also equal to one another, and the multitude of (divisions)
+$CG$, $GD$ is equal to the multitude of (divisions) $EH$, $HF$, thus as $CG$ is to $EH$, so
+$GD$ (is) to $HF$. Thus,  as one of the
+leading (numbers is) to one of the following, so will (the sum of) all
+of the leading (numbers)  be  to (the sum of) all of the following [Prop.~7.12].  Thus, as $CG$ is to $EH$,
+so $CD$ (is) to $EF$. Thus, $CG$ and $EH$ are in the same ratio as
+$CD$ and $EF$, being less than them. The very thing is impossible. For
+$CD$ and $EF$ were assumed (to be) the least of those (numbers) having
+the same ratio as them. Thus, $CD$ is not parts of $A$. Thus, (it is) a
+part (of $A$) [Prop.~7.4]. And $EF$ is the same part of $B$ that $CD$ (is) of $A$ [Def.~7.20, Prop~7.13]. Thus, $CD$ measures $A$ the same number of times that $EF$ (measures) $B$. (Which is) the very thing it was required to
+show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.21
+%%%%%%
+\pdfbookmark[1]{Proposition 7.21}{pdf7.21}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large\ggn{21}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Οἱ πρῶτοι πρὸς ἀλλήλους ἀριθμοὶ ἐλάθιστοί εἰσι τῶν τὸν α ὐτὸν
+λόγον ἐθόντων α ὐτοῖς.}
+
+{\greekfont Ἔστωσαν πρῶτοι πρὸς ἀλλήλους ἀριθμοὶ οἱ Α, Β; λέγω, ὅτι
+οἱ Α, Β ἐλάθιστοί εἰσι τῶν τὸν α ὐτὸν λόγον ἐθόντων
+α ὐτοῖς.}
+
+{\greekfont Εἰ γὰρ μή, ἔσονταί τινες τῶν Α, Β ἐλάσσονες ἀριθμοὶ
+ἐν τῷ α ὐτῷ λόγῳ ὄντες τοῖς Α, Β. ἔστωσαν
+οἱ Γ, Δ.}\\~\\
+
+\epsfysize=1.8in
+\centerline{\epsffile{Book07/fig21g.eps}}
+
+{\greekfont Ἐπεὶ οὖν οἱ ἐλάθιστοι ἀριθμοὶ τῶν τὸν α ὐτὸν λόγον ἐθόντων
+μετροῦσι τοὺς τὸν α ὐτὸν λόγον ἔθοντας ἰσάκις ὅ τε μείζων
+τὸν μείζονα καὶ ὁ ἐλάττων τὸν ἐλάττονα, τουτέστιν ὅ τε ἡγούμενος
+τὸν ἡγούμενον καὶ ὁ ἑπόμενος τὸν ἑπόμενον, ἰσάκις ἄρα
+ὁ Γ τὸν Α μετρεῖ καὶ ὁ Δ τὸν Β. ὁσάκις δὴ 
+ὁ Γ τὸν Α μετρεῖ, τοσαῦται μονάδες ἔστωσαν ἐν τῷ Ε.
+καὶ ὁ Δ ἄρα τὸν Β μετρεῖ κατὰ τὰς ἐν τῷ Ε μονάδας.
+καὶ ἐπεὶ ὁ Γ τὸν Α μετρεῖ κατὰ τὰς ἐν τῷ Ε μονάδας, καί
+ὁ Ε ἄρα τὸν Α μετρεῖ κατὰ τὰς ἐν τῷ Γ
+μονάδας. διὰ τὰ α ὐτὰ δὴ ὁ Ε καὶ τὸν Β μετρεῖ κατὰ τὰς ἐν τῷ
+Δ μονάδας. ὁ Ε ἄρα τοὺς Α, Β μετρεῖ πρώτους
+ὄντας πρὸς ἀλλήλους; ὅπερ ἐστὶν ἀδύνατον. οὐκ ἄρα ἔσονταί
+τινες τῶν Α, Β ἐλάσσονες ἀριθμοὶ ἐν τῷ α ὐτῷ λόγῳ
+ὄντες τοῖς Α, Β. οἱ Α, Β ἄρα ἐλάθιστοί εἰσι τῶν τὸν α ὐτὸν
+λόγον ἐθόντων α ὐτοῖς; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 21}
+\end{center}
+
+Numbers prime to one another are the least of
+those (numbers) having the same ratio as them.
+
+Let $A$ and $B$ be numbers prime to one another. I say that $A$ and $B$
+are the least of those (numbers) having the same ratio as them.
+
+For if not then there will be some numbers less than $A$ and $B$ which are in
+the same ratio as $A$ and $B$. Let them be $C$ and $D$.
+
+\epsfysize=1.8in
+\centerline{\epsffile{Book07/fig21e.eps}}
+
+Therefore, since the least numbers of those (numbers) having the
+same ratio measure those (numbers) having the same ratio (as them)
+an equal number of times, the greater (measuring) the greater, and
+the lesser  the lesser---that is to say, the leading (measuring) the leading, and
+the following the following---$C$ thus measures $A$ the same number of
+times that $D$ (measures) $B$  [Prop.~7.20].
+So as many times as $C$ measures $A$, so many units let there be in $E$.
+Thus, $D$ also measures $B$ according to the units in $E$. And since $C$ measures
+$A$ according to the units in $E$, $E$ thus also measures $A$ according to the
+units in $C$ [Prop.~7.16]. So, for the
+same (reasons), $E$ also measures $B$ according to the units in $D$  [Prop.~7.16]. Thus, $E$ measures $A$ and $B$, which
+are prime to one another. The very thing is impossible. Thus, there cannot
+be any numbers less than $A$ and $B$ which are in the same ratio as $A$ and
+$B$. Thus, $A$ and $B$ are the least of those (numbers) having the same ratio
+as them. (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.22
+%%%%%%
+\pdfbookmark[1]{Proposition 7.22}{pdf7.22}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large\ggn{22}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Οἱ ἐλάθιστοι ἀριθμοὶ τῶν τὸν α ὐτὸν λόγον ἐθόντων α ὐτοῖς
+πρῶτοι πρὸς ἀλλήλους εἰσίν.}
+
+\epsfysize=1.6in
+\centerline{\epsffile{Book07/fig22g.eps}}
+
+{\greekfont Ἔστωσαν ἐλάθιστοι ἀριθμοὶ τῶν τὸν α ὐτὸν λόγον ἐθόντων
+α ὐτοῖς οἱ Α, Β; λέγω, ὅτι οἱ Α, Β πρῶτοι πρὸς ἀλλήλους
+εἰσίν.}
+
+{\greekfont Εἰ γὰρ μή εἰσι πρῶτοι πρὸς ἀλλήλους, μετρήσει τις α ὐτοὺς
+ἀριθμός. μετρείτω, καὶ ἔστω ὁ Γ. καὶ ὁσάκις μὲν ὁ Γ
+τὸν Α μετρεῖ, τοσαῦται μονάδες ἔστωσαν ἐν τῷ Δ, ὁσάκις
+δὲ ὁ Γ τὸν Β μετρεῖ, τοσαῦται μονάδες ἔστωσαν ἐν τῷ Ε.}
+
+{\greekfont Ἐπεὶ ὁ Γ τὸν Α μετρεῖ κατὰ τὰς ἐν τῷ Δ μονάδας, ὁ Γ
+ἄρα τὸν Δ πολλαπλασιάσας τὸν Α  πεποίηκεν. διὰ τὰ α ὐτὰ δὴ καὶ ὁ
+Γ τὸν Ε πολλαπλασιάσας τὸν Β πεποίηκεν. ἀριθμὸς δὴ ὁ Γ δύο
+ἀριθμοὺς τοὺς Δ, Ε πολλαπλασιάσας τοὺς Α, Β πεποίηκεν; ἔστιν
+ἄρα ὡς ὁ Δ πρὸς τὸν Ε, οὕτως ὁ Α πρὸς τὸν Β; οἱ Δ, Ε
+ἄρα τοῖς Α, Β ἐν τῷ α ὐτῷ
+λόγῳ εἰσὶν ἐλάσσονες ὄντες α ὐτῶν;  ὅπερ ἐστὶν ἀδύνατον.
+οὐκ ἄρα τοὺς Α, Β ἀριθμοὺς ἀριθμός τις μετρήσει. οἱ Α, Β
+ἄρα πρῶτοι πρὸς ἀλλήλους εἰσίν; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 22}
+\end{center}
+
+The  least numbers of those (numbers) having
+the same ratio as them are prime to one another.
+
+\epsfysize=1.6in
+\centerline{\epsffile{Book07/fig22e.eps}}
+
+Let $A$ and $B$ be the least numbers of those (numbers) having the same
+ratio as them. I say that $A$ and $B$ are prime to one another.
+
+For if they are not prime to one another, (then) some number will measure them.
+Let it (so measure them), and let it be $C$. And as many times as $C$ measures
+$A$, so many units let there be in $D$. And as many times as $C$ measures $B$,
+so many units let there be in $E$.
+
+Since $C$ measures $A$ according to the units in $D$,  $C$ has thus made $A$ (by)
+multiplying $D$ [Def.~7.15].
+So, for the same (reasons), $C$ has also made $B$ (by) multiplying
+$E$. So the number $C$ has made $A$ and $B$ (by) multiplying the two
+numbers $D$ and $E$ (respectively).  Thus, as $D$ is to $E$, so $A$ (is) to $B$ [Prop.~7.17]. Thus, $D$ and $E$ are in the same
+ratio as $A$ and $B$, being less than them. The very thing is impossible. Thus,
+some number does not measure the numbers $A$ and $B$. Thus, $A$ and $B$ are prime to one another. (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.23
+%%%%%%
+\pdfbookmark[1]{Proposition 7.23}{pdf7.23}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large\ggn{23}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν δύο ἀριθμοὶ πρῶτοι πρὸς ἀλλήλους ὦσιν, ὁ τὸν ἕνα
+α ὐτῶν μετρῶν ἀριθμὸς πρὸς τὸν λοιπὸν πρῶτος ἔσται.}
+
+{\greekfont Ἔστωσαν δύο ἀριθμοὶ πρῶτοι πρὸς ἀλλήλους οἱ Α, Β, τὸν
+δὲ Α μετρείτω τις ἀριθμὸς ὁ Γ; λέγω, ὅτι καὶ οἱ Γ, Β
+πρῶτοι πρὸς ἀλλήλους εἰσίν.}
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig23g.eps}}
+
+{\greekfont Εἰ γὰρ μή εἰσιν οἱ Γ, Β πρῶτοι πρὸς ἀλλήλους, μετρήσει [τις]
+τοὺς Γ, Β ἀριθμός. μετρείτω, καὶ ἔστω ὁ Δ. ἐπεὶ ὁ Δ τὸν
+Γ μετρεῖ, ὁ δὲ Γ τὸν Α μετρεῖ, καὶ ὁ Δ ἄρα τὸν Α μετρεῖ.
+μετρεῖ δὲ καὶ τὸν Β; ὁ Δ ἄρα τοὺς Α, Β μετρεῖ πρώτους
+ὄντας πρὸς ἀλλήλους; ὅπερ ἐστὶν ἀδύνατον. οὐκ ἄρα
+τοὺς Γ, Β ἀριθμοὺς ἀριθμός τις μετρήσει. οἱ Γ, Β ἄρα
+πρῶτοι πρὸς ἀλλήλους εἰσίν; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 23}
+\end{center}
+
+If two numbers are prime to one another, (then)
+a number measuring one of them will be prime to the remaining (one).
+
+Let $A$ and $B$ be two numbers (which are) prime to one another, and let some
+number $C$ measure $A$. I say that $C$ and $B$ are also prime to one another.
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig23e.eps}}
+
+For if $C$ and $B$ are not prime to one another, (then) [some] number will measure
+$C$ and $B$. Let it (so) measure (them), and let it be $D$. Since $D$ measures $C$,
+and $C$ measures $A$, $D$ thus also measures $A$. And  ($D$) also measures $B$. 
+Thus, $D$ measures $A$ and $B$, which are prime to one another. The very thing is
+impossible. Thus, some number does not measure the numbers $C$ and $B$.
+Thus, $C$ and $B$ are prime to one another. (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.24
+%%%%%%
+\pdfbookmark[1]{Proposition 7.24}{pdf7.24}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large\ggn{24}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν δύο ἀριθμοὶ πρός τινα ἀριθμὸν πρῶτοι ὦσιν, καὶ ὁ ἐχ
+α ὐτῶν γενόμενος πρὸς τὸν α ὐτὸν πρῶτος ἔσται.}\\
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig24g.eps}}
+
+{\greekfont Δύο γὰρ ἀριθμοὶ οἱ Α, Β πρός τινα ἀριθμὸν τὸν Γ πρῶτοι ἔστωσαν, 
+καὶ ὁ Α τὸν Β πολλαπλασιάσας τὸν Δ ποιείτω; λέγω, ὅτι οἱ Γ, Δ
+πρῶτοι πρὸς ἀλλήλους εἰσίν.}
+
+{\greekfont Εἰ γὰρ μή εἰσιν οἱ Γ, Δ πρῶτοι πρὸς ἀλλήλους, μετρήσει
+[τις] τοὺς Γ, Δ ἀριθμός. μετρείτω, καὶ ἔστω ὁ Ε. καὶ ἐπεὶ
+οἱ Γ, Δ πρῶτοι πρὸς ἀλλήλους εἰσίν, τὸν δὲ Γ μετρεῖ τις
+ἀριθμὸς ὁ Ε, οἱ Α, Ε ἄρα πρῶτοι πρὸς ἀλλήλους εἰσίν. ὁσάκις
+δὴ ὁ Ε τὸν Δ μετρεῖ, τοσαῦται μονάδες ἔστωσαν ἐν τῷ Ζ;
+καὶ ὁ Ζ ἄρα τὸν Δ μετρεῖ κατὰ  τὰς ἐν τῷ
+ Ε μονάδας.
+ὁ Ε ἄρα τὸν Ζ πολλαπλασιάσας τὸν Δ πεποίηκεν. ἀλλὰ μὴν καὶ
+ὁ Α τὸν Β  πολλαπλασιάσας τὸν Δ πεποίηκεν; ἴσος ἄρα ἐστὶν
+ὁ ἑκ τῶν Ε, Ζ τῷ ἐκ τῶν Α, Β. ἐὰν δὲ ὁ ὑπὸ τῶν ἄκρων
+ἴσος ᾖ τῷ ὑπὸ τῶν μέσων, οἱ τέσσαρες ἀριθμοὶ ἀνάλογόν
+εἰσιν; ἔστιν ἄρα ὡς ὁ Ε πρὸς τὸν Α, οὕτως ὁ Β πρὸς τὸν Ζ. οἱ δὲ Α, Ε πρῶτοι, οἱ δὲ πρῶτοι καὶ ἐλάθιστοι, οἱ δὲ ἐλάθιστοι
+ἀριθμοὶ τῶν τὸν α ὐτὸν λόγον ἐθόντων α ὐτοῖς μετροῦσι 
+τοὺς τὸν α ὐτὸν λόγον
+ἔθοντας
+ἰσάκις ὅ τε μείζων τὸν μείζονα καὶ ὁ ἐλάσσων τὸν ἐλάσσονα,
+τουτέστιν ὅ τε ἡγούμενος τὸν ἡγούμενον καὶ ὁ ἑπόμενος
+τὸν ἑπόμενον; ὁ Ε ἄρα τὸν Β μετρεῖ. μετρεῖ δὲ καὶ τὸν Γ;
+ὁ Ε ἄρα τοὺς Β, Γ μετρεῖ πρώτους ὄντας πρὸς ἀλλήλους;
+ὅπερ ἐστὶν ἀδύνατον. οὐκ ἄρα τοὺς Γ, Δ ἀριθμοὺς
+ἀριθμός τις μετρήσει. οἱ Γ, Δ ἄρα πρῶτοι πρὸς ἀλλήλους
+εἰσίν; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 24}
+\end{center}
+
+If two numbers are prime to some number, (then)
+the number created from (multiplying) the former (two numbers) will also be prime to
+the latter (number).
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig24e.eps}}
+
+For let $A$ and $B$ be two numbers (which are both) prime to some number $C$. And let $A$ make
+$D$ (by) multiplying $B$. I say that $C$ and $D$ are prime to one another.
+
+For if $C$ and $D$ are not prime to one another, (then) [some] number will
+measure $C$ and $D$. Let it (so) measure them, and let it be $E$. And since
+$C$ and $A$ are prime to one another, and some number $E$ measures $C$, $A$ and $E$
+are thus prime to one another  [Prop.~7.23].
+So as many times as $E$ measures $D$, so many units let there be in $F$.
+Thus, $F$ also measures $D$ according to the units in $E$ [Prop.~7.16]. Thus, $E$ has made $D$ (by) multiplying
+$F$ [Def.~7.15]. But, in fact, $A$ has also made
+$D$ (by) multiplying $B$.
+ Thus, the (number created) from (multiplying) $E$ and $F$ is equal to the  (number created) from (multiplying) $A$ and $B$. And if the (rectangle contained) by the (two)
+outermost is equal to the (rectangle contained) by the middle (two then) the
+four numbers are proportional [Prop.~6.15].
+Thus, as $E$ is to $A$, so $B$  (is) to $F$. And $A$ and $E$ (are) prime (to one another).
+And (numbers) prime (to one another) are also the least (of those numbers having the same ratio)
+[Prop.~7.21]. And the least numbers of those
+(numbers) having the same ratio  measure those (numbers)
+having the same ratio as them an equal number of times,
+the greater (measuring) the greater, and the lesser the lesser---that is
+to say, the leading (measuring) the leading, and the following the
+following [Prop.~7.20]. Thus, $E$
+measures $B$.  And it also measures $C$. Thus, $E$ measures $B$ and $C$, which
+are prime to one another. The very thing is impossible. Thus, some
+number cannot measure the numbers $C$ and $D$. Thus, $C$ and
+$D$ are prime to one another. (Which is) the very thing it was required
+to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.25
+%%%%%%
+\pdfbookmark[1]{Proposition 7.25}{pdf7.25}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{25}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν δύο ἀριθμοὶ πρῶτοι πρὸς ἀλλήλους ὦσιν, ὁ ἐκ τοῦ ἑνὸς
+α ὐτῶν γενόμενος πρὸς τὸν λοιπὸν πρῶτος ἔσται.}
+
+{\greekfont Ἔστωσαν δύο ἀριθμοὶ πρῶτοι πρὸς ἀλλήλους οἱ Α, Β, καὶ ὁ
+Α ἑαυτὸν πολλαπλασιάσας τὸν Γ ποιείτω; λέγω, ὅτι οἱ Β, Γ
+πρῶτοι πρὸς ἀλλὴλους εἰσίν.}\\
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig25g.eps}}
+
+{\greekfont Κείσθω γὰρ τῷ Α ἴσος ὁ Δ. ἐπεὶ οἱ Α, Β πρῶτοι πρὸς ἀλλήλους
+εἰσίν, ἴσος δὲ ὁ Α τῷ Δ, καί οἱ Δ, Β ἄρα πρῶτοι πρὸς ἀλλήλους
+εἰσίν. ἑκάτερος ἄρα τῶν Δ, Α πρὸς τὸν Β πρῶτός ἐστιν;
+ καὶ ὁ ἐκ τῶν Δ, Α ἄρα γενόμενος πρὸς τὸν Β πρῶτος
+ἔσται. ὁ δὲ ἐκ τῶν Δ, Α γενόμενος ἀριθμός ἐστιν ὁ Γ. οἱ
+Γ, Β ἄρα πρῶτοι πρὸς ἀλλήλους εἰσίν; ὅπερ ἔδει
+δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 25}
+\end{center}
+
+If two numbers are prime to one another, (then) the
+number created from (squaring) one of them will be prime to
+the remaining (number).
+
+
+Let $A$ and $B$ be two numbers (which are) prime to one another. And let $A$ make $C$ (by) multiplying itself. I say that $B$ and $C$ are prime to one
+another.
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig25e.eps}}
+
+For let $D$ be made equal to $A$. Since $A$ and $B$ are prime to one another, and
+$A$ (is) equal to $D$, $D$ and $B$ are thus also prime to one another. Thus, $D$ and
+$A$ are each prime to $B$. Thus, the (number) created from (multilying)
+$D$ and $A$ will also be prime to $B$ [Prop.~7.24].
+And $C$ is the number created from (multiplying) $D$ and $A$. Thus,
+$C$ and $B$ are prime to one another. (Which is) the very thing it was required
+to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.26
+%%%%%%
+\pdfbookmark[1]{Proposition 7.26}{pdf7.26}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{26}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν δύο ἀριθμοὶ πρὸς δύο ἀριθμοὺς ἀμφότεροι πρὸς ἑκάτερον
+πρῶτοι ὦσιν, καὶ οἱ ἐχ α ὐτῶν γενόμενοι πρῶτοι πρὸς
+ἀλλήλους ἔσονται.}
+
+{\greekfont Δύο γὰρ ἀριθμοὶ οἱ Α, Β πρὸς δύο ἀριθμοὺς τοὺς Γ, Δ ἀμφότεροι
+πρὸς ἑκάτερον πρῶτοι ἔστωσαν, καὶ ὁ μὲν Α τὸν Β πολλαπλασιάσας
+τὸν Ε ποιείτω, ὁ δὲ Γ τὸν Δ πολλαπλασιάσας τὸν Ζ ποιείτω; λέγω, ὅτι
+οἱ Ε, Ζ πρῶτοι πρὸς ἀλλήλους εἰσίν.}
+
+\epsfysize=1in
+\centerline{\epsffile{Book07/fig26g.eps}}
+
+{\greekfont Ἐπεὶ γὰρ ἑκάτερος τῶν Α, Β πρὸς τὸν Γ πρῶτός ἐστιν, καὶ
+ὁ ἐκ τῶν Α, Β ἄρα γενόμενος πρὸς τὸν Γ πρῶτος ἔσται.
+ὁ δὲ ἐκ τῶν Α, Β γενόμενός ἐστιν ὁ Ε; οἱ Ε, Γ ἄρα
+πρῶτοι πρὸς ἀλλήλους εἰσίν. διὰ τὰ α ὐτὰ δὴ καὶ οἱ Ε, Δ
+πρῶτοι πρὸς ἀλλήλους εἰσίν. ἑκάτερος ἄρα τῶν Γ, Δ πρὸς τὸν Ε
+πρῶτός ἐστιν. καὶ ὁ ἐκ τῶν Γ, Δ ἄρα γενόμενος πρὸς
+τὸν Ε πρῶτος ἔσται. ὁ δὲ ἐκ τῶν Γ, Δ γενόμενός
+ἐστιν ὁ Ζ. οἱ Ε, Ζ ἄρα πρῶτοι πρὸς ἀλλήλους εἰσίν; ὅπερ
+ἔδει δεῖχαι.
+}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 26}
+\end{center}
+
+If two numbers are both prime to each of two
+numbers,  (then) the (numbers) created from (multiplying) them will
+also be prime to one another.
+
+For let two numbers, $A$ and $B$, both be prime to each of two numbers, $C$ and
+$D$. And let $A$ make $E$ (by) multiplying $B$, and let $C$ make $F$ (by) multiplying
+$D$. I say that $E$ and $F$ are prime to one another.
+
+\epsfysize=1in
+\centerline{\epsffile{Book07/fig26e.eps}}
+
+For since $A$ and $B$ are each prime to $C$, the (number) created from (multiplying) $A$ and $B$ will thus also be prime to $C$ [Prop.~7.24]. And $E$ is the (number) created
+from (multiplying) $A$ and $B$. Thus, $E$ and $C$ are prime to one another.
+So, for the same (reasons), $E$ and $D$ are also prime to one another.
+Thus, $C$ and $D$ are each prime to $E$. Thus, the (number) created from
+(multiplying) $C$ and $D$ will also be prime to $E$ [Prop.~7.24]. And $F$ is the (number) created from
+(multiplying) $C$ and $D$. Thus, $E$ and $F$ are prime to one another.
+(Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.27
+%%%%%%
+\pdfbookmark[1]{Proposition 7.27}{pdf7.27}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large\ggn{27}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν δύο ἀριθμοὶ πρῶτοι πρὸς ἀλλήλους ὦσιν, καὶ πολλαπλασιάσας
+ἑκάτερος ἑαυτὸν ποιῇ τινα, οἱ γενόμενοι ἐχ α ὐτῶν πρῶτοι
+πρὸς ἀλλήλους ἔσονται, κἂν οἱ ἐχ ἀρθῆς τοὺς γενομένους
+πολλαπλασιάσαντες ποιῶσί τινας, κἀκεῖνοι πρῶτοι πρὸς ἀλλήλους
+ἔσονται [καὶ ἀεὶ περὶ τοὺς ἄκρους τοῦτο συμβαίνει].}
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig27g.eps}}
+
+{\greekfont Ἔστωσαν δύο ἀριθμοὶ πρῶτοι πρὸς ἀλλήλους οἱ  Α, Β, καὶ ὁ Α
+ἑαυτὸν μὲν πολλαπλασιάσας τὸν Γ ποιείτω, τὸν δὲ Γ πολλαπλασιάσας
+τὸν Δ ποιείτω, ὁ δὲ Β ἑαυτὸν μὲν πολλαπλασιάσας τὸν Ε ποιείτω,
+τὸν δὲ Ε πολλαπλασιάσας τὸν Ζ ποιείτω; λέγω, ὅτι οἵ τε Γ, Ε καὶ
+οἱ Δ, Ζ πρῶτοι πρὸς ἀλλήλους εἰσίν.}
+
+{\greekfont Ἐπεὶ γὰρ οἱ Α, Β πρῶτοι πρὸς ἀλλήλους εἰσίν, καὶ ὁ Α ἑαυτὸν
+πολλαπλασιάσας τὸν Γ πεποίηκεν, οἱ Γ, Β ἄρα πρῶτοι πρὸς ἀλλήλους
+εἰσίν. ἐπεὶ οὖν οἱ Γ, Β πρῶτοι πρὸς ἀλλήλους εἰσίν, καὶ
+ὁ Β ἑαυτὸν πολλαπλασιάσας τὸν Ε πεποίηκεν, οἱ Γ, Ε ἄρα πρῶτοι
+πρὸς ἀλλήλους εἰσίν. πάλιν, ἐπεὶ οἱ Α, Β πρῶτοι πρὸς
+ἀλλήλους εἰσίν, καὶ ὁ Β ἑαυτὸν πολλαπλασιάσας τὸν Ε πεποίηκεν,
+οἱ Α, Ε ἄρα πρῶτοι πρὸς ἀλλήλους εἰσίν. ἐπεὶ οὖν δύο
+ἀριθμοὶ οἱ Α, Γ πρὸς δύο ἀριθμοὺς τοὺς Β, Ε ἀμφότεροι
+πρὸς ἑκάτερον πρῶτοί εἰσιν, καὶ ὁ ἐκ τῶν Α, Γ ἄρα γενόμενος
+πρὸς τὸν ἐκ τῶν Β, Ε πρῶτός ἐστιν. καί ἐστιν ὁ μὲν ἐκ
+τῶν Α, Γ ὁ Δ, ὁ δὲ ἐκ τῶν Β, Ε ὁ Ζ. οἱ Δ, Ζ ἄρα πρῶτοι
+πρὸς ἀλλήλους εἰσίν; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 27}$^\dag$
+\end{center}
+
+If two numbers are prime to one another and each
+makes some (number by) multiplying itself, (then) the numbers
+created from them will be prime to one another, and if the original (numbers)
+make some (more numbers by) multiplying the created (numbers, then) these 
+will also be prime to one another [and this always happens with the
+extremes].
+
+\epsfysize=2in
+\centerline{\epsffile{Book07/fig27e.eps}}
+
+Let $A$ and $B$ be two numbers prime to one another, and let $A$ make
+$C$ (by) multiplying itself, and let it make $D$ (by) multiplying $C$. 
+And let $B$ make $E$ (by) multiplying itself, and let it make $F$ by multiplying $E$.
+I say that $C$ and $E$, and $D$ and $F$, are prime to one another.
+
+For since $A$ and $B$ are prime to one another, and $A$ has made $C$ (by)
+multiplying itself, $C$ and $B$ are thus prime to one another [Prop.~7.25]. Therefore, since
+$C$ and $B$ are prime to one another, and $B$ has made $E$ (by) multiplying itself,
+$C$ and $E$ are thus prime to one another [Prop.~7.25].  Again, since $A$ and $B$ are prime to
+one another, and $B$ has made $E$ (by) multiplying itself, $A$ and $E$ are thus
+prime to one another [Prop.~7.25]. Therefore,
+since the two numbers $A$ and $C$ are both prime to each of the two numbers
+$B$ and $E$, the (number) created from (multiplying) $A$ and $C$ is thus
+prime to the (number created) from (multiplying) $B$ and $E$ [Prop.~7.26]. And $D$ is the (number created)
+from (multiplying) $A$ and $C$, and $F$ the (number created) from (multiplying)
+$B$ and $E$. Thus, $D$ and $F$ are prime to one another. (Which is) the 
+very thing it
+was required to show.}
+\end{Parallel}
+{\footnotesize\noindent$^\dag$ In modern notation, this proposition
+states that if $a$ is prime to $b$, then $a^2$ is also prime to $b^2$,
+as well as $a^3$ to $b^3$, etc., where all symbols denote numbers.}
+
+%%%%%%
+% Prop 7.28
+%%%%%%
+\pdfbookmark[1]{Proposition 7.28}{pdf7.28}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{28}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν δύο ἀριθμοὶ πρῶτοι πρὸς ἀλλήλους ὦσιν, καὶ συναμφότερος
+πρὸς ἑκάτερον α ὐτῶν πρῶτος ἔσται; καὶ ἐὰν συναμφότερος πρὸς ἕνα τινὰ
+α ὐτῶν πρῶτος ᾖ, καὶ οἱ ἐχ ἀρθῆς ἀριθμοὶ πρῶτοι πρὸς
+ἀλλήλους ἔσονται.}
+
+\epsfysize=0.7in
+\centerline{\epsffile{Book07/fig28g.eps}}
+
+{\greekfont Συγκείσθωσαν γὰρ δύο ἀριθμοὶ πρῶτοι πρὸς ἀλλήλ-ους οἱ ΑΒ, ΒΓ;
+λέγω, ὅτι καὶ συναμφότερος ὁ ΑΓ πρὸς ἑκάτερον τῶν ΑΒ, ΒΓ πρῶτός
+ἐστιν.}
+
+{\greekfont Εἰ γὰρ μή εἰσιν οἱ ΓΑ, ΑΒ πρῶτοι πρὸς ἀλλήλους, μετρήσει τις
+τοὺς ΓΑ, ΑΒ ἀριθμός. μετρείτω, καὶ ἔστω ὁ Δ. ἐπεὶ οὖν
+ὁ Δ τοὺς ΓΑ, ΑΒ μετρεῖ, καὶ λοιπὸν ἄρα τὸν ΒΓ μετρήσει.
+μετρεῖ δὲ καὶ τὸν ΒΑ; ὁ Δ ἄρα τοὺς ΑΒ, ΒΓ μετρεῖ πρώτους
+ὄντας πρὸς ἀλλήλους; ὅπερ ἐστὶν ἀδύνατον. οὐκ ἄρα τοὺς
+ΓΑ, ΑΒ ἀριθμοὺς ἀριθμός τις μετρήσει; οἱ ΓΑ, ΑΒ ἄρα
+πρῶτοι πρὸς ἀλλήλους εἰσίν. διὰ τὰ α ὐτὰ δὴ καὶ οἱ ΑΓ, ΓΒ
+πρῶτοι πρὸς ἀλλήλους εἰσίν. ὁ ΓΑ ἄρα πρὸς ἑκάτερον τῶν
+ΑΒ, ΒΓ πρῶτός ἐστιν.}
+
+{\greekfont Ἔστωσαν δὴ πάλιν οἱ ΓΑ, ΑΒ πρῶτοι πρὸς ἀλλήλους; λέγω,
+ὅτι καὶ οἱ ΑΒ, ΒΓ πρῶτοι πρὸς ἀλλήλους εἰσίν.}
+
+{\greekfont Εἰ γὰρ μή εἰσιν οἱ ΑΒ, ΒΓ πρῶτοι πρὸς ἀλλήλους, μετρήσει
+τις τοὺς ΑΒ, ΒΓ ἀριθμός. μετρείτω, καὶ ἔστω ὁ Δ. καὶ ἐπεὶ ὁ Δ
+ἑκάτερον τῶν ΑΒ, ΒΓ μετρεῖ, καὶ ὅλον ἄρα τὸν ΓΑ μετρήσει.
+μετρεῖ δὲ καὶ τὸν ΑΒ; ὁ Δ ἄρα τοὺς ΓΑ, ΑΒ μετρεῖ πρώτους
+ὄντας πρὸς ἀλλήλους; ὅπερ ἐστὶν ἀδύνατον. οὐκ ἄρα τοὺς
+ΑΒ, ΒΓ ἀριθμοὺς ἀριθμός τις μετρήσει. οἱ ΑΒ, ΒΓ ἄρα πρῶτοι πρὸς
+ἀλλήλους εἰσίν; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 28}
+\end{center}
+
+If two numbers are prime to one another,
+(then) their sum will also be prime to each of them. And if the sum (of two numbers) is
+prime to any one of them, (then) the original numbers will also be prime
+to one another.
+
+\epsfysize=0.7in
+\centerline{\epsffile{Book07/fig28e.eps}}
+
+For let the two numbers, $AB$ and $BC$, (which are) prime to one another,
+be laid down together. I say that their sum $AC$ is also prime to each of
+$AB$ and $BC$.
+
+For if $CA$ and $AB$ are not prime to one another, (then) some number
+will measure $CA$ and $AB$. Let it (so) measure (them), and let it be $D$.
+Therefore, since $D$ measures $CA$ and $AB$, it will thus also measure the remainder
+$BC$. And it also measures $BA$. Thus, $D$ measures $AB$ and $BC$, which are
+prime to one another. The very thing is impossible. Thus, some number cannot measure (both) the numbers $CA$ and $AB$. Thus, $CA$ and $AB$ are prime to
+one another. So, for the same (reasons), $AC$ and $CB$ are also prime to one another. Thus, $CA$ is prime to each of $AB$ and $BC$.
+
+So, again, let $CA$ and $AB$  be prime to one another. I say that $AB$ and $BC$
+are also prime to one another.
+
+For if $AB$ and $BC$ are not prime to one another, (then) some number will measure $AB$ and $BC$. Let it (so) measure (them), and let it be $D$. And since
+$D$ measures each of $AB$ and $BC$, it will thus also measure the whole
+of $CA$. And it also measures $AB$. Thus, $D$ measures $CA$ and $AB$, which are
+prime to one another. The very thing is impossible. Thus, some number
+cannot measure (both) the numbers $AB$ and $BC$. Thus, $AB$ and $BC$ are prime
+to one another. (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.29
+%%%%%%
+\pdfbookmark[1]{Proposition 7.29}{pdf7.29}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large\ggn{29}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἅπας πρῶτος ἀριθμὸς πρὸς ἅπαντα ἀριθμόν, ὃν μὴ μετρεῖ, πρῶτός ἐστιν.}
+
+{\greekfont Ἔστω πρῶτος ἀριθμὸς ὁ Α καὶ τὸν Β μὴ μετρείτω; λέγω, ὅτι
+οἱ Β, Α πρῶτοι πρὸς ἀλλήλους εἰσίν.}
+
+\epsfysize=0.8in
+\centerline{\epsffile{Book07/fig29g.eps}}
+
+{\greekfont Εἰ γὰρ μή εἰσιν οἱ Β, Α πρῶτοι πρὸς ἀλλήλους, μετρήσει τις
+α ὐτοὺς ἀριθμός. μετρείτω ὁ Γ. ἐπεὶ ὁ Γ τὸν Β μετρεῖ, ὁ δὲ Α
+τὸν Β οὐ μετρεῖ, ὁ Γ ἄρα τῷ Α οὔκ ἐστιν ὁ α ὐτός. καὶ
+ἐπεὶ ὁ Γ τοὺς Β, Α μετρεῖ, καὶ τὸν Α ἄρα μετρεῖ πρῶτον
+ὄντα μὴ ὢν α ὐτῷ ὁ α ὐτός; ὅπερ ἐστὶν ἀδύνατον. οὐκ
+ἄρα τοὺς Β, Α μετρήσει τις ἀριθμός. οἱ Α, Β ἄρα πρῶτοι
+πρὸς ἀλλήλους εἰσίν; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 29}
+\end{center}
+
+Every prime number is prime to every number which
+it does not measure.
+
+Let $A$ be a prime number, and let it not measure $B$. I say that $B$ and
+$A$ are prime to one another.
+
+\epsfysize=0.8in
+\centerline{\epsffile{Book07/fig29e.eps}}
+
+For if $B$ and $A$ are not prime to one another, (then) some number will measure
+them. Let $C$ measure (them). Since $C$ measures $B$, and $A$ does not measure
+$B$, $C$ is thus not the same as $A$.  And since $C$ measures $B$ and $A$, it thus also
+measures $A$, which is prime, (despite) not being the same as it. The very thing is
+impossible. Thus, some number cannot measure (both) $B$ and $A$.
+Thus, $A$ and $B$ are prime to one another. (Which is) the very thing it
+was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.30
+%%%%%%
+\pdfbookmark[1]{Proposition 7.30}{pdf7.30}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{30}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν δύο ἀριθμοὶ πολλαπλασιάσαντες ἀλλήλους ποιῶσί τινα, τὸν δὲ
+γενόμενον ἐχ α ὐτῶν μετρῇ τις πρῶτος ἀριθμός, καὶ ἕνα
+τῶν ἐχ ἀρθῆς μετρήσει.}\\
+
+\epsfysize=1.6in
+\centerline{\epsffile{Book07/fig30g.eps}}
+
+{\greekfont Δύο γὰρ ἀριθμοὶ οἱ Α, Β πολλαπλασιάσαντες ἀλλήλους τὸν Γ
+ποιείτωσαν, τὸν δὲ Γ μετρείτω τις πρῶτος ἀριθμὸς ὁ Δ;
+λέγω, ὅτι ὁ Δ ἕνα τῶν Α, Β μετρεῖ.}
+
+{\greekfont Τὸν γὰρ Α μὴ μετρείτω; καί ἐστι πρῶτος ὁ Δ;
+οἱ Α, Δ ἄρα πρῶτοι πρὸς ἀλλήλους εἰσίν. καὶ ὁσάκις ὁ Δ
+τὸν Γ μετρεῖ, τοσαῦται μονάδες ἔστωσαν ἐν τῷ Ε. ἐπεὶ οὖν
+ὁ Δ τὸν Γ μετρεῖ κατὰ τὰς ἐν τῷ Ε μονάδας, ὁ Δ ἄρα τὸν Ε
+πολλαπλασιάσας τὸν Γ πεποίηκεν. ἀλλὰ μὴν καὶ ὁ Α τὸν Β πολλαπλασιάσας
+τὸν Γ πεποίηκεν; ἴσος ἄρα ἐστὶν ὁ ἐκ τῶν Δ, Ε τῷ ἐκ τῶν
+Α, Β. ἔστιν ἄρα ὡς ὁ Δ πρὸς τὸν Α, οὕτως ὁ Β πρὸς τὸν Ε.
+οἱ δὲ Δ, Α πρῶτοι, οἱ δὲ πρῶτοι καὶ ἐλάθιστοι, οἱ δὲ ἐλάθιστοι
+μετροῦσι τοὺς τὸν α ὐτὸν λόγον ἔθοντας ἰσάκις ὅ τε μείζων
+τὸν μείζονα καὶ ὁ ἐλάσσων τὸν ἐλάσσονα, τουτέστιν ὅ τε
+ἡγούμενος τὸν ἡγούμενον καὶ ὁ ἐπόμενος τὸν ἑπόμενον;
+ὁ Δ ἄρα τὸν Β μετρεῖ. ὁμοίως δὴ δείχομεν, ὅτι
+καὶ ἐὰν τὸν Β μὴ μετρῇ, τὸν Α μετρήσει. ὁ Δ ἄρα ἕνα
+τῶν Α, Β μετρεῖ; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 30}
+\end{center}
+
+If two numbers make some (number by) multiplying one another, and some prime number measures the number (so) created from them, (then) it will also measure one of the original (numbers).
+
+\epsfysize=1.6in
+\centerline{\epsffile{Book07/fig30e.eps}}
+
+For let two numbers $A$ and $B$ make $C$ (by) multiplying one another, and
+let some prime number $D$ measure $C$. I say that $D$ measures one of $A$ and
+$B$.
+
+For let it not measure $A$. And since $D$ is prime, $A$ and $D$ are thus prime to
+one another [Prop.~7.29]. 
+And as many times as $D$ measures $C$, so many units let there be in $E$.
+Therefore, since $D$ measures $C$ according to the units $E$, $D$ has thus
+made $C$ (by) multiplying $E$ [Def.~7.15].
+But, in fact, $A$ has also made $C$ (by) multiplying $B$. Thus, the
+(number created) from (multiplying) $D$ and $E$ is equal to
+the (number created) from (multiplying) $A$ and $B$. Thus, as $D$ is to $A$,
+so $B$ (is) to $E$ [Prop.~7.19]. And
+$D$ and $A$ (are) prime (to one another), and (numbers) prime (to one another
+are) also the least (of those numbers having the same ratio) [Prop.~7.21], and the least (numbers) measure
+those (numbers) having the same ratio (as them) an equal number of times, the
+greater (measuring) the greater, and the lesser the lesser---that is to
+say, the leading (measuring) the leading, and the following the following
+[Prop.~7.20]. Thus, $D$ measures $B$. So,
+ similarly, we can also show that if ($D$) does not measure $B$,  (then) it will measure
+ $A$. Thus, $D$ measures one of $A$ and $B$. (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.31
+%%%%%%
+\pdfbookmark[1]{Proposition 7.31}{pdf7.31}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{31}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἅπας σύνθεντος ἀριθμὸς ὑπὸ πρώτου τινὸς ἀριθμοῦ μετρεῖται.}
+
+{\greekfont Ἔστω σύνθεντος ἀριθμὸς ὁ Α; λέγω, ὅτι ὁ Α ὑπὸ πρώτου τινὸς
+ἀριθμοῦ μετρεῖται.}
+
+\epsfysize=0.9in
+\centerline{\epsffile{Book07/fig31g.eps}}
+
+{\greekfont Ἐπεὶ γὰρ σύνθετός ἐστιν ὁ Α, μετρήσει τις α ὐτὸν ἀριθμός.
+μετρείτω, καὶ ἔστω ὁ Β. καὶ εἰ μὲν πρῶτός ἐστιν ὁ Β, γεγονὸς
+ἂν εἴη τὸ ἐπιταθθέν. εἰ δὲ σύνθετος, μετρήσει τις α ὐτὸν ἀριθμός.
+μετρείτω, καὶ ἔστω ὁ Γ. καὶ ἐπεὶ ὁ Γ τὸν Β μετρεῖ, ὁ δὲ Β
+τὸν Α μετρεῖ, καὶ ὁ Γ ἄρα τὸν Α μετρεῖ. καὶ εἰ μὲν πρῶτός
+ἐστιν ὁ Γ, γεγονὸς ἂν εἴη τὸ ἐπιταθθέν. εἰ δὲ 
+σύνθετος, μετρήσει τις α ὐτὸν ἀριθμός. τοιαύτης δὴ
+γινομένης 
+ἐπισκέψεως ληφθήσεταί τις πρῶτος ἀριθμός, ὃς μετρήσει. εἰ γὰρ
+οὐ ληφθήσεται, μετρήσουσι τὸν Α ἀριθμὸν ἄπειροι ἀριθμοί, ὧν
+ἕτερος ἑτέρου ἐλάσσων ἐστίν; ὅπερ ἐστὶν ἀδύνατον ἐν
+ἀριθμοῖς. ληφθήσεταί τις ἄρα πρῶτος ἀριθμός, ὃς μετρήσει
+τὸν πρὸ ἑαυτοῦ, ὃς καὶ τὸν Α μετρήσει.}
+
+ {\greekfont Ἅπας ἄρα σύνθεντος ἀριθμὸς ὑπὸ πρώτου τινὸς ἀριθμοῦ μετρεῖται; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 31}
+\end{center}
+
+Every composite number is measured by some
+prime number.
+
+Let $A$ be a composite number. I say that $A$ is measured by some prime
+number.
+
+\epsfysize=0.9in
+\centerline{\epsffile{Book07/fig31e.eps}}
+
+For since $A$ is composite, some number will measure it. Let it (so)
+measure ($A$), and let it be $B$. And if $B$ is prime then that which was
+prescribed has happened. And if ($B$ is) composite,  (then) some number
+will measure it. Let it (so) measure ($B$), and let it be $C$. And since
+$C$ measures $B$, and $B$ measures $A$, $C$ thus also measures $A$. And
+if $C$ is prime then that which was prescribed has happened. 
+And if ($C$ is) composite,  (then) some number will measure it. So, in this
+manner of continued investigation, some prime number will be found
+which will measure (the number preceding it, which will also
+measure $A$). And if (such a number) cannot be found,  (then)
+ an infinite (series of) numbers, each of which is less than the
+preceding, will measure the number $A$. The very thing is impossible for numbers. Thus, some prime
+number will (eventually) be found which will measure the (number) preceding it, 
+which will also measure $A$.
+
+Thus, every composite number is measured by some prime number.
+(Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.32
+%%%%%%
+\pdfbookmark[1]{Proposition 7.32}{pdf7.32}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{32}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἅπας ἀριθμὸς ἤτοι πρῶτός ἐστιν ἢ ὑπὸ πρώτου τινὸς 
+ἀριθμοῦ μετρεῖται.}
+
+\epsfysize=0.2in
+\centerline{\epsffile{Book07/fig32g.eps}}
+
+{\greekfont Ἔστω ἀριθμὸς ὁ Α; λέγω, ὅτι ὁ Α ἤτοι πρῶτός ἐστιν ἢ 
+ὑπὸ πρώτου τινὸς ἀριθμοῦ μετρεῖται.}
+
+{\greekfont Εἰ μὲν οὖν πρῶτός ἐστιν ὁ Α, γεγονὸς ἂν εἴη τό
+ἐπιταθθέν. εἰ δὲ σύνθετος, μετρήσει τις α ὐτὸν πρῶτος
+ἀριθμός.}
+
+{\greekfont Ἅπας ἄρα ἀριθμὸς ἤτοι πρῶτός ἐστιν ἢ ὑπὸ πρώτου 
+τινὸς ἀριθμοῦ μετρεῖται; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 32}
+\end{center}
+
+Every number is either prime, or
+is measured by some prime number.
+
+\epsfysize=0.2in
+\centerline{\epsffile{Book07/fig32e.eps}}
+
+Let $A$ be a number. I say that $A$ is either prime, or is measured by some
+prime number.
+
+In fact, if $A$ is prime,  (then) that which was prescribed has happened.
+And if (it is) composite,  (then)  some
+prime number  will measure it [Prop.~7.31].
+
+Thus, every number is either prime, or
+is measured by some prime number. (Which is) the very thing it was required to
+show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.33
+%%%%%%
+\pdfbookmark[1]{Proposition 7.33}{pdf7.33}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{33}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἀριθμῶν δοθέντων ὁποσωνοῦν εὑρεῖν τοὺς ἐλαθίστο-υς τῶν
+τὸν α ὐτὸν λόγον ἐθόντων α ὐτοῖς.}
+
+{\greekfont Ἔστωσαν οἱ δοθέντες ὁποσοιοῦν ἀριθμοὶ οἱ Α, Β, Γ; δεῖ δὴ εὑρεῖν τοὺς ἐλαθίστους τῶν τὸν α ὐτὸν λόγον ἐθόντων τοῖς
+Α, Β, Γ.}
+
+{\greekfont Οἱ Α, Β, Γ γὰρ ἤτοι πρῶτοι πρὸς ἀλλήλους εἰσὶν ἢ οὔ. εἰ μὲν
+οὖν οἱ Α, Β, Γ πρῶτοι πρὸς ἀλλήλους εἰσίν, ἐλάθιστοί εἰσι τῶν
+τὸν α ὐτὸν λόγον ἐθόντων α ὐτοῖς.}\\
+
+\epsfysize=1.3in
+\centerline{\epsffile{Book07/fig33g.eps}}
+
+{\greekfont Εἰ δὲ οὔ, εἰλήφθω τῶν Α, Β, Γ τὸ μέγιστον κοινὸν μέτρον ὁ Δ,
+καὶ ὁσάκις ὁ Δ ἕκαστον τῶν Α, Β, Γ μετρεῖ, τοσαῦται μονάδες ἔστωσαν ἐν ἑκάστῳ τῶν Ε, Ζ, Η. καὶ ἕκαστος ἄρα τῶν Ε, Ζ, Η ἕκαστον τῶν Α, Β, Γ μετρεῖ κατὰ τὰς ἐν τῷ Δ μονάδας. οἱ
+Ε, Ζ, Η ἄρα τοὺς Α, Β, Γ ἰσάκις μετροῦσιν; οἱ Ε, Ζ, Η ἄρα τοῖς
+Α, Β, Γ ἐν τῷ α ὐτῷ λόγῳ εἰσίν. λέγω δή, ὅτι καὶ ἐλάθιστοι.
+εἰ γὰρ μή εἰσιν οἱ Ε, Ζ, Η ἐλάθιστοι τῶν τὸν α ὐτὸν λόγον ἐθόντων τοῖς Α, Β, Γ, ἔσονται [τινες] τῶν Ε, Ζ, Η ἐλάσσονες
+ἀριθμοὶ ἐν τῷ α ὐτῷ λόγῳ ὄντες τοῖς Α, Β, Γ. ἔστωσαν οἱ
+Θ, Κ, Λ; ἰσάκις ἄρα ὁ Θ τὸν Α μετρεῖ καὶ ἑκάτερος τῶν Κ, Λ
+ἑκάτερον τῶν Β, Γ. ὁσάκις δὲ ὁ Θ τὸν Α μετρεῖ, τοσαῦται μονάδες
+ἔστωσαν ἐν τῷ Μ; καὶ ἑκάτερος ἄρα τῶν Κ, Λ ἑκάτερον τῶν
+Β, Γ μετρεῖ κατὰ τὰς ἐν τῷ Μ μονάδας. καὶ ἐπεὶ ὁ Θ τὸν Α μετρεῖ
+κατὰ τὰς ἐν τῷ Μ μονάδας, καὶ ὁ Μ ἄρα τὸν Α μετρεῖ κατὰ τὰς
+ἐν τῷ Θ μονάδας. διὰ τὰ α ὐτὰ δὴ ὁ Μ καὶ ἑκάτερον τῶν Β, Γ
+μετρεῖ κατὰ τὰς ἐν ἑκατέρῳ τῶν Κ, Λ μονάδας; ὁ Μ ἄρα τοὺς
+Α, Β, Γ μετρεῖ. καὶ ἐπεὶ ὁ Θ τὸν Α μετρεῖ κατὰ τὰς ἐν τῷ
+Μ μονάδας, ὁ Θ ἄρα τὸν Μ πολλαπλασιάσας τὸν Α πεποίηκεν.
+διὰ τὰ α ὐτὰ δὴ καὶ ὁ Ε τὸν Δ πολλαπλασιάσας τὸν Α πεποίηκεν.
+ἴσος ἄρα ἐστὶν ὁ ἐκ τῶν Ε, Δ τῷ ἐκ τῶν Θ, Μ.
+ἔστιν ἄρα ὡς ὁ Ε πρὸς τὸν Θ, οὕτως ὁ Μ πρὸς τὸν Δ. μείζων
+δὲ ὁ Ε τοῦ Θ; μείζων ἄρα καὶ ὁ Μ τοῦ Δ. καὶ μετρεῖ τοὺς
+Α, Β, Γ; ὅπερ ἐστὶν ἀδύνατον; ὑπόκειται γὰρ ὁ Δ τῶν Α, Β, Γ
+τὸ μέγιστον κοινὸν μέτρον. οὐκ ἄρα ἔσονταί τινες τῶν Ε, Ζ, Η
+ἐλάσσονες ἀριθμοὶ ἐν τῷ α ὐτῷ λόγῳ ὄντες τοῖς Α, Β, Γ. οἱ
+Ε, Ζ, Η ἄρα ἐλάθιστοί εἰσι τῶν τὸν α ὐτὸν λόγον ἐθόντων
+τοῖς Α, Β, Γ; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 33}
+\end{center}
+
+To  find the least of those (numbers) having the
+same ratio as any given multitude of numbers.
+
+Let $A$, $B$, and $C$ be any given multitude of numbers. So it is required to
+find the least of those (numbers) having the same ratio as $A$, $B$, and $C$.
+
+For $A$, $B$, and $C$ are either prime to one another, or not. In fact,
+if $A$, $B$, and $C$ are prime to one another, (then) they are the least of those (numbers)
+having the same ratio as them [Prop.~7.22].
+
+\epsfysize=1.3in
+\centerline{\epsffile{Book07/fig33e.eps}}
+
+And if not, let the greatest common measure, $D$, of $A$, $B$, and $C$ have be taken
+[Prop.~7.3]. And as many times as $D$
+measures $A$, $B$,  $C$, so many units let there be in 
+$E$, $F$, $G$, respectively. And thus  $E$, $F$, $G$ measure 
+$A$, $B$, $C$, respectively, according to the units in $D$ [Prop.~7.15]. Thus, $E$, $F$, $G$ measure
+$A$, $B$, $C$ (respectively) an equal number of times. Thus, $E$, $F$,  $G$
+are in the same ratio as $A$, $B$, $C$ (respectively) [Def.~7.20]. So I say that (they
+are) also the least (of those numbers having the same ratio as $A$, $B$, $C$).
+For if $E$, $F$,  $G$ are not the least of those (numbers) having the same ratio
+as $A$, $B$,  $C$ (respectively, then) there will be [some] numbers less than $E$, $F$,  $G$
+which are in the same ratio as $A$, $B$, $C$ (respectively). Let them be $H$, $K$,  $L$.
+Thus, $H$ measures $A$ the same number of times that 
+$K$,  $L$ also measure $B$,  $C$, respectively. And as many
+times as $H$ measures $A$, so many units let there be in $M$. Thus,  $K$, $L$
+measure $B$, $C$, respectively, according to the units in $M$.
+And since $H$ measures $A$ according to the units in $M$, $M$ thus also measures
+$A$ according to the units in $H$ [Prop.~7.15].
+So, for the same (reasons), $M$ also measures  $B$, $C$ according to
+the units in  $K$, $L$, respectively. Thus, $M$ measures $A$, $B$, and $C$. And since
+$H$ measures $A$ according to the units in $M$, $H$ has thus made $A$ (by)
+multiplying $M$. So, for the same (reasons), $E$ has also made $A$ (by)
+multiplying $D$. Thus, the (number created) from (multiplying) $E$ and $D$
+is equal to the (number created) from (multiplying) $H$ and $M$. 
+Thus, as $E$ (is) to $H$, so $M$ (is) to $D$ [Prop.~7.19]. And $E$ (is) greater than $H$. Thus,
+$M$ (is) also greater than $D$ [Prop.~5.13].
+And ($M$) measures $A$, $B$, and $C$.  The very thing is impossible.
+For $D$ was assumed (to be) the greatest common measure of $A$, $B$, and $C$. 
+Thus, there cannot be any numbers less than $E$, $F$, $G$ which are
+in the same ratio as $A$, $B$,  $C$ (respectively). Thus, $E$, $F$,  $G$ are the
+least of (those numbers) having the same ratio as $A$, $B$,  $C$ (respectively).
+(Which is) the very thing it was required to show.\\~\\}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.34
+%%%%%%
+\pdfbookmark[1]{Proposition 7.34}{pdf7.34}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{34}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Δύο ἀριθμῶν δοθέντων εὑρεῖν, ὃν ἐλάθιστον μετροῦσιν
+ἀριθμόν.}
+
+{\greekfont Ἔστωσαν οἱ δοθέντες δύο ἀριθμοὶ οἱ Α, Β; δεῖ δὴ εὑρεῖν, ὃν
+ἐλάθιστον μετροῦσιν ἀριθμόν.}
+
+\epsfysize=1.2in
+\centerline{\epsffile{Book07/fig34g.eps}}
+
+{\greekfont Οἱ Α, Β γὰρ ἤτοι πρῶτοι πρὸς ἀλλήλους εἰσὶν ἢ οὔ. ἔστωσαν
+πρότερον οἱ Α, Β πρῶτοι πρὸς ἀλλήλους, καὶ ὁ Α τὸν Β πολλαπλασιάσας
+τὸν Γ ποιείτω; καὶ ὁ Β ἄρα τὸν Α πολλαπλασιάσας τὸν Γ πεποίηκεν.
+οἱ Α, Β ἄρα τὸν Γ μετροῦσιν. λέγω δή, ὅτι καὶ ἐλάθιστον.
+εἰ γὰρ μή, μετρήσουσί τινα ἀριθμὸν οἱ Α, Β  ἐλάσσονα ὄντα τοῦ Γ.
+μετρείτωσαν τὸν Δ. καὶ ὁσάκις ὁ Α τὸν Δ μετρεῖ, τοσαῦται
+μονάδες ἔστωσαν ἐν τῷ Ε, ὁσάκις δὲ ὁ Β τὸν Δ μετρεῖ,
+τοσαῦται μονάδες ἔστωσαν ἐν τῷ Ζ. ὁ μὲν Α ἄρα τὸν Ε πολλαπλασιάσας τὸν Δ πεποίηκεν, ὁ δὲ Β τὸν Ζ πολλαπλασιάσας τὸν
+Δ πεποίηκεν; ἴσος ἄρα ἐστὶν ὁ ἐκ τῶν Α, Ε τῷ ἐκ τῶν
+Β, Ζ. ἔστιν ἄρα ὡς ὁ Α πρὸς τὸν Β, οὕτως ὁ Ζ πρὸς
+τὸν Ε. οἱ δὲ Α, Β πρῶτοι, οἱ δὲ πρῶτοι καὶ ἐλάθιστοι, οἱ δὲ
+ἐλάθιστοι μετροῦσι τοὺς τὸν α ὐτὸν λόγον ἔθοντας ἰσάκις ὅ τε 
+μείζων τὸν μείζονα καὶ ὁ ἐλάσσων τὸν ἐλάσσονα; ὁ Β ἄρα
+τὸν Ε μετρεῖ, ὡς ἑπόμενος ἑπόμενον. καὶ ἐπεὶ ὁ Α τοὺς
+Β, Ε πολλαπλασιάσας τοὺς Γ, Δ πεποίηκεν, ἔστιν ἄρα ὡς ὁ Β πρὸς
+τὸν Ε, οὕτως ὁ Γ πρὸς τὸν Δ. μετρεῖ δὲ ὁ Β τὸν Ε; μετρεῖ ἄρα
+καὶ ὁ Γ τὸν Δ ὁ μείζων τὸν ἐλάσσονα; ὅπερ ἐστὶν ἀδύνατον.
+οὐκ ἄρα οἱ Α, Β μετροῦσί τινα ἀριθμὸν ἐλάσσονα ὄντα
+τοῦ Γ. ὁ Γ ἄρα ἐλάθιστος ὢν ὑπὸ τῶν Α, Β μετρεῖται.}\\~\\~\\~\\~\\
+
+\epsfysize=1.5in
+\centerline{\epsffile{Book07/fig34ag.eps}}
+
+{\greekfont μὴ ἔστωσαν δὴ οἱ Α, Β πρῶτοι πρὸς ἀλλήλους, καὶ εἰλήφθωσαν
+ἐλάθιστοι ἀριθμοὶ τῶν τὸν α ὐτὸν λόγον ἐθόντων τοῖς
+Α, Β οἱ Ζ, Ε; ἴσος ἄρα ἐστὶν ὁ ἐκ τῶν Α, Ε τῷ ἐκ τῶν Β, Ζ.
+καὶ ὁ Α τὸν Ε πολλαπλασιάσας τὸν Γ ποιείτω; καὶ ὁ Β ἄρα τὸν Ζ
+πολλαπλασιάσας τὸν Γ πεποίηκεν; οἱ Α, Β ἄρα τὸν Γ μετροῦσιν.
+λέγω δή, ὅτι καὶ ἐλάθιστον. εἰ γὰρ μή, μετρήσουσί τινα ἀριθμὸν
+οἱ Α, Β ἐλάσσονα ὄντα τοῦ Γ. μετρείτωσαν τὸν Δ. καὶ ὁσάκις
+μὲν ὁ Α τὸν Δ
+μετρεῖ, τοσαῦται μονάδες ἔστωσαν
+ἐν τῷ Η, ὁσάκις δὲ ὁ Β τὸν Δ μετρεῖ, τοσαῦται μονάδες ἔστωσαν
+ἐν τῷ Θ. ὁ μὲν Α ἄρα τὸν Η πολλαπλασιάσας τὸν Δ πεποίηκεν,
+ὁ δὲ Β τὸν Θ πολλαπλασιάσας τὸν Δ πεποίηκεν. ἴσος ἄρα ἐστὶν
+ὁ ἐκ τῶν Α, Η τῷ ἐκ τῶν Β, Θ; ἔστιν ἄρα ὡς ὁ Α πρὸς τὸν
+Β, οὕτως ὁ Θ πρὸς τὸν Η. ὡς δὲ ὁ Α πρὸς τὸν Β, οὕτως ὁ Ζ
+πρὸς τὸν Ε; καὶ ὡς ἄρα ὁ Ζ πρὸς τὸν Ε, οὕτως ὁ Θ πρὸς
+τὸν Η. οἱ δὲ Ζ, Ε ἐλάθιστοι, οἱ δὲ ἐλάθιστοι μετροῦσι τοὺς τὸν
+α ὐτὸν λόγον ἔθοντας ἰσάκις ὅ τε μείζων τὸν μείζονα καὶ
+ὁ ἐλάσσων τὸν ἐλάσσονα; ὁ Ε ἄρα τὸν Η μετρεῖ. καὶ ἐπεὶ
+ὁ Α τοὺς Ε, Η πολλαπλασιάσας τοὺς Γ, Δ πεποίηκεν, ἔστιν ἄρα
+ὡς ὁ Ε πρὸς τὸν Η, οὕτως ὁ Γ πρὸς τὸν Δ. ὁ δὲ Ε τὸν Η
+μετρεῖ; καὶ ὁ Γ ἄρα τὸν Δ μετρεῖ ὁ μείζων τὸν ἐλάσσονα; ὅπερ
+ἐστὶν ἀδύνατον. οὐκ ἄρα οἱ Α, Β μετρήσουσί τινα ἀριθμὸν
+ἐλάσσονα ὄντα τοῦ Γ. ὁ Γ ἄρα ἐλάθιστος ὢν ὑπὸ
+τῶν Α, Β μετρεῖται; ὅπερ ἔπει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 34}
+\end{center}
+
+To find the least
+number which two given numbers  (both) measure.
+
+Let $A$ and $B$ be the two given numbers. So it is required to find
+the least number which they (both) measure.
+
+\epsfysize=1.2in
+\centerline{\epsffile{Book07/fig34e.eps}}
+
+For $A$ and $B$ are either prime to one another, or not. Let them, first of all,
+be prime to one another. And let $A$ make $C$ (by) multiplying $B$. Thus,
+$B$ has also made $C$ (by) multiplying $A$ [Prop.~7.16]. Thus, $A$ and $B$ (both) measure $C$. So
+I say that ($C$) is also the least (number which they both measure).
+For if not, $A$ and $B$ will (both) measure some (other) number which is less than $C$. Let them (both) measure $D$ (which is less than $C$). And as many times
+as $A$ measures $D$, so many units let there be in $E$. And as many times as $B$
+measures $D$, so many units let there be in $F$. Thus, $A$ has made $D$ (by)
+multiplying $E$, and $B$ has made $D$ (by) multiplying $F$. Thus, the
+(number created) from (multiplying) $A$ and $E$ is equal to the (number created)
+from (multiplying) $B$ and $F$. Thus, as $A$ (is) to $B$, so $F$ (is) to $E$ [Prop.~7.19]. And $A$ and $B$ are prime (to one another), and prime (numbers) are the least (of those numbers having
+the same ratio)  [Prop.~7.21], and the
+least (numbers) measure those (numbers) having the same
+ratio (as them) an equal number of times, the greater (measuring) the greater,
+and
+the lesser the lesser [Prop.~7.20].
+Thus, $B$ measures $E$, as the following (number measuring) the following.
+And since $A$ has made $C$ and $D$ (by) multiplying $B$ and $E$ (respectively),
+thus as $B$ is to $E$, so $C$ (is) to $D$ [Prop.~7.17]. 
+And $B$ measures $E$. Thus, $C$ also measures $D$, the greater (measuring) the
+lesser. The very thing is impossible. Thus, $A$ and $B$ do not (both) measure some
+number which is less than $C$. Thus, $C$ is the least (number) which is
+measured by (both) $A$ and $B$.
+
+\epsfysize=1.5in
+\centerline{\epsffile{Book07/fig34ae.eps}}
+
+So let $A$ and $B$ be not prime to one another. And let the least numbers,
+$F$ and $E$, be taken having the same ratio as $A$ and $B$ (respectively)
+[Prop.~7.33]. Thus, the (number created)
+from (multiplying) $A$ and $E$ is equal to the (number created) from (multiplying) $B$ and $F$ [Prop.~7.19].
+And let $A$ make $C$ (by) multiplying $E$. Thus, $B$ has also made $C$
+(by) multiplying $F$. Thus, $A$ and $B$ (both) measure $C$. So I say that
+($C$) is also the least (number which they both measure). For if not, 
+$A$ and $B$ will (both) measure some number which is less than $C$. Let them
+(both) measure $D$ 
+(which is less than $C$). And as many times as $A$ measures $D$, so many units
+let there be in $G$.
+And as many times as $B$ measures $D$,
+so many units let there be in $H$. Thus, $A$ has made $D$ (by) multiplying $G$, and $B$
+has made $D$ (by) multiplying $H$. Thus, the (number created) from (multiplying) $A$ and $G$ is equal to the (number created)
+from (multiplying) $B$ and $H$. Thus, as $A$ is to $B$, so $H$ (is) to $G$ [Prop.~7.19]. And as $A$ (is) to $B$, so $F$ (is) to $E$.
+Thus, also, as $F$ (is) to $E$, so $H$ (is) to $G$. And $F$ and $E$ are the least
+(numbers having the same ratio as $A$ and $B$), and the least (numbers) measure
+those (numbers) having the same ratio an equal number of times, the
+greater (measuring) the greater, and the lesser the lesser [Prop.~7.20]. Thus, $E$ measures $G$. And since $A$
+has made $C$ and $D$ (by) multiplying $E$ and $G$ (respectively), thus as
+$E$ is to $G$, so $C$ (is) to $D$ [Prop.~7.17].
+And $E$ measures $G$. Thus, $C$ also measures $D$, the greater (measuring) the
+lesser. The very thing is impossible. Thus, $A$ and $B$ do not (both) measure some (number) which is less than $C$. Thus, $C$ (is) the least (number) which is measured by (both) $A$
+and $B$. (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.35
+%%%%%%
+\pdfbookmark[1]{Proposition 7.35}{pdf7.35}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{35}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν δύο ἀριθμοὶ ἀριθμόν τινα μετρῶσιν, καὶ ὁ ἐλάθιστος
+ὑπ α ὐτῶν μετρούμενος τὸν α ὐτὸν μετρήσει.}\\
+
+\epsfysize=1in
+\centerline{\epsffile{Book07/fig35g.eps}}
+
+{\greekfont Δύο γὰρ ἀριθμοὶ οἱ Α, Β ἀριθμόν τινα τὸν ΓΔ μετρείτωσαν, ἐλάθιστον
+δὲ τὸν Ε; λέγω, ὅτι καὶ ὁ Ε τὸν ΓΔ μετρεῖ.}
+
+{\greekfont Εἰ γὰρ οὐ μετρεῖ ὁ Ε τὸν ΓΔ, ὁ Ε τὸν ΔΖ μετρῶν
+λειπέτω ἑαυτοῦ ἐλάσσονα τὸν ΓΖ. καὶ ἐπεὶ οἱ  Α, Β τὸν Ε
+μετροῦσιν, ὁ δὲ Ε τὸν ΔΖ μετρεῖ, καὶ οἱ Α, Β ἄρα τὸν ΔΖ
+μετρήσουσιν. μετροῦσι δὲ καὶ ὅλον τὸν ΓΔ; καὶ
+λοιπὸν ἄρα τὸν ΓΖ μετρήσουσιν ἐλάσσονα ὄντα τοῦ Ε;
+ὅπερ ἐστὶν ἀδύνατον. οὐκ ἄρα οὐ μετρεῖ ὁ Ε τὸν ΓΔ;
+μετρεῖ ἄρα; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 35}
+\end{center}
+
+If two numbers (both) measure some number, 
+(then) the least (number) measured by them will also measure the same (number).
+
+\epsfysize=1in
+\centerline{\epsffile{Book07/fig35e.eps}}
+
+For let two numbers, $A$ and $B$, (both) measure some number $CD$, and
+(let) $E$  (be the) least (number measured by both $A$ and $B$). I say that $E$
+also measures $CD$.
+
+For if $E$ does not measure $CD$,  (then) let $E$ leave $CF$ less than
+itself (in) measuring $DF$. And since $A$ and $B$ (both) measure $E$, and
+$E$ measures $DF$, $A$ and $B$ will thus also measure $DF$. And ($A$ and $B$) also
+measure the whole of $CD$. Thus, they will also measure the
+remainder $CF$, which is less than $E$. The very thing is impossible. 
+Thus, $E$ cannot not measure $CD$. Thus, ($E$) measures ($CD$). 
+(Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.36
+%%%%%%
+\pdfbookmark[1]{Proposition 7.36}{pdf7.36}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{36}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Τριῶν ἀριθμῶν δοθέντων εὑρεῖν, ὃν ἐλάθιστον μετροῦσιν
+ἀριθμόν.}
+
+{\greekfont Ἔστωσαν οἱ δοθέντες τρεῖς ἀριθμοὶ οἱ Α, Β, Γ; δεῖ δὴ εὑρεῖν,
+ὃν ἐλάθιστον μετροῦσιν ἀριθμόν.}
+
+\epsfysize=1.8in
+\centerline{\epsffile{Book07/fig36g.eps}}
+
+{\greekfont Εἰλήφθω γὰρ ὑπὸ δύο τῶν Α, Β ἐλάθιστος μετρούμενος ὁ Δ. ὁ δὴ
+Γ τὸν Δ ἤτοι μετρεῖ ἢ οὐ μετρεῖ. μετρείτω πρότερον. μετροῦσι
+δὲ καὶ οἱ Α, Β τὸν Δ; οἱ Α, Β, Γ ἄρα τὸν Δ μετροῦσιν. λέγω
+δή, ὅτι καὶ ἐλάθιστον. εἰ γὰρ μή, μετρήσουσιν [τινα] ἀριθμὸν
+οἱ Α, Β, Γ ἐλάσσονα ὄντα τοῦ Δ. μετρείτωσαν τὸν Ε. ἐπεὶ
+οἱ Α, Β, Γ τὸν Ε μετροῦσιν, καὶ οἱ Α, Β ἄρα τὸν Ε μετροῦσιν.
+καὶ ὁ ἐλάθιστος ἄρα ὑπὸ τῶν Α, Β μετρούμενος [τὸν Ε] μετρήσει.
+ἐλάθιστος δὲ ὑπὸ τῶν Α, Β μετρούμενός ἐστιν ὁ Δ; ὁ Δ ἄρα
+τὸν Ε μετρήσει ὁ μείζων τὸν ἐλάσσονα; ὅπερ ἐστὶν ἀδύνατον.
+οὐκ ἄρα οἱ Α, Β, Γ μετρήσουσί τινα ἀριθμὸν ἐλάσσονα ὄντα
+τοῦ Δ; οἱ Α, Β, Γ ἄρα ἐλάθιστον τὸν Δ μετροῦσιν.}
+
+{\greekfont μὴ μετρείτω δὴ πάλιν ὁ Γ τὸν Δ, καὶ εἰλήφθω ὑπὸ τῶν Γ, Δ
+ἐλάθιστος μετρούμενος ἀριθμὸς ὁ Ε. ἐπεὶ οἱ Α, Β τὸν
+Δ μετροῦσιν, ὁ δὲ Δ τὸν Ε μετρεῖ, καὶ οἱ Α, Β ἄρα τὸν Ε μετροῦσιν.
+μετρεῖ δὲ καὶ ὁ Γ [τὸν Ε; καὶ] οἱ Α, Β, Γ ἄρα τὸν Ε μετροῦσιν.
+λέγω δή, ὅτι καὶ ἐλάθιστον. εἰ γὰρ μή, μετρήσουσί τινα οἱ
+Α, Β, Γ
+ἐλάσσονα ὄντα τοῦ Ε. μετρείτωσαν τὸν Ζ. ἐπεὶ
+οἱ Α, Β, Γ τὸν Ζ μετροῦσιν, καὶ οἱ Α, Β ἄρα τὸν Ζ μετροῦσιν; καὶ
+ὁ ἐλάθιστος ἄρα ὑπὸ τῶν Α, Β μετρούμενος τὸν Ζ μετρήσει.
+ἐλάθιστος δὲ ὑπὸ τῶν Α, Β
+μετρούμενός ἐστιν ὁ Δ; ὁ Δ
+ἄρα τὸν Ζ μετρεῖ. 
+μετρεῖ δὲ καὶ ὁ Γ τὸν Ζ; οἱ Δ, Γ ἄρα τὸν
+Ζ μετροῦσιν; ὥστε καὶ ὁ ἐλάθιστος ὑπὸ τῶν Δ, Γ μετρούμενος
+τὸν Ζ μετρήσει. ὁ δὲ ἐλάθιστος ὑπὸ τῶν Γ, Δ μετρούμενός
+ἐστιν ὁ Ε; ὁ Ε ἄρα τὸν Ζ μετρεῖ ὁ μείζων τὸν ἐλάσσονα;
+ὅπερ ἐστὶν ἀδύνατον. οὐκ ἄρα οἱ Α, Β, Γ μετρήσουσί
+τινα ἀριθμὸν ἐλάσσονα ὄντα τοῦ Ε. ὁ Ε ἄρα ἐλάθιστος ὢν ὑπὸ
+τῶν Α, Β, Γ μετρεῖται; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 36}
+\end{center}
+
+To  find the least
+number which  three given numbers (all) measure.
+
+Let $A$, $B$, and $C$ be the three given numbers. So it is required to
+find the least number which they (all) measure.
+
+\epsfysize=1.8in
+\centerline{\epsffile{Book07/fig36e.eps}}
+
+For let the least (number), $D$, measured by the two (numbers) $A$ and $B$
+be taken [Prop. 7.34].
+So $C$ either measures, or does not measure, $D$. Let it, first of
+all, measure ($D$). And $A$ and $B$ also measure $D$. Thus, $A$, $B$, and $C$
+(all) measure $D$. So I say that ($D$ is) also the least (number measured by
+$A$, $B$, and $C$). For if not, $A$, $B$, and $C$ will (all) measure [some]
+number which is less than $D$. Let them measure $E$ (which is less than $D$).
+Since $A$, $B$, and $C$ (all) measure $E$, (then) $A$ and $B$ thus also measure $E$.
+Thus, the least (number) measured by $A$ and $B$ will also
+measure [$E$] [Prop.~7.35]. And $D$
+is the least (number) measured by $A$ and $B$. Thus, $D$ will measure
+$E$, the greater (measuring) the lesser. The very thing is impossible.
+Thus, $A$, $B$, and $C$ cannot (all) measure some number which is less than $D$.
+Thus, $A$, $B$, and $C$ (all) measure the least (number) $D$.
+
+So, again, let $C$ not measure $D$. And let the least number, $E$, measured
+by $C$ and $D$ be taken [Prop.~7.34].
+Since $A$ and $B$ measure $D$, and $D$ measures $E$, $A$ and $B$ thus also
+measure $E$. And $C$ also measures [$E$]. Thus, $A$, $B$, and $C$ [also] measure
+$E$. So I say that ($E$ is) also the least (number measured by $A$, $B$, and $C$). For if not, $A$, $B$, and $C$ will (all) measure some (number) which
+is less than $E$. Let them measure $F$ (which is less than $E$). Since
+$A$, $B$, and $C$ (all) measure $F$, $A$ and $B$ thus also measure $F$. Thus,
+the least (number) measured by $A$ and $B$ will also measure $F$  [Prop.~7.35]. And $D$ is the least (number) measured
+by $A$ and $B$. Thus, $D$ measures $F$.  And $C$ also measures $F$. Thus, $D$ and $C$
+(both) measure $F$. Hence, the least (number) measured by $D$ and $C$
+will also measure $F$ [Prop.~7.35].
+And $E$ is the least (number) measured by $C$ and $D$. Thus, $E$ measures $F$,
+the greater (measuring) the lesser. The very thing is impossible.
+Thus, $A$, $B$, and $C$ cannot measure some number which is less than $E$.
+Thus, $E$ (is) the least (number) which is measured by $A$, $B$, and $C$.
+(Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.37
+%%%%%%
+\pdfbookmark[1]{Proposition 7.37}{pdf7.37}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{37}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν  ἀριθμὸς ὑπό τινος ἀριθμοῦ μετρῆται, ὁ μετρούμενος
+ὁμώνυμον μέρος ἕχει τῷ μετροῦντι.}\\
+
+\epsfysize=1.2in
+\centerline{\epsffile{Book07/fig37g.eps}}
+
+{\greekfont Ἀριθμὸς γάρ ὁ Α ὑπό τινος ἀριθμοῦ τοῦ Β μετρείσθω; λέγω, ὅτι
+ὁ Α ὁμώνυμον μέρος ἔχει τῷ Β.}
+
+{\greekfont Ὁσάκις γὰρ ὁ Β τὸν Α μετρεῖ, τοσαῦται μονάδες ἔστωσαν ἐν
+τῷ Γ. ἐπεὶ ὁ Β τὸν Α μετρεῖ κατὰ τὰς ἐν τῷ Γ μονάδας, μετρεῖ
+δὲ καὶ ἡ Δ μονὰς τὸν Γ ἀριθμὸν κατὰ τὰς ἐν α ὐτῷ μονάδας,
+ἰσάκις ἄρα ἡ Δ μονὰς τὸν Γ ἀριθμὸν μετρεῖ καὶ ὁ
+Β τὸν Α. ἐναλλὰχ ἄρα ἰσάκις ἡ Δ μονὰς τὸν Β ἀριθμὸν
+μετρεῖ καὶ ὁ Γ τὸν Α; ὃ ἄρα μέρος ἐστὶν ἡ Δ μονὰς τοῦ
+Β ἀριθμοῦ, τὸ α ὐτὸ μέρος ἐστὶ καὶ ὁ Γ τοῦ Α. ἡ δὲ Δ
+μονὰς τοῦ Β ἀριθμοῦ μέρος ἐστὶν ὁμώνυμον α ὐτῷ;
+καὶ ὁ Γ ἄρα τοῦ Α μέρος ἐστὶν ὁμώνυμον τῷ Β.
+ὥστε ὁ Α μέρος ἔχει τὸν Γ ὁμώνυμον ὄντα τῷ Β;
+ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 37}
+\end{center}
+
+If a number is measured by some number,  (then)
+the (number) measured will have a part called the same as the
+measuring (number).
+
+\epsfysize=1.2in
+\centerline{\epsffile{Book07/fig37e.eps}}
+
+For let the number $A$ be measured by some number $B$. I say that $A$
+has a part called the same as $B$.
+
+For as many times as $B$ measures $A$, so many units let there be in $C$.
+Since $B$ measures $A$ according to the units in $C$, and the unit $D$ also
+measures $C$ according to the units in it,   the unit
+$D$ thus measures the number $C$ as many times as $B$ (measures) $A$. Thus, alternately, the unit $D$ measures the number $B$ as many times as $C$  (measures) $A$  [Prop.~7.15].
+Thus, which(ever) part the unit $D$ is of the number $B$, $C$ is also the same
+part of $A$. And the unit $D$ is a part of the number $B$ called the same as it
+({\rm i.e.}, a $B$th part).
+Thus, $C$ is also a part of $A$ called the same as $B$ ({\rm i.e.}, $C$ is the $B$th part of $A$). Hence, $A$ has a part $C$
+which is called the same  as $B$ ({\rm i.e.}, $A$ has a $B$th part). (Which is) the very thing it was required to show.}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.38
+%%%%%%
+\pdfbookmark[1]{Proposition 7.38}{pdf7.38}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{38}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἐὰν ἀριθμος μέρος ἔθῃ ὁτιοῦν, ὑπὸ ὁμωνύμου ἀριθμοῦ
+μετρηθήσεται τῷ μέρει.}
+
+\epsfysize=1.2in
+\centerline{\epsffile{Book07/fig38g.eps}}
+
+{\greekfont Ἀριθμὸς γὰρ ὁ Α μέρος ἐθέτω ὁτιοῦν τὸν Β,
+καὶ τῷ Β μέρει ὁμώνυμος ἔστω [ἀριθμὸς] ὁ Γ; λέγω,
+ὅτι ὁ Γ τὸν Α μετρεῖ.}
+
+{\greekfont Ἐπεὶ γὰρ ὁ Β τοῦ Α μέρος ἐστὶν ὁμώνυμον τῷ Γ, ἔστι
+δὲ καὶ ἡ Δ μονὰς τοῦ Γ μέρος ὁμώνυμον α ὐτῷ, ὃ
+ἄρα μέρος ἐστὶν ἡ Δ μονὰς τοῦ Γ ἀριθμοῦ, τὸ α ὐτὸ μέρος
+ἐστὶ καὶ ὁ Β τοῦ Α; ἰσάκις ἄρα ἡ Δ μονὰς τὸν Γ ἀριθμὸν
+μετρεῖ καὶ ὁ Β τὸν Α. ἐναλλὰχ ἄρα ἰσάκις ἡ Δ μονὰς τὸν Β
+ἀριθμὸν μετρεῖ καὶ ὁ Γ τὸν Α. ὁ Γ ἄρα τὸν Α μετρεῖ;
+ὅπερ ἔδει δεὶχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 38}
+\end{center}
+
+If a number has any part whatever,  (then) it will
+be measured by a number called the same as the part.
+
+\epsfysize=1.2in
+\centerline{\epsffile{Book07/fig38e.eps}}
+
+For let the number $A$ have any part whatever, $B$. And let the [number]
+$C$ be called the same as the part $B$ ({\rm i.e.}, $B$ is the $C$th part of $A$). I say that $C$ measures $A$.
+
+For since $B$ is a part of $A$ called the same as $C$,  and the unit $D$ is also
+a part of $C$ called the same as it ({\rm i.e.}, $D$ is the $C$th part of $C$), thus which(ever) part the unit $D$ is of the
+number $C$, $B$ is also the same part of $A$. Thus, 
+the unit $D$ measures the number $C$ as many times as $B$  (measures)
+$A$. Thus, alternately, the unit $D$ measures the number $B$
+as many times as $C$  (measures) $A$ [Prop.~7.15]. Thus, $C$ measures $A$. (Which is)
+the very thing it was required to show.\\}
+\end{Parallel}
+
+%%%%%%
+% Prop 7.39
+%%%%%%
+\pdfbookmark[1]{Proposition 7.39}{pdf7.39}
+\begin{Parallel}{}{} 
+\ParallelLText{
+\begin{center}
+{\large \ggn{39}.}
+\end{center}\vspace*{-7pt}
+
+{\greekfont Ἀριθμὸν εὐρεῖν, ὃς ἐλάθιστος ὢν ἕχει τὰ δοθέντα μέρη.}\\
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book07/fig39g.eps}}
+
+{\greekfont Ἔστω τὰ δοθέντα μέρη τὰ Α, Β, Γ; δεῖ δὴ ἀριθμὸν εὑρεῖν,
+ὃς ἐλάθιστος ὢν ἕχει τὰ Α, Β, Γ μέρη.}
+
+{\greekfont Ἔστωσαν γὰρ τοῖς Α, Β, Γ μέρεσιν ὁμώνυμοι ἀριθμοὶ οἱ Δ, Ε, Ζ,
+καὶ εἰλήφθω ὑπὸ τῶν Δ, Ε, Ζ ἐλάθιστος μετρούμενος ἀριθμὸς
+ὁ Η.}
+
+{\greekfont Ὁ Η ἄρα ὁμώνυμα μέρη ἔχει τοῖς Δ, Ε, Ζ. τοῖς δὲ Δ, Ε, Ζ
+ὁμώνυμα μέρη ἐστὶ τὰ Α, Β, Γ; ὁ Η ἄρα ἔχει τὰ Α, Β, Γ
+μέρη. λέγω δή, ὅτι καὶ ἐλάθιστος ὤν, εἰ γὰρ μή, ἔσται τις 
+τοῦ Η ἐλάσσων ἀριθμός, ὃς ἕχει τὰ Α, Β, Γ μέρη. ἔστω 
+ὁ Θ. ἐπεὶ ὁ Θ ἔχει τὰ Α, Β, Γ μέρη, ὁ Θ ἄρα ὑπὸ ὁμωνύμων
+ἀριθμῶν μετρηθήσεται τοῖς Α, Β, Γ μέρεσιν. τοῖς δὲ Α, Β, Γ μέρεσιν
+ὁμώνυμοι ἀριθμοί εἰσιν οἱ Δ, Ε, Ζ;  ὁ Θ ἄρα ὑπὸ τῶν Δ, Ε, Ζ
+μετρεῖται. καί ἐστιν ἐλάσσων τοῦ Η; ὅπερ ἐστὶν ἀδύνατον. οὐκ
+ἄρα ἔσται τις τοῦ Η ἐλάσσων ἀριθμός, ὃς ἕχει τὰ Α, Β, Γ
+μέρη; ὅπερ ἔδει δεῖχαι.}}
+
+\ParallelRText{
+\begin{center}
+{\large Proposition 39}
+\end{center}
+
+To find the least number that will have given
+parts.\\
+
+\epsfysize=2.2in
+\centerline{\epsffile{Book07/fig39e.eps}}
+
+Let $A$, $B$, and $C$ be the given parts. So it is required to find the
+least  number which will have the parts $A$, $B$, and $C$ ({\rm i.e.}, an $A$th part, a $B$th part, and a $C$th part).
+
+For let  $D$, $E$, and $F$ be numbers having the same names as
+the parts $A$, $B$, and $C$ (respectively). And let the least number, $G$,
+measured by $D$, $E$, and $F$, be taken [Prop.~7.36].
+
+Thus, $G$ has parts called the same as $D$, $E$, and $F$ [Prop.~7.37]. And $A$, $B$, and $C$ are 
+parts called the same as $D$, $E$, and $F$ (respectively). Thus, $G$ has the parts $A$, $B$, and $C$. So I say that ($G$) is also the least (number having the parts $A$, $B$, and $C$). For if not, there will be some number less than $G$ which will have the parts $A$, $B$, and $C$. Let it be
+$H$. Since $H$ has the parts $A$, $B$, and $C$, $H$ will thus be measured
+by numbers called the same as the parts $A$, $B$, and $C$  [Prop.~7.38]. And $D$, $E$, and $F$ are numbers called the same as the parts $A$, $B$, and $C$ (respectively). Thus, $H$ is measured by $D$, $E$, and $F$. And ($H$) is less than $G$. The
+very thing is impossible. Thus, there cannot be some number less than $G$
+which will have the parts $A$, $B$, and $C$. (Which is) the very thing it
+was required to show.}
+\end{Parallel}
+
+\newpage
+\thispagestyle{empty}
+~\\
